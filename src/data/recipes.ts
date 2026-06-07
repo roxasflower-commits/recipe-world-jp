@@ -403,7 +403,7 @@ export const recipes: Recipe[] = [
       '肉用温度計は必須。オーブンの癖によって焼き時間が変わります。',
       '前日にデュクセルを作っておくと当日の作業が楽になります。',
     ],
-    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1546964053-d018e345e490?w=1200&q=80',
     source: 'Gordon Ramsayのレシピを参考に、家庭用オーブンでの手順に最適化',
     publishedAt: '2024-03-01',
     featured: true,
@@ -428,4 +428,8 @@ export const cuisines = [
   { slug: 'american', label: 'アメリカ料理', labelEn: 'American' },
   { slug: 'thai', label: 'タイ料理', labelEn: 'Thai' },
   { slug: 'british', label: 'イギリス料理', labelEn: 'British' },
+  { slug: 'spanish', label: 'スペイン料理', labelEn: 'Spanish' },
+  { slug: 'nordic', label: '北欧料理', labelEn: 'Nordic' },
+  { slug: 'turkish', label: 'トルコ料理', labelEn: 'Turkish' },
+  { slug: 'indian', label: 'インド料理', labelEn: 'Indian' },
 ];
