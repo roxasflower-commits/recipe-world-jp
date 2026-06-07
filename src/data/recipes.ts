@@ -68,7 +68,7 @@ export const recipes: Recipe[] = [
       'パンや茹でたじゃがいも、クリーミーなポレンタとの相性が抜群です。',
       '余ったソースはパスタに絡めてもGoodです。',
     ],
-    image: 'https://images.unsplash.com/photo-1544025162-d76594e948d9?w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1689860892307-7db54ab276ba?w=1200&q=80',
     source: 'ブルゴーニュ地方の伝統的なレシピを参考に、家庭で作りやすいようにアレンジ',
     publishedAt: '2024-01-15',
     featured: true,
