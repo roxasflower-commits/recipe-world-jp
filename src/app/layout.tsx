@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Playfair_Display, Noto_Serif_JP, Noto_Sans_JP } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -43,6 +44,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ja" className={`${playfair.variable} ${notoSerif.variable} ${notoSans.variable}`}>
       <body className="bg-cream font-sans">
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7568884988315625"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <Header />
         <main>{children}</main>
         <Footer />
