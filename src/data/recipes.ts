@@ -334,7 +334,7 @@ export const recipes: Recipe[] = [
       'コンフィにした鴨肉は、脂ごと瓶に保存すれば冷蔵で1〜2週間保存可能。むしろ保存中に味が深まります。',
       '余った鴨の脂はジャガイモを炒めるのに最高です。',
     ],
-    image: 'https://images.unsplash.com/photo-1767117997091-5617a7a2968e?w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1675718343369-b2e46a5ceeca?w=1200&q=80',
     source: 'ガスコーニュ地方の伝統的な保存食技法を現代的にアレンジ',
     publishedAt: '2024-02-20',
     featured: true,
