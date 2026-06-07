@@ -1,0 +1,431 @@
+import { Recipe } from '@/types/recipe';
+
+export const recipes: Recipe[] = [
+  {
+    id: '1',
+    slug: 'boeuf-bourguignon',
+    title: 'ブフ・ブルギニョン（フランス風牛肉の赤ワイン煮込み）',
+    originalTitle: 'Boeuf Bourguignon',
+    description:
+      'フランス・ブルゴーニュ地方の伝統的な家庭料理。時間をかけてじっくり煮込むことで、牛肉はとろけるように柔らかく、赤ワインの深いコクが全体に染み渡ります。週末の特別な食卓に。',
+    cuisine: 'フランス料理',
+    cuisineEn: 'French',
+    cuisineSlug: 'french',
+    category: 'intermediate',
+    categoryLabel: '中級',
+    tags: ['フランス', '煮込み料理', 'ワイン', '牛肉', 'メインディッシュ'],
+    prepTime: 30,
+    cookTime: 180,
+    servings: 4,
+    difficulty: 'medium',
+    difficultyLabel: '中級',
+    ingredients: [
+      { amount: '800', unit: 'g', name: '牛すね肉または牛バラ肉', note: '4cm角に切る' },
+      { amount: '1', unit: '本', name: 'フルボトルの赤ワイン', note: 'ブルゴーニュ系がベスト' },
+      { amount: '200', unit: 'g', name: 'ベーコン', note: '短冊切り' },
+      { amount: '200', unit: 'g', name: 'マッシュルーム' },
+      { amount: '12', unit: '粒', name: 'パールオニオン（小玉ねぎ）' },
+      { amount: '2', unit: '本', name: 'にんじん', note: '乱切り' },
+      { amount: '1', unit: '本', name: 'セロリ', note: '3cm切り' },
+      { amount: '4', unit: '片', name: 'にんにく' },
+      { amount: '2', unit: '大さじ', name: 'トマトペースト' },
+      { amount: '2', unit: '枝', name: 'タイム' },
+      { amount: '2', unit: '枚', name: 'ローリエ' },
+      { amount: '適量', unit: '', name: '塩・黒こしょう' },
+      { amount: '2', unit: '大さじ', name: 'オリーブオイル' },
+    ],
+    instructions: [
+      { step: 1, text: '牛肉に塩・こしょうをしっかりとふり、30分ほど常温に置く。' },
+      {
+        step: 2,
+        text: '大きめの鍋またはダッチオーブンを強火で熱し、オリーブオイルを引いて牛肉を全面にしっかりと焼き色をつける。取り出しておく。',
+        tip: 'この焼き色（メイラード反応）が旨みの核心。焦らずじっくりと。',
+      },
+      {
+        step: 3,
+        text: '同じ鍋でベーコンを炒め、脂が出てきたら取り出す。にんにく、セロリ、にんじんを加えて中火で炒める。',
+      },
+      {
+        step: 4,
+        text: 'トマトペーストを加えてよく炒め、赤ワインを全量注ぐ。強火にして沸騰させ、アルコールを飛ばす（5分ほど）。',
+      },
+      {
+        step: 5,
+        text: '牛肉とベーコンを戻し、タイムとローリエを加える。蓋をして弱火で2時間半〜3時間煮込む。',
+        tip: '途中30分おきに確認し、必要であれば水またはブイヨンを足す。',
+      },
+      {
+        step: 6,
+        text: '別のフライパンでパールオニオンとマッシュルームをバターで炒め、軽く色をつけてから煮込みに加える。さらに30分煮込む。',
+      },
+      {
+        step: 7,
+        text: '牛肉が箸でほぐれるほど柔らかくなったら完成。必要であれば煮汁をとろみが出るまで煮詰めて調整する。',
+      },
+    ],
+    tips: [
+      '前日に仕込んで翌日食べると、さらに味がなじんで美味しくなります。',
+      'パンや茹でたじゃがいも、クリーミーなポレンタとの相性が抜群です。',
+      '余ったソースはパスタに絡めてもGoodです。',
+    ],
+    image: 'https://images.unsplash.com/photo-1544025162-d76594e948d9?w=1200&q=80',
+    source: 'ブルゴーニュ地方の伝統的なレシピを参考に、家庭で作りやすいようにアレンジ',
+    publishedAt: '2024-01-15',
+    featured: true,
+  },
+  {
+    id: '2',
+    slug: 'roman-carbonara',
+    title: '本格ローマ風カルボナーラ（生クリーム不使用）',
+    originalTitle: 'Spaghetti alla Carbonara Romana',
+    description:
+      '本場ローマで愛される正統派カルボナーラ。生クリームは一切使わず、卵黄とペコリーノロマーノだけでとろとろのソースを作ります。コツをつかめば家庭でもレストランの味に。',
+    cuisine: 'イタリア料理',
+    cuisineEn: 'Italian',
+    cuisineSlug: 'italian',
+    category: 'intermediate',
+    categoryLabel: '中級',
+    tags: ['イタリア', 'パスタ', 'ローマ', '卵', 'チーズ'],
+    prepTime: 10,
+    cookTime: 20,
+    servings: 2,
+    difficulty: 'medium',
+    difficultyLabel: '中級',
+    ingredients: [
+      { amount: '200', unit: 'g', name: 'スパゲッティ', note: '1.9mm以上の太めがベター' },
+      {
+        amount: '150',
+        unit: 'g',
+        name: 'グアンチャーレまたはパンチェッタ',
+        note: '厚切りベーコンで代用可',
+      },
+      { amount: '4', unit: '個', name: '卵黄' },
+      { amount: '1', unit: '個', name: '全卵' },
+      {
+        amount: '80',
+        unit: 'g',
+        name: 'ペコリーノロマーノ',
+        note: 'すり下ろす。パルミジャーノで代用可',
+      },
+      { amount: '適量', unit: '', name: '黒こしょう', note: 'ミルで挽いた粗びき' },
+      { amount: '適量', unit: '', name: '塩' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: 'ボウルに卵黄と全卵を溶き、ペコリーノロマーノの3/4量と黒こしょうをたっぷり加えてよく混ぜる。',
+      },
+      {
+        step: 2,
+        text: 'グアンチャーレを1cm幅に切り、フライパンで油なしで中火から弱火でじっくり炒め、カリカリに仕上げる。脂も大切に残しておく。',
+      },
+      {
+        step: 3,
+        text: '塩を入れたたっぷりのお湯でパスタを袋の表示より1分短く茹でる。茹で汁は1カップ以上残しておく。',
+      },
+      {
+        step: 4,
+        text: 'パスタが茹で上がる直前、グアンチャーレのフライパンの火を止め、パスタを直接移してトングで和える。',
+        tip: '火を止めることが最重要。この後は余熱だけで調理します。',
+      },
+      {
+        step: 5,
+        text: '茹で汁を大さじ2〜3加えてなじませてから、卵のソースを回し入れ、素早くかき混ぜながら乳化させる。',
+      },
+      {
+        step: 6,
+        text: 'ソースがとろりとクリーミーになったら完成。固まりすぎた場合は茹で汁で調節。皿に盛り、残りのペコリーノと黒こしょうをかける。',
+      },
+    ],
+    tips: [
+      'フライパンの温度が高すぎると卵がスクランブルエッグになります。必ず火を止めてから卵ソースを加えること。',
+      '茹で汁の塩分と澱粉がソースの乳化を助けます。捨てないで！',
+    ],
+    image: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?w=1200&q=80',
+    source: 'ローマ伝統的なレシピを参照、生クリーム不使用の正統派バージョン',
+    publishedAt: '2024-01-20',
+    featured: true,
+  },
+  {
+    id: '3',
+    slug: 'smash-burger',
+    title: 'スマッシュバーガー（アメリカ本場の潰しバーガー）',
+    originalTitle: 'Smash Burger',
+    description:
+      '高温のグリドルに肉を思い切り押し付けて焼く、アメリカで大ブームのバーガー。極薄のパティにカリカリのクラストが生まれ、ジューシーさが凝縮されます。自宅でダイナー気分。',
+    cuisine: 'アメリカ料理',
+    cuisineEn: 'American',
+    cuisineSlug: 'american',
+    category: 'home',
+    categoryLabel: '家庭料理',
+    tags: ['アメリカ', 'バーガー', '牛肉', 'グリル', '簡単'],
+    prepTime: 15,
+    cookTime: 15,
+    servings: 2,
+    difficulty: 'easy',
+    difficultyLabel: '初級',
+    ingredients: [
+      { amount: '300', unit: 'g', name: '牛ひき肉', note: '脂肪分20%以上のもの' },
+      { amount: '2', unit: '個', name: 'ブリオッシュバンズまたはバーガーバンズ' },
+      { amount: '2', unit: '枚', name: 'アメリカンチェダーチーズ' },
+      { amount: '適量', unit: '', name: '白タマネギ', note: 'みじん切り' },
+      { amount: '適量', unit: '', name: 'ピクルス（スライス）' },
+      { amount: '大さじ2', unit: '', name: 'マヨネーズ' },
+      { amount: '大さじ1', unit: '', name: 'マスタード' },
+      { amount: '大さじ1', unit: '', name: 'ケチャップ' },
+      { amount: '適量', unit: '', name: '塩・こしょう' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: 'ソースを作る：マヨネーズ、マスタード、ケチャップを混ぜてスマッシュソースを作る。',
+      },
+      { step: 2, text: '牛ひき肉を150gずつ2つに分け、軽く丸める。この時点では成形しすぎない。' },
+      {
+        step: 3,
+        text: 'キャストアイアンパンまたは厚手のフライパンを煙が出るほど強火で加熱する。油は引かない。',
+        tip: '十分な予熱がスマッシュバーガー成功の鍵。',
+      },
+      {
+        step: 4,
+        text: '肉をパンに置き、即座にスパチュラ（またはフライ返し）の背で思い切り押し潰す。直径12〜15cmになるまで。塩こしょうをふる。',
+      },
+      {
+        step: 5,
+        text: '1分半〜2分そのまま動かさず焼く。縁が茶色くカリカリになったら裏返し、チーズを乗せてさらに1分焼く。',
+      },
+      {
+        step: 6,
+        text: '軽くトーストしたバンズにソースを塗り、パティ、タマネギ、ピクルスを重ねて完成。',
+      },
+    ],
+    tips: [
+      'パティを2枚重ねる「ダブルスマッシュ」が本場スタイル。チーズが2枚の間に挟まるのが最高です。',
+      'バンズをバターで焼くと風味が増します。',
+    ],
+    image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&q=80',
+    source: 'アメリカのダイナー文化に根ざした伝統的なレシピ',
+    publishedAt: '2024-02-01',
+    featured: false,
+  },
+  {
+    id: '4',
+    slug: 'pad-thai',
+    title: 'パッタイ（タイ風焼きビーフン）',
+    originalTitle: 'Pad Thai',
+    description:
+      'タイのソウルフード、パッタイ。ナンプラーとタマリンドのコクのあるソースに、もやしとにらの食感、ピーナッツの香ばしさが絡み合う、やみつきの一皿です。',
+    cuisine: 'タイ料理',
+    cuisineEn: 'Thai',
+    cuisineSlug: 'thai',
+    category: 'home',
+    categoryLabel: '家庭料理',
+    tags: ['タイ', '麺料理', 'エスニック', '海老', '簡単'],
+    prepTime: 20,
+    cookTime: 15,
+    servings: 2,
+    difficulty: 'easy',
+    difficultyLabel: '初級',
+    ingredients: [
+      { amount: '200', unit: 'g', name: 'センレック（細米麺）', note: '水で30分戻す' },
+      { amount: '150', unit: 'g', name: '海老', note: '殻をむく' },
+      { amount: '2', unit: '個', name: '卵' },
+      { amount: '100', unit: 'g', name: 'もやし' },
+      { amount: '3', unit: '本', name: 'にら', note: '4cm切り' },
+      { amount: '2', unit: '片', name: 'にんにく', note: 'みじん切り' },
+      { amount: '大さじ2', unit: '', name: 'ナンプラー' },
+      { amount: '大さじ1.5', unit: '', name: 'タマリンドペースト', note: '酢大さじ1で代用可' },
+      { amount: '大さじ1', unit: '', name: '砂糖' },
+      { amount: '大さじ1', unit: '', name: 'オイスターソース' },
+      { amount: '大さじ3', unit: '', name: 'サラダ油' },
+      { amount: '大さじ3', unit: '', name: '砕きピーナッツ' },
+      { amount: '適量', unit: '', name: 'ライム、唐辛子（トッピング）' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: 'ソースを作る：ナンプラー、タマリンドペースト、砂糖、オイスターソースを混ぜておく。',
+      },
+      {
+        step: 2,
+        text: '強火でフライパンに油を熱し、にんにくを炒める。香りが立ったら海老を加えて炒める。',
+      },
+      {
+        step: 3,
+        text: '戻した米麺を加え、ソースを全量加えて強火で炒め合わせる。水分が飛んでくるまで炒める。',
+        tip: '強火でテンポよく炒めるのがコツ。鍋肌に当てて焦げ目をつけるように。',
+      },
+      {
+        step: 4,
+        text: '麺を端に寄せてスペースを作り、卵を割り入れる。半熟になったら麺と混ぜ合わせる。',
+      },
+      { step: 5, text: 'もやしとにらを加えてさっと炒め合わせる。火を止め皿に盛る。' },
+      {
+        step: 6,
+        text: '砕きピーナッツをたっぷりのせ、ライムを添えて完成。好みで唐辛子粉をかける。',
+      },
+    ],
+    tips: [
+      '本場では豆腐（木綿を押して水気を切ったもの）を加えることも多いです。',
+      '干し海老を少量加えると旨みが増します。',
+    ],
+    image: 'https://images.unsplash.com/photo-1559314809-0d155014e29e?w=1200&q=80',
+    source: 'バンコクの屋台レシピを家庭向けにアレンジ',
+    publishedAt: '2024-02-10',
+    featured: false,
+  },
+  {
+    id: '5',
+    slug: 'duck-confit',
+    title: 'コンフィ・ド・カナール（鴨もものオイルコンフィ）',
+    originalTitle: 'Confit de Canard',
+    description:
+      'フランスの古典技法「コンフィ」で仕上げた鴨もも肉。低温のオイルで長時間加熱することで、身はとろとろ、皮はパリパリの対比が生まれる究極の一品。レストランの味を自宅で。',
+    cuisine: 'フランス料理',
+    cuisineEn: 'French',
+    cuisineSlug: 'french',
+    category: 'professional',
+    categoryLabel: 'プロ仕様',
+    tags: ['フランス', '鴨', 'コンフィ', '古典技法', 'プロ'],
+    prepTime: 60,
+    cookTime: 240,
+    servings: 4,
+    difficulty: 'professional',
+    difficultyLabel: 'プロ仕様',
+    ingredients: [
+      { amount: '4', unit: '本', name: '鴨もも肉' },
+      { amount: '20', unit: 'g', name: '粗塩' },
+      { amount: '10', unit: 'g', name: '砂糖' },
+      { amount: '4', unit: '片', name: 'にんにく', note: 'つぶす' },
+      { amount: '4', unit: '枝', name: 'タイム' },
+      { amount: '2', unit: '枚', name: 'ローリエ' },
+      { amount: '1', unit: 'tsp', name: '黒こしょう（ホール）' },
+      { amount: '500', unit: 'ml', name: '鴨の脂またはオリーブオイル', note: '肉が浸かる量' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: '前日：鴨もも肉に塩、砂糖、にんにく、タイム、ローリエ、こしょうを擦り込み、ラップして冷蔵庫で12〜24時間マリネする。',
+        tip: 'キュアリング（塩漬け）により余分な水分が抜け、身が締まって旨みが凝縮されます。',
+      },
+      {
+        step: 2,
+        text: '翌日：鴨肉のマリネ液を洗い流してキッチンペーパーで水気をしっかり拭く。常温に30分戻す。',
+      },
+      {
+        step: 3,
+        text: 'オーブンを90℃に予熱。深い耐熱容器に鴨肉を並べ、溶かした鴨の脂を注いで肉が完全に浸かるようにする。',
+      },
+      {
+        step: 4,
+        text: '蓋またはホイルで覆い、90℃のオーブンで3〜4時間加熱する。骨から身が離れそうになったら完成。',
+        tip: '低温を保つことが重要。肉汁を閉じ込めてジューシーに仕上がります。',
+      },
+      {
+        step: 5,
+        text: '提供直前：強火でスキレットまたはフライパンを熱し、鴨の皮面を下にして置く。追加の油なしで4〜5分、皮がパリパリになるまで焼く。',
+      },
+      {
+        step: 6,
+        text: 'オーブン200℃で5分焼いて全体を温め直す。レンズ豆のサラダやサルダイス（じゃがいも炒め）と共に盛り付けて完成。',
+      },
+    ],
+    tips: [
+      'コンフィにした鴨肉は、脂ごと瓶に保存すれば冷蔵で1〜2週間保存可能。むしろ保存中に味が深まります。',
+      '余った鴨の脂はジャガイモを炒めるのに最高です。',
+    ],
+    image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80',
+    source: 'ガスコーニュ地方の伝統的な保存食技法を現代的にアレンジ',
+    publishedAt: '2024-02-20',
+    featured: true,
+  },
+  {
+    id: '6',
+    slug: 'beef-wellington',
+    title: 'ビーフ・ウェリントン',
+    originalTitle: 'Beef Wellington',
+    description:
+      '牛フィレ肉をキノコのデュクセルとパルマハムで包み、サクサクのパイ生地で仕上げた英国料理の頂点。切った瞬間のロゼ色の断面が圧倒的なインパクトを誇る、特別な日のメインディッシュ。',
+    cuisine: 'イギリス料理',
+    cuisineEn: 'British',
+    cuisineSlug: 'british',
+    category: 'professional',
+    categoryLabel: 'プロ仕様',
+    tags: ['イギリス', '牛フィレ', 'パイ', 'プロ', 'パーティー料理'],
+    prepTime: 90,
+    cookTime: 30,
+    servings: 6,
+    difficulty: 'professional',
+    difficultyLabel: 'プロ仕様',
+    ingredients: [
+      { amount: '800', unit: 'g', name: '牛フィレ肉（シャトーブリアン）', note: '常温に戻す' },
+      { amount: '400', unit: 'g', name: 'マッシュルーム', note: 'みじん切り' },
+      { amount: '8', unit: '枚', name: 'パルマハム' },
+      { amount: '2', unit: '枚', name: 'パイシート（市販品）', note: '解凍しておく' },
+      { amount: '2', unit: '個', name: '卵黄', note: '塗り用' },
+      { amount: '3', unit: '片', name: 'にんにく', note: 'みじん切り' },
+      { amount: '1', unit: '本', name: 'エシャロット', note: 'みじん切り' },
+      { amount: '大さじ1', unit: '', name: 'ディジョンマスタード' },
+      { amount: '大さじ1', unit: '', name: 'バター' },
+      { amount: '適量', unit: '', name: '塩・こしょう' },
+      { amount: '大さじ1', unit: '', name: 'オリーブオイル' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: 'デュクセルを作る：フライパンにバターとオイルを熱し、エシャロット、にんにく、マッシュルームを中火で炒める。水分が完全に飛んでペースト状になるまで15〜20分炒め、冷ます。',
+        tip: 'デュクセルの水分が残っているとパイ生地がびしょびしょになります。しっかり乾燥させること。',
+      },
+      {
+        step: 2,
+        text: '牛フィレ肉に塩こしょうをしっかりふり、強火で全面に焼き色をつける（約2分/面）。粗熱を取り、全面にマスタードを薄く塗る。',
+      },
+      {
+        step: 3,
+        text: 'ラップの上にパルマハムを少し重ねながら並べ、デュクセルを薄く広げる。中央に牛肉を置いてラップでしっかり巻き、冷蔵庫で30分休ませる。',
+      },
+      {
+        step: 4,
+        text: 'パイシートを広げ、ハムで包んだ牛肉を中央に置いて包む。端を卵黄でしっかり密封する。表面にも卵黄を塗り、冷蔵庫で20分休ませる。',
+      },
+      {
+        step: 5,
+        text: 'オーブンを220℃に予熱。パイの表面にナイフで軽く模様を入れ、塩を少量ふる。220℃で25〜30分焼く。',
+        tip: '内部温度52〜54℃でミディアムレア。必ず肉用温度計で確認を。',
+      },
+      {
+        step: 6,
+        text: 'オーブンから出し、アルミホイルで包んで10分休ませる（この間に内部温度が均一になる）。厚さ3〜4cmに切り分けて完成。',
+      },
+    ],
+    tips: [
+      '各ステップの間に冷蔵庫でしっかり冷やすことが、きれいな形を保つ秘訣です。',
+      '肉用温度計は必須。オーブンの癖によって焼き時間が変わります。',
+      '前日にデュクセルを作っておくと当日の作業が楽になります。',
+    ],
+    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=1200&q=80',
+    source: 'Gordon Ramsayのレシピを参考に、家庭用オーブンでの手順に最適化',
+    publishedAt: '2024-03-01',
+    featured: true,
+  },
+];
+
+export function getRecipeBySlug(slug: string): Recipe | undefined {
+  return recipes.find((r) => r.slug === slug);
+}
+
+export function getRecipesByCuisine(cuisineSlug: string): Recipe[] {
+  return recipes.filter((r) => r.cuisineSlug === cuisineSlug);
+}
+
+export function getFeaturedRecipes(): Recipe[] {
+  return recipes.filter((r) => r.featured);
+}
+
+export const cuisines = [
+  { slug: 'french', label: 'フランス料理', labelEn: 'French' },
+  { slug: 'italian', label: 'イタリア料理', labelEn: 'Italian' },
+  { slug: 'american', label: 'アメリカ料理', labelEn: 'American' },
+  { slug: 'thai', label: 'タイ料理', labelEn: 'Thai' },
+  { slug: 'british', label: 'イギリス料理', labelEn: 'British' },
+];
