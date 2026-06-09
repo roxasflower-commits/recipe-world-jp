@@ -36,6 +36,8 @@ export interface Recipe {
   tips: string[];
   image: string;
   source: string;
+  sourceUrl?: string;
+  sourceSiteName?: string;
   publishedAt: string;
   featured: boolean;
 }

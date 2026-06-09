@@ -5,8 +5,9 @@ import AdBanner from '@/components/AdBanner';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'レシピ一覧',
-  description: '世界の名料理レシピを一覧で。フランス、イタリア、アメリカなど各国の料理を日本語で解説。',
+  title: 'レシピ一覧・世界の料理の作り方',
+  description: '世界の名料理レシピを日本語で詳しく解説。フランス料理、イタリア料理、スペイン料理、インド料理など各国の作り方・レシピ集。家庭料理からプロ仕様まで。',
+  keywords: ['レシピ一覧', '世界料理', '海外レシピ', '作り方', 'フランス料理', 'イタリア料理', 'スペイン料理'],
 };
 
 const levelLabels: Record<string, string> = {

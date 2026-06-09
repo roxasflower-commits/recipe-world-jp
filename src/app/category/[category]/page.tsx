@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { cuisines, getRecipesByCuisine } from '@/data/recipes';
 import RecipeCard from '@/components/RecipeCard';
 import AdBanner from '@/components/AdBanner';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import Link from 'next/link';
 
 interface Props {
@@ -18,8 +19,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!cuisine) return {};
 
   return {
-    title: `${cuisine.label}のレシピ`,
-    description: `本場の${cuisine.label}を日本語レシピで。家庭料理からプロ仕様まで、${cuisine.label}のレシピ一覧。`,
+    title: `${cuisine.label}のレシピ一覧・作り方`,
+    description: `本場の${cuisine.label}レシピを日本語で詳しく解説。家庭料理からプロ仕様まで、${cuisine.label}の作り方・レシピ集。`,
+    keywords: [cuisine.label, 'レシピ', '作り方', '料理', cuisine.labelEn, '海外料理'],
   };
 }
 
@@ -30,6 +32,11 @@ export default function CategoryPage({ params }: Props) {
   const categoryRecipes = getRecipesByCuisine(params.category);
 
   return (
+    <>
+    <BreadcrumbSchema items={[
+      { name: 'レシピ一覧', path: '/recipes' },
+      { name: cuisine.label, path: `/category/${cuisine.slug}` },
+    ]} />
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Breadcrumb */}
       <nav className="text-xs text-muted mb-6 flex items-center gap-2">
@@ -88,5 +95,6 @@ export default function CategoryPage({ params }: Props) {
         </div>
       </section>
     </div>
+    </>
   );
 }

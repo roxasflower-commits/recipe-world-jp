@@ -31,12 +31,15 @@ export const metadata: Metadata = {
     default: 'MONDE RECIPE — 世界の名料理を、あなたの台所へ',
   },
   description:
-    '海外の名料理レシピを日本語で丁寧に解説。フランス料理、イタリア料理、アメリカ料理など、家庭料理からプロ仕様まで幅広く紹介します。',
-  keywords: ['レシピ', '料理', 'フランス料理', 'イタリア料理', '海外料理', '和訳レシピ'],
+    '海外の名料理レシピを日本語で丁寧に解説。フランス料理・イタリア料理・スペイン料理・インド料理・トルコ料理など、世界各国の作り方を家庭料理からプロ仕様まで幅広く紹介。',
+  keywords: ['レシピ', '料理', 'フランス料理 レシピ', 'イタリア料理 レシピ', '海外料理 作り方', '世界料理 レシピ', 'スペイン料理', 'インド料理'],
   openGraph: {
     siteName: 'MONDE RECIPE',
     locale: 'ja_JP',
     type: 'website',
+  },
+  verification: {
+    google: 'e_Sxs6ej-k2RQZZ_UtY1QzuHMTsMeLARCKuF5Xnahm8',
   },
 };
 

@@ -5,6 +5,7 @@ import { recipes, getRecipeBySlug } from '@/data/recipes';
 import RecipeCard from '@/components/RecipeCard';
 import AdBanner from '@/components/AdBanner';
 import RecipeSchema from '@/components/RecipeSchema';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import Link from 'next/link';
 
 interface Props {
@@ -19,12 +20,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const recipe = getRecipeBySlug(params.slug);
   if (!recipe) return {};
 
+  const seoTitle = `${recipe.title}の作り方・レシピ`;
+  const seoDescription = `${recipe.title}（${recipe.originalTitle}）の本格レシピ。${recipe.description} 調理時間${recipe.prepTime + recipe.cookTime}分・${recipe.servings}人前。`;
+
   return {
-    title: recipe.title,
-    description: recipe.description,
+    title: seoTitle,
+    description: seoDescription,
+    keywords: [recipe.title, recipe.cuisine, 'レシピ', '作り方', '料理', recipe.originalTitle],
     openGraph: {
-      title: recipe.title,
-      description: recipe.description,
+      title: seoTitle,
+      description: seoDescription,
       images: [{ url: recipe.image, width: 1200, height: 630, alt: recipe.title }],
       type: 'article',
     },
@@ -54,6 +59,11 @@ export default function RecipePage({ params }: Props) {
   return (
     <>
       <RecipeSchema recipe={recipe} />
+      <BreadcrumbSchema items={[
+        { name: 'レシピ一覧', path: '/recipes' },
+        { name: recipe.cuisine, path: `/category/${recipe.cuisineSlug}` },
+        { name: recipe.title, path: `/recipes/${recipe.slug}` },
+      ]} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Breadcrumb */}
@@ -213,9 +223,27 @@ export default function RecipePage({ params }: Props) {
             )}
 
             {/* Source */}
-            <p className="text-xs text-muted border-t border-warm-border pt-4">
-              出典・参考: {recipe.source}
-            </p>
+            <div className="border-t border-warm-border pt-6 mt-8">
+              <div className="flex items-center gap-2 mb-3">
+                <div className="w-1 h-5 bg-gold flex-shrink-0" />
+                <h3 className="font-serif text-base font-bold">参考・出典</h3>
+              </div>
+              <p className="text-xs text-muted leading-relaxed mb-3">{recipe.source}</p>
+              {recipe.sourceUrl && recipe.sourceSiteName && (
+                <a
+                  href={recipe.sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 border border-warm-border hover:border-accent hover:text-accent transition-colors text-sm group"
+                >
+                  <span className="text-xs tracking-wide">原文レシピを見る</span>
+                  <span className="font-semibold text-xs">— {recipe.sourceSiteName}</span>
+                  <svg className="w-3 h-3 opacity-50 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              )}
+            </div>
           </div>
 
           {/* Sidebar */}
