@@ -48,6 +48,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ja" className={`${playfair.variable} ${notoSerif.variable} ${notoSans.variable}`}>
       <body className="bg-cream font-sans">
         <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-3MD273BE6S"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-3MD273BE6S');
+          `}
+        </Script>
+        <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7568884988315625"
           crossOrigin="anonymous"
