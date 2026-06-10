@@ -54,7 +54,7 @@ export default function ContactPage() {
           </div>
 
           <form
-            action="https://formspree.io/f/contact"
+            action="https://formspree.io/f/meewzday"
             method="POST"
             className="space-y-6"
           >
