@@ -45,6 +45,12 @@ export default function Header() {
             >
               レシピ一覧
             </Link>
+            <Link
+              href="/chefs"
+              className="text-white/70 hover:text-white transition-colors"
+            >
+              トップシェフ
+            </Link>
             <div className="relative group">
               <button className="text-white/70 hover:text-white transition-colors flex items-center gap-1">
                 カテゴリー
@@ -100,6 +106,13 @@ export default function Header() {
               onClick={() => setMenuOpen(false)}
             >
               レシピ一覧
+            </Link>
+            <Link
+              href="/chefs"
+              className="text-white/70 hover:text-white text-sm tracking-widest uppercase"
+              onClick={() => setMenuOpen(false)}
+            >
+              トップシェフ
             </Link>
             <div className="border-t border-white/10 pt-4">
               <p className="text-white/30 text-xs tracking-widest uppercase mb-3">カテゴリー</p>

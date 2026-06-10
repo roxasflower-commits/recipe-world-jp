@@ -40,4 +40,5 @@ export interface Recipe {
   sourceSiteName?: string;
   publishedAt: string;
   featured: boolean;
+  chefSlug?: string;
 }

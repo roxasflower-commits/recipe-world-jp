@@ -2451,6 +2451,334 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-10',
     featured: false,
   },
+
+  // ── トップシェフ レシピ ─────────────────────────────────────────
+
+  {
+    id: '38',
+    slug: 'redzepi-potato-crisps-chocolate',
+    title: 'ポテトチップス チョコレート＆アニス風味',
+    originalTitle: 'Potato Crisps with Anise and Chocolate',
+    description:
+      'Nomaのレネ・レゼピによるシグネチャーデザート。薄切りにして揚げたポテトチップスをテンパリングしたクーベルチュールチョコレートでコーティングし、グリーンアニスとフェンネルシードを散らす。甘みと塩気、サクサクの食感が交差する北欧的な驚き。',
+    cuisine: '北欧料理',
+    cuisineEn: 'Nordic',
+    cuisineSlug: 'nordic',
+    category: 'professional',
+    categoryLabel: 'プロ仕様',
+    tags: ['北欧', 'デザート', 'チョコレート', 'ポテト', 'Noma', 'レゼピ'],
+    prepTime: 20,
+    cookTime: 20,
+    servings: 4,
+    difficulty: 'hard',
+    difficultyLabel: '上級',
+    ingredients: [
+      { amount: '2', unit: '個', name: 'ビンチェ種またはメークインポテト', note: '皮をむいてスライサーで薄切り' },
+      { amount: '800', unit: 'ml', name: 'グレープシードオイル', note: '揚げ油' },
+      { amount: '400', unit: 'g', name: 'クーベルチュールチョコレート（カカオ70%以上）' },
+      { amount: '20', unit: 'g', name: 'ココアバターパウダー' },
+      { amount: '4', unit: 'g', name: 'グリーンアニスシード' },
+      { amount: '4', unit: 'g', name: 'フェンネルシード' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: 'ポテトをスライサーで紙のように薄くスライスし、冷水に浸す。水が澄むまで何度か水を替え、でんぷんをしっかり洗い流す。キッチンペーパーで完全に水気を拭き取る。',
+        tip: 'でんぷんが残っていると揚げた際に色ムラが出る。水洗いは念入りに。',
+      },
+      {
+        step: 2,
+        text: 'グレープシードオイルを170℃に熱する。スライスしたポテトを少量ずつ入れ、こんがりキツネ色になるまで揚げる（約2〜3分）。網の上に取り出してよく油を切り、吸水紙の上で冷ます。',
+      },
+      {
+        step: 3,
+        text: 'チョコレートのテンパリング：クーベルチュールチョコレートをココアバターパウダーとともに湯煎で溶かし、45℃まで上げる。大理石台または清潔な作業台に2/3を流し、スパチュラで広げながら27℃まで冷ます。残りの温かいチョコレートと合わせて30℃に調整する。',
+        tip: 'テンパリングを正確に行うことで、コーティングが美しくツヤのある仕上がりになる。',
+      },
+      {
+        step: 4,
+        text: 'ポテトチップスをテンパリングしたチョコレートに一枚ずつくぐらせ、網の上に置く。完全に固まる前にグリーンアニスとフェンネルシードをひとつまみ散らす。',
+      },
+      {
+        step: 5,
+        text: '室温（18〜20℃）で10〜15分置き、チョコレートが完全に固まったら完成。',
+      },
+    ],
+    tips: [
+      'チョコレートのテンパリングが難しい場合は、市販のコーティングチョコレートで代用可能。風味は落ちるが手軽に作れる。',
+      'アニスとフェンネルが手に入らない場合は、フルール・ド・セル（粗塩）だけでも十分美味しい。',
+      'チップスは揚げてから12時間以内に食べるのが理想的。湿気で食感が損なわれる。',
+    ],
+    image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=1200&q=80',
+    source: 'René Redzepi / WNYC Radio インタビューより',
+    sourceUrl: 'https://www.wnyc.org/story/97321-recipes-rene-redzepi/',
+    sourceSiteName: 'WNYC',
+    publishedAt: '2026-06-11',
+    featured: false,
+    chefSlug: 'rene-redzepi',
+  },
+
+  {
+    id: '39',
+    slug: 'redzepi-lamb-shank-beetroot-elderflower',
+    title: '子羊のスネ肉 野生ニンニク・黄ビーツ・エルダーフラワー添え',
+    originalTitle: 'Grilled Lamb Shank with Ramsons Leaves, Yellow Beetroot and Elderflowers',
+    description:
+      'Nomaを象徴する北欧食材を贅沢に使ったメインディッシュ。子羊のスネ肉を63℃で24時間の低温調理にかけてから炭火でグリルし、野生のラムソン（野生ニンニク）、黄色ビーツ、エルダーフラワーコーディアルとともに盛り付ける。春の野原を皿に再現したような料理。',
+    cuisine: '北欧料理',
+    cuisineEn: 'Nordic',
+    cuisineSlug: 'nordic',
+    category: 'professional',
+    categoryLabel: 'プロ仕様',
+    tags: ['北欧', '子羊', '低温調理', 'ビーツ', 'Noma', 'レゼピ', 'メインディッシュ'],
+    prepTime: 60,
+    cookTime: 1440,
+    servings: 4,
+    difficulty: 'professional',
+    difficultyLabel: 'プロ仕様',
+    ingredients: [
+      { amount: '4', unit: '本', name: '子羊のスネ肉（小さめ）' },
+      { amount: '50', unit: 'g', name: 'チキングラス（濃縮チキンスープ）', note: '市販の鶏ガラスープを煮詰めたもので代用可' },
+      { amount: '25', unit: 'g', name: 'ラムソン（野生ニンニク）の葉', note: 'ない場合は若いニンニクの芽で代用' },
+      { amount: '30', unit: '個', name: '小さい黄色ビーツ' },
+      { amount: '350', unit: 'g', name: '大きい黄色ビーツ' },
+      { amount: '適量', unit: '', name: '塩・アップルバルサミコ酢' },
+      { amount: '1', unit: '房', name: 'エルダーフラワー', note: '飾り用' },
+      { amount: '60', unit: 'g', name: 'エルダーフラワーコーディアル', note: '市販品で可' },
+      { amount: '適量', unit: '', name: 'バター' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: '子羊のスネ肉とチキングラス、ラムソンの葉を真空パックに入れ、63℃の低温調理器で24時間かける。',
+        tip: '低温調理器がない場合は、オーブンを最低温度（80℃）に設定し、蓋付きのキャセロール鍋で同様に調理できる。仕上がりの柔らかさは異なるが美味。',
+      },
+      {
+        step: 2,
+        text: '小さい黄色ビーツを塩水で柔らかくなるまで茹で、皮をむく。大きい黄色ビーツは皮をむき、マンドリンで薄くスライスして氷水に浸してカリッとさせる。',
+      },
+      {
+        step: 3,
+        text: 'ビーツのゆで汁を鍋に取り、1/3の量になるまで煮詰めてソースにする。塩とアップルバルサミコ酢で味を調える。',
+      },
+      {
+        step: 4,
+        text: '低温調理した子羊を真空パックから取り出し、炭火グリル（またはグリルパン）で全面に強い焼き色をつける。取り出したグラスを温めて仕上げ用ソースにする。',
+      },
+      {
+        step: 5,
+        text: '皿に小さいビーツを散らし、子羊のスネ肉を置く。温かいグラスを表面にかけてツヤを出す。薄切りビーツ、エルダーフラワー、エルダーフラワーコーディアルを数滴垂らして完成。',
+      },
+    ],
+    tips: [
+      'ラムソン（野生ニンニク）は春にのみ手に入る食材。ない時期は、若いニンニクの芽や細ねぎで代用できる。',
+      '黄色ビーツはアクが少なく上品な甘み。通常のビーツでも作れるが、皿の色合いが変わる。',
+      'エルダーフラワーコーディアルはIKEAや輸入食品店で購入可能。',
+    ],
+    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=1200&q=80',
+    source: 'René Redzepi / WNYC Radio インタビューより',
+    sourceUrl: 'https://www.wnyc.org/story/97321-recipes-rene-redzepi/',
+    sourceSiteName: 'WNYC',
+    publishedAt: '2026-06-11',
+    featured: false,
+    chefSlug: 'rene-redzepi',
+  },
+
+  {
+    id: '40',
+    slug: 'bottura-five-ages-parmigiano',
+    title: 'パルミジャーノの5つの年齢と食感',
+    originalTitle: 'Five Ages of Parmigiano Reggiano in Different Textures and Temperatures',
+    description:
+      'マッシモ・ボットゥラが1990年代に生み出したOsteria Francescanaの伝説的な一皿。24ヶ月から50ヶ月熟成まで、5段階の異なる年齢のパルミジャーノ・レッジャーノを、フォーム・ソース・スフレ・ビスケット・エアという5つの異なる食感で表現する。時間とチーズだけで作る究極の一皿。',
+    cuisine: 'イタリア料理',
+    cuisineEn: 'Italian',
+    cuisineSlug: 'italian',
+    category: 'professional',
+    categoryLabel: 'プロ仕様',
+    tags: ['イタリア', 'パルミジャーノ', 'チーズ', 'Osteria Francescana', 'ボットゥラ', '前菜'],
+    prepTime: 90,
+    cookTime: 60,
+    servings: 4,
+    difficulty: 'professional',
+    difficultyLabel: 'プロ仕様',
+    ingredients: [
+      { amount: '200', unit: 'g', name: 'リコッタチーズ', note: 'スフレ用' },
+      { amount: '60', unit: 'ml', name: '卵白', note: 'スフレ用' },
+      { amount: '100', unit: 'g', name: 'パルミジャーノ・レッジャーノ（24ヶ月熟成）すりおろし', note: 'スフレ用' },
+      { amount: '40', unit: 'ml', name: '生クリーム', note: 'スフレ用' },
+      { amount: '20', unit: 'ml', name: '無塩チキンブロス', note: 'ソース用' },
+      { amount: '100', unit: 'g', name: 'パルミジャーノ・レッジャーノ（30ヶ月熟成）すりおろし', note: 'ソース用' },
+      { amount: '125', unit: 'ml', name: 'チキンブロス', note: 'フォーム用' },
+      { amount: '250', unit: 'g', name: 'パルミジャーノ・レッジャーノ（36ヶ月熟成）すりおろし', note: 'フォーム用' },
+      { amount: '100', unit: 'ml', name: '生クリーム', note: 'フォーム用' },
+      { amount: '100', unit: 'g', name: 'パルミジャーノ・レッジャーノ（40ヶ月熟成）の皮', note: 'ビスケット用' },
+      { amount: '100', unit: 'ml', name: 'ミネラルウォーター', note: 'ビスケット用' },
+      { amount: '200', unit: 'g', name: 'パルミジャーノ・レッジャーノ（50ヶ月熟成）の皮', note: 'エア用' },
+      { amount: '200', unit: 'g', name: 'パルミジャーノ・レッジャーノ（50ヶ月熟成）すりおろし', note: 'エア用' },
+      { amount: '2', unit: 'g', name: 'レシチン（大豆レシチン）', note: 'エア用' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: '【ビスケット（40ヶ月）】パルミジャーノの皮をミネラルウォーターとともにミキサーにかけ、なめらかなペーストにする。シルパットを敷いた天板に薄く広げ、160℃のオーブンで10〜12分、こんがりとしたビスケット状になるまで焼く。',
+        tip: 'パルミジャーノの皮はチーズ専門店やデパ地下で入手できることがある。ない場合は厚めに削ったものをそのまま使う。',
+      },
+      {
+        step: 2,
+        text: '【ソース（30ヶ月）】小鍋でチキンブロスを温め、すりおろしたパルミジャーノ（30ヶ月）を加えて溶かす。なめらかなソース状になったら火からおろす。',
+      },
+      {
+        step: 3,
+        text: '【フォーム（36ヶ月）】チキンブロス、生クリーム、パルミジャーノ（36ヶ月）を鍋で合わせて温める。ハンドブレンダーで泡立て、軽いフォーム状にする。',
+      },
+      {
+        step: 4,
+        text: '【デミ・スフレ（24ヶ月）】リコッタ、卵白、パルミジャーノ（24ヶ月）、生クリームをボウルで混ぜ合わせる。耐熱の小さなカップに流し入れ、180℃のオーブンで8〜10分、表面がふんわり膨らんだら完成。',
+      },
+      {
+        step: 5,
+        text: '【エア（50ヶ月）】パルミジャーノの皮とすりおろし（50ヶ月）を水で煮出し、こして液体を作る。レシチンを加えてハンドブレンダーで強く泡立て、エア状の泡を作る。',
+        tip: '大豆レシチンは製菓材料店やオンラインで入手可能。分子料理の基本的な材料。',
+      },
+      {
+        step: 6,
+        text: '皿の中心にソースを広げ、ビスケットを立てかけ、スフレを置く。フォームとエアを重ね、最後にパルミジャーノを削りかけて完成。各コンポーネントを同時に仕上げてすぐに提供する。',
+      },
+    ],
+    tips: [
+      '5種類の熟成度のパルミジャーノを揃えるのが難しい場合は、24ヶ月と36ヶ月の2種類でも美味しく作れる。',
+      'レシチンによるエアは難易度が高い。省略してフォームのみでも料理は成立する。',
+      'ボットゥラ自身は「これは2つの食材、パルミジャーノと時間だけで作る料理」と語っている。',
+    ],
+    image: 'https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=1200&q=80',
+    source: 'Massimo Bottura / Reporter Gourmet より',
+    sourceUrl: 'https://reportergourmet.com/en/news/6960-massimo-bottura-s-five-ages-of-parmigiano-reggiano-recipe-a-legendary-culinary-creation',
+    sourceSiteName: 'Reporter Gourmet',
+    publishedAt: '2026-06-11',
+    featured: false,
+    chefSlug: 'massimo-bottura',
+  },
+
+  {
+    id: '41',
+    slug: 'passard-sage-butter-potatoes',
+    title: 'セージバターのポテト',
+    originalTitle: 'Potatoes with Sage',
+    description:
+      'L\'Arpègeのアラン・パッサールが愛する究極のシンプルレシピ。材料はたった4つ。ポテト、良質なバター、セージ、ニンニク。しかしバターを最低温度でじっくり15分かけて香り付けするその工程には、何十年もの「火入れの哲学」が宿っている。素材への敬意が料理を変える。',
+    cuisine: 'フランス料理',
+    cuisineEn: 'French',
+    cuisineSlug: 'french',
+    category: 'home',
+    categoryLabel: '家庭料理',
+    tags: ['フランス', 'ポテト', 'セージ', 'バター', 'ラルページュ', 'パッサール', '付け合わせ'],
+    prepTime: 10,
+    cookTime: 30,
+    servings: 4,
+    difficulty: 'easy',
+    difficultyLabel: '初級',
+    ingredients: [
+      { amount: '700', unit: 'g', name: '小さめのポテト', note: 'メークインや新じゃがが理想的' },
+      { amount: '60', unit: 'g', name: '有塩バター（良質なもの）', note: 'パッサールはKerrygoldを推薦' },
+      { amount: '4', unit: '枝', name: '新鮮なセージ' },
+      { amount: '4', unit: '片', name: 'にんにく', note: '皮をむいて軽く潰す' },
+      { amount: '適量', unit: '', name: 'フルール・ド・セル（粗塩）', note: 'または通常の塩' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: 'ポテトを約5cm幅、2〜3cm厚さに切る。大きめの鍋に塩水を沸かし（水が軽く塩辛く感じる程度）、ポテトを柔らかくなるまで茹でる。茹ですぎず、中心に少し歯ごたえが残るくらいで引き上げる。ざるに上げて湯気を飛ばす。',
+        tip: 'ポテトの水気をしっかり飛ばすことが、仕上がりのコクに直結する。',
+      },
+      {
+        step: 2,
+        text: '厚手のフライパン（または鉄のスキレット）を弱火にかける。バターを入れ、完全に溶けたらセージの葉をちぎりながら加える。1分後、潰したにんにくを加える。',
+        tip: 'ここが最重要ポイント。火は「これ以上弱くできない」という最弱火に設定。バターはぷつぷつと静かに泡立つ程度。絶対に焦がさない。',
+      },
+      {
+        step: 3,
+        text: 'そのまま弱火で15分間、じっくりと香りを引き出す。バターはかすかに泡立ち、セージとにんにくの香りがゆっくりと広がっていく。にんにくは色をつけない。',
+      },
+      {
+        step: 4,
+        text: '茹でたポテトをフライパンに加え、バターを絡めながら数分間温める。全体がしっかりバターに包まれたら、フルール・ド・セルをひとつまみ散らして完成。',
+      },
+    ],
+    tips: [
+      'バターの品質がすべて。できるだけ良質な発酵バターを使うこと。',
+      'セージは乾燥より生の方が香りが繊細。生が手に入らない時期はタイムやローズマリーでも美味。',
+      'ロースト肉や魚料理の付け合わせとして最高。または白ワインと一緒に単独で食べても十分美味しい。',
+    ],
+    image: 'https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=1200&q=80',
+    source: 'Alain Passard / Taste Cooking より',
+    sourceUrl: 'https://tastecooking.com/alain-passard-sage-potatoes-recipe/',
+    sourceSiteName: 'Taste Cooking',
+    publishedAt: '2026-06-11',
+    featured: false,
+    chefSlug: 'alain-passard',
+  },
+
+  {
+    id: '42',
+    slug: 'passard-peas-strawberry-herbs',
+    title: 'グリーンピースといちご、ハーブのサラダ',
+    originalTitle: 'Peas with Herbs and Strawberries',
+    description:
+      'アラン・パッサールが最も愛する春のレシピのひとつ。バターで柔らかく温めたグリーンピースに、冷たいいちごと新鮮なハーブを合わせるという、常識を覆す組み合わせ。温かさと冷たさ、甘みと青みが交差する瞬間に、パッサールの野菜哲学が凝縮されている。',
+    cuisine: 'フランス料理',
+    cuisineEn: 'French',
+    cuisineSlug: 'french',
+    category: 'home',
+    categoryLabel: '家庭料理',
+    tags: ['フランス', 'グリーンピース', 'いちご', '野菜', 'ラルページュ', 'パッサール', '前菜', '春'],
+    prepTime: 10,
+    cookTime: 10,
+    servings: 4,
+    difficulty: 'easy',
+    difficultyLabel: '初級',
+    ingredients: [
+      { amount: '400', unit: 'g', name: 'グリーンピース（できれば生）', note: '冷凍でも可' },
+      { amount: '40', unit: 'g', name: '有塩バター' },
+      { amount: '4', unit: '本', name: 'スプリングオニオン（細ねぎまたは万能ねぎ）', note: '斜め薄切り' },
+      { amount: '150', unit: 'g', name: 'いちご', note: '食べる直前まで冷蔵庫で冷やす' },
+      { amount: '適量', unit: '', name: 'チャービル、ディル、ミントなど好みのハーブ', note: '新鮮なもの' },
+      { amount: '適量', unit: '', name: '食用花（ズッキーニの花など）', note: 'あれば' },
+      { amount: '適量', unit: '', name: '塩' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: '厚手の鍋またはキャセロール鍋を弱火にかけ、バターを入れて静かに溶かす。スプリングオニオンを加え、1〜2分じっくりと温める。',
+      },
+      {
+        step: 2,
+        text: 'グリーンピースを加え、蓋をして弱火で4〜5分温める。ピースが柔らかくなりすぎないよう注意。瑞々しさと少しの歯ごたえが残る状態が理想。塩で味を調える。',
+        tip: 'グリーンピースは火を通しすぎると色が悪くなり甘みも飛ぶ。ほんのり温まれば十分。',
+      },
+      {
+        step: 3,
+        text: '温かいピースを深めの皿に盛り付ける。冷蔵庫から出したばかりの冷たいいちごを4等分または半分に切って散らす。',
+      },
+      {
+        step: 4,
+        text: '新鮮なハーブをたっぷりちぎり、食用花があれば飾る。温かさと冷たさが混在するうちに、すぐに提供する。',
+        tip: 'いちごは必ず冷たいものを。温かいピースとの温度差がこの料理の肝。',
+      },
+    ],
+    tips: [
+      'いちごとグリーンピースの組み合わせは一見奇妙に見えるが、両者の甘みと酸みが共鳴し合う。まずは一口食べてみてほしい。',
+      '春から初夏にかけての旬の時期に作るのが最高。生のグリーンピースが手に入らない季節は冷凍でも十分美味しい。',
+      '食用花はズッキーニの花がパッサールのオリジナルに近いが、なければ省略してもよい。',
+    ],
+    image: 'https://images.unsplash.com/photo-1587411768638-ec71f8e33b78?w=1200&q=80',
+    source: 'Alain Passard / Do It In Paris より',
+    sourceUrl: 'https://www.doitinparis.com/en/recette-chef-petit-pois-fraise-25248',
+    sourceSiteName: 'Do It In Paris',
+    publishedAt: '2026-06-11',
+    featured: false,
+    chefSlug: 'alain-passard',
+  },
 ];
 
 export function getRecipeBySlug(slug: string): Recipe | undefined {
@@ -2463,6 +2791,10 @@ export function getRecipesByCuisine(cuisineSlug: string): Recipe[] {
 
 export function getFeaturedRecipes(): Recipe[] {
   return recipes.filter((r) => r.featured);
+}
+
+export function getRecipesByChef(chefSlug: string): Recipe[] {
+  return recipes.filter((r) => r.chefSlug === chefSlug);
 }
 
 export const cuisines = [

@@ -56,6 +56,11 @@ export default function Footer() {
             <h3 className="text-xs tracking-widest uppercase text-white/40 mb-4 mt-8">サイトについて</h3>
             <ul className="space-y-2 text-sm text-white/60">
               <li>
+                <Link href="/chefs" className="hover:text-white transition-colors">
+                  世界のトップシェフ
+                </Link>
+              </li>
+              <li>
                 <Link href="/about" className="hover:text-white transition-colors">
                   このサイトについて
                 </Link>
