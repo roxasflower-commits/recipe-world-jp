@@ -2275,6 +2275,7 @@ export const recipes: Recipe[] = [
       { amount: '適量', unit: '', name: '無塩バター', note: 'パンに塗る' },
       { amount: '200', unit: 'g', name: 'ニシンのマリネ（またはスモークサーモン）' },
       { amount: '8', unit: '尾', name: '茹でエビ' },
+      { amount: '2', unit: '個', name: 'アボカド', note: '完熟' },
       { amount: '200', unit: 'g', name: 'ローストビーフ（薄切り）' },
       { amount: '4', unit: '個', name: 'ゆで卵', note: '半分に切る' },
       { amount: '1', unit: '個', name: 'レモン', note: 'くし形切り' },
@@ -2294,7 +2295,7 @@ export const recipes: Recipe[] = [
       },
       {
         step: 3,
-        text: 'エビバージョン：レタスの上にエビを並べ、マヨネーズとレモン、ディルを添える。',
+        text: 'エビ＆アボカドバージョン：アボカドをフォークで潰してレモン少量と塩で味付けしペーストを作る。パンに塗り広げ、エビを並べてディルを添える。',
       },
       {
         step: 4,
