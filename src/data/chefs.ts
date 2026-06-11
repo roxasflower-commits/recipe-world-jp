@@ -68,6 +68,24 @@ export const chefs: Chef[] = [
     ],
     image: '/images/chefs/chef-alain-passard.jpg',
   },
+  {
+    slug: 'virgilio-martinez',
+    name: 'Virgilio Martínez',
+    nameJa: 'ヴィルヒリオ・マルティネス',
+    restaurant: 'Central',
+    location: 'リマ、ペルー',
+    michelinStars: 0,
+    nationality: 'ペルー',
+    born: '1977年',
+    bio: 'ペルー・リマ生まれ。「Central（セントラル）」のオーナーシェフとして、ペルーの生態系と食材をテーマにした独自の料理哲学を体現。2023年「世界のベストレストラン50」で第1位を獲得。アンデスの高地から深海まで、標高ごとに異なる食材を12のコースで表現する「Altitudes（高度）」というコンセプトは世界的に注目を集めた。妻で共同シェフのピア・レオン（Kjolle）と共に、ペルー料理の世界的地位を押し上げた第一人者。',
+    philosophy: '「食材の生息する高度と環境こそがレシピの設計図」。セビーチェに欠かせないレチェ・デ・ティグレ（虎のミルク）、コチャユヨ（海藻）、マカ根、サチャインチなど、ペルーの多様な生態系に由来する食材を最大限に活かす。ヨーロッパの技法を下敷きにしながらも、根底にあるのは南米の大地への深いリスペクトだ。',
+    awards: [
+      '世界のベストレストラン50 第1位（2023年）',
+      'ラテンアメリカのベストレストラン50 第1位（複数回）',
+      '世界のベストレストラン50 トップ5常連',
+    ],
+    image: '/images/chefs/chef-virgilio-martinez.jpg',
+  },
 ];
 
 export function getChefBySlug(slug: string): Chef | undefined {
