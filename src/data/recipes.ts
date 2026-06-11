@@ -3335,7 +3335,6 @@ export const recipes: Recipe[] = [
     sourceSiteName: 'Eat Peru',
     publishedAt: '2026-06-11',
     featured: false,
-    chefSlug: 'virgilio-martinez',
   },
   {
     id: '51',
