@@ -30,7 +30,7 @@ export const chefs: Chef[] = [
       'ミシュラン2つ星',
       'ジェームス・ビアード財団 最優秀国際シェフ賞',
     ],
-    image: 'https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=800&q=80',
+    image: '/images/chefs/chef-rene-redzepi.jpg',
   },
   {
     slug: 'massimo-bottura',
@@ -48,7 +48,7 @@ export const chefs: Chef[] = [
       'ミシュラン3つ星',
       'ジェームス・ビアード財団 特別功労賞',
     ],
-    image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+    image: '/images/chefs/chef-massimo-bottura.jpg',
   },
   {
     slug: 'alain-passard',
@@ -66,7 +66,7 @@ export const chefs: Chef[] = [
       'ゴー・ミヨ 最優秀シェフ賞',
       '野菜料理の革命的先駆者として料理界に多大な影響',
     ],
-    image: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80',
+    image: '/images/chefs/chef-alain-passard.jpg',
   },
 ];
 
