@@ -3597,7 +3597,7 @@ export const recipes: Recipe[] = [
       'ライム汁は加熱前に入れると酸味が飛ぶので、必ず火を止めてから加える。',
       '鴨ひき肉（ラープ・ペット）バージョンは特に旨みが強く、本格タイレストランでも人気。',
     ],
-    image: 'https://images.pexels.com/photos/10756647/pexels-photo-10756647.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: '/images/larb.jpg',
     source: 'タイ北部の伝統レシピをもとに',
     sourceUrl: 'https://www.196flavors.com/larb/',
     sourceSiteName: '196flavors',
