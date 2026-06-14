@@ -3952,7 +3952,7 @@ export const recipes: Recipe[] = [
       'ギーが手に入らない場合はバターで代用可能。風味は変わるが美味しく仕上がる。',
       'ナンでもライスでも合う。翌日は水を少し加えて温め直すと旨みが増す。',
     ],
-    image: 'https://images.unsplash.com/photo-1626500154744-e4b394ffea16?w=1200&q=80',
+    image: 'https://images.pexels.com/photos/8996219/pexels-photo-8996219.jpeg?auto=compress&cs=tinysrgb&w=1200',
     source: '北インドの家庭料理レシピをもとに',
     sourceUrl: 'https://recipetineats.com/dal/',
     sourceSiteName: 'RecipeTin Eats',
