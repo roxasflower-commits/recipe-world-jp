@@ -27,11 +27,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: seoTitle,
     description: seoDescription,
     keywords: [recipe.title, recipe.cuisine, 'レシピ', '作り方', '料理', recipe.originalTitle],
+    alternates: {
+      canonical: `/recipes/${recipe.slug}`,
+    },
     openGraph: {
       title: seoTitle,
       description: seoDescription,
       images: [{ url: recipe.image, width: 1200, height: 630, alt: recipe.title }],
       type: 'article',
+      publishedTime: recipe.publishedAt,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: seoTitle,
+      description: seoDescription,
+      images: [recipe.image],
     },
   };
 }

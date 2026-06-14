@@ -8,6 +8,12 @@ function toISO8601Duration(minutes: number): string {
   return `PT${m}M`;
 }
 
+const BASE_URL = 'https://recipe-world-jp.vercel.app';
+
+function toAbsoluteUrl(url: string): string {
+  return url.startsWith('http') ? url : `${BASE_URL}${url}`;
+}
+
 export default function RecipeSchema({ recipe }: { recipe: Recipe }) {
   const schema = {
     '@context': 'https://schema.org',
@@ -15,7 +21,7 @@ export default function RecipeSchema({ recipe }: { recipe: Recipe }) {
     name: recipe.title,
     alternateName: recipe.originalTitle,
     description: recipe.description,
-    image: [recipe.image],
+    image: [toAbsoluteUrl(recipe.image)],
     author: {
       '@type': 'Organization',
       name: 'MONDE RECIPE',

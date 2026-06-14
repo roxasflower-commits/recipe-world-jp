@@ -26,6 +26,7 @@ const notoSans = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://recipe-world-jp.vercel.app'),
   title: {
     template: '%s | MONDE RECIPE',
     default: 'MONDE RECIPE — 世界の名料理を、あなたの台所へ',
@@ -37,6 +38,12 @@ export const metadata: Metadata = {
     siteName: 'MONDE RECIPE',
     locale: 'ja_JP',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+  },
+  alternates: {
+    canonical: 'https://recipe-world-jp.vercel.app',
   },
   verification: {
     google: 'e_Sxs6ej-k2RQZZ_UtY1QzuHMTsMeLARCKuF5Xnahm8',
