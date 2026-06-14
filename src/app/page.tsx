@@ -8,7 +8,7 @@ export default function HomePage() {
   const featured = getFeaturedRecipes();
   const hero = featured[0];
   const subFeatured = featured.slice(1, 3);
-  const latest = recipes.slice(0, 6);
+  const latest = [...recipes].reverse().slice(0, 6);
 
   return (
     <div className="min-h-screen">
