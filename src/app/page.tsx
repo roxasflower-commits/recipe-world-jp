@@ -1,14 +1,17 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { recipes, getFeaturedRecipes, cuisines } from '@/data/recipes';
+import { recipes, getFeaturedRecipes, cuisines, getRecipesByChef } from '@/data/recipes';
 import RecipeCard from '@/components/RecipeCard';
 import AdBanner from '@/components/AdBanner';
+import { chefs } from '@/data/chefs';
 
 export default function HomePage() {
   const featured = getFeaturedRecipes();
   const hero = featured[0];
   const subFeatured = featured.slice(1, 3);
   const latest = [...recipes].reverse().slice(0, 6);
+  const rene = chefs.find((c) => c.slug === 'rene-redzepi')!;
+  const reneRecipes = getRecipesByChef('rene-redzepi');
 
   return (
     <div className="min-h-screen">
@@ -141,6 +144,71 @@ export default function HomePage() {
             <RecipeCard key={recipe.id} recipe={recipe} />
           ))}
         </div>
+      </section>
+
+      {/* Top Chef section */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
+        <div className="flex items-center justify-between mb-8">
+          <div className="flex items-center gap-4">
+            <div className="w-1 h-6 bg-accent" />
+            <h2 className="font-serif text-xl font-bold tracking-tight">トップシェフ</h2>
+          </div>
+          <Link
+            href="/chefs"
+            className="text-xs tracking-widest uppercase text-accent hover:text-primary transition-colors flex items-center gap-1"
+          >
+            すべて見る
+            <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
+        </div>
+
+        <Link
+          href={`/chefs/${rene.slug}`}
+          className="group block bg-white border border-warm-border hover:border-primary transition-colors overflow-hidden"
+        >
+          <div className="flex flex-col sm:flex-row">
+            <div className="relative sm:w-72 h-52 sm:h-auto flex-shrink-0 overflow-hidden">
+              <Image
+                src={rene.image}
+                alt={rene.nameJa}
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                sizes="(max-width: 640px) 100vw, 288px"
+              />
+              <div className="absolute inset-0 bg-primary/20" />
+              <div className="absolute bottom-3 left-3 flex gap-1">
+                {Array.from({ length: rene.michelinStars }).map((_, i) => (
+                  <span key={i} className="text-yellow-400 text-sm">★</span>
+                ))}
+              </div>
+            </div>
+            <div className="p-6 sm:p-8 flex flex-col justify-between flex-1">
+              <div>
+                <span className="text-xs tracking-widest uppercase text-accent">{rene.nationality}</span>
+                <h3 className="font-serif text-2xl sm:text-3xl font-bold mt-1 group-hover:text-accent transition-colors">
+                  {rene.nameJa}
+                </h3>
+                <p className="text-sm text-gray-500 mt-1">
+                  {rene.name} — {rene.restaurant}、{rene.location}
+                </p>
+                <p className="text-sm text-gray-600 leading-relaxed mt-4 line-clamp-3">
+                  {rene.bio}
+                </p>
+              </div>
+              <div className="flex items-center justify-between mt-6 pt-4 border-t border-warm-border">
+                <span className="text-xs text-gray-400">掲載レシピ {reneRecipes.length}品</span>
+                <span className="text-xs tracking-widest uppercase text-accent flex items-center gap-1 group-hover:gap-2 transition-all">
+                  レシピを見る
+                  <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </Link>
       </section>
 
       {/* Level CTA section */}
