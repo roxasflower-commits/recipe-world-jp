@@ -1,12 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { recipes, getFeaturedRecipes, cuisines, getRecipesByChef } from '@/data/recipes';
+import { recipes, getFeaturedRecipes, getRecipeBySlug, cuisines, getRecipesByChef } from '@/data/recipes';
 import RecipeCard from '@/components/RecipeCard';
 import AdBanner from '@/components/AdBanner';
 import { chefs } from '@/data/chefs';
 
 export default function HomePage() {
-  const featured = getFeaturedRecipes();
+  // ヒーロー枠：アクセス数をもとに手動で更新
+  const heroSlugs = ['smorrebrod', 'roman-carbonara', 'beef-wellington'];
+  const featured = heroSlugs.map((slug) => getRecipeBySlug(slug)!);
   const hero = featured[0];
   const subFeatured = featured.slice(1, 3);
   const latest = [...recipes].reverse().slice(0, 6);
