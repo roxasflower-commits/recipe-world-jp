@@ -7,6 +7,7 @@ import AdBanner from '@/components/AdBanner';
 import RecipeSchema from '@/components/RecipeSchema';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import AmazonTools from '@/components/AmazonTools';
+import RakutenTools from '@/components/RakutenTools';
 import Link from 'next/link';
 
 interface Props {
@@ -266,6 +267,9 @@ export default function RecipePage({ params }: Props) {
 
             {/* Amazon affiliate tools */}
             <AmazonTools cuisineSlug={recipe.cuisineSlug} />
+
+            {/* Rakuten affiliate tools */}
+            <RakutenTools cuisineSlug={recipe.cuisineSlug} />
 
             {/* Related same cuisine */}
             {related.length > 0 && (

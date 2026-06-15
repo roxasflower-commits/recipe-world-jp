@@ -9,9 +9,10 @@ module.exports = {
     extend: {
       colors: {
         primary: '#0D0D0D',
-        accent: '#C4390A',
+        accent: '#2D5A3D',
         gold: '#9B7A3A',
         cream: '#FAF8F4',
+        'warm-bg': '#FAF8F4',
         'warm-border': '#E8E3D9',
         muted: '#8C8C8C',
         'card-bg': '#FFFFFF',

@@ -23,3 +23,7 @@ npm-debug.log*
 *.tsbuildinfo
 next-env.d.ts
 .vercel
+
+# Pinterest scripts (sensitive tokens and progress)
+scripts/pinterest-token.json
+scripts/pinterest-progress.json
