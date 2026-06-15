@@ -4494,7 +4494,7 @@ export const recipes: Recipe[] = [
       '穴を開けてソースを染み込ませる工程が「スティッキー」な食感の核心。惜しまずにソースを染み込ませてください。',
       '3日間保存可能。食べる直前に電子レンジで温め、ソースを追加してかければ作りたての味に戻ります。',
     ],
-    image: 'https://images.pexels.com/photos/5419205/pexels-photo-5419205.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://images.pexels.com/photos/5163947/pexels-photo-5163947.jpeg?auto=compress&cs=tinysrgb&w=1200',
     source: 'RecipeTin Eats — Sticky Date Pudding をもとに日本語化',
     sourceUrl: 'https://www.recipetineats.com/sticky-toffee-pudding/',
     sourceSiteName: 'RecipeTin Eats',
