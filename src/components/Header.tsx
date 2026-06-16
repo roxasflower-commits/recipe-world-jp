@@ -120,7 +120,7 @@ export default function Header() {
 
       {/* Category nav bar — hidden on homepage to keep editorial hero clean */}
       {!isHome && (
-        <div className={`border-t ${border} hidden sm:block`}>
+        <div className={`border-t ${border}`}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex gap-6 overflow-x-auto py-3 scrollbar-none">
               {cuisines.map((c) => (

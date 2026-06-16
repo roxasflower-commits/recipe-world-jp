@@ -109,7 +109,7 @@ export default function RecipePage({ params }: Props) {
 
             {/* Title and meta */}
             <div className="mb-8">
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex flex-wrap items-center gap-2 mb-4">
                 <Link
                   href={`/category/${recipe.cuisineSlug}`}
                   className="text-xs tracking-widest uppercase text-white bg-accent px-3 py-1 hover:bg-primary transition-colors"
@@ -130,7 +130,7 @@ export default function RecipePage({ params }: Props) {
               <p className="text-base text-muted mt-4 leading-relaxed">{recipe.description}</p>
 
               {/* Quick stats */}
-              <div className="grid grid-cols-4 gap-4 mt-6 p-5 bg-white border border-warm-border">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6 p-5 bg-white border border-warm-border">
                 {[
                   { label: '準備時間', value: `${recipe.prepTime}分` },
                   { label: '調理時間', value: `${recipe.cookTime}分` },
@@ -170,7 +170,7 @@ export default function RecipePage({ params }: Props) {
                     key={i}
                     className="flex items-start gap-3 px-5 py-3 border-b border-warm-border last:border-0"
                   >
-                    <span className="font-semibold text-sm min-w-[80px] text-right text-primary">
+                    <span className="font-semibold text-sm min-w-[56px] sm:min-w-[80px] text-right text-primary">
                       {ing.amount}
                       {ing.unit}
                     </span>
@@ -261,7 +261,7 @@ export default function RecipePage({ params }: Props) {
           {/* Sidebar */}
           <aside className="space-y-8">
             {/* Sidebar ad */}
-            <div className="sticky top-4">
+            <div className="lg:sticky lg:top-4">
               <AdBanner format="rectangle" />
             </div>
 
