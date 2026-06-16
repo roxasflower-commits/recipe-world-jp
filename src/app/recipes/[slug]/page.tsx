@@ -8,7 +8,10 @@ import RecipeSchema from '@/components/RecipeSchema';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import AmazonTools from '@/components/AmazonTools';
 import RakutenTools from '@/components/RakutenTools';
+import ShareButtons from '@/components/ShareButtons';
 import Link from 'next/link';
+
+const BASE_URL = 'https://recipe-world-jp.vercel.app';
 
 interface Props {
   params: { slug: string };
@@ -59,14 +62,17 @@ export default function RecipePage({ params }: Props) {
   const recipe = getRecipeBySlug(params.slug);
   if (!recipe) notFound();
 
-  const related = recipes
-    .filter((r) => r.slug !== recipe.slug && r.cuisineSlug === recipe.cuisineSlug)
-    .slice(0, 3);
-  const alsoLike = recipes
-    .filter((r) => r.slug !== recipe.slug && !related.includes(r))
-    .slice(0, 3);
+  const sameCuisine = recipes.filter((r) => r.slug !== recipe.slug && r.cuisineSlug === recipe.cuisineSlug);
+  const otherCuisine = recipes.filter((r) => r.slug !== recipe.slug && r.cuisineSlug !== recipe.cuisineSlug);
+
+  const related = sameCuisine.slice(0, 3);
+  const alsoLike = otherCuisine.slice(0, 3);
+
+  const bottomRelated = [...sameCuisine, ...otherCuisine].slice(0, 6);
 
   const totalTime = recipe.prepTime + recipe.cookTime;
+  const pageUrl = `${BASE_URL}/recipes/${recipe.slug}`;
+  const pinterestUrl = `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(pageUrl)}&media=${encodeURIComponent(recipe.image)}&description=${encodeURIComponent(recipe.title + ' | MONDE RECIPE')}`;
 
   return (
     <>
@@ -96,7 +102,7 @@ export default function RecipePage({ params }: Props) {
           {/* Main content */}
           <div className="lg:col-span-2">
             {/* Hero image */}
-            <div className="relative aspect-[16/9] overflow-hidden mb-8">
+            <div className="relative aspect-[16/9] overflow-hidden mb-8 group">
               <Image
                 src={recipe.image}
                 alt={recipe.title}
@@ -105,6 +111,18 @@ export default function RecipePage({ params }: Props) {
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 66vw"
               />
+              <a
+                href={pinterestUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute top-3 right-3 flex items-center gap-1.5 px-3 py-1.5 bg-[#E60023] text-white text-xs opacity-0 group-hover:opacity-100 transition-opacity shadow-md"
+                aria-label="Pinterestに保存"
+              >
+                <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z" />
+                </svg>
+                保存
+              </a>
             </div>
 
             {/* Title and meta */}
@@ -142,6 +160,15 @@ export default function RecipePage({ params }: Props) {
                     <div className="text-xs text-muted mt-1 tracking-wide">{stat.label}</div>
                   </div>
                 ))}
+              </div>
+
+              {/* Share buttons */}
+              <div className="mt-5 pt-5 border-t border-warm-border">
+                <ShareButtons
+                  pageUrl={pageUrl}
+                  imageUrl={recipe.image}
+                  title={recipe.title}
+                />
               </div>
 
               {/* Tags */}
@@ -305,12 +332,25 @@ export default function RecipePage({ params }: Props) {
 
         {/* Bottom related recipes */}
         <section className="mt-16 pt-10 border-t border-warm-border">
-          <div className="flex items-center gap-4 mb-8">
-            <div className="w-1 h-6 bg-accent" />
-            <h2 className="font-serif text-xl font-bold">他のレシピも見る</h2>
+          <div className="flex items-center justify-between mb-8">
+            <div className="flex items-center gap-4">
+              <div className="w-1 h-6 bg-accent" />
+              <h2 className="font-serif text-xl font-bold">
+                {sameCuisine.length > 0 ? `${recipe.cuisine}の他のレシピ` : 'こちらもおすすめ'}
+              </h2>
+            </div>
+            <Link
+              href={`/category/${recipe.cuisineSlug}`}
+              className="text-xs tracking-widest uppercase text-accent hover:text-primary transition-colors flex items-center gap-1"
+            >
+              一覧を見る
+              <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {recipes.filter((r) => r.slug !== recipe.slug).slice(0, 3).map((r) => (
+            {bottomRelated.map((r) => (
               <RecipeCard key={r.id} recipe={r} />
             ))}
           </div>
