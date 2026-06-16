@@ -5040,7 +5040,7 @@ export const recipes: Recipe[] = [
       '余ったフリカデラーは翌日のランチにも。ライ麦パンに挟んでもおいしい。',
       'ロードキャベツは市販品でも代用できます。日本のきんぴらごぼう的なポジションの付け合わせです。',
     ],
-    image: 'https://images.unsplash.com/photo-1712594533988-13a401974b44?w=1200&q=80',
+    image: 'https://images.pexels.com/photos/8923095/pexels-photo-8923095.jpeg?auto=compress&cs=tinysrgb&w=1200',
     source: '196 Flavors — Frikadeller をもとに日本語化',
     sourceUrl: 'https://www.196flavors.com/denmark-frikadeller/',
     sourceSiteName: '196 Flavors',
