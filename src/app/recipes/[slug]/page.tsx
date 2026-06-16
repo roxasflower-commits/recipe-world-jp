@@ -22,20 +22,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const recipe = getRecipeBySlug(params.slug);
   if (!recipe) return {};
 
-  const seoTitle = `${recipe.title}の作り方・レシピ`;
-  const seoDescription = `${recipe.title}（${recipe.originalTitle}）の本格レシピ。${recipe.description} 調理時間${recipe.prepTime + recipe.cookTime}分・${recipe.servings}人前。`;
+  const totalTime = recipe.prepTime + recipe.cookTime;
+  const seoTitle = `${recipe.title}の本格レシピ・作り方`;
+  const seoDescription = `${recipe.title}（${recipe.originalTitle}）の本格レシピ・作り方。${recipe.cuisine}、調理時間${totalTime}分・${recipe.servings}人前・${recipe.difficultyLabel}。材料と手順を日本語で詳しく解説。`;
 
   return {
     title: seoTitle,
     description: seoDescription,
-    keywords: [recipe.title, recipe.cuisine, 'レシピ', '作り方', '料理', recipe.originalTitle],
+    keywords: [recipe.title, `${recipe.title} レシピ`, `${recipe.title} 作り方`, recipe.cuisine, '本格レシピ', '作り方', recipe.originalTitle],
     alternates: {
       canonical: `/recipes/${recipe.slug}`,
     },
     openGraph: {
       title: seoTitle,
       description: seoDescription,
-      images: [{ url: recipe.image, width: 1200, height: 630, alt: recipe.title }],
       type: 'article',
       publishedTime: recipe.publishedAt,
     },
