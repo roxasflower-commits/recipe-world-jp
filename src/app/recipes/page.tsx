@@ -7,7 +7,10 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'レシピ一覧・世界の料理の作り方',
   description: '世界の名料理レシピを日本語で詳しく解説。フランス料理、イタリア料理、スペイン料理、インド料理など各国の作り方・レシピ集。家庭料理からプロ仕様まで。',
-  keywords: ['レシピ一覧', '世界料理', '海外レシピ', '作り方', 'フランス料理', 'イタリア料理', 'スペイン料理'],
+  keywords: ['レシピ一覧', '世界料理', '海外レシピ', '作り方', 'フランス料理 レシピ', 'イタリア料理 レシピ', 'スペイン料理 レシピ', '本格レシピ'],
+  alternates: {
+    canonical: 'https://recipe-world-jp.vercel.app/recipes',
+  },
 };
 
 const levelLabels: Record<string, string> = {

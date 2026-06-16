@@ -5,8 +5,12 @@ import { chefs } from '@/data/chefs';
 import { getRecipesByChef } from '@/data/recipes';
 
 export const metadata: Metadata = {
-  title: '世界のトップシェフ',
+  title: '世界のトップシェフ・ミシュランシェフのレシピ',
   description: 'ミシュラン星付きシェフが公開した本物のレシピを日本語で。レネ・レゼピ、マッシモ・ボットゥラ、アラン・パッサールのシグネチャー料理を家庭で再現。',
+  keywords: ['トップシェフ', 'ミシュランシェフ', 'レネ・レゼピ', 'マッシモ・ボットゥラ', 'アラン・パッサール', '本格レシピ', 'シェフレシピ'],
+  alternates: {
+    canonical: 'https://recipe-world-jp.vercel.app/chefs',
+  },
 };
 
 export default function ChefsPage() {

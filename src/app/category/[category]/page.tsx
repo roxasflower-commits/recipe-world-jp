@@ -21,7 +21,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${cuisine.label}のレシピ一覧・作り方`,
     description: `本場の${cuisine.label}レシピを日本語で詳しく解説。家庭料理からプロ仕様まで、${cuisine.label}の作り方・レシピ集。`,
-    keywords: [cuisine.label, 'レシピ', '作り方', '料理', cuisine.labelEn, '海外料理'],
+    keywords: [cuisine.label, `${cuisine.label} レシピ`, `${cuisine.label} 作り方`, cuisine.labelEn, '海外料理 レシピ'],
+    alternates: {
+      canonical: `/category/${cuisine.slug}`,
+    },
   };
 }
 
