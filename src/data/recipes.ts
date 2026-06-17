@@ -5294,7 +5294,7 @@ export const recipes: Recipe[] = [
       'ケイジャンスパイスがない場合はパプリカ・クミン・チリパウダー・オレガノ・タイムを等量混ぜて代用できます。',
       '翌日は味が馴染んでさらに美味しくなります。スパイスが染み込んで深みが増す。',
     ],
-    image: 'https://images.unsplash.com/photo-1723930880073-30db9996e2af?w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1559847844-5315695dadae?w=1200&q=80',
     source: 'New Orleans cuisine の伝統的なガンボレシピをもとに日本語化',
     sourceUrl: 'https://www.196flavors.com/gumbo/',
     sourceSiteName: '196 Flavors',
