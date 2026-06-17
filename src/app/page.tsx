@@ -5,6 +5,20 @@ import RecipeCard from '@/components/RecipeCard';
 import AdBanner from '@/components/AdBanner';
 import { chefs } from '@/data/chefs';
 import { CardStack } from '@/components/ui/card-stack';
+import CuisineSelector from '@/components/ui/cuisine-selector';
+
+const cuisineDetails: Record<string, { emoji: string; description: string }> = {
+  french:   { emoji: '🇫🇷', description: 'ブフブルギニョン、ブイヤベース' },
+  italian:  { emoji: '🇮🇹', description: 'カルボナーラ、リゾット' },
+  american: { emoji: '🇺🇸', description: 'スマッシュバーガー、ガンボ' },
+  thai:     { emoji: '🇹🇭', description: 'パッタイ、グリーンカレー' },
+  british:  { emoji: '🇬🇧', description: 'ビーフウェリントン、スコーン' },
+  spanish:  { emoji: '🇪🇸', description: 'パエリア、ガスパチョ' },
+  nordic:   { emoji: '🇸🇪', description: 'スモーブロー、グラブラックス' },
+  turkish:  { emoji: '🇹🇷', description: 'シシケバブ、ドルマ' },
+  indian:   { emoji: '🇮🇳', description: 'バターチキン、ビリヤニ' },
+  peruvian: { emoji: '🇵🇪', description: 'セビーチェ、ロモサルタード' },
+};
 
 export default function HomePage() {
   // ヒーロー枠：アクセス数をもとに手動で更新
@@ -36,6 +50,15 @@ export default function HomePage() {
       return [c.slug, rep?.image ?? ''];
     })
   );
+
+  const selectorItems = cuisines.map((c) => ({
+    slug: c.slug,
+    label: c.label,
+    labelEn: c.labelEn,
+    description: cuisineDetails[c.slug]?.description ?? '',
+    emoji: cuisineDetails[c.slug]?.emoji ?? '',
+    image: cuisineImages[c.slug],
+  }));
 
   return (
     <div className="min-h-screen">
@@ -181,34 +204,7 @@ export default function HomePage() {
           <div className="w-1 h-6 bg-accent" />
           <h2 className="font-serif text-xl font-bold tracking-tight">料理のジャンルで探す</h2>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2 sm:gap-3">
-          {cuisines.map((c) => (
-            <Link
-              key={c.slug}
-              href={`/category/${c.slug}`}
-              className="group relative block overflow-hidden aspect-square"
-            >
-              {cuisineImages[c.slug] && (
-                <Image
-                  src={cuisineImages[c.slug]}
-                  alt={c.label}
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-110"
-                  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
-                />
-              )}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent transition-opacity duration-500 group-hover:from-black/85" />
-              <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4">
-                <span className="text-[9px] sm:text-[10px] tracking-widest uppercase text-white/50 block mb-0.5">
-                  {c.labelEn}
-                </span>
-                <span className="font-serif text-sm sm:text-base font-semibold text-white leading-tight">
-                  {c.label}
-                </span>
-              </div>
-            </Link>
-          ))}
-        </div>
+        <CuisineSelector items={selectorItems} />
       </section>
 
       {/* Ad banner */}
