@@ -3,6 +3,14 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 import { chefs } from '@/data/chefs';
 import { getRecipesByChef } from '@/data/recipes';
+import { ScrollReelTestimonials } from '@/components/ui/scroll-reel-testimonials';
+
+const chefTestimonials = chefs.map((chef) => ({
+  quote: chef.philosophy,
+  author: `${chef.nameJa} — ${chef.restaurant}`,
+  image: chef.image,
+  alt: chef.nameJa,
+}));
 
 export const metadata: Metadata = {
   title: '世界のトップシェフ・ミシュランシェフのレシピ',
@@ -30,8 +38,14 @@ export default function ChefsPage() {
         </div>
       </section>
 
+      {/* Chef philosophy reel */}
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
+        <p className="text-xs tracking-widest uppercase text-accent mb-4">Philosophy</p>
+        <ScrollReelTestimonials testimonials={chefTestimonials} />
+      </div>
+
       {/* Chefs */}
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-6">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
         {chefs.map((chef) => {
           const chefRecipes = getRecipesByChef(chef.slug);
           return (
