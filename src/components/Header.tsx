@@ -49,7 +49,10 @@ export default function Header() {
       <div className={`border-b ${border}`}>
         <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex justify-between items-center text-xs tracking-widest uppercase ${textSub}`}>
           <span>海外名料理 日本語レシピ集</span>
-          <span>MONDE RECIPE</span>
+          <div className="flex items-center gap-6">
+            <Link href="/about" className="hover:opacity-100 opacity-60 transition-opacity">About</Link>
+            <span>MONDE RECIPE</span>
+          </div>
         </div>
       </div>
 
