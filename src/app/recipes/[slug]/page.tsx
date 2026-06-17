@@ -178,12 +178,13 @@ export default function RecipePage({ params }: Props) {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-4">
                 {recipe.tags.map((tag) => (
-                  <span
+                  <Link
                     key={tag}
-                    className="text-xs px-3 py-1 bg-warm-border/50 text-muted border border-warm-border"
+                    href={`/recipes?q=${encodeURIComponent(tag)}`}
+                    className="text-xs px-3 py-1 bg-warm-border/50 text-muted border border-warm-border hover:border-accent hover:text-accent transition-colors"
                   >
                     {tag}
-                  </span>
+                  </Link>
                 ))}
               </div>
             </div>

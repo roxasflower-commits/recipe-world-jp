@@ -22,14 +22,24 @@ const levelLabels: Record<string, string> = {
 export default function RecipesPage({
   searchParams,
 }: {
-  searchParams: { level?: string; cuisine?: string };
+  searchParams: { level?: string; cuisine?: string; q?: string };
 }) {
   const levelFilter = searchParams.level;
   const cuisineFilter = searchParams.cuisine;
+  const query = searchParams.q?.trim() ?? '';
 
   const filtered = recipes.filter((r) => {
     if (levelFilter && r.category !== levelFilter) return false;
     if (cuisineFilter && r.cuisineSlug !== cuisineFilter) return false;
+    if (query) {
+      const q = query.toLowerCase();
+      const hit =
+        r.title.toLowerCase().includes(q) ||
+        r.originalTitle.toLowerCase().includes(q) ||
+        r.cuisine.toLowerCase().includes(q) ||
+        r.tags.some((t) => t.toLowerCase().includes(q));
+      if (!hit) return false;
+    }
     return true;
   });
 
@@ -41,10 +51,30 @@ export default function RecipesPage({
         <h1 className="font-serif text-4xl font-bold">レシピ一覧</h1>
         <p className="text-muted mt-2">
           {filtered.length}件のレシピ
+          {query && ` · 「${query}」の検索結果`}
           {levelFilter && ` · ${levelLabels[levelFilter] ?? levelFilter}`}
           {cuisineFilter && ` · ${cuisines.find((c) => c.slug === cuisineFilter)?.label ?? cuisineFilter}`}
         </p>
       </div>
+
+      {/* Search bar */}
+      <form action="/recipes" method="get" className="mb-8">
+        <div className="flex gap-2 max-w-md">
+          <input
+            type="search"
+            name="q"
+            defaultValue={query}
+            placeholder="レシピを検索..."
+            className="flex-1 px-4 py-2 border border-warm-border bg-white text-sm focus:outline-none focus:border-accent"
+          />
+          <button
+            type="submit"
+            className="px-5 py-2 bg-accent text-white text-sm hover:bg-primary transition-colors"
+          >
+            検索
+          </button>
+        </div>
+      </form>
 
       {/* Filters */}
       <div className="flex flex-wrap gap-3 mb-10">

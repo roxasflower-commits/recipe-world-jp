@@ -53,6 +53,21 @@ export const metadata: Metadata = {
   },
 };
 
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'MONDE RECIPE',
+  url: 'https://recipe-world-jp.vercel.app',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: 'https://recipe-world-jp.vercel.app/recipes?q={search_term_string}',
+    },
+    'query-input': 'required name=search_term_string',
+  },
+};
+
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
@@ -71,6 +86,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="preconnect" href="https://images.pexels.com" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
