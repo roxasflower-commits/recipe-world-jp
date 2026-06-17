@@ -53,9 +53,29 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'MONDE RECIPE',
+  url: 'https://recipe-world-jp.vercel.app',
+  logo: 'https://recipe-world-jp.vercel.app/logo.png',
+  description: '海外の名料理レシピを日本語で丁寧に解説。世界各国の本格レシピを家庭で楽しめるよう紹介するメディアです。',
+  sameAs: [
+    'https://www.pinterest.jp/moderecipe',
+  ],
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja" className={`${playfair.variable} ${notoSerif.variable} ${notoSans.variable}`}>
+      <head>
+        <link rel="preconnect" href="https://images.unsplash.com" />
+        <link rel="preconnect" href="https://images.pexels.com" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+      </head>
       <body className="bg-cream font-sans">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-3MD273BE6S"

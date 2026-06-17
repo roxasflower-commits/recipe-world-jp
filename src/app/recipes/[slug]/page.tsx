@@ -9,6 +9,7 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import AmazonTools from '@/components/AmazonTools';
 import RakutenTools from '@/components/RakutenTools';
 import ShareButtons from '@/components/ShareButtons';
+import FaqSchema, { buildFaqs } from '@/components/FaqSchema';
 import Link from 'next/link';
 
 const BASE_URL = 'https://recipe-world-jp.vercel.app';
@@ -74,9 +75,12 @@ export default function RecipePage({ params }: Props) {
   const pageUrl = `${BASE_URL}/recipes/${recipe.slug}`;
   const pinterestUrl = `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(pageUrl)}&media=${encodeURIComponent(recipe.image)}&description=${encodeURIComponent(recipe.title + ' | MONDE RECIPE')}`;
 
+  const faqs = buildFaqs(recipe);
+
   return (
     <>
       <RecipeSchema recipe={recipe} />
+      <FaqSchema recipe={recipe} />
       <BreadcrumbSchema items={[
         { name: 'レシピ一覧', path: '/recipes' },
         { name: recipe.cuisine, path: `/category/${recipe.cuisineSlug}` },
@@ -260,6 +264,32 @@ export default function RecipePage({ params }: Props) {
                 </div>
               </section>
             )}
+
+            {/* FAQ */}
+            <section className="mb-8">
+              <div className="flex items-center gap-3 mb-5">
+                <div className="w-1 h-6 bg-accent flex-shrink-0" />
+                <h2 className="font-serif text-2xl font-bold">よくある質問</h2>
+              </div>
+              <div className="space-y-4">
+                {faqs.map((faq, i) => (
+                  <details key={i} className="group bg-white border border-warm-border">
+                    <summary className="flex items-center justify-between px-5 py-4 cursor-pointer list-none">
+                      <span className="font-semibold text-sm pr-4">{faq.question}</span>
+                      <svg
+                        className="w-4 h-4 flex-shrink-0 text-accent transition-transform group-open:rotate-180"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </summary>
+                    <div className="px-5 pb-4 text-sm text-muted leading-relaxed border-t border-warm-border pt-4">
+                      {faq.answer}
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </section>
 
             {/* Source */}
             <div className="border-t border-warm-border pt-6 mt-8">
