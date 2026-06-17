@@ -68,6 +68,7 @@ export default function Header() {
               { href: '/', label: 'ホーム' },
               { href: '/recipes', label: 'レシピ一覧' },
               { href: '/chefs', label: 'シェフ' },
+              { href: '/about', label: 'About' },
             ].map((item) => (
               <Link
                 key={item.href}
@@ -158,6 +159,7 @@ export default function Header() {
             <Link href="/" className="text-sm tracking-widest uppercase text-muted hover:text-primary transition-colors" onClick={() => setMenuOpen(false)}>ホーム</Link>
             <Link href="/recipes" className="text-sm tracking-widest uppercase text-muted hover:text-primary transition-colors" onClick={() => setMenuOpen(false)}>レシピ一覧</Link>
             <Link href="/chefs" className="text-sm tracking-widest uppercase text-muted hover:text-primary transition-colors" onClick={() => setMenuOpen(false)}>シェフ</Link>
+            <Link href="/about" className="text-sm tracking-widest uppercase text-muted hover:text-primary transition-colors" onClick={() => setMenuOpen(false)}>About</Link>
             <div className="border-t border-warm-border pt-4">
               <p className="text-xs tracking-widest uppercase text-muted mb-3">カテゴリー</p>
               <div className="grid grid-cols-2 gap-2">
