@@ -19,19 +19,21 @@ export default function RecipeCard({ recipe, variant = 'default' }: RecipeCardPr
               src={recipe.image}
               alt={recipe.title}
               fill
-              className="object-cover transition-transform duration-700 group-hover:scale-105"
+              className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
             <div className="absolute inset-0 bg-card-gradient" />
-            <div className="absolute bottom-0 left-0 right-0 p-6">
+            <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-2 group-hover:translate-y-0 transition-transform duration-400 ease-out">
               <span className="text-xs tracking-widest uppercase text-white/60 mb-2 block">
                 {recipe.cuisine} · {recipe.categoryLabel}
               </span>
-              <h2 className="font-serif text-2xl text-white leading-tight group-hover:text-white/90 transition-colors">
+              <h2 className="font-serif text-2xl text-white leading-tight">
                 {recipe.title}
               </h2>
-              <p className="text-white/70 text-sm mt-2 line-clamp-2">{recipe.description}</p>
-              <div className="flex items-center gap-4 mt-4 text-white/50 text-xs">
+              <p className="text-white/70 text-sm mt-2 line-clamp-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
+                {recipe.description}
+              </p>
+              <div className="flex items-center gap-4 mt-4 text-white/50 text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150">
                 <span>{totalTime}分</span>
                 <span>·</span>
                 <span>{recipe.difficultyLabel}</span>
@@ -80,19 +82,21 @@ export default function RecipeCard({ recipe, variant = 'default' }: RecipeCardPr
             src={recipe.image}
             alt={recipe.title}
             fill
-            className="object-cover transition-transform duration-700 group-hover:scale-105"
+            className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           />
         </div>
-        <div className="p-5 flex flex-col flex-1">
+        <div className="p-5 flex flex-col flex-1 translate-y-1 group-hover:translate-y-0 transition-transform duration-400 ease-out">
           <span className="text-xs tracking-widest uppercase text-accent">
             {recipe.cuisine}
           </span>
           <h3 className="font-serif text-lg font-semibold leading-tight mt-2 group-hover:text-accent transition-colors flex-1">
             {recipe.title}
           </h3>
-          <p className="text-sm text-muted mt-2 line-clamp-2 leading-relaxed">{recipe.description}</p>
-          <div className="flex items-center gap-3 mt-4 pt-4 border-t border-warm-border text-xs text-muted">
+          <p className="text-sm text-muted mt-2 line-clamp-2 leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-75">
+            {recipe.description}
+          </p>
+          <div className="flex items-center gap-3 mt-4 pt-4 border-t border-warm-border text-xs text-muted opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
             <span>{totalTime}分</span>
             <span>·</span>
             <span>{recipe.difficultyLabel}</span>
