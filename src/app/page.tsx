@@ -75,8 +75,35 @@ export default function HomePage() {
         <AdBanner format="horizontal" />
       </div>
 
-      {/* Featured recipes */}
+      {/* Card Stack — Pick Up */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12">
+        <div className="flex items-center gap-4 mb-2">
+          <div className="w-1 h-6 bg-gold" />
+          <h2 className="font-serif text-xl font-bold tracking-tight">今週のピックアップ</h2>
+        </div>
+        <p className="text-xs text-muted tracking-wide mb-8 ml-5">スワイプまたはクリックで切り替え</p>
+        <CardStack
+          items={[...recipes].reverse().slice(0, 6).map((r) => ({
+            id: r.id,
+            title: r.title,
+            description: r.description,
+            imageSrc: r.image,
+            href: `/recipes/${r.slug}`,
+            tag: r.cuisine,
+          }))}
+          cardWidth={440}
+          cardHeight={300}
+          autoAdvance
+          intervalMs={3200}
+          pauseOnHover
+          showDots
+          overlap={0.52}
+          spreadDeg={44}
+        />
+      </section>
+
+      {/* Featured recipes */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-20">
         <div className="flex items-center gap-4 mb-8">
           <div className="w-1 h-6 bg-accent" />
           <h2 className="font-serif text-xl font-bold tracking-tight">注目レシピ</h2>
@@ -146,33 +173,6 @@ export default function HomePage() {
             ))}
           </div>
         </div>
-      </section>
-
-      {/* Card Stack — Pick Up */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-20">
-        <div className="flex items-center gap-4 mb-2">
-          <div className="w-1 h-6 bg-gold" />
-          <h2 className="font-serif text-xl font-bold tracking-tight">今週のピックアップ</h2>
-        </div>
-        <p className="text-xs text-muted tracking-wide mb-8 ml-5">スワイプまたはクリックで切り替え</p>
-        <CardStack
-          items={[...recipes].reverse().slice(0, 6).map((r) => ({
-            id: r.id,
-            title: r.title,
-            description: r.description,
-            imageSrc: r.image,
-            href: `/recipes/${r.slug}`,
-            tag: r.cuisine,
-          }))}
-          cardWidth={440}
-          cardHeight={300}
-          autoAdvance
-          intervalMs={3200}
-          pauseOnHover
-          showDots
-          overlap={0.52}
-          spreadDeg={44}
-        />
       </section>
 
       {/* Category quick links */}
