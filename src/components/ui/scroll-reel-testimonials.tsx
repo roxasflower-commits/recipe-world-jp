@@ -84,36 +84,21 @@ function Chars({
   startIndex: number;
   staggerMs: number;
 }) {
-  let idx = startIndex;
-  const words = text.split(" ");
   return (
     <>
-      {words.map((word, wi) => {
-        const wordSpan = (
-          <span className="inline-block whitespace-nowrap">
-            {Array.from(word).map((ch, ci) => {
-              const delay = idx * staggerMs;
-              idx++;
-              return (
-                <span
-                  key={ci}
-                  className="scroll-reel-char"
-                  style={{ animationDelay: `${delay}ms` }}
-                >
-                  {ch}
-                </span>
-              );
-            })}
+      {Array.from(text).map((ch, i) =>
+        ch === " " ? (
+          <React.Fragment key={i}> </React.Fragment>
+        ) : (
+          <span
+            key={i}
+            className="scroll-reel-char"
+            style={{ animationDelay: `${(startIndex + i) * staggerMs}ms` }}
+          >
+            {ch}
           </span>
-        );
-        if (wi < words.length - 1) idx++;
-        return (
-          <React.Fragment key={wi}>
-            {wordSpan}
-            {wi < words.length - 1 ? " " : null}
-          </React.Fragment>
-        );
-      })}
+        )
+      )}
     </>
   );
 }
