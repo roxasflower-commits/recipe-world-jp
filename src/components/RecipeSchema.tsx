@@ -38,10 +38,17 @@ export default function RecipeSchema({ recipe }: { recipe: Recipe }) {
       const parts = [ing.amount, ing.unit, ing.name, ing.note].filter(Boolean);
       return parts.join(' ');
     }),
-    recipeInstructions: recipe.instructions.map((inst) => ({
+    recipeInstructions: recipe.instructions.map((inst, idx) => ({
       '@type': 'HowToStep',
+      name: `ステップ ${idx + 1}`,
       text: inst.text,
+      url: `${BASE_URL}/recipes/${recipe.slug}#step-${idx + 1}`,
+      image: [toAbsoluteUrl(recipe.image)],
     })),
+    nutrition: {
+      '@type': 'NutritionInformation',
+      servingSize: `1人前`,
+    },
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.8',
