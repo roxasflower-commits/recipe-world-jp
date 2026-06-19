@@ -5347,7 +5347,7 @@ export const recipes: Recipe[] = [
       'パンチェッタを玉ねぎと一緒に最初に炒めると、コクが増した肉入りバリエーションになります。',
       '仕上げにペコリーノロマーノを使うとより本場風の風味になります。',
     ],
-    image: 'https://images.pexels.com/photos/36199523/pexels-photo-36199523.jpeg?w=1200&q=80',
+    image: 'https://images.pexels.com/photos/8599861/pexels-photo-8599861.jpeg?w=1200&q=80',
     source: '196 Flavors — Pasta e Fagioli をもとに日本語化',
     sourceUrl: 'https://www.196flavors.com/italy-pasta-e-fagioli/',
     sourceSiteName: '196 Flavors',
