@@ -33,13 +33,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!recipe) return {};
 
   const totalTime = recipe.prepTime + recipe.cookTime;
-  const seoTitle = `${recipe.title}の本格レシピ・作り方`;
-  const seoDescription = `${recipe.title}（${recipe.originalTitle}）の本格レシピ・作り方。${recipe.cuisine}、調理時間${totalTime}分・${recipe.servings}人前・${recipe.difficultyLabel}。材料と手順を日本語で詳しく解説。`;
+  const difficultyHook = recipe.difficulty === 'easy' ? '失敗しない' : recipe.difficulty === 'medium' ? 'プロ直伝' : '本格派向け';
+  const seoTitle = `${recipe.title}の本格レシピ・作り方｜${recipe.cuisine}`;
+  const seoDescription = `${difficultyHook}${recipe.title}の本格レシピ。${recipe.originalTitle}を日本語で丁寧に解説。調理時間${totalTime}分・${recipe.servings}人前・材料${recipe.ingredients.length}品目。コツと手順を写真付きで紹介。`;
 
   return {
     title: seoTitle,
     description: seoDescription,
-    keywords: [recipe.title, `${recipe.title} レシピ`, `${recipe.title} 作り方`, recipe.cuisine, '本格レシピ', '作り方', recipe.originalTitle],
+    keywords: [
+      recipe.title,
+      `${recipe.title} レシピ`,
+      `${recipe.title} 作り方`,
+      `${recipe.title} 本格`,
+      `${recipe.title} 簡単`,
+      recipe.originalTitle,
+      recipe.cuisine,
+      `${recipe.cuisineEn} recipe`,
+      '本格レシピ',
+      '作り方',
+      ...recipe.tags,
+    ],
     alternates: {
       canonical: `/recipes/${recipe.slug}`,
     },

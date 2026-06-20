@@ -15,9 +15,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const chef = getChefBySlug(params.slug);
   if (!chef) return {};
   return {
-    title: `${chef.nameJa}のレシピ・料理哲学`,
-    description: `${chef.nameJa}（${chef.name}）の本格レシピを日本語で解説。${chef.restaurant}（${chef.location}）のミシュラン${chef.michelinStars}つ星シェフ。${chef.bio.slice(0, 60)}`,
-    keywords: [chef.nameJa, chef.name, `${chef.nameJa} レシピ`, chef.restaurant, 'ミシュラン', '本格レシピ'],
+    title: `${chef.nameJa}のレシピ・料理哲学｜${chef.restaurant}`,
+    description: `${chef.nameJa}（${chef.name}）の本格レシピを日本語で解説。${chef.location}の「${chef.restaurant}」${chef.michelinStars > 0 ? `ミシュラン${chef.michelinStars}つ星` : '世界的'}シェフのレシピと料理哲学を紹介。`,
+    keywords: [chef.nameJa, chef.name, `${chef.nameJa} レシピ`, `${chef.nameJa} 料理`, chef.restaurant, chef.nationality, 'ミシュランシェフ', '本格レシピ', '世界のシェフ'],
     alternates: {
       canonical: `/chefs/${chef.slug}`,
     },
