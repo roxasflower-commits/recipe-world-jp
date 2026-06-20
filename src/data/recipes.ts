@@ -5969,6 +5969,77 @@ export const recipes: Recipe[] = [
     featured: false,
     chefSlug: 'grant-achatz',
   },
+
+  // --- Carlo Cracco ---
+  {
+    id: '95',
+    slug: 'cracco-spaghetti-aglio-olio-peperoncino',
+    title: 'スパゲッティ・アーリオオーリオペペロンチーノ（クラッコ流卵黄スパゲッティ）',
+    originalTitle: 'Spaghetti all\'uovo, aglio, olio e peperoncino',
+    description:
+      'カルロ・クラッコが生み出した伝説のレシピ。塩と砂糖で漬け込んだ卵黄を薄く伸ばしてスパゲッティ状に仕上げ、燻製ニンニクのクリームと絡める。イタリア料理界に「邪道」と論争を巻き起こしたが、その革新性は今や高い評価を受ける。レストラン「Cracco in Galleria」の看板メニュー。',
+    cuisine: 'イタリア料理',
+    cuisineEn: 'Italian',
+    cuisineSlug: 'italian',
+    category: 'professional',
+    categoryLabel: 'プロ級',
+    tags: ['イタリア', 'パスタ', 'ペペロンチーノ', '卵黄', 'にんにく', 'クラッコ', '前衛料理'],
+    prepTime: 300,
+    cookTime: 30,
+    servings: 6,
+    difficulty: 'hard',
+    difficultyLabel: 'プロ級',
+    ingredients: [
+      { amount: '1', unit: 'kg', name: 'スモーク粗塩' },
+      { amount: '250', unit: 'g', name: '砂糖' },
+      { amount: '12', unit: '個', name: '卵黄' },
+      { amount: '1.5', unit: '株', name: 'にんにく' },
+      { amount: '2', unit: 'L', name: '牛乳' },
+      { amount: '適量', unit: '', name: '塩・赤唐辛子' },
+      { amount: '適量', unit: '', name: 'エクストラバージンオリーブオイル' },
+      { amount: '20', unit: '枚', name: 'パセリの葉', note: '素揚げ用' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: '塩と砂糖を混ぜ合わせ、卵黄を4〜5時間漬け込む。漬け終わったら流水でよく洗い流す。',
+        tip: '漬け込むことで卵黄が固まり、スパゲッティ状に伸ばせるようになる。',
+      },
+      {
+        step: 2,
+        text: '漬け込んだ卵黄をクッキングシートの間に挟み、麺棒で薄く伸ばす。パスタマシンのスパゲッティ用ダイスに通して細長く成形する。',
+      },
+      {
+        step: 3,
+        text: 'にんにくを牛乳2Lとともに鍋に入れ、半量になるまで煮詰める。細かいシノワ（漉し器）で漉してなめらかなクリームにする。',
+        tip: '牛乳で煮ることでにんにくの辛みが抜け、まろやかなクリームになる。',
+      },
+      {
+        step: 4,
+        text: 'パセリの葉をオリーブオイルで素揚げし、キッチンペーパーに取る。',
+      },
+      {
+        step: 5,
+        text: 'フライパンにオリーブオイルと唐辛子を入れて熱し、卵黄スパゲッティを加えて1〜2分和える。',
+      },
+      {
+        step: 6,
+        text: '皿の底にニンニククリームを敷き、スパゲッティを盛る。素揚げパセリを飾り、生のオリーブオイルを回しかけて完成。',
+      },
+    ],
+    tips: [
+      '卵黄スパゲッティは繊細なので、フライパンでは優しく扱う。',
+      'にんにくのクリームは前日に作り置きできる。',
+      'パスタマシンがない場合は卵黄を薄く伸ばして包丁で細く切ることでも代用できる。',
+    ],
+    image: 'https://images.pexels.com/photos/11654236/pexels-photo-11654236.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    source: 'Carlo Cracco シェフのオリジナルレシピ',
+    sourceUrl: 'https://recensioniristoranti.it/2018/08/31/ricetta-dello-chef-carlo-cracco-spaghetti-alluovo-aglio-olio-e-peperoncino/',
+    sourceSiteName: 'Recensioni Ristoranti',
+    publishedAt: '2026-06-20',
+    featured: false,
+    chefSlug: 'carlo-cracco',
+  },
 ];
 
 export function getRecipeBySlug(slug: string): Recipe | undefined {

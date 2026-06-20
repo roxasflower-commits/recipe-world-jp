@@ -122,6 +122,24 @@ export const chefs: Chef[] = [
     ],
     image: '/images/chefs/chef-virgilio-martinez.jpg',
   },
+  {
+    slug: 'carlo-cracco',
+    name: 'Carlo Cracco',
+    nameJa: 'カルロ・クラッコ',
+    restaurant: 'Cracco in Galleria',
+    location: 'ミラノ、イタリア',
+    michelinStars: 1,
+    nationality: 'イタリア',
+    born: '1965年',
+    bio: 'イタリア・ヴェネト州クレアッツォ生まれ。ミラノの名門「Cracco in Galleria（クラッコ・イン・ガッレリア）」のオーナーシェフ。グアルティエロ・マルケージのもとで修業後、フランスで3年間フランス料理を学ぶ。ミシュラン1つ星を獲得する一方、MasterChef Italia・Hell\'s Kitchen Italiaの審査員として圧倒的な存在感を示し、イタリアで最も知名度の高いシェフのひとり。アーリオオーリオペペロンチーノに卵黄を加える斬新なアレンジでイタリア料理界に論争を巻き起こした。',
+    philosophy: '「伝統は破るためにある」。塩漬けにした卵黄をスパゲッティに見立てるなど、イタリア料理の常識を覆すアイデアを積極的に取り入れる。しかし根底にあるのはイタリア食材への深いリスペクトで、素材の本質を極限まで引き出す技術は正統派の料理人から絶賛される。',
+    awards: [
+      'ミシュラン1つ星（Cracco in Galleria）',
+      'ガンベロ・ロッソ 3フォーク',
+      'イタリア・USA財団 アメリカ賞（2019年）',
+    ],
+    image: '/images/chefs/chef-carlo-cracco.jpg',
+  },
 ];
 
 export function getChefBySlug(slug: string): Chef | undefined {
