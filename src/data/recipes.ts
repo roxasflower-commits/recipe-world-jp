@@ -6589,7 +6589,7 @@ export const recipes: Recipe[] = [
       'トッピングはオリーブ・ミニトマト・玉ねぎスライスなどでアレンジできる。',
       'ハーブオイル（にんにく＋オリーブオイル）を使うとさらに風味豊かになる。',
     ],
-    image: 'https://images.pexels.com/photos/30666809/pexels-photo-30666809.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: '/images/focaccia-genovese.jpg',
     source: 'Great Italian Chefs — Focaccia Genovese',
     sourceUrl: 'https://www.greatitalianchefs.com/recipes/focaccia-genovese-recipe',
     sourceSiteName: 'Great Italian Chefs',
