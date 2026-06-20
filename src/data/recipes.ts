@@ -7709,7 +7709,7 @@ export const recipes: Recipe[] = [
       'ソムタム（青パパイヤサラダ）と一緒に出すと本場の定食スタイルに。',
       'オーブンの場合は200℃で35〜40分（途中でマリネ液をぬる）。',
     ],
-    image: 'https://images.pexels.com/photos/35138090/pexels-photo-35138090.jpeg',
+    image: '/images/gai-yang.jpg',
     source: 'RecipeTin Eats — Thai Chicken (Gai Yang)',
     sourceUrl: 'https://www.recipetineats.com/thai-grilled-chicken-gai-yang/',
     sourceSiteName: 'RecipeTin Eats',
