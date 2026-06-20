@@ -5835,3 +5835,167 @@ export const recipes: Recipe[] = [
   },
 
   // --- Grant Achatz ---
+  {
+    id: '93',
+    slug: 'achatz-orchard-fruit-endive-salad-miso',
+    title: 'フルーツとエンダイブのサラダ 白味噌ドレッシング',
+    originalTitle: 'Orchard Fruits and Endive Salad with White Miso Dressing',
+    description:
+      'アリネアのグラント・アカッツが家庭向けに公開したサラダ。未熟なプラム・桃・りんごの酸味と、エンダイブ・ラディッキオの苦みに、白味噌×白しょうゆの旨みが深いドレッシングが絡む。食材の組み合わせにアカッツらしい遊び心が光る一皿。',
+    cuisine: 'アメリカ料理',
+    cuisineEn: 'American',
+    cuisineSlug: 'american',
+    category: 'home',
+    categoryLabel: '初級',
+    tags: ['アメリカ', 'サラダ', '味噌', 'フルーツ', 'エンダイブ', 'アカッツ', 'ヴィーガン'],
+    prepTime: 20,
+    cookTime: 0,
+    servings: 6,
+    difficulty: 'easy',
+    difficultyLabel: '初級',
+    ingredients: [
+      { amount: '2〜3', unit: '個', name: '未熟なプラム', note: '薄切り' },
+      { amount: '2〜3', unit: '個', name: 'グラニースミスアップル（または青りんご）', note: '薄切り' },
+      { amount: '2〜3', unit: '個', name: '未熟な桃', note: '薄切り' },
+      { amount: '8', unit: '個', name: 'ラディッシュ', note: '薄切り' },
+      { amount: '2', unit: '本', name: 'きゅうり', note: '薄切り' },
+      { amount: '6', unit: '株', name: 'エンダイブ', note: '葉をばらす' },
+      { amount: '2〜3', unit: '株', name: 'ラディッキオ', note: '食べやすくちぎる' },
+      { amount: '適量', unit: '', name: 'フリゼ（またはリーフレタス）' },
+      { amount: '1/2', unit: '丁', name: '木綿豆腐', note: 'よく水切りする' },
+      { amount: '2', unit: '大さじ山盛り', name: '白味噌' },
+      { amount: '1', unit: '瓶（170g）', name: '白ごま' },
+      { amount: '6', unit: '大さじ', name: '白しょうゆ（またはナチュラルアミノ）' },
+      { amount: '3/4', unit: 'カップ', name: 'グレープシードオイル' },
+      { amount: '1/2', unit: 'カップ', name: '熱湯' },
+      { amount: '適量', unit: '', name: '白こしょう・レモン汁' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: 'ドレッシング：水切りした豆腐、白味噌、白ごま、白しょうゆを熱湯とともにブレンダーに入れ、滑らかになるまで撹拌する。グレープシードオイルを少しずつ加えながら乳化させる。白こしょうとレモン汁で味を調える。',
+        tip: '豆腐はしっかり水切りしないとドレッシングが水っぽくなるので注意。',
+      },
+      {
+        step: 2,
+        text: 'プラム・りんご・桃・ラディッシュ・きゅうりをそれぞれ薄切りにする。エンダイブとラディッキオは葉をほぐし、フリゼとともに大きなボウルに入れる。',
+      },
+      {
+        step: 3,
+        text: 'サービス直前にドレッシングを回しかけ、軽く和える。皿に盛り付けてすぐに提供する。',
+      },
+    ],
+    tips: [
+      'フルーツは完熟より少し硬めのものを使うと食感が良く、ドレッシングに負けない。',
+      '白ごまはフライパンで軽く煎ってから使うと香りが増す。',
+      'ドレッシングは3日間冷蔵保存可能。',
+    ],
+    image: 'https://images.pexels.com/photos/5386700/pexels-photo-5386700.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    source: 'Chicago Magazine — Recipes from My Dinner Party with Grant Achatz',
+    sourceUrl: 'https://www.chicagomag.com/dining-drinking/september-2017/grant-achatz-dinner-party-recipes/',
+    sourceSiteName: 'Chicago Magazine',
+    publishedAt: '2026-06-20',
+    featured: false,
+    chefSlug: 'grant-achatz',
+  },
+
+  {
+    id: '94',
+    slug: 'achatz-lamb-herbed-breadcrumb-crust',
+    title: 'ラム骨なしもも肉 ハーブパン粉クラスト',
+    originalTitle: 'Lamb with Herbed Breadcrumb Crust',
+    description:
+      'グラント・アカッツがディナーパーティーで振る舞ったラムのメインディッシュ。にんにく・タイム・バジルを練り込んだハーブバターをたっぷり塗り、パン粉でコーティングして焼き上げる。家庭のオーブンで再現できる本格的な仕上がり。Chicago Magazine掲載レシピ。',
+    cuisine: 'アメリカ料理',
+    cuisineEn: 'American',
+    cuisineSlug: 'american',
+    category: 'intermediate',
+    categoryLabel: '中級',
+    tags: ['アメリカ', 'ラム', 'メインディッシュ', 'ロースト', 'ハーブ', 'アカッツ', 'パーティー料理'],
+    prepTime: 30,
+    cookTime: 90,
+    servings: 6,
+    difficulty: 'medium',
+    difficultyLabel: '中級',
+    ingredients: [
+      { amount: '3', unit: '片', name: 'にんにく', note: '皮を剥く' },
+      { amount: '3', unit: '枝', name: '生タイム' },
+      { amount: '6', unit: '枚', name: '生バジルの葉' },
+      { amount: '2', unit: '本（230g）', name: 'バター', note: '室温に戻す' },
+      { amount: '1/2', unit: 'カップ', name: 'オリーブオイル' },
+      { amount: '1/2', unit: '斤', name: 'カントリーホワイトブレッド', note: 'パン粉にする' },
+      { amount: '1.8〜2.3', unit: 'kg', name: 'ラム骨なしもも肉（ボンレスレッグ）' },
+      { amount: '2', unit: '個', name: '玉ねぎ', note: '皮を剥いて粗みじん切り' },
+      { amount: '4', unit: '本', name: 'にんじん', note: '皮を剥いて4cm程度にカット' },
+      { amount: '適量', unit: '', name: '塩・黒こしょう' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: 'オーブンを200℃に予熱する。ラム肉を常温に30分ほど置き、全体に塩・こしょうをふる。',
+      },
+      {
+        step: 2,
+        text: 'ハーブバター：にんにく・タイム・バジルをフードプロセッサーで細かく刻み、室温のバターと合わせてよく混ぜる。',
+      },
+      {
+        step: 3,
+        text: 'ブレッドをフードプロセッサーでパン粉状にし、オリーブオイルと混ぜる。',
+      },
+      {
+        step: 4,
+        text: 'ローストパン底に玉ねぎとにんじんを敷き、ラム肉を乗せる。ハーブバターをラム肉全体に厚く塗り広げ、上からパン粉を押しつけるようにまぶす。',
+        tip: 'パン粉はしっかり押しつけることで焼いたときに剥がれにくくなる。',
+      },
+      {
+        step: 5,
+        text: '200℃のオーブンで最初の15分焼いて表面を色づかせ、その後180℃に下げてさらに60〜75分焼く。肉の中心温度が58〜62℃（ミディアムレア）になったら取り出す。',
+      },
+      {
+        step: 6,
+        text: 'アルミホイルで覆い、15分休ませてから切り分ける。',
+      },
+    ],
+    tips: [
+      '肉用温度計があると仕上がりが安定する。中心温度62℃でミディアム、68℃でウェルダン。',
+      '休ませる工程を省くと肉汁が流れてしまうので必ず行う。',
+      '野菜を敷くことで肉が直接熱に触れず、焦げを防ぎながらうまみが出たソースの素になる。',
+    ],
+    image: 'https://images.pexels.com/photos/29908554/pexels-photo-29908554.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    source: 'Chicago Magazine — Recipes from My Dinner Party with Grant Achatz',
+    sourceUrl: 'https://www.chicagomag.com/dining-drinking/september-2017/grant-achatz-dinner-party-recipes/',
+    sourceSiteName: 'Chicago Magazine',
+    publishedAt: '2026-06-20',
+    featured: false,
+    chefSlug: 'grant-achatz',
+  },
+];
+
+export function getRecipeBySlug(slug: string): Recipe | undefined {
+  return recipes.find((r) => r.slug === slug);
+}
+
+export function getRecipesByCuisine(cuisineSlug: string): Recipe[] {
+  return recipes.filter((r) => r.cuisineSlug === cuisineSlug);
+}
+
+export function getFeaturedRecipes(): Recipe[] {
+  return recipes.filter((r) => r.featured);
+}
+
+export function getRecipesByChef(chefSlug: string): Recipe[] {
+  return recipes.filter((r) => r.chefSlug === chefSlug);
+}
+
+export const cuisines = [
+  { slug: 'french', label: 'フランス料理', labelEn: 'French' },
+  { slug: 'italian', label: 'イタリア料理', labelEn: 'Italian' },
+  { slug: 'american', label: 'アメリカ料理', labelEn: 'American' },
+  { slug: 'thai', label: 'タイ料理', labelEn: 'Thai' },
+  { slug: 'british', label: 'イギリス料理', labelEn: 'British' },
+  { slug: 'spanish', label: 'スペイン料理', labelEn: 'Spanish' },
+  { slug: 'nordic', label: '北欧料理', labelEn: 'Nordic' },
+  { slug: 'turkish', label: 'トルコ料理', labelEn: 'Turkish' },
+  { slug: 'indian', label: 'インド料理', labelEn: 'Indian' },
+  { slug: 'peruvian', label: 'ペルー料理', labelEn: 'Peruvian' },
+];
