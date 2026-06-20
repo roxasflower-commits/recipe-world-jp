@@ -6458,6 +6458,144 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-20',
     featured: false,
   },
+
+  // --- パンナコッタ ---
+  {
+    id: '102',
+    slug: 'panna-cotta',
+    title: 'パンナコッタ',
+    originalTitle: 'Panna Cotta',
+    description:
+      'イタリア語で「加熱した生クリーム」を意味する北イタリア生まれのデザート。材料はたった4つ、調理10分、あとは冷やすだけ。なめらかでとろけるような食感と、ベリーソースの酸味が絶妙なバランスを生む。ティラミスと並ぶイタリアンデザートの代名詞。',
+    cuisine: 'イタリア料理',
+    cuisineEn: 'Italian',
+    cuisineSlug: 'italian',
+    category: 'home',
+    categoryLabel: '家庭料理',
+    tags: ['イタリア', 'デザート', 'スイーツ', '生クリーム', 'ゼラチン', '作り置き', 'おもてなし'],
+    prepTime: 10,
+    cookTime: 10,
+    servings: 4,
+    difficulty: 'easy',
+    difficultyLabel: '初級',
+    ingredients: [
+      { amount: '500', unit: 'ml', name: '生クリーム（乳脂肪分35〜40%）' },
+      { amount: '50', unit: 'g', name: 'グラニュー糖' },
+      { amount: '5', unit: 'g', name: 'ゼラチン（板ゼラチンまたは粉ゼラチン）' },
+      { amount: '1', unit: '本', name: 'バニラビーンズ（またはバニラエッセンス小さじ1）' },
+      { amount: '150', unit: 'g', name: 'ミックスベリー（冷凍可）', note: 'ソース用' },
+      { amount: '大さじ2', unit: '', name: 'グラニュー糖', note: 'ソース用' },
+      { amount: '大さじ1', unit: '', name: 'レモン汁', note: 'ソース用' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: 'ゼラチンを冷水（大さじ3）でふやかしておく。板ゼラチンの場合は冷水に5分浸す。',
+      },
+      {
+        step: 2,
+        text: '鍋に生クリームとグラニュー糖を入れ、バニラビーンズのさやを割いて種をこそいで加える。中火で温め、砂糖が溶けたら火を止める。沸騰はさせない。',
+        tip: '沸騰させると分離の原因になる。鍋の縁がふつふつしてきたら火を止めるタイミング。',
+      },
+      {
+        step: 3,
+        text: 'ふやかしたゼラチンを加え、完全に溶けるまでよく混ぜる。',
+      },
+      {
+        step: 4,
+        text: '器またはグラスに注ぎ、粗熱が取れたら冷蔵庫で3時間以上冷やし固める。',
+      },
+      {
+        step: 5,
+        text: '【ベリーソース】小鍋にベリーとグラニュー糖・レモン汁を入れて中火で5分煮詰める。冷蔵庫で冷やしておく。',
+      },
+      {
+        step: 6,
+        text: '固まったパンナコッタにベリーソースをかけて完成。型から出す場合は、器の縁をナイフで軽くはがしてひっくり返す。',
+      },
+    ],
+    tips: [
+      '前日に作っておくと当日が楽。3日間冷蔵保存できる。',
+      'ゼラチンの量が多いとプリン状に、少ないと柔らかく仕上がる。好みで調整を。',
+      'ソースはフレッシュフルーツ、キャラメル、はちみつでも美味しい。',
+    ],
+    image: 'https://images.pexels.com/photos/3301907/pexels-photo-3301907.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    source: 'Great Italian Chefs — Lemon Panna Cotta',
+    sourceUrl: 'https://www.greatitalianchefs.com/recipes/lemon-panna-cotta-recipe',
+    sourceSiteName: 'Great Italian Chefs',
+    publishedAt: '2026-06-20',
+    featured: false,
+  },
+
+  // --- フォカッチャ ---
+  {
+    id: '103',
+    slug: 'focaccia-genovese',
+    title: 'フォカッチャ・ジェノヴェーゼ',
+    originalTitle: 'Focaccia Genovese',
+    description:
+      'リグーリア州ジェノヴァ生まれの本場フォカッチャ。表面にたっぷりのオリーブオイルを染み込ませ、ローズマリーと粗塩をのせてこんがり焼き上げる。外はカリッと、中はふわもちの食感が癖になる。難しく見えて実はシンプル、パン初心者にもおすすめ。',
+    cuisine: 'イタリア料理',
+    cuisineEn: 'Italian',
+    cuisineSlug: 'italian',
+    category: 'home',
+    categoryLabel: '家庭料理',
+    tags: ['イタリア', 'パン', 'フォカッチャ', 'ローズマリー', 'オリーブオイル', 'ベジタリアン', '手作りパン'],
+    prepTime: 20,
+    cookTime: 25,
+    servings: 6,
+    difficulty: 'easy',
+    difficultyLabel: '初級',
+    ingredients: [
+      { amount: '300', unit: 'g', name: '強力粉' },
+      { amount: '5', unit: 'g', name: 'ドライイースト' },
+      { amount: '小さじ1', unit: '', name: '砂糖' },
+      { amount: '小さじ1', unit: '', name: '塩' },
+      { amount: '200', unit: 'ml', name: 'ぬるま湯（35〜40℃）' },
+      { amount: '大さじ4', unit: '', name: 'エクストラバージンオリーブオイル', note: '生地用＋仕上げ用' },
+      { amount: '適量', unit: '', name: 'ローズマリー（生）' },
+      { amount: '適量', unit: '', name: '粗塩（フルール・ド・セルなど）' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: 'ぬるま湯にドライイーストと砂糖を溶かし、5分置いて活性化させる。泡立ってきたらOK。',
+      },
+      {
+        step: 2,
+        text: 'ボウルに強力粉と塩を入れ、イースト液とオリーブオイル大さじ2を加えて混ぜる。なめらかになるまで10分こねる。',
+        tip: 'べたつく生地だが粉を足しすぎないこと。べたつきが少ないとふわふわに仕上がらない。',
+      },
+      {
+        step: 3,
+        text: 'ラップをかけて温かい場所に1時間置き、生地が2倍になるまで一次発酵させる。',
+      },
+      {
+        step: 4,
+        text: 'オリーブオイルを塗った天板（約30×20cm）に生地を広げ、指で押しながら全体に伸ばす。表面にオリーブオイル大さじ2を塗り、30分二次発酵させる。',
+      },
+      {
+        step: 5,
+        text: '指先で生地全体にくぼみ（ディンプル）をつける。ローズマリーをのせ、粗塩をふる。',
+        tip: 'ディンプルが深いほどオリーブオイルが溜まり、外カリ中ふわに仕上がる。',
+      },
+      {
+        step: 6,
+        text: '220℃に予熱したオーブンで20〜25分、表面がきつね色になるまで焼く。焼き上がりにオリーブオイルをひと回しして完成。',
+      },
+    ],
+    tips: [
+      '翌日は少し固くなるので、食べる分だけ焼くか、トースターで温め直す。',
+      'トッピングはオリーブ・ミニトマト・玉ねぎスライスなどでアレンジできる。',
+      'ハーブオイル（にんにく＋オリーブオイル）を使うとさらに風味豊かになる。',
+    ],
+    image: 'https://images.pexels.com/photos/30666809/pexels-photo-30666809.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    source: 'Great Italian Chefs — Focaccia Genovese',
+    sourceUrl: 'https://www.greatitalianchefs.com/recipes/focaccia-genovese-recipe',
+    sourceSiteName: 'Great Italian Chefs',
+    publishedAt: '2026-06-20',
+    featured: false,
+  },
 ];
 
 export function getRecipeBySlug(slug: string): Recipe | undefined {
