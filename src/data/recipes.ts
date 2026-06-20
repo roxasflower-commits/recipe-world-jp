@@ -6723,6 +6723,76 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-20',
     featured: false,
   },
+
+  // --- ランプレドット ---
+  {
+    id: '106',
+    slug: 'lampredotto',
+    title: 'ランプレドット（イタリアのもつ煮込み）',
+    originalTitle: 'Lampredotto',
+    description:
+      'フィレンツェの下町で400年以上愛され続ける伝統的な屋台料理。牛の第四胃（ギアラ）をトマト・玉ねぎ・セロリ・パセリでじっくり煮込み、パニーノに挟んで食べるのが本場流。内臓料理とは思えないほどやわらかく、スープが染み込んだパンとの組み合わせが絶品。',
+    cuisine: 'イタリア料理',
+    cuisineEn: 'Italian',
+    cuisineSlug: 'italian',
+    category: 'home',
+    categoryLabel: '家庭料理',
+    tags: ['イタリア', 'もつ煮込み', 'ホルモン', 'フィレンツェ', 'トスカーナ', '屋台料理', '内臓料理'],
+    prepTime: 15,
+    cookTime: 90,
+    servings: 4,
+    difficulty: 'medium',
+    difficultyLabel: '中級',
+    ingredients: [
+      { amount: '800', unit: 'g', name: 'ギアラ（牛の第四胃）', note: '下処理済みのもの' },
+      { amount: '1', unit: '個', name: '玉ねぎ', note: 'ざく切り' },
+      { amount: '2', unit: '本', name: 'セロリ', note: 'ざく切り' },
+      { amount: '1', unit: '本', name: 'にんじん', note: 'ざく切り' },
+      { amount: '400', unit: 'g', name: 'ホールトマト缶' },
+      { amount: '1', unit: 'L', name: '水または野菜ブロード' },
+      { amount: '1', unit: '束', name: 'イタリアンパセリ' },
+      { amount: '2', unit: '枚', name: 'ローリエ' },
+      { amount: '大さじ3', unit: '', name: 'オリーブオイル' },
+      { amount: '適量', unit: '', name: '塩・黒こしょう' },
+      { amount: '4', unit: '個', name: 'セミーニ（ゴマパン）またはロゼッタ', note: 'パニーノ用（省略可）' },
+      { amount: '適量', unit: '', name: 'サルサ・ヴェルデ（緑のソース）', note: 'お好みで' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: 'ギアラを流水でよく洗い、大きな鍋に入れてたっぷりの水で15分下茹でする。茹で汁を捨て、ひと口大（5cm程度）に切る。',
+        tip: '下茹ですることで臭みが取れる。下処理済みのものを使うとこの工程は短くできる。',
+      },
+      {
+        step: 2,
+        text: '鍋にオリーブオイルを熱し、玉ねぎ・セロリ・にんじんを中火で5分炒める。ギアラを加えてさらに3分炒める。',
+      },
+      {
+        step: 3,
+        text: 'ホールトマト缶を加えてつぶしながら混ぜ、水（またはブロード）を注ぐ。パセリ・ローリエを加えて塩・こしょうで調味する。',
+      },
+      {
+        step: 4,
+        text: '蓋をして弱火で70〜90分、ギアラがやわらかくなるまで煮込む。途中で水分が少なくなったら水を足す。',
+        tip: 'ギアラは十分に時間をかけて煮込むほどやわらかくなる。圧力鍋なら30分で仕上がる。',
+      },
+      {
+        step: 5,
+        text: '塩・こしょうで最終調味する。そのままスープとして食べるか、パンを煮汁に浸してからギアラを挟んでパニーノとして食べる。',
+      },
+    ],
+    tips: [
+      'ギアラは国産牛の「ギアラ」または「センマイ」として精肉店やホルモン専門店で入手できる。',
+      'サルサ・ヴェルデ（パセリ・にんにく・アンチョビ・ケッパーのソース）を添えると本場フィレンツェの味に近づく。',
+      '煮込んだ翌日のほうが味がなじんでさらに美味しくなる。',
+    ],
+    image: 'https://images.pexels.com/photos/31372370/pexels-photo-31372370.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    source: 'The Florentine — Tripe recipes: lampredotto',
+    sourceUrl: 'https://www.theflorentine.net/2024/02/22/load-tripe-recipes-lampredotto/',
+    sourceSiteName: 'The Florentine',
+    publishedAt: '2026-06-20',
+    featured: false,
+  },
 ];
 
 export function getRecipeBySlug(slug: string): Recipe | undefined {
