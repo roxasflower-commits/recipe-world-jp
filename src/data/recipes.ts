@@ -6032,7 +6032,7 @@ export const recipes: Recipe[] = [
       'にんにくのクリームは前日に作り置きできる。',
       'パスタマシンがない場合は卵黄を薄く伸ばして包丁で細く切ることでも代用できる。',
     ],
-    image: 'https://images.pexels.com/photos/11654236/pexels-photo-11654236.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: '/images/cracco-aglio-olio-peperoncino.jpg',
     source: 'Carlo Cracco シェフのオリジナルレシピ',
     sourceUrl: 'https://recensioniristoranti.it/2018/08/31/ricetta-dello-chef-carlo-cracco-spaghetti-alluovo-aglio-olio-e-peperoncino/',
     sourceSiteName: 'Recensioni Ristoranti',
