@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://recipe-world-jp.vercel.app</loc><lastmod>2026-06-16</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://recipe-world-jp.vercel.app/recipes</loc><lastmod>2026-06-16</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://recipe-world-jp.vercel.app/chefs</loc><lastmod>2026-06-16</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://recipe-world-jp.vercel.app</loc><lastmod>2026-06-20</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://recipe-world-jp.vercel.app/recipes</loc><lastmod>2026-06-20</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://recipe-world-jp.vercel.app/chefs</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://recipe-world-jp.vercel.app/recipes/boeuf-bourguignon</loc><lastmod>2024-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://recipe-world-jp.vercel.app/recipes/roman-carbonara</loc><lastmod>2024-01-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://recipe-world-jp.vercel.app/recipes/smash-burger</loc><lastmod>2024-02-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -97,6 +97,9 @@
   <url><loc>https://recipe-world-jp.vercel.app/chefs/massimo-bottura</loc><lastmod>2026-06-16</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://recipe-world-jp.vercel.app/chefs/alain-passard</loc><lastmod>2026-06-16</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://recipe-world-jp.vercel.app/chefs/virgilio-martinez</loc><lastmod>2026-06-16</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://recipe-world-jp.vercel.app/chefs/dominique-crenn</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://recipe-world-jp.vercel.app/chefs/grant-achatz</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://recipe-world-jp.vercel.app/chefs/carlo-cracco</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://recipe-world-jp.vercel.app/recipes/gumbo</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://recipe-world-jp.vercel.app/recipes/pasta-e-fagioli</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://recipe-world-jp.vercel.app/recipes/tarte-tatin</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -106,6 +109,15 @@
   <url><loc>https://recipe-world-jp.vercel.app/recipes/manti-turkish-dumplings</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://recipe-world-jp.vercel.app/recipes/chana-masala</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://recipe-world-jp.vercel.app/recipes/papa-a-la-huancaina</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://recipe-world-jp.vercel.app/recipes/crenn-frozen-peach-smoothie</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://recipe-world-jp.vercel.app/recipes/crenn-old-bread-tomato-millefeuille</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://recipe-world-jp.vercel.app/recipes/achatz-orchard-fruit-endive-salad-miso</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://recipe-world-jp.vercel.app/recipes/achatz-lamb-herbed-breadcrumb-crust</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://recipe-world-jp.vercel.app/recipes/cracco-spaghetti-aglio-olio-peperoncino</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://recipe-world-jp.vercel.app/recipes/spaghetti-aglio-olio-peperoncino</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://recipe-world-jp.vercel.app/recipes/spaghetti-alle-vongole</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://recipe-world-jp.vercel.app/recipes/pasta-al-limone</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://recipe-world-jp.vercel.app/recipes/tiramisu</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://recipe-world-jp.vercel.app/about</loc><lastmod>2026-06-16</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://recipe-world-jp.vercel.app/contact</loc><lastmod>2026-06-16</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
 </urlset>
