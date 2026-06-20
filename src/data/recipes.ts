@@ -6596,6 +6596,133 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-20',
     featured: false,
   },
+
+  // --- ラディッキオのリゾット ---
+  {
+    id: '104',
+    slug: 'risotto-al-radicchio',
+    title: 'ラディッキオのリゾット',
+    originalTitle: 'Risotto al Radicchio',
+    description:
+      'ヴェネト州トレヴィーゾ生まれの郷土料理。紫色のラディッキオ（チコリの一種）の苦みと赤ワインの深みが絡み合う、冬に食べたいリゾット。ゴルゴンゾーラやタレッジョを加えるとさらに濃厚に仕上がる。見た目も鮮やかで、おもてなしにも最適。',
+    cuisine: 'イタリア料理',
+    cuisineEn: 'Italian',
+    cuisineSlug: 'italian',
+    category: 'intermediate',
+    categoryLabel: '中級者向け',
+    tags: ['イタリア', 'リゾット', 'ラディッキオ', '赤ワイン', 'ヴェネト', '冬レシピ', 'おもてなし'],
+    prepTime: 10,
+    cookTime: 30,
+    servings: 4,
+    difficulty: 'medium',
+    difficultyLabel: '中級',
+    ingredients: [
+      { amount: '320', unit: 'g', name: 'リゾット米（アルボリオまたはカルナローリ）' },
+      { amount: '300', unit: 'g', name: 'ラディッキオ・ディ・トレヴィーゾ', note: '細切り' },
+      { amount: '1', unit: '個', name: '玉ねぎ', note: 'みじん切り' },
+      { amount: '150', unit: 'ml', name: '赤ワイン（辛口）' },
+      { amount: '1', unit: 'L', name: '野菜または鶏のブロード（出汁）', note: '温めておく' },
+      { amount: '60', unit: 'g', name: 'バター' },
+      { amount: '60', unit: 'g', name: 'パルミジャーノ・レッジャーノ', note: 'すりおろし' },
+      { amount: '大さじ3', unit: '', name: 'オリーブオイル' },
+      { amount: '適量', unit: '', name: '塩・黒こしょう' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: '鍋にオリーブオイルとバター半量を熱し、玉ねぎを中火で5分、透き通るまで炒める。',
+      },
+      {
+        step: 2,
+        text: 'ラディッキオの2/3量を加えて2〜3分炒める。米を加えてさらに2分、米が透き通るまで炒める。',
+        tip: 'ラディッキオの一部を後で加えることで、食感と色のコントラストが生まれる。',
+      },
+      {
+        step: 3,
+        text: '赤ワインを加えてアルコールを飛ばす。温めたブロードをお玉1杯ずつ加えながら、米が吸い込むたびに次を加える工程を繰り返す（約18〜20分）。',
+      },
+      {
+        step: 4,
+        text: '残りのラディッキオを加えて1〜2分混ぜる。火を止め、残りのバターとパルミジャーノを加えてよく混ぜる（マンテカトゥーラ）。',
+        tip: 'マンテカトゥーラは火を止めてから行うのがポイント。クリーミーな仕上がりになる。',
+      },
+      {
+        step: 5,
+        text: '塩・こしょうで味を調え、皿に広げて盛り付ける。お好みでパルミジャーノを追加して完成。',
+      },
+    ],
+    tips: [
+      'ラディッキオは火を通すと苦みが和らぎ、甘みが出る。',
+      'ゴルゴンゾーラを仕上げに加えると、より濃厚なリゾットになる。',
+      'ブロードは必ず温めておくこと。冷たいものを加えると米の火入れが安定しない。',
+    ],
+    image: 'https://images.pexels.com/photos/2364734/pexels-photo-2364734.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    source: 'Great Italian Chefs — Taleggio risotto with radicchio',
+    sourceUrl: 'https://www.greatitalianchefs.com/recipes/taleggio-risotto-recipe',
+    sourceSiteName: 'Great Italian Chefs',
+    publishedAt: '2026-06-20',
+    featured: false,
+  },
+
+  // --- オレキエッテ・コン・チーマディラーパ ---
+  {
+    id: '105',
+    slug: 'orecchiette-con-cime-di-rapa',
+    title: 'オレキエッテ・コン・チーマディラーパ',
+    originalTitle: 'Orecchiette con Cime di Rapa',
+    description:
+      'プーリア州バーリで生まれた南イタリアの魂のパスタ。耳の形をした手打ちパスタ「オレキエッテ」と、菜の花に似た苦みのある野菜「チーマディラーパ（ブロッコリーラーベ）」をアンチョビとにんにくで仕上げる。シンプルだが、素材の力が際立つ一皿。',
+    cuisine: 'イタリア料理',
+    cuisineEn: 'Italian',
+    cuisineSlug: 'italian',
+    category: 'home',
+    categoryLabel: '家庭料理',
+    tags: ['イタリア', 'パスタ', 'オレキエッテ', 'チーマディラーパ', 'プーリア', '南イタリア', 'アンチョビ'],
+    prepTime: 10,
+    cookTime: 20,
+    servings: 2,
+    difficulty: 'easy',
+    difficultyLabel: '初級',
+    ingredients: [
+      { amount: '200', unit: 'g', name: 'オレキエッテ（乾燥）' },
+      { amount: '300', unit: 'g', name: 'チーマディラーパ（菜の花でも可）', note: '食べやすい大きさに切る' },
+      { amount: '4', unit: '枚', name: 'アンチョビフィレ', note: '塩漬け' },
+      { amount: '3', unit: '片', name: 'にんにく', note: 'みじん切り' },
+      { amount: '1', unit: '本', name: '鷹の爪', note: '輪切り' },
+      { amount: '大さじ4', unit: '', name: 'エクストラバージンオリーブオイル' },
+      { amount: '適量', unit: '', name: '塩' },
+    ],
+    instructions: [
+      {
+        step: 1,
+        text: '大きな鍋に塩を入れた湯を沸かす。チーマディラーパを入れ、2〜3分茹でる。同じ鍋にオレキエッテを加え、袋の表示時間通りに茹でる。',
+        tip: '野菜とパスタを同じ鍋で茹でるのがプーリア流。野菜の旨みがパスタに移る。',
+      },
+      {
+        step: 2,
+        text: 'フライパンにオリーブオイル、にんにく、鷹の爪を入れて弱火で香りを出す。アンチョビを加えてほぐしながら炒め、ペースト状にする。',
+      },
+      {
+        step: 3,
+        text: 'オレキエッテとチーマディラーパをザルで上げ、茹で汁を少し残しておく。フライパンに加えて中火で1〜2分、全体をよく和える。茹で汁を足してソースの濃度を調整する。',
+      },
+      {
+        step: 4,
+        text: '皿に盛り、オリーブオイルをひと回しして完成。チーズはかけないのが本場流。',
+      },
+    ],
+    tips: [
+      'チーマディラーパが手に入らない場合は菜の花や小松菜で代用できる。',
+      'アンチョビが塩分を持つので、塩は控えめに。味見しながら調整する。',
+      'パスタを茹でる鍋の塩分はやや多め（海水に近い濃さ）にするのがイタリア流。',
+    ],
+    image: 'https://images.pexels.com/photos/18416958/pexels-photo-18416958.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    source: 'Great Italian Chefs — Orecchiette con cime di rapa',
+    sourceUrl: 'https://www.greatitalianchefs.com/recipes/orecchiette-con-cime-di-rapa-recipe',
+    sourceSiteName: 'Great Italian Chefs',
+    publishedAt: '2026-06-20',
+    featured: false,
+  },
 ];
 
 export function getRecipeBySlug(slug: string): Recipe | undefined {
