@@ -6451,7 +6451,7 @@ export const recipes: Recipe[] = [
       '生地を作ったらすぐ茹でる。時間を置くと生地が緩んでしまう。',
       '茹でたニョッキはバターでソテーするとさらに風味豊かになる。',
     ],
-    image: 'https://images.pexels.com/photos/6287524/pexels-photo-6287524.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: '/images/gnocchi-al-pomodoro.jpg',
     source: 'Serious Eats — Potato Gnocchi with Tomato Sauce',
     sourceUrl: 'https://www.seriouseats.com/potato-gnocchi-recipe',
     sourceSiteName: 'Serious Eats',
