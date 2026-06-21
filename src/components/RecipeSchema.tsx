@@ -45,16 +45,16 @@ export default function RecipeSchema({ recipe }: { recipe: Recipe }) {
       url: `${BASE_URL}/recipes/${recipe.slug}#step-${idx + 1}`,
       image: [toAbsoluteUrl(recipe.image)],
     })),
+    url: `${BASE_URL}/recipes/${recipe.slug}`,
+    inLanguage: 'ja',
     nutrition: {
       '@type': 'NutritionInformation',
-      servingSize: `1人前`,
+      servingSize: '1人前',
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      ratingCount: '42',
-      bestRating: '5',
-      worstRating: '1',
+    publisher: {
+      '@type': 'Organization',
+      name: 'MONDE RECIPE',
+      url: BASE_URL,
     },
   };
 
