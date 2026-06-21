@@ -63,6 +63,11 @@ const defaultsByCuisine: Record<string, Product[]> = {
     { name: 'アヒアマリージョペースト', amazonQuery: 'アヒアマリージョ ペースト 輸入', rakutenQuery: 'アヒアマリージョ ペースト 輸入' },
     { name: '電気圧力鍋', amazonQuery: '圧力鍋 電気 自動 レシピ付き', rakutenQuery: '電気圧力鍋 自動調理' },
   ],
+  mexican: [
+    { name: 'モレソース 輸入', amazonQuery: 'モレソース メキシコ 輸入', rakutenQuery: 'モレソース メキシコ 輸入' },
+    { name: 'チポトレペッパー（アドボソース）', amazonQuery: 'チポトレ アドボソース 缶 輸入', rakutenQuery: 'チポトレ アドボソース 輸入' },
+    { name: 'コーントルティーヤ', amazonQuery: 'コーントルティーヤ メキシコ 輸入', rakutenQuery: 'コーントルティーヤ 輸入' },
+  ],
 };
 
 const globalDefaults: Product[] = [

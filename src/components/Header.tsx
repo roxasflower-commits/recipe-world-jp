@@ -18,6 +18,7 @@ const cuisineDetails: Record<string, { emoji: string; description: string }> = {
   turkish:  { emoji: '🇹🇷', description: 'シシケバブ、ドルマ' },
   indian:   { emoji: '🇮🇳', description: 'バターチキン、ビリヤニ' },
   peruvian: { emoji: '🇵🇪', description: 'セビーチェ、ロモサルタード' },
+  mexican:  { emoji: '🇲🇽', description: 'タコス、モレ、グアカモーレ' },
 };
 
 export default function Header() {
