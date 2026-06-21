@@ -20,7 +20,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${cuisine.label}のレシピ一覧・作り方`,
-    description: `本場の${cuisine.label}レシピを日本語で詳しく解説。家庭料理からプロ仕様まで、${cuisine.label}の作り方・レシピ集。`,
+    description: cuisine.intro
+      ? cuisine.intro.slice(0, 140) + '…'
+      : `本場の${cuisine.label}レシピを日本語で詳しく解説。家庭料理からプロ仕様まで、${cuisine.label}の作り方・レシピ集。`,
     keywords: [cuisine.label, `${cuisine.label} レシピ`, `${cuisine.label} 作り方`, cuisine.labelEn, '海外料理 レシピ'],
     alternates: {
       canonical: `/category/${cuisine.slug}`,
@@ -54,9 +56,12 @@ export default function CategoryPage({ params }: Props) {
       <div className="border-b border-warm-border pb-8 mb-8">
         <p className="text-xs tracking-widest uppercase text-accent mb-2">{cuisine.labelEn}</p>
         <h1 className="font-serif text-4xl sm:text-5xl font-bold">{cuisine.label}</h1>
-        <p className="text-muted mt-2">
-          {categoryRecipes.length}件のレシピ
-        </p>
+        <p className="text-muted mt-2">{categoryRecipes.length}件のレシピ</p>
+        {cuisine.intro && (
+          <p className="text-sm text-gray-600 leading-relaxed mt-5 max-w-3xl">
+            {cuisine.intro}
+          </p>
+        )}
       </div>
 
       <AdBanner format="horizontal" className="mb-10" />
