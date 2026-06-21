@@ -22,7 +22,7 @@ const cuisineDetails: Record<string, { emoji: string; description: string }> = {
 
 export default function HomePage() {
   // ヒーロー枠：アクセス数をもとに手動で更新
-  const heroSlugs = ['smorrebrod', 'roman-carbonara', 'beef-wellington'];
+  const heroSlugs = ['risotto-al-radicchio', 'roman-carbonara', 'beef-wellington'];
   const featured = heroSlugs.map((slug) => getRecipeBySlug(slug)!);
   const hero = featured[0];
   const subFeatured = featured.slice(1, 3);
