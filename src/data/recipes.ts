@@ -74,6 +74,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: 'BBC Good Food',
     publishedAt: '2024-01-15',
     featured: true,
+    affiliateProducts: [
+      { name: 'ル・クルーゼ ゴーハン鍋（鋳鉄鍋）', amazonQuery: 'ル・クルーゼ 鋳鉄鍋 ダッチオーブン' },
+      { name: '料理用赤ワイン', amazonQuery: '料理用 赤ワイン ブルゴーニュ' },
+      { name: '肉用温度計', amazonQuery: '肉用温度計 デジタル' },
+    ],
   },
   {
     id: '2',
@@ -149,6 +154,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: 'BBC Good Food',
     publishedAt: '2024-01-20',
     featured: true,
+    affiliateProducts: [
+      { name: 'パルミジャーノ・レッジャーノ（塊）', amazonQuery: 'パルミジャーノ レッジャーノ チーズ 塊' },
+      { name: 'グアンチャーレ（豚ほほ肉の塩漬け）', amazonQuery: 'グアンチャーレ イタリア 豚ほほ肉' },
+      { name: 'チーズグレーター（おろし金）', amazonQuery: 'チーズグレーター おろし金 イタリア料理' },
+    ],
   },
   {
     id: '3',
@@ -281,6 +291,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: 'Hot Thai Kitchen',
     publishedAt: '2024-02-10',
     featured: false,
+    affiliateProducts: [
+      { name: 'ライスヌードル（米粉麺）', amazonQuery: 'ライスヌードル 米粉麺 タイ料理' },
+      { name: 'ナンプラー（タイ魚醤）', amazonQuery: 'ナンプラー 魚醤 タイ料理' },
+      { name: 'タマリンドペースト', amazonQuery: 'タマリンド ペースト タイ料理' },
+    ],
   },
   {
     id: '5',
@@ -348,6 +363,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: 'RecipeTin Eats',
     publishedAt: '2024-02-20',
     featured: true,
+    affiliateProducts: [
+      { name: 'ビーフウェリントン用 肉用温度計', amazonQuery: '肉用温度計 デジタル 料理' },
+      { name: 'パテ・ド・カンパーニュ', amazonQuery: 'パテ ド カンパーニュ フォアグラ' },
+      { name: 'パイ生地（冷凍パイシート）', amazonQuery: '冷凍パイシート 業務用' },
+    ],
   },
   {
     id: '6',
@@ -419,6 +439,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: 'Gordon Ramsay',
     publishedAt: '2024-03-01',
     featured: true,
+    affiliateProducts: [
+      { name: 'パエリアパン（パエリア鍋）', amazonQuery: 'パエリアパン パエリア鍋 スペイン' },
+      { name: 'スペイン産サフラン', amazonQuery: 'サフラン スペイン産 料理' },
+      { name: 'ボンバ米（スペイン産パエリア米）', amazonQuery: 'ボンバ米 スペイン米 パエリア' },
+    ],
   },
   {
     id: '7',
@@ -1523,6 +1548,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: 'Hot Thai Kitchen',
     publishedAt: '2026-06-09',
     featured: false,
+    affiliateProducts: [
+      { name: 'レモングラス（生・乾燥）', amazonQuery: 'レモングラス タイ料理 ハーブ' },
+      { name: 'ナンプラー（タイ魚醤）', amazonQuery: 'ナンプラー 魚醤 タイ料理' },
+      { name: 'ガランガル（タイしょうが）', amazonQuery: 'ガランガル カー タイ料理' },
+    ],
   },
   {
     id: '24',
@@ -1864,6 +1894,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: 'BBC Good Food',
     publishedAt: '2026-06-09',
     featured: false,
+    affiliateProducts: [
+      { name: 'ガラムマサラ スパイスセット', amazonQuery: 'ガラムマサラ インド スパイスセット' },
+      { name: 'カスリメティ（乾燥フェヌグリーク）', amazonQuery: 'カスリメティ フェヌグリーク インド料理' },
+      { name: 'バスマティライス', amazonQuery: 'バスマティライス インド 長粒米' },
+    ],
   },
   {
     id: '29',
@@ -7995,6 +8030,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: 'Spanish Sabores',
     publishedAt: '2026-06-21',
     featured: false,
+    affiliateProducts: [
+      { name: 'クレームブリュレ用バーナー', amazonQuery: 'クレームブリュレ バーナー キッチントーチ' },
+      { name: 'ラメキン（耐熱小鉢）', amazonQuery: 'ラメキン 耐熱 グラタン皿 小' },
+      { name: 'バニラビーンズ', amazonQuery: 'バニラビーンズ 本物 スパイス' },
+    ],
   },
   {
     id: '127',
@@ -8585,6 +8625,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: 'Spanish Sabores',
     publishedAt: '2026-06-21',
     featured: false,
+    affiliateProducts: [
+      { name: 'パエリアパン（パエリア鍋）', amazonQuery: 'パエリアパン パエリア鍋 スペイン' },
+      { name: 'イカ墨ペースト', amazonQuery: 'イカ墨 ペースト スペイン料理' },
+      { name: 'スペイン産サフラン', amazonQuery: 'サフラン スペイン産 料理' },
+    ],
   },
 ];
 

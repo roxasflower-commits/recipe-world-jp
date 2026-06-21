@@ -41,4 +41,8 @@ export interface Recipe {
   publishedAt: string;
   featured: boolean;
   chefSlug?: string;
+  affiliateProducts?: {
+    name: string;
+    amazonQuery: string;
+  }[];
 }

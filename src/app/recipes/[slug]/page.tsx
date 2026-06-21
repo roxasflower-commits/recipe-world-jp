@@ -7,6 +7,7 @@ import AdBanner from '@/components/AdBanner';
 import RecipeSchema from '@/components/RecipeSchema';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import AmazonTools from '@/components/AmazonTools';
+import AffiliateProducts from '@/components/AffiliateProducts';
 import RakutenTools from '@/components/RakutenTools';
 import ShareButtons from '@/components/ShareButtons';
 import FaqSchema, { buildFaqs } from '@/components/FaqSchema';
@@ -245,6 +246,11 @@ export default function RecipePage({ params }: Props) {
                 ))}
               </div>
             </section>
+
+            {/* Affiliate products */}
+            {recipe.affiliateProducts && recipe.affiliateProducts.length > 0 && (
+              <AffiliateProducts products={recipe.affiliateProducts} />
+            )}
 
             {/* Ad between ingredients and instructions */}
             <AdBanner format="horizontal" className="my-8" />
