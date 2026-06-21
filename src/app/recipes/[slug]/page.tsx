@@ -82,13 +82,23 @@ export default function RecipePage({ params }: Props) {
   const recipe = getRecipeBySlug(params.slug);
   if (!recipe) notFound();
 
-  const sameCuisine = recipes.filter((r) => r.slug !== recipe.slug && r.cuisineSlug === recipe.cuisineSlug);
-  const otherCuisine = recipes.filter((r) => r.slug !== recipe.slug && r.cuisineSlug !== recipe.cuisineSlug);
+  const tagSet = new Set(recipe.tags);
 
-  const related = sameCuisine.slice(0, 3);
-  const alsoLike = otherCuisine.slice(0, 3);
+  const scored = recipes
+    .filter((r) => r.slug !== recipe.slug)
+    .map((r) => ({
+      recipe: r,
+      score:
+        r.tags.filter((t) => tagSet.has(t)).length * 3 +
+        (r.cuisineSlug === recipe.cuisineSlug ? 2 : 0) +
+        (r.difficulty === recipe.difficulty ? 1 : 0),
+    }))
+    .sort((a, b) => b.score - a.score);
 
-  const bottomRelated = [...sameCuisine, ...otherCuisine].slice(0, 6);
+  const sameCuisine = scored.filter((s) => s.recipe.cuisineSlug === recipe.cuisineSlug).map((s) => s.recipe);
+  const related = scored.slice(0, 3).map((s) => s.recipe);
+  const alsoLike = scored.slice(3, 6).map((s) => s.recipe);
+  const bottomRelated = scored.slice(0, 6).map((s) => s.recipe);
 
   const totalTime = recipe.prepTime + recipe.cookTime;
   const pageUrl = `${BASE_URL}/recipes/${recipe.slug}`;
@@ -346,12 +356,12 @@ export default function RecipePage({ params }: Props) {
             {/* Rakuten affiliate tools */}
             <RakutenTools cuisineSlug={recipe.cuisineSlug} />
 
-            {/* Related same cuisine */}
+            {/* Related recipes */}
             {related.length > 0 && (
               <div>
                 <h3 className="font-serif text-lg font-bold mb-4 flex items-center gap-2">
                   <span className="w-1 h-5 bg-accent inline-block" />
-                  同じジャンルのレシピ
+                  関連レシピ
                 </h3>
                 <div className="space-y-5">
                   {related.map((r) => (
@@ -383,9 +393,7 @@ export default function RecipePage({ params }: Props) {
           <div className="flex items-center justify-between mb-8">
             <div className="flex items-center gap-4">
               <div className="w-1 h-6 bg-accent" />
-              <h2 className="font-serif text-xl font-bold">
-                {sameCuisine.length > 0 ? `${recipe.cuisine}の他のレシピ` : 'こちらもおすすめ'}
-              </h2>
+              <h2 className="font-serif text-xl font-bold">あなたにおすすめのレシピ</h2>
             </div>
             <Link
               href={`/category/${recipe.cuisineSlug}`}
