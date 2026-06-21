@@ -248,9 +248,7 @@ export default function RecipePage({ params }: Props) {
             </section>
 
             {/* Affiliate products */}
-            {recipe.affiliateProducts && recipe.affiliateProducts.length > 0 && (
-              <AffiliateProducts products={recipe.affiliateProducts} />
-            )}
+            <AffiliateProducts products={recipe.affiliateProducts} cuisineSlug={recipe.cuisineSlug} />
 
             {/* Ad between ingredients and instructions */}
             <AdBanner format="horizontal" className="my-8" />
