@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { chefs, getChefBySlug } from '@/data/chefs';
@@ -21,6 +22,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: `/chefs/${chef.slug}`,
     },
+    openGraph: {
+      title: `${chef.nameJa}のレシピ・料理哲学｜${chef.restaurant}`,
+      description: `${chef.nameJa}（${chef.name}）の本格レシピを日本語で解説。${chef.location}の「${chef.restaurant}」${chef.michelinStars > 0 ? `ミシュラン${chef.michelinStars}つ星` : '世界的'}シェフのレシピと料理哲学を紹介。`,
+      type: 'article',
+      publishedTime: '2025-01-01T00:00:00Z',
+      modifiedTime: new Date().toISOString(),
+    },
   };
 }
 
@@ -30,7 +38,29 @@ export default function ChefPage({ params }: Props) {
 
   const recipes = getRecipesByChef(chef.slug);
 
+  const BASE_URL = 'https://recipe-world-jp.vercel.app';
+  const personSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: chef.name,
+    alternateName: chef.nameJa,
+    nationality: { '@type': 'Country', name: chef.nationality },
+    birthDate: chef.born,
+    description: chef.bio,
+    jobTitle: 'Chef',
+    worksFor: {
+      '@type': 'Restaurant',
+      name: chef.restaurant,
+      address: chef.location,
+    },
+    url: `${BASE_URL}/chefs/${chef.slug}`,
+    image: `${BASE_URL}${chef.image}`,
+    award: chef.awards,
+  };
+
   return (
+    <>
+    <Script id={`person-schema-${chef.slug}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
     <div className="min-h-screen bg-warm-bg">
       {/* Hero */}
       <section className="bg-primary text-white">
@@ -153,5 +183,6 @@ export default function ChefPage({ params }: Props) {
         </section>
       </div>
     </div>
+    </>
   );
 }

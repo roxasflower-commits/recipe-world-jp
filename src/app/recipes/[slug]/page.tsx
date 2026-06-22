@@ -139,7 +139,7 @@ export default function RecipePage({ params }: Props) {
             <div className="relative aspect-[16/9] overflow-hidden mb-8 group">
               <Image
                 src={recipe.image}
-                alt={recipe.title}
+                alt={`${recipe.title}（${recipe.originalTitle}）の作り方・レシピ`}
                 fill
                 priority
                 className="object-cover"
