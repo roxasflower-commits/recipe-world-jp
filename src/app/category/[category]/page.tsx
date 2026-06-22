@@ -2,8 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { cuisines, getRecipesByCuisine } from '@/data/recipes';
 import RecipeCard from '@/components/RecipeCard';
-import AdBanner from '@/components/AdBanner';
-import AdSense from '@/components/AdSense';
+
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import Link from 'next/link';
 
@@ -65,8 +64,6 @@ export default function CategoryPage({ params }: Props) {
         )}
       </div>
 
-      <AdBanner format="horizontal" className="mb-4" />
-      <AdSense className="mb-10" />
 
       {categoryRecipes.length === 0 ? (
         <div className="text-center py-20 text-muted">
