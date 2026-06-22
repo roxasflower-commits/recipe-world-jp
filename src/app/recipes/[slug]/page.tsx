@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { recipes, getRecipeBySlug } from '@/data/recipes';
 import RecipeCard from '@/components/RecipeCard';
-
+import { MultiplexAd } from '@/components/AdSense';
 import RecipeSchema from '@/components/RecipeSchema';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import AmazonTools from '@/components/AmazonTools';
@@ -408,6 +408,9 @@ export default function RecipePage({ params }: Props) {
             ))}
           </div>
         </section>
+
+        {/* Multiplex ad */}
+        <MultiplexAd />
       </div>
     </>
   );
