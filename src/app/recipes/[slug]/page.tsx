@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { recipes, getRecipeBySlug } from '@/data/recipes';
 import RecipeCard from '@/components/RecipeCard';
 import AdBanner from '@/components/AdBanner';
+import AdSense from '@/components/AdSense';
 import RecipeSchema from '@/components/RecipeSchema';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import AmazonTools from '@/components/AmazonTools';
@@ -130,7 +131,8 @@ export default function RecipePage({ params }: Props) {
         </nav>
 
         {/* Ad banner */}
-        <AdBanner format="horizontal" className="mb-8" />
+        <AdBanner format="horizontal" className="mb-4" />
+        <AdSense className="mb-8" />
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
           {/* Main content */}
@@ -251,7 +253,8 @@ export default function RecipePage({ params }: Props) {
             <AffiliateProducts products={recipe.affiliateProducts} cuisineSlug={recipe.cuisineSlug} />
 
             {/* Ad between ingredients and instructions */}
-            <AdBanner format="horizontal" className="my-8" />
+            <AdBanner format="horizontal" className="mt-8 mb-4" />
+            <AdSense className="mb-8" />
 
             {/* Instructions */}
             <section className="mb-8">
