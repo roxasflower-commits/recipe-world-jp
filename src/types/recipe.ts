@@ -44,5 +44,6 @@ export interface Recipe {
   affiliateProducts?: {
     name: string;
     amazonQuery: string;
+    rakutenQuery?: string;
   }[];
 }

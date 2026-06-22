@@ -221,6 +221,23 @@ export const recipes: Recipe[] = [
     source: 'アメリカのダイナー文化に根ざした伝統的なレシピ',
     sourceUrl: 'https://www.bbcgoodfood.com/recipes/smash-burgers',
     sourceSiteName: 'BBC Good Food',
+    affiliateProducts: [
+      {
+        name: 'バーガープレス（スマッシュ用）',
+        amazonQuery: 'バーガープレス スマッシュバーガー',
+        rakutenQuery: 'バーガープレス',
+      },
+      {
+        name: 'チェダーチーズスライス 輸入',
+        amazonQuery: 'チェダーチーズ スライス 輸入',
+        rakutenQuery: 'チェダーチーズ スライス 輸入',
+      },
+      {
+        name: 'キャストアイアン スキレット',
+        amazonQuery: 'スキレット キャストアイアン 鉄製',
+        rakutenQuery: 'スキレット 鉄製',
+      },
+    ],
     publishedAt: '2024-02-01',
     featured: false,
   },
@@ -964,6 +981,23 @@ export const recipes: Recipe[] = [
     source: 'バンコクの屋台レシピをもとに家庭で再現',
     sourceUrl: 'https://hot-thai-kitchen.com/pad-kra-pao-anything/',
     sourceSiteName: 'Hot Thai Kitchen',
+    affiliateProducts: [
+      {
+        name: 'ホーリーバジル（ガパオ）',
+        amazonQuery: 'ホーリーバジル ガパオ 乾燥',
+        rakutenQuery: 'ホーリーバジル ガパオ',
+      },
+      {
+        name: 'オイスターソース タイ産',
+        amazonQuery: 'オイスターソース タイ料理 輸入',
+        rakutenQuery: 'オイスターソース タイ産',
+      },
+      {
+        name: 'ナンプラー（タイ魚醤）',
+        amazonQuery: 'ナンプラー 魚醤 タイ料理',
+        rakutenQuery: 'ナンプラー タイ産',
+      },
+    ],
     publishedAt: '2026-06-08',
     featured: false,
   },
@@ -1090,6 +1124,23 @@ export const recipes: Recipe[] = [
     source: 'アンダルシア地方の伝統的なレシピをもとに',
     sourceUrl: 'https://www.bbcgoodfood.com/recipes/gazpacho',
     sourceSiteName: 'BBC Good Food',
+    affiliateProducts: [
+      {
+        name: 'エキストラバージンオリーブオイル スペイン産',
+        amazonQuery: 'オリーブオイル エキストラバージン スペイン産',
+        rakutenQuery: 'オリーブオイル スペイン産 輸入',
+      },
+      {
+        name: 'シェリービネガー 輸入',
+        amazonQuery: 'シェリービネガー 輸入 スペイン',
+        rakutenQuery: 'シェリービネガー 輸入',
+      },
+      {
+        name: 'フードプロセッサー ブレンダー',
+        amazonQuery: 'フードプロセッサー ブレンダー スープ',
+        rakutenQuery: 'フードプロセッサー ブレンダー',
+      },
+    ],
     publishedAt: '2026-06-08',
     featured: false,
   },
@@ -1355,6 +1406,23 @@ export const recipes: Recipe[] = [
     source: 'フランス農家の伝統的なキャセロールレシピをもとに',
     sourceUrl: 'https://www.bbcgoodfood.com/recipes/coq-au-vin',
     sourceSiteName: 'BBC Good Food',
+    affiliateProducts: [
+      {
+        name: 'ル・クルーゼ 鋳鉄鍋（ダッチオーブン）',
+        amazonQuery: 'ル・クルーゼ 鋳鉄鍋 ダッチオーブン',
+        rakutenQuery: 'ル・クルーゼ 鋳鉄鍋',
+      },
+      {
+        name: '料理用赤ワイン フランス産',
+        amazonQuery: '料理用 赤ワイン フランス産 ブルゴーニュ',
+        rakutenQuery: '料理用 赤ワイン フランス産',
+      },
+      {
+        name: 'ラードン（ベーコンブロック）',
+        amazonQuery: 'ベーコン ブロック スモーク 輸入',
+        rakutenQuery: 'ベーコン ブロック スモーク',
+      },
+    ],
     publishedAt: '2026-06-09',
     featured: false,
   },
@@ -1483,6 +1551,23 @@ export const recipes: Recipe[] = [
     source: 'アメリカ家庭の定番レシピをもとに本格ベシャメルバージョンにアレンジ',
     sourceUrl: 'https://www.bbcgoodfood.com/recipes/best-ever-macaroni-cheese-recipe',
     sourceSiteName: 'BBC Good Food',
+    affiliateProducts: [
+      {
+        name: 'チェダーチーズ（塊）',
+        amazonQuery: 'チェダーチーズ 塊 輸入 熟成',
+        rakutenQuery: 'チェダーチーズ 塊 輸入',
+      },
+      {
+        name: 'マカロニ 輸入',
+        amazonQuery: 'マカロニ デュラム小麦 輸入',
+        rakutenQuery: 'マカロニ 輸入 デュラム',
+      },
+      {
+        name: 'グリュイエールチーズ 輸入',
+        amazonQuery: 'グリュイエール チーズ 輸入',
+        rakutenQuery: 'グリュイエール チーズ 輸入',
+      },
+    ],
     publishedAt: '2026-06-09',
     featured: false,
   },
@@ -1615,6 +1700,23 @@ export const recipes: Recipe[] = [
     source: 'ロンドンのフィッシュ＆チップスショップの伝統的なレシピをもとに',
     sourceUrl: 'https://www.bbcgoodfood.com/recipes/fish-chips',
     sourceSiteName: 'BBC Good Food',
+    affiliateProducts: [
+      {
+        name: 'マルトビネガー 輸入',
+        amazonQuery: 'モルトビネガー 輸入 イギリス',
+        rakutenQuery: 'モルトビネガー 輸入',
+      },
+      {
+        name: '天ぷら粉・揚げ物用粉',
+        amazonQuery: '天ぷら粉 揚げ物 サクサク',
+        rakutenQuery: '天ぷら粉 揚げ物',
+      },
+      {
+        name: '揚げ物温度計 デジタル',
+        amazonQuery: '揚げ物温度計 デジタル 油温',
+        rakutenQuery: '揚げ物温度計 デジタル',
+      },
+    ],
     publishedAt: '2026-06-09',
     featured: false,
   },
@@ -1687,6 +1789,23 @@ export const recipes: Recipe[] = [
     source: 'バレンシア州の伝統的なパエリャレシピをもとに',
     sourceUrl: 'https://www.bbcgoodfood.com/recipes/easy-paella',
     sourceSiteName: 'BBC Good Food',
+    affiliateProducts: [
+      {
+        name: 'スペイン産サフラン',
+        amazonQuery: 'サフラン スペイン産 料理',
+        rakutenQuery: 'サフラン スペイン産 輸入',
+      },
+      {
+        name: 'パエリアパン（パエリア鍋）',
+        amazonQuery: 'パエリアパン パエリア鍋 スペイン',
+        rakutenQuery: 'パエリアパン スペイン',
+      },
+      {
+        name: 'スペイン産米（ボンバ米）',
+        amazonQuery: 'ボンバ米 スペイン産 パエリア用',
+        rakutenQuery: 'ボンバ米 スペイン パエリア',
+      },
+    ],
     publishedAt: '2026-06-09',
     featured: false,
   },
@@ -1972,6 +2091,23 @@ export const recipes: Recipe[] = [
     source: 'マルセイユの伝統的なブイヤベースレシピをもとに家庭向けにアレンジ',
     sourceUrl: 'https://www.bbcgoodfood.com/recipes/bouillabaisse',
     sourceSiteName: 'BBC Good Food',
+    affiliateProducts: [
+      {
+        name: 'スペイン産サフラン',
+        amazonQuery: 'サフラン スペイン産 料理',
+        rakutenQuery: 'サフラン スペイン産 輸入',
+      },
+      {
+        name: 'ルイユソース 輸入',
+        amazonQuery: 'ルイユ ソース 輸入 ブイヤベース',
+        rakutenQuery: 'ルイユ ソース 輸入',
+      },
+      {
+        name: '魚介スープ鍋 深型',
+        amazonQuery: '鍋 深型 スープ 魚介 両手鍋',
+        rakutenQuery: '両手鍋 深型 スープ',
+      },
+    ],
     publishedAt: '2026-06-10',
     featured: true,
   },
@@ -2032,6 +2168,23 @@ export const recipes: Recipe[] = [
     source: 'ローマの伝統レシピをもとに',
     sourceUrl: 'https://www.bbcgoodfood.com/recipes/cacio-e-pepe',
     sourceSiteName: 'BBC Good Food',
+    affiliateProducts: [
+      {
+        name: 'ペコリーノ・ロマーノ（塊）',
+        amazonQuery: 'ペコリーノロマーノ チーズ 塊 輸入',
+        rakutenQuery: 'ペコリーノロマーノ チーズ 輸入',
+      },
+      {
+        name: 'スパゲッティ 太麺 2.2mm 輸入',
+        amazonQuery: 'スパゲッティ 太麺 2.2mm ディチェコ',
+        rakutenQuery: 'スパゲッティ 太麺 輸入',
+      },
+      {
+        name: 'ブラックペッパー ホール（黒胡椒粒）',
+        amazonQuery: '黒胡椒 ホール ブラックペッパー 粒 輸入',
+        rakutenQuery: '黒胡椒 ホール 粒',
+      },
+    ],
     publishedAt: '2026-06-10',
     featured: false,
   },
@@ -2764,6 +2917,23 @@ export const recipes: Recipe[] = [
     source: 'RecipeTin Eats — Thai Green Curry',
     sourceUrl: 'https://www.recipetineats.com/thai-green-curry/',
     sourceSiteName: 'RecipeTin Eats',
+    affiliateProducts: [
+      {
+        name: 'グリーンカレーペースト タイ産',
+        amazonQuery: 'グリーンカレーペースト タイ産 輸入',
+        rakutenQuery: 'グリーンカレーペースト タイ産 輸入',
+      },
+      {
+        name: 'カフィアライムリーフ（コブミカンの葉）',
+        amazonQuery: 'カフィアライムリーフ コブミカン 乾燥 輸入',
+        rakutenQuery: 'カフィアライムリーフ コブミカン',
+      },
+      {
+        name: 'ナンプラー タイ産',
+        amazonQuery: 'ナンプラー 魚醤 タイ料理',
+        rakutenQuery: 'ナンプラー タイ産 輸入',
+      },
+    ],
     publishedAt: '2026-06-11',
     featured: false,
   },
@@ -2825,6 +2995,23 @@ export const recipes: Recipe[] = [
     source: 'フランス伝統菓子レシピをもとに',
     sourceUrl: 'https://www.seriouseats.com/creme-brulee-recipe',
     sourceSiteName: 'Serious Eats',
+    affiliateProducts: [
+      {
+        name: 'ガスバーナー（料理用トーチ）',
+        amazonQuery: 'ガスバーナー 料理用 トーチ クレームブリュレ',
+        rakutenQuery: 'ガスバーナー 料理用 トーチ',
+      },
+      {
+        name: '耐熱ラメキン（焼き型）',
+        amazonQuery: 'ラメキン 耐熱 陶器 オーブン対応',
+        rakutenQuery: 'ラメキン 耐熱 陶器',
+      },
+      {
+        name: 'バニラビーンズ（バニラ棒）',
+        amazonQuery: 'バニラビーンズ バニラ棒 輸入',
+        rakutenQuery: 'バニラビーンズ 輸入',
+      },
+    ],
     publishedAt: '2026-06-11',
     featured: false,
   },
@@ -3434,6 +3621,23 @@ export const recipes: Recipe[] = [
     source: 'フランス・ロレーヌ地方の伝統レシピをもとに家庭向けにアレンジ',
     sourceUrl: 'https://recipetineats.com/quiche-lorraine/',
     sourceSiteName: 'RecipeTin Eats',
+    affiliateProducts: [
+      {
+        name: 'タルト型（底取れ）',
+        amazonQuery: 'タルト型 底取れ 焼き型 パイ',
+        rakutenQuery: 'タルト型 底取れ',
+      },
+      {
+        name: '冷凍パイシート 輸入',
+        amazonQuery: 'パイシート 冷凍 バター 輸入',
+        rakutenQuery: 'パイシート 冷凍 バター',
+      },
+      {
+        name: 'グリュイエールチーズ 輸入',
+        amazonQuery: 'グリュイエール チーズ 輸入',
+        rakutenQuery: 'グリュイエール チーズ 輸入',
+      },
+    ],
     publishedAt: '2026-06-13',
     featured: false,
   },
@@ -4263,6 +4467,23 @@ export const recipes: Recipe[] = [
     source: 'RecipeTin Eats — Spanish Churros をもとに日本語化',
     sourceUrl: 'https://www.recipetineats.com/spanish-churros-recipe/',
     sourceSiteName: 'RecipeTin Eats',
+    affiliateProducts: [
+      {
+        name: 'チュロスメーカー・絞り器',
+        amazonQuery: 'チュロスメーカー 絞り器 星型口金',
+        rakutenQuery: 'チュロスメーカー 絞り器',
+      },
+      {
+        name: 'シナモンパウダー 輸入',
+        amazonQuery: 'シナモンパウダー スパイス 輸入',
+        rakutenQuery: 'シナモン パウダー スパイス',
+      },
+      {
+        name: 'チョコレートソース ディップ用',
+        amazonQuery: 'チョコレートソース ディップ チョコ',
+        rakutenQuery: 'チョコレートソース',
+      },
+    ],
     publishedAt: '2026-06-14',
     featured: false,
   },
@@ -4724,6 +4945,23 @@ export const recipes: Recipe[] = [
     source: 'RecipeTin Eats — Ratatouille をもとに日本語化',
     sourceUrl: 'https://www.recipetineats.com/ratatouille/',
     sourceSiteName: 'RecipeTin Eats',
+    affiliateProducts: [
+      {
+        name: 'プロヴァンスハーブ（エルブ・ド・プロヴァンス）',
+        amazonQuery: 'プロヴァンスハーブ 輸入 フランス',
+        rakutenQuery: 'プロヴァンスハーブ 輸入',
+      },
+      {
+        name: 'エキストラバージンオリーブオイル',
+        amazonQuery: 'オリーブオイル エキストラバージン 輸入',
+        rakutenQuery: 'オリーブオイル エキストラバージン',
+      },
+      {
+        name: 'ホーロー鍋（オーブン対応）',
+        amazonQuery: 'ホーロー鍋 オーブン対応 両手鍋',
+        rakutenQuery: 'ホーロー鍋 オーブン対応',
+      },
+    ],
     publishedAt: '2026-06-15',
     featured: false,
   },
@@ -4874,6 +5112,23 @@ export const recipes: Recipe[] = [
     source: 'RecipeTin Eats — Eggs Benedict をもとに日本語化',
     sourceUrl: 'https://www.recipetineats.com/eggs-benedict/',
     sourceSiteName: 'RecipeTin Eats',
+    affiliateProducts: [
+      {
+        name: 'ポーチドエッグメーカー（シリコン）',
+        amazonQuery: 'ポーチドエッグ シリコン 卵 メーカー',
+        rakutenQuery: 'ポーチドエッグ シリコン',
+      },
+      {
+        name: 'イングリッシュマフィン 輸入',
+        amazonQuery: 'イングリッシュマフィン 輸入 冷凍',
+        rakutenQuery: 'イングリッシュマフィン 輸入',
+      },
+      {
+        name: 'カナダ産ベーコン 輸入',
+        amazonQuery: 'カナダベーコン 丸いベーコン 輸入',
+        rakutenQuery: 'カナダベーコン 輸入',
+      },
+    ],
     publishedAt: '2026-06-15',
     featured: false,
   },
@@ -5196,6 +5451,23 @@ export const recipes: Recipe[] = [
     source: 'RecipeTin Eats — Chicken Tikka Masala をもとに日本語化',
     sourceUrl: 'https://www.recipetineats.com/chicken-tikka-masala/',
     sourceSiteName: 'RecipeTin Eats',
+    affiliateProducts: [
+      {
+        name: 'タンドーリチキンスパイスミックス',
+        amazonQuery: 'タンドーリチキン スパイス ミックス 輸入',
+        rakutenQuery: 'タンドーリチキン スパイス 輸入',
+      },
+      {
+        name: 'ガラムマサラ スパイスセット',
+        amazonQuery: 'ガラムマサラ インド スパイスセット',
+        rakutenQuery: 'ガラムマサラ スパイス 輸入',
+      },
+      {
+        name: 'バスマティライス インド産',
+        amazonQuery: 'バスマティライス インド 長粒米',
+        rakutenQuery: 'バスマティライス インド産',
+      },
+    ],
     publishedAt: '2026-06-15',
     featured: false,
   },
@@ -6335,6 +6607,23 @@ export const recipes: Recipe[] = [
     source: 'Great Italian Chefs — Sally Abéのクラシックティラミス',
     sourceUrl: 'https://www.greatitalianchefs.com/recipes/tiramisu-recipe',
     sourceSiteName: 'Great Italian Chefs',
+    affiliateProducts: [
+      {
+        name: 'マスカルポーネチーズ 輸入',
+        amazonQuery: 'マスカルポーネ チーズ 輸入 イタリア',
+        rakutenQuery: 'マスカルポーネ チーズ 輸入',
+      },
+      {
+        name: 'サボイアルディ（レディーフィンガー）輸入',
+        amazonQuery: 'サボイアルディ ビスキュイ 輸入 ティラミス',
+        rakutenQuery: 'サボイアルディ 輸入 ティラミス',
+      },
+      {
+        name: 'エスプレッソ豆・粉 イタリア産',
+        amazonQuery: 'エスプレッソ 豆 粉 イタリア 輸入',
+        rakutenQuery: 'エスプレッソ 豆 イタリア 輸入',
+      },
+    ],
     publishedAt: '2026-06-20',
     featured: false,
   },
@@ -6418,6 +6707,23 @@ export const recipes: Recipe[] = [
     source: 'Great Italian Chefs — Classic Lasagne al Forno',
     sourceUrl: 'https://www.greatitalianchefs.com/recipes/lasagne-alla-bolognese-recipe',
     sourceSiteName: 'Great Italian Chefs',
+    affiliateProducts: [
+      {
+        name: 'ラザニア用パスタシート 輸入',
+        amazonQuery: 'ラザニア パスタ シート 輸入',
+        rakutenQuery: 'ラザニア パスタ 輸入',
+      },
+      {
+        name: 'パルミジャーノ・レッジャーノ（塊）',
+        amazonQuery: 'パルミジャーノ レッジャーノ チーズ 塊',
+        rakutenQuery: 'パルミジャーノ レッジャーノ 輸入',
+      },
+      {
+        name: 'グラタン皿・ラザニア用耐熱皿',
+        amazonQuery: 'グラタン皿 耐熱 ラザニア オーブン',
+        rakutenQuery: 'グラタン皿 耐熱 オーブン対応',
+      },
+    ],
     publishedAt: '2026-06-20',
     featured: false,
   },
@@ -7214,6 +7520,23 @@ export const recipes: Recipe[] = [
     source: 'The Kitchn — Classic French Crêpes Recipe',
     sourceUrl: 'https://www.thekitchn.com/crepes-recipe-23657909',
     sourceSiteName: 'The Kitchn',
+    affiliateProducts: [
+      {
+        name: 'クレープパン（薄型フライパン）',
+        amazonQuery: 'クレープパン 薄型 フライパン 20cm',
+        rakutenQuery: 'クレープパン 薄型',
+      },
+      {
+        name: 'バニラエッセンス 輸入',
+        amazonQuery: 'バニラエッセンス 輸入 天然',
+        rakutenQuery: 'バニラエッセンス 天然 輸入',
+      },
+      {
+        name: 'ヌテラ（チョコレートスプレッド）',
+        amazonQuery: 'ヌテラ チョコレートスプレッド 輸入',
+        rakutenQuery: 'ヌテラ チョコレートスプレッド',
+      },
+    ],
     publishedAt: '2026-06-20',
     featured: false,
   },
@@ -7352,6 +7675,23 @@ export const recipes: Recipe[] = [
     source: 'David Lebovitz — Making French Macarons',
     sourceUrl: 'https://www.davidlebovitz.com/making-french-macarons/',
     sourceSiteName: 'David Lebovitz',
+    affiliateProducts: [
+      {
+        name: 'アーモンドプードル（細挽き）',
+        amazonQuery: 'アーモンドプードル 細挽き 製菓用',
+        rakutenQuery: 'アーモンドプードル 細挽き',
+      },
+      {
+        name: 'シルパット シリコンマット（オーブン用）',
+        amazonQuery: 'シルパット シリコンマット オーブン 焼き菓子',
+        rakutenQuery: 'シルパット シリコンマット オーブン',
+      },
+      {
+        name: '食用色素 粉末 輸入',
+        amazonQuery: '食用色素 粉末 製菓 輸入',
+        rakutenQuery: '食用色素 粉末 製菓',
+      },
+    ],
     publishedAt: '2026-06-20',
     featured: false,
   },
