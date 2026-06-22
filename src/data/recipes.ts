@@ -9557,7 +9557,7 @@ export const recipes: Recipe[] = [
       '揚げたオリーブはすぐに食べるのがベスト。冷めてもオーブン（200℃・5分）で温め直せます。',
       'ワインやビールのおつまみに最適。アペリティーヴォの定番として楽しめます。',
     ],
-    image: 'https://images.unsplash.com/photo-1559181567-c3190ca9d715?w=1200&q=80',
+    image: '/images/olive-allascolana.jpg',
     source: 'Great Italian Chefs',
     sourceUrl: 'https://www.greatitalianchefs.com/recipes/olive-ascolane-recipe-deep-fried-olives',
     sourceSiteName: 'greatitalianchefs.com',
