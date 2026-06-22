@@ -10,6 +10,7 @@ import AmazonTools from '@/components/AmazonTools';
 import AffiliateProducts from '@/components/AffiliateProducts';
 import RakutenTools from '@/components/RakutenTools';
 import ShareButtons from '@/components/ShareButtons';
+import RecipeActions from '@/components/RecipeActions';
 import FaqSchema, { buildFaqs } from '@/components/FaqSchema';
 import {
   Accordion,
@@ -200,6 +201,15 @@ export default function RecipePage({ params }: Props) {
                   pageUrl={pageUrl}
                   imageUrl={recipe.image}
                   title={recipe.title}
+                />
+              </div>
+
+              {/* Recipe actions */}
+              <div className="mt-3 no-print">
+                <RecipeActions
+                  slug={recipe.slug}
+                  title={recipe.title}
+                  ogpImageUrl={`${BASE_URL}/recipes/${recipe.slug}/opengraph-image`}
                 />
               </div>
 

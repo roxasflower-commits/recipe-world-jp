@@ -2,6 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+@media print {
+  header, footer, nav, .no-print,
+  [data-no-print],
+  .adsbygoogle,
+  button:not(.print-show) {
+    display: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    color: #000;
+    background: #fff;
+  }
+
+  h1 { font-size: 20pt; margin-bottom: 8pt; }
+  h2 { font-size: 14pt; margin-top: 16pt; margin-bottom: 6pt; }
+
+  .print-page {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  a { color: #000; text-decoration: none; }
+
+  img { max-width: 300pt; }
+
+  @page {
+    margin: 1.5cm;
+  }
+}
+
 @keyframes accordion-down {
   from { height: 0; }
   to { height: var(--radix-accordion-content-height); }
