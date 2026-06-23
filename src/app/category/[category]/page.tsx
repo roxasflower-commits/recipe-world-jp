@@ -19,11 +19,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!cuisine) return {};
 
   return {
-    title: `${cuisine.label}のレシピ一覧・作り方`,
+    title: `${cuisine.label}レシピ｜本場の家庭料理・作り方を日本語で解説`,
     description: cuisine.intro
       ? cuisine.intro.slice(0, 140) + '…'
       : `本場の${cuisine.label}レシピを日本語で詳しく解説。家庭料理からプロ仕様まで、${cuisine.label}の作り方・レシピ集。`,
-    keywords: [cuisine.label, `${cuisine.label} レシピ`, `${cuisine.label} 作り方`, cuisine.labelEn, '海外料理 レシピ'],
+    keywords: [cuisine.label, `${cuisine.label} レシピ`, `${cuisine.label} 作り方`, cuisine.labelEn, '海外料理 レシピ', `本場 ${cuisine.label}`, `${cuisine.label} 家庭料理`],
     alternates: {
       canonical: `/category/${cuisine.slug}`,
     },
