@@ -27,6 +27,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: `/category/${cuisine.slug}`,
     },
+    openGraph: {
+      title: `${cuisine.label}レシピ｜本場の家庭料理・作り方を日本語で解説`,
+      description: cuisine.intro
+        ? cuisine.intro.slice(0, 140) + '…'
+        : `本場の${cuisine.label}レシピを日本語で詳しく解説。家庭料理からプロ仕様まで、${cuisine.label}の作り方・レシピ集。`,
+      type: 'website',
+      locale: 'ja_JP',
+      siteName: 'MONDE RECIPE',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${cuisine.label}レシピ｜本場の家庭料理・作り方を日本語で解説`,
+      description: cuisine.intro
+        ? cuisine.intro.slice(0, 140) + '…'
+        : `本場の${cuisine.label}レシピを日本語で詳しく解説。家庭料理からプロ仕様まで、${cuisine.label}の作り方・レシピ集。`,
+    },
   };
 }
 
