@@ -19,6 +19,7 @@ const cuisineDetails: Record<string, { emoji: string; description: string }> = {
   indian:   { emoji: '🇮🇳', description: 'バターチキン、ビリヤニ' },
   peruvian: { emoji: '🇵🇪', description: 'セビーチェ、ロモサルタード' },
   mexican:  { emoji: '🇲🇽', description: 'タコス、モレ、グアカモーレ' },
+  korean:   { emoji: '🇰🇷', description: 'ビビンバ、サムギョプサル' },
 };
 
 export default function HomePage() {
