@@ -104,7 +104,8 @@ export default function RecipePage({ params }: Props) {
 
   const totalTime = recipe.prepTime + recipe.cookTime;
   const pageUrl = `${BASE_URL}/recipes/${recipe.slug}`;
-  const pinterestUrl = `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(pageUrl)}&media=${encodeURIComponent(recipe.image)}&description=${encodeURIComponent(recipe.title + ' | MONDE RECIPE')}`;
+  const pinterestDescription = `${recipe.title}（${recipe.originalTitle}）の本格レシピ｜${recipe.description.slice(0, 200)} | MONDE RECIPE`;
+  const pinterestUrl = `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(pageUrl)}&media=${encodeURIComponent(recipe.image)}&description=${encodeURIComponent(pinterestDescription)}`;
 
   const faqs = buildFaqs(recipe);
 

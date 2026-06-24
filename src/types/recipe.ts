@@ -46,4 +46,8 @@ export interface Recipe {
     amazonQuery: string;
     rakutenQuery?: string;
   }[];
+  faqs?: {
+    question: string;
+    answer: string;
+  }[];
 }

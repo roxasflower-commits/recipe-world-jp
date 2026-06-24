@@ -7,7 +7,7 @@ interface FaqItem {
 
 function buildFaqs(recipe: Recipe): FaqItem[] {
   const totalTime = recipe.prepTime + recipe.cookTime;
-  return [
+  const generated: FaqItem[] = [
     {
       question: `${recipe.title}の調理時間はどのくらいですか？`,
       answer: `準備時間${recipe.prepTime}分、調理時間${recipe.cookTime}分で、合計約${totalTime}分かかります。`,
@@ -25,6 +25,7 @@ function buildFaqs(recipe: Recipe): FaqItem[] {
       answer: `${recipe.cuisine}の料理で、${recipe.description}`,
     },
   ];
+  return recipe.faqs ? [...recipe.faqs, ...generated] : generated;
 }
 
 export default function FaqSchema({ recipe }: { recipe: Recipe }) {
