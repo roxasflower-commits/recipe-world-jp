@@ -75,9 +75,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2024-01-15',
     featured: true,
     affiliateProducts: [
-      { name: 'ル・クルーゼ ゴーハン鍋（鋳鉄鍋）', amazonQuery: 'ル・クルーゼ 鋳鉄鍋 ダッチオーブン' },
-      { name: '料理用赤ワイン', amazonQuery: '料理用 赤ワイン ブルゴーニュ' },
-      { name: '肉用温度計', amazonQuery: '肉用温度計 デジタル' },
+      { name: 'ル・クルーゼ ゴーハン鍋（鋳鉄鍋）', amazonQuery: 'ル・クルーゼ 鋳鉄鍋 ダッチオーブン', rakutenQuery: 'ル・クルーゼ 鋳鉄鍋 ダッチオーブン' },
+      { name: '料理用赤ワイン', amazonQuery: '料理用 赤ワイン ブルゴーニュ', rakutenQuery: '料理用 赤ワイン ブルゴーニュ' },
+      { name: '肉用温度計', amazonQuery: '肉用温度計 デジタル', rakutenQuery: '肉用温度計 デジタル' },
     ],
     faqs: [
       {
@@ -169,9 +169,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2024-01-20',
     featured: true,
     affiliateProducts: [
-      { name: 'パルミジャーノ・レッジャーノ（塊）', amazonQuery: 'パルミジャーノ レッジャーノ チーズ 塊' },
-      { name: 'グアンチャーレ（豚ほほ肉の塩漬け）', amazonQuery: 'グアンチャーレ イタリア 豚ほほ肉' },
-      { name: 'チーズグレーター（おろし金）', amazonQuery: 'チーズグレーター おろし金 イタリア料理' },
+      { name: 'パルミジャーノ・レッジャーノ（塊）', amazonQuery: 'パルミジャーノ レッジャーノ チーズ 塊', rakutenQuery: 'パルミジャーノ レッジャーノ チーズ 塊' },
+      { name: 'グアンチャーレ（豚ほほ肉の塩漬け）', amazonQuery: 'グアンチャーレ イタリア 豚ほほ肉', rakutenQuery: 'グアンチャーレ イタリア 豚ほほ肉' },
+      { name: 'チーズグレーター（おろし金）', amazonQuery: 'チーズグレーター おろし金 イタリア料理', rakutenQuery: 'チーズグレーター おろし金 イタリア料理' },
     ],
     faqs: [
       {
@@ -351,9 +351,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2024-02-10',
     featured: false,
     affiliateProducts: [
-      { name: 'ライスヌードル（米粉麺）', amazonQuery: 'ライスヌードル 米粉麺 タイ料理' },
-      { name: 'ナンプラー（タイ魚醤）', amazonQuery: 'ナンプラー 魚醤 タイ料理' },
-      { name: 'タマリンドペースト', amazonQuery: 'タマリンド ペースト タイ料理' },
+      { name: 'ライスヌードル（米粉麺）', amazonQuery: 'ライスヌードル 米粉麺 タイ料理', rakutenQuery: 'ライスヌードル 米粉麺 タイ料理' },
+      { name: 'ナンプラー（タイ魚醤）', amazonQuery: 'ナンプラー 魚醤 タイ料理', rakutenQuery: 'ナンプラー 魚醤 タイ料理' },
+      { name: 'タマリンドペースト', amazonQuery: 'タマリンド ペースト タイ料理', rakutenQuery: 'タマリンド ペースト タイ料理' },
     ],
   },
   {
@@ -423,9 +423,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2024-02-20',
     featured: true,
     affiliateProducts: [
-      { name: 'ビーフウェリントン用 肉用温度計', amazonQuery: '肉用温度計 デジタル 料理' },
-      { name: 'パテ・ド・カンパーニュ', amazonQuery: 'パテ ド カンパーニュ フォアグラ' },
-      { name: 'パイ生地（冷凍パイシート）', amazonQuery: '冷凍パイシート 業務用' },
+      { name: 'ビーフウェリントン用 肉用温度計', amazonQuery: '肉用温度計 デジタル 料理', rakutenQuery: '肉用温度計 デジタル 料理' },
+      { name: 'パテ・ド・カンパーニュ', amazonQuery: 'パテ ド カンパーニュ フォアグラ', rakutenQuery: 'パテ ド カンパーニュ フォアグラ' },
+      { name: 'パイ生地（冷凍パイシート）', amazonQuery: '冷凍パイシート 業務用', rakutenQuery: '冷凍パイシート 業務用' },
     ],
     faqs: [
       {
@@ -513,9 +513,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2024-03-01',
     featured: true,
     affiliateProducts: [
-      { name: 'パエリアパン（パエリア鍋）', amazonQuery: 'パエリアパン パエリア鍋 スペイン' },
-      { name: 'スペイン産サフラン', amazonQuery: 'サフラン スペイン産 料理' },
-      { name: 'ボンバ米（スペイン産パエリア米）', amazonQuery: 'ボンバ米 スペイン米 パエリア' },
+      { name: 'パエリアパン（パエリア鍋）', amazonQuery: 'パエリアパン パエリア鍋 スペイン', rakutenQuery: 'パエリアパン パエリア鍋 スペイン' },
+      { name: 'スペイン産サフラン', amazonQuery: 'サフラン スペイン産 料理', rakutenQuery: 'サフラン スペイン産 料理' },
+      { name: 'ボンバ米（スペイン産パエリア米）', amazonQuery: 'ボンバ米 スペイン米 パエリア', rakutenQuery: 'ボンバ米 スペイン米 パエリア' },
     ],
     faqs: [
       {
@@ -606,6 +606,11 @@ export const recipes: Recipe[] = [
         answer: '本場のトルティーリャのじゃがいもはオリーブオイルで低温でゆっくり火を通します。しっとりとした食感になります。',
       },
     ],
+    affiliateProducts: [
+      { name: 'スペイン産エキストラバージンオリーブオイル', amazonQuery: 'オリーブオイル スペイン産 エキストラバージン', rakutenQuery: 'オリーブオイル スペイン産 輸入' },
+      { name: 'オムレツパン（20cm・テフロン）', amazonQuery: 'オムレツパン フライパン 20cm テフロン', rakutenQuery: 'オムレツパン フライパン 20cm' },
+      { name: 'マンドリンスライサー', amazonQuery: 'スライサー マンドリン 野菜 薄切り', rakutenQuery: 'スライサー マンドリン 野菜' },
+    ],
   },
   {
     id: '8',
@@ -681,6 +686,11 @@ export const recipes: Recipe[] = [
         question: '生クリームの代わりに使えるものは？',
         answer: 'サワークリームと生クリームを半々にするとより濃厚になります。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'アンチョビフィレ 油漬け缶詰', amazonQuery: 'アンチョビ フィレ 油漬け 缶詰 輸入', rakutenQuery: 'アンチョビ フィレ 缶詰 輸入' },
+      { name: 'グラタン皿（耐熱・オーブン対応）', amazonQuery: 'グラタン皿 耐熱 オーブン対応', rakutenQuery: 'グラタン皿 耐熱 オーブン' },
+      { name: '北欧スタイル生クリーム（乳脂肪35%以上）', amazonQuery: '生クリーム 乳脂肪 35% 製菓用', rakutenQuery: '生クリーム 乳脂肪 高脂肪 製菓' },
     ],
   },
   {
@@ -762,6 +772,11 @@ export const recipes: Recipe[] = [
         question: '挽き肉は牛と羊どちらが正統ですか？',
         answer: 'トルコでは羊の挽き肉が伝統的ですが牛ひき肉でも作れます。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'ラム（羊）挽き肉 冷凍', amazonQuery: 'ラム 羊肉 挽き肉 冷凍 輸入', rakutenQuery: 'ラム 羊肉 挽き肉 輸入' },
+      { name: 'トマトホール缶（イタリア産）', amazonQuery: 'トマト缶 ホール イタリア産 輸入', rakutenQuery: 'トマト缶 ホール イタリア産' },
+      { name: 'グラタン皿（深型・耐熱）', amazonQuery: 'グラタン皿 深型 耐熱 オーブン', rakutenQuery: 'グラタン皿 深型 耐熱' },
     ],
   },
   {
@@ -847,6 +862,11 @@ export const recipes: Recipe[] = [
         answer: 'タンドーリチキンの仕上げにかけるインドのスパイスミックスです。アムチュール（乾燥マンゴーパウダー）などが主な成分です。',
       },
     ],
+    affiliateProducts: [
+      { name: 'タンドーリマサラ スパイスミックス', amazonQuery: 'タンドーリマサラ スパイス インド 輸入', rakutenQuery: 'タンドーリマサラ インド スパイス' },
+      { name: 'カイエンペッパー（唐辛子粉）', amazonQuery: 'カイエンペッパー 唐辛子粉 スパイス', rakutenQuery: 'カイエンペッパー 唐辛子粉 インド' },
+      { name: 'ヨーグルト製造器（ヨーグルトメーカー）', amazonQuery: 'ヨーグルトメーカー 家庭用 自動', rakutenQuery: 'ヨーグルトメーカー 家庭用' },
+    ],
   },
   {
     id: '11',
@@ -922,6 +942,11 @@ export const recipes: Recipe[] = [
         question: 'なめらかに仕上げるコツは？',
         answer: 'ミキサーにかけた後目の細かいシノワで濾すと絹のようななめらかさになります。十分に冷やしてから提供してください。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'フレンチスタイルポロねぎ（リーク）', amazonQuery: 'ポロねぎ リーク フランス野菜', rakutenQuery: 'ポロねぎ リーク' },
+      { name: 'フレッシュチャイブ（チャイブ）', amazonQuery: 'チャイブ 生ハーブ フレッシュ', rakutenQuery: 'チャイブ ハーブ' },
+      { name: '冷製スープカップ（ポーセリン）', amazonQuery: 'スープカップ 耐熱 ポーセリン セット', rakutenQuery: 'スープカップ 耐熱 セット' },
     ],
   },
   {
@@ -1006,6 +1031,11 @@ export const recipes: Recipe[] = [
         answer: 'リゾット・アッラ・ミラネーゼはオッソ・ブーコの煮汁を吸わせて食べる伝統的な組み合わせです。',
       },
     ],
+    affiliateProducts: [
+      { name: '仔牛スネ肉（オッソブーコ用）', amazonQuery: '仔牛 スネ肉 輪切り 輸入', rakutenQuery: '仔牛 スネ肉 輸入' },
+      { name: 'イタリア産白ワイン（辛口）', amazonQuery: '白ワイン 辛口 イタリア 料理用', rakutenQuery: '白ワイン 辛口 イタリア産' },
+      { name: '鋳鉄鍋 ブレイジングパン', amazonQuery: '鋳鉄鍋 ブレイジングパン オーブン対応', rakutenQuery: '鋳鉄鍋 深型 オーブン対応' },
+    ],
   },
   {
     id: '13',
@@ -1081,6 +1111,11 @@ export const recipes: Recipe[] = [
         question: 'ベイシーズニング（Old Bay）とは？',
         answer: 'セロリシード・パプリカ・黒胡椒などをブレンドしたメリーランド名物のシーフードスパイスミックスです。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'オールドベイシーズニング（輸入スパイス）', amazonQuery: 'オールドベイ シーズニング 輸入', rakutenQuery: 'オールドベイ シーズニング 輸入 スパイス' },
+      { name: 'ずわいがに缶詰（カニ缶 業務用）', amazonQuery: 'ずわいがに 缶詰 業務用 カニ缶', rakutenQuery: 'ずわいがに 缶詰 業務用' },
+      { name: 'フライパン（鉄製・厚底）', amazonQuery: 'フライパン 鉄製 厚底 26cm', rakutenQuery: 'フライパン 鉄製 厚底' },
     ],
   },
   {
@@ -1248,6 +1283,11 @@ export const recipes: Recipe[] = [
         answer: '焼く前の状態で冷凍保存が可能です。ラップでぴったりと包み冷凍庫で1ヶ月保存できます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ラム（羊）挽き肉 冷凍', amazonQuery: 'ラム 羊肉 挽き肉 冷凍 輸入', rakutenQuery: 'ラム 羊肉 挽き肉 輸入' },
+      { name: 'ウスターソース 輸入（リーペリン）', amazonQuery: 'リーペリン ウスターソース 輸入', rakutenQuery: 'ウスターソース リーペリン 輸入' },
+      { name: '深型キャセロール皿（オーブン対応）', amazonQuery: 'キャセロール 皿 深型 耐熱 オーブン対応', rakutenQuery: 'キャセロール 皿 耐熱 深型' },
+    ],
   },
   {
     id: '16',
@@ -1413,6 +1453,11 @@ export const recipes: Recipe[] = [
         answer: '牛乳に浸したパン粉を使うことと、こねすぎないことが重要です。',
       },
     ],
+    affiliateProducts: [
+      { name: 'オールスパイス（ホールスパイス）', amazonQuery: 'オールスパイス ホール スパイス 北欧', rakutenQuery: 'オールスパイス スパイス 輸入' },
+      { name: 'リンゴンベリージャム（輸入）', amazonQuery: 'リンゴンベリージャム スウェーデン 輸入', rakutenQuery: 'リンゴンベリー ジャム 輸入' },
+      { name: 'ナツメグ（ホール・すりおろし用）', amazonQuery: 'ナツメグ ホール スパイス すりおろし', rakutenQuery: 'ナツメグ ホール スパイス' },
+    ],
   },
   {
     id: '18',
@@ -1485,6 +1530,11 @@ export const recipes: Recipe[] = [
         question: 'パンと一緒に食べるものですか？',
         answer: 'トルコのパン（エクメッキ）を浸して食べるのが伝統的なスタイルです。チャイ（紅茶）とともに朝食として食べられます。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'トルコ産唐辛子フレーク（プルビベル）', amazonQuery: '唐辛子フレーク チリフレーク 輸入 トルコ', rakutenQuery: '唐辛子フレーク 輸入 トルコ産' },
+      { name: '完熟トマト缶（ダイスカット）', amazonQuery: 'トマト缶 ダイスカット 完熟 輸入', rakutenQuery: 'トマト缶 ダイスカット 完熟' },
+      { name: 'スキレット（鋳鉄 20cm）', amazonQuery: 'スキレット 鋳鉄 20cm オーブン対応', rakutenQuery: 'スキレット 鋳鉄 20cm' },
     ],
   },
   {
@@ -1573,6 +1623,11 @@ export const recipes: Recipe[] = [
         question: 'サフランミルクはどう作りますか？',
         answer: 'サフランひとつまみを温かいミルクに溶かして15分置きます。ビリヤニの上に飾るように垂らすと美しい黄色の模様が加わります。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'バスマティ米（インド産長粒米）', amazonQuery: 'バスマティライス インド産 長粒米', rakutenQuery: 'バスマティ米 インド産 輸入' },
+      { name: 'ビリヤニマサラ スパイスミックス', amazonQuery: 'ビリヤニマサラ スパイス インド 輸入', rakutenQuery: 'ビリヤニマサラ インド スパイス' },
+      { name: 'ケワラウォーター（バラ水・香料）', amazonQuery: 'ケワラウォーター バラ水 インド料理 香料', rakutenQuery: 'バラ水 ローズウォーター 食用 輸入' },
     ],
   },
   {
@@ -1754,6 +1809,11 @@ export const recipes: Recipe[] = [
         answer: 'パンチェッタで代用できます。ベーコンは風味が異なるため最終手段として使用してください。',
       },
     ],
+    affiliateProducts: [
+      { name: 'グアンチャーレ（豚頬肉塩漬け・輸入）', amazonQuery: 'グアンチャーレ 豚頬肉 塩漬け 輸入', rakutenQuery: 'グアンチャーレ 豚頬肉 輸入' },
+      { name: 'ペコリーノ・ロマーノ チーズ（輸入）', amazonQuery: 'ペコリーノロマーノ チーズ 輸入 イタリア', rakutenQuery: 'ペコリーノロマーノ チーズ 輸入' },
+      { name: 'リガトーニ パスタ（輸入）', amazonQuery: 'リガトーニ パスタ 輸入 イタリア', rakutenQuery: 'リガトーニ パスタ 輸入' },
+    ],
   },
   {
     id: '22',
@@ -1914,9 +1974,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-09',
     featured: false,
     affiliateProducts: [
-      { name: 'レモングラス（生・乾燥）', amazonQuery: 'レモングラス タイ料理 ハーブ' },
-      { name: 'ナンプラー（タイ魚醤）', amazonQuery: 'ナンプラー 魚醤 タイ料理' },
-      { name: 'ガランガル（タイしょうが）', amazonQuery: 'ガランガル カー タイ料理' },
+      { name: 'レモングラス（生・乾燥）', amazonQuery: 'レモングラス タイ料理 ハーブ', rakutenQuery: 'レモングラス タイ料理 ハーブ' },
+      { name: 'ナンプラー（タイ魚醤）', amazonQuery: 'ナンプラー 魚醤 タイ料理', rakutenQuery: 'ナンプラー 魚醤 タイ料理' },
+      { name: 'ガランガル（タイしょうが）', amazonQuery: 'ガランガル カー タイ料理', rakutenQuery: 'ガランガル カー タイ料理' },
     ],
   },
   {
@@ -2194,6 +2254,11 @@ export const recipes: Recipe[] = [
         answer: '白ワインビネガー・砂糖・塩を同量で混ぜたものが基本です。たまねぎ・粒こしょう・ローリエ・マスタードシードを加えると北欧らしい風味になります。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ニシン（塩漬け・スウェーデン産）', amazonQuery: 'ニシン 塩漬け 輸入 スウェーデン', rakutenQuery: 'ニシン 塩漬け 輸入' },
+      { name: '白ワインビネガー（輸入）', amazonQuery: '白ワインビネガー 輸入 マリネ用', rakutenQuery: '白ワインビネガー 酢 輸入' },
+      { name: 'オールスパイス ホール', amazonQuery: 'オールスパイス ホール スパイス', rakutenQuery: 'オールスパイス スパイス 輸入' },
+    ],
   },
   {
     id: '27',
@@ -2280,6 +2345,11 @@ export const recipes: Recipe[] = [
         answer: '肉を使わないオリーブオイル仕立てのドルマは「ゼイティンヤールドルマ」と呼びます。常温または冷たくして食べます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ぶどうの葉 缶詰（輸入）', amazonQuery: 'ぶどうの葉 缶詰 輸入 トルコ', rakutenQuery: 'ぶどうの葉 缶詰 輸入' },
+      { name: 'ラム（羊）挽き肉', amazonQuery: 'ラム 羊肉 挽き肉 冷凍 輸入', rakutenQuery: 'ラム 羊肉 挽き肉 輸入' },
+      { name: 'シナモンスティック スパイス', amazonQuery: 'シナモンスティック セイロン スパイス', rakutenQuery: 'シナモンスティック スパイス' },
+    ],
   },
   {
     id: '28',
@@ -2350,9 +2420,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-09',
     featured: false,
     affiliateProducts: [
-      { name: 'ガラムマサラ スパイスセット', amazonQuery: 'ガラムマサラ インド スパイスセット' },
-      { name: 'カスリメティ（乾燥フェヌグリーク）', amazonQuery: 'カスリメティ フェヌグリーク インド料理' },
-      { name: 'バスマティライス', amazonQuery: 'バスマティライス インド 長粒米' },
+      { name: 'ガラムマサラ スパイスセット', amazonQuery: 'ガラムマサラ インド スパイスセット', rakutenQuery: 'ガラムマサラ インド スパイスセット' },
+      { name: 'カスリメティ（乾燥フェヌグリーク）', amazonQuery: 'カスリメティ フェヌグリーク インド料理', rakutenQuery: 'カスリメティ フェヌグリーク インド料理' },
+      { name: 'バスマティライス', amazonQuery: 'バスマティライス インド 長粒米', rakutenQuery: 'バスマティライス インド 長粒米' },
     ],
     faqs: [
       {
@@ -2640,6 +2710,11 @@ export const recipes: Recipe[] = [
         answer: 'バッファローウイングにはブルーチーズソースまたはランチドレッシングとセロリが伝統的に添えられます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'フランクスレッドホットソース（輸入）', amazonQuery: 'フランクス レッドホット ソース 輸入', rakutenQuery: 'フランクス ホットソース 輸入' },
+      { name: 'チキンウィング（手羽先）大容量', amazonQuery: '手羽先 チキン 業務用 冷凍', rakutenQuery: '手羽先 チキン 大容量' },
+      { name: '揚げ油用温度計（クッキング温度計）', amazonQuery: '温度計 クッキング 揚げ油 デジタル', rakutenQuery: '温度計 クッキング デジタル' },
+    ],
   },
   {
     id: '32',
@@ -2708,6 +2783,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: 'Hot Thai Kitchen',
     publishedAt: '2026-06-10',
     featured: false,
+    affiliateProducts: [
+      { name: 'カオソーイペースト（タイ輸入）', amazonQuery: 'カオソーイ ペースト タイ 輸入', rakutenQuery: 'カオソーイ ペースト タイ 輸入' },
+      { name: 'タイ産ロースト唐辛子フレーク', amazonQuery: '唐辛子フレーク タイ 輸入 ロースト', rakutenQuery: '唐辛子フレーク タイ産 輸入' },
+      { name: 'エッグヌードル（中華麺 乾燥）', amazonQuery: 'エッグヌードル 中華麺 乾燥 輸入', rakutenQuery: 'エッグヌードル 中華麺 乾燥' },
+    ],
   },
   {
     id: '33',
@@ -2786,6 +2866,11 @@ export const recipes: Recipe[] = [
         answer: 'デボン式ではクリームが先、コーンウォール式ではジャムが先です。この食べ方の順番はイギリスで今も議論される文化的な話題です。',
       },
     ],
+    affiliateProducts: [
+      { name: 'クロテッドクリーム（輸入）', amazonQuery: 'クロテッドクリーム 輸入 イギリス', rakutenQuery: 'クロテッドクリーム 輸入' },
+      { name: 'スコーン型（ラウンドカッター）', amazonQuery: 'スコーン型 ラウンドカッター 製菓用', rakutenQuery: 'スコーン型 丸型 製菓' },
+      { name: 'イギリス産クランペット焼き用グリドル', amazonQuery: 'グリドル 鉄板 焼き菓子 電気', rakutenQuery: 'グリドル 鉄板 製菓用' },
+    ],
   },
   {
     id: '34',
@@ -2858,6 +2943,11 @@ export const recipes: Recipe[] = [
         question: 'ぶどうのトッピングは何のためですか？',
         answer: 'アーモンドの濃厚さとにんにくのパンチをぶどうの甘みと水分が緩和します。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'マルコナアーモンド（スペイン産生）', amazonQuery: 'マルコナアーモンド スペイン産 生', rakutenQuery: 'マルコナアーモンド スペイン 輸入' },
+      { name: 'シェリービネガー（ヘレスビネガー）', amazonQuery: 'シェリービネガー ヘレス 輸入 スペイン', rakutenQuery: 'シェリービネガー 輸入 スペイン産' },
+      { name: 'ハイパワーブレンダー', amazonQuery: 'ブレンダー ハイパワー スムージー 業務用', rakutenQuery: 'ブレンダー ハイパワー 業務用' },
     ],
   },
   {
@@ -2939,6 +3029,11 @@ export const recipes: Recipe[] = [
         answer: 'レムラード（マスタードベースのマヨネーズソース）が定番です。マヨネーズ・マスタード・ピクルスで簡単に作れます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ライ麦パン（デンマーク産・全粒粉）', amazonQuery: 'ライ麦パン 全粒粉 北欧 輸入', rakutenQuery: 'ライ麦パン 全粒粉 北欧' },
+      { name: 'スモークサーモン（ノルウェー産）', amazonQuery: 'スモークサーモン ノルウェー 輸入', rakutenQuery: 'スモークサーモン ノルウェー産 輸入' },
+      { name: 'ニシンのマリネ（スウェーデン産輸入）', amazonQuery: 'ニシン マリネ 北欧 輸入', rakutenQuery: 'ニシン マリネ 輸入 北欧' },
+    ],
   },
   {
     id: '36',
@@ -3015,6 +3110,11 @@ export const recipes: Recipe[] = [
         question: 'ラムの独特な香りを和らげる方法は？',
         answer: 'ヨーグルト・レモン汁でのマリネとローズマリー・ミント・ガーリックなどのハーブが臭みを和らげます。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'ラムチョップ（骨付きラムラック）', amazonQuery: 'ラムチョップ 骨付き ニュージーランド産', rakutenQuery: 'ラムチョップ 骨付き 輸入' },
+      { name: 'スモークパプリカパウダー（ピメントン）', amazonQuery: 'スモークパプリカ ピメントン スペイン産', rakutenQuery: 'スモークパプリカ 輸入 スペイン' },
+      { name: '鉄製グリルパン（リッジパン）', amazonQuery: 'グリルパン 鉄製 リッジ 26cm', rakutenQuery: 'グリルパン 鉄製 リッジ' },
     ],
   },
   {
@@ -3099,6 +3199,11 @@ export const recipes: Recipe[] = [
         question: 'チャットニーはどんなものが合いますか？',
         answer: 'コリアンダーとミントのグリーンチャットニー、またはタマリンドの甘辛チャットニーが伝統的な組み合わせです。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'クミンシード スパイス', amazonQuery: 'クミンシード ホール スパイス インド', rakutenQuery: 'クミンシード スパイス 輸入' },
+      { name: 'コリアンダーパウダー スパイス', amazonQuery: 'コリアンダーパウダー スパイス インド', rakutenQuery: 'コリアンダーパウダー スパイス 輸入' },
+      { name: '揚げ油用鍋（インド料理用深型）', amazonQuery: '揚げ鍋 深型 テフロン 揚げ物用', rakutenQuery: '揚げ鍋 深型 揚げ物' },
     ],
   },
 
@@ -3187,6 +3292,11 @@ export const recipes: Recipe[] = [
         answer: '伝統的なボロネーゼには白ワインを使います。赤ワインより軽い仕上がりになり肉の旨みを引き立てます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'タリアテッレ パスタ（輸入）', amazonQuery: 'タリアテッレ パスタ 輸入 イタリア', rakutenQuery: 'タリアテッレ パスタ 輸入' },
+      { name: 'イタリア産豚挽き肉 ミックス', amazonQuery: '豚 牛 挽き肉 合挽き 業務用', rakutenQuery: '合挽き肉 業務用 冷凍' },
+      { name: 'パルミジャーノ・レッジャーノ チーズ塊', amazonQuery: 'パルミジャーノレッジャーノ チーズ 塊 輸入', rakutenQuery: 'パルミジャーノ チーズ 塊 輸入' },
+    ],
   },
 
   {
@@ -3267,6 +3377,11 @@ export const recipes: Recipe[] = [
         answer: '魚介から大量の水分が出るためソースが薄まります。あらかじめ魚介を別で炒めてから合わせると水分のコントロールがしやすいです。',
       },
     ],
+    affiliateProducts: [
+      { name: 'あさり（はまぐり）冷凍', amazonQuery: 'あさり 冷凍 業務用 むき身', rakutenQuery: 'あさり 冷凍 業務用' },
+      { name: 'イタリア産白ワイン 料理用', amazonQuery: '白ワイン 辛口 イタリア 料理用', rakutenQuery: '白ワイン 辛口 料理用 輸入' },
+      { name: 'スパゲッティ ブロンズダイス製（輸入）', amazonQuery: 'スパゲッティ ブロンズダイス 輸入 イタリア', rakutenQuery: 'スパゲッティ 輸入 イタリア' },
+    ],
   },
 
   {
@@ -3345,6 +3460,11 @@ export const recipes: Recipe[] = [
         question: 'マッシュルームの代わりに使えるキノコは？',
         answer: 'しいたけ・エリンギ・ポルチーニでも美味しく作れます。水分が飛んで少し色がつくまでしっかり炒めてください。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'マルサラワイン（シチリア産・甘口）', amazonQuery: 'マルサラワイン シチリア 甘口 輸入', rakutenQuery: 'マルサラワイン イタリア 輸入' },
+      { name: 'ドライマッシュルーム（ポルチーニ）', amazonQuery: 'ポルチーニ 乾燥 輸入 イタリア', rakutenQuery: 'ポルチーニ 乾燥 輸入' },
+      { name: 'フライパン（ステンレス・厚底）', amazonQuery: 'フライパン ステンレス 厚底 26cm オール熱源', rakutenQuery: 'フライパン ステンレス 厚底' },
     ],
   },
 
@@ -3614,6 +3734,11 @@ export const recipes: Recipe[] = [
         answer: '平らな金属串が一番滑りません。竹串は30分ほど水に浸けてから使うと焦げにくくなります。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ラム肩肉 骨なし（冷凍輸入）', amazonQuery: 'ラム 肩肉 骨なし 冷凍 輸入', rakutenQuery: 'ラム 肩肉 輸入' },
+      { name: 'クミンパウダー コリアンダー スパイスセット', amazonQuery: 'クミン コリアンダー スパイス セット トルコ', rakutenQuery: 'クミン コリアンダー スパイス セット' },
+      { name: 'バーベキュー串（ケバブ用 金属製）', amazonQuery: 'ケバブ串 バーベキュー 金属 フラット', rakutenQuery: 'ケバブ串 バーベキュー 金属' },
+    ],
   },
 
   // ── トップシェフ レシピ ─────────────────────────────────────────
@@ -3694,6 +3819,11 @@ export const recipes: Recipe[] = [
         answer: '非常にシンプルに再現できます。溶かしたチョコレートにポテトチップスを浸けて固めるだけです。フルール・ド・セルを仕上げに振りかけると本格的な風味になります。',
       },
     ],
+    affiliateProducts: [
+      { name: 'クーベルチュールチョコレート（カカオ70%以上）', amazonQuery: 'クーベルチュール チョコレート カカオ70 製菓用', rakutenQuery: 'クーベルチュール チョコレート 製菓用' },
+      { name: 'グリーンアニスシード フェンネルシード', amazonQuery: 'アニスシード フェンネルシード スパイス 輸入', rakutenQuery: 'アニスシード スパイス 輸入' },
+      { name: 'マンドリンスライサー（薄切り用）', amazonQuery: 'スライサー マンドリン 厚み調整 薄切り', rakutenQuery: 'スライサー マンドリン' },
+    ],
   },
 
   {
@@ -3773,6 +3903,11 @@ export const recipes: Recipe[] = [
         question: 'ビーツをラムに合わせる理由は？',
         answer: 'ビーツの土っぽい甘みとラム肉の強い風味が互いを引き立てます。レゼピは北欧の地場食材で季節感と土地の記憶を料理に込めます。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'エルダーフラワーコーディアル（輸入）', amazonQuery: 'エルダーフラワー コーディアル 輸入 北欧', rakutenQuery: 'エルダーフラワー コーディアル 輸入' },
+      { name: '子羊スネ肉（ラムシャンク）', amazonQuery: 'ラム シャンク スネ肉 冷凍 輸入', rakutenQuery: 'ラム シャンク 輸入' },
+      { name: 'ビーツ（ゴールデンビーツ）缶詰', amazonQuery: 'ビーツ ゴールデン 缶詰 輸入', rakutenQuery: 'ビーツ 缶詰 輸入' },
     ],
   },
 
@@ -3864,6 +3999,11 @@ export const recipes: Recipe[] = [
         answer: '市販のパルミジャーノ（24ヶ月以上推奨）を数種類用意し調理法を変えることで再現できます。パルミジャーノリゾットのベースは家庭でも作れます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'パルミジャーノ・レッジャーノ 36ヶ月熟成（輸入）', amazonQuery: 'パルミジャーノレッジャーノ 36ヶ月 熟成 輸入', rakutenQuery: 'パルミジャーノ 長期熟成 輸入' },
+      { name: 'リコッタチーズ（輸入・製菓用）', amazonQuery: 'リコッタチーズ 輸入 イタリア産 製菓', rakutenQuery: 'リコッタチーズ 輸入 イタリア' },
+      { name: 'エスプーマ用ディスペンサー（サイフォン）', amazonQuery: 'ディスペンサー エスプーマ サイフォン 料理用', rakutenQuery: 'エスプーマ サイフォン 料理用' },
+    ],
   },
 
   {
@@ -3936,6 +4076,11 @@ export const recipes: Recipe[] = [
         question: 'ブラウンバター（焦がしバター）はどう作りますか？',
         answer: 'バターを鍋に入れて中火で溶かし続け、ナッツのような香りが出たら（茶色になったら）火から下ろします。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'フルール・ド・セル（ゲランド産粗塩）', amazonQuery: 'フルール ド セル ゲランド 粗塩 フランス', rakutenQuery: 'フルール ド セル ゲランド フランス産' },
+      { name: 'フレッシュセージ ハーブ', amazonQuery: 'セージ フレッシュ ハーブ 生 食用', rakutenQuery: 'セージ ハーブ フレッシュ' },
+      { name: 'フランス産 発酵有塩バター', amazonQuery: '発酵バター 有塩 フランス産 輸入', rakutenQuery: '発酵バター 有塩 フランス産' },
     ],
   },
 
@@ -4011,6 +4156,11 @@ export const recipes: Recipe[] = [
         question: '野菜料理にハーブを組み合わせるコツは？',
         answer: '繊細な野菜にはタラゴン・チャービル・ディルなど香りが柔らかいハーブが合います。食用花を加えると見た目と風味が豊かになります。',
       },
+    ],
+    affiliateProducts: [
+      { name: '食用花 エディブルフラワー', amazonQuery: 'エディブルフラワー 食用花 サラダ', rakutenQuery: '食用花 エディブルフラワー 輸入' },
+      { name: 'チャービル フレッシュハーブ', amazonQuery: 'チャービル ハーブ フレッシュ 食用', rakutenQuery: 'チャービル ハーブ 食用' },
+      { name: 'フレンチ産 有塩発酵バター', amazonQuery: '発酵バター 有塩 フランス産 輸入', rakutenQuery: '発酵バター 有塩 フランス' },
     ],
   },
   {
@@ -4105,6 +4255,11 @@ export const recipes: Recipe[] = [
         answer: 'ペルー式の「セビーチェ・アル・ミニット」は数分（3〜5分）で仕上げます。長時間漬けると身が縮み食感が失われます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ロコト唐辛子（ペルー産輸入）', amazonQuery: 'ロコト 唐辛子 ペルー 輸入', rakutenQuery: 'ロコト 唐辛子 輸入 ペルー' },
+      { name: 'スズキ 刺身用（鮮度高）', amazonQuery: 'スズキ 刺身 柵 鮮魚', rakutenQuery: 'スズキ 刺身 柵' },
+      { name: 'セビーチェ皿（ガラス製・深型）', amazonQuery: 'プレート 深め ガラス 食器 セビーチェ用', rakutenQuery: '深型 プレート ガラス 食器' },
+    ],
   },
   {
     id: '50',
@@ -4186,6 +4341,11 @@ export const recipes: Recipe[] = [
         question: '黄色い唐辛子（アヒ・アマリリョ）は必須ですか？',
         answer: 'カウサの黄色い色はアヒ・アマリリョから来ます。手に入らない場合は黄色いパプリカと少量のカイエンペッパーで代用できます。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'アヒ・アマリージョペースト（ペルー産）', amazonQuery: 'アヒ アマリージョ ペースト 輸入 ペルー', rakutenQuery: 'アヒアマリージョ ペースト 輸入' },
+      { name: 'ライム（ペルー料理用）', amazonQuery: 'ライム 輸入 ペルー料理 絞り機', rakutenQuery: 'ライム 輸入 生フルーツ' },
+      { name: 'テリーヌ型（長方形・ステンレス）', amazonQuery: 'テリーヌ型 ステンレス 長方形 製菓用', rakutenQuery: 'テリーヌ型 ステンレス 製菓' },
     ],
   },
 
@@ -4363,6 +4523,11 @@ export const recipes: Recipe[] = [
         answer: 'リガトーニやペンネなど筒状でソースが絡みやすいショートパスタが伝統的です。',
       },
     ],
+    affiliateProducts: [
+      { name: 'リコッタサラタ（乾燥リコッタ・輸入）', amazonQuery: 'リコッタサラタ チーズ 輸入 シチリア', rakutenQuery: 'リコッタサラタ チーズ 輸入' },
+      { name: 'リガトーニ パスタ（輸入・シチリア）', amazonQuery: 'リガトーニ パスタ 輸入 イタリア', rakutenQuery: 'リガトーニ パスタ 輸入' },
+      { name: '揚げ用オリーブオイル（ピュア）', amazonQuery: 'オリーブオイル ピュア 揚げ用 業務用', rakutenQuery: 'オリーブオイル ピュア 揚げ物' },
+    ],
   },
 
   {
@@ -4449,6 +4614,11 @@ export const recipes: Recipe[] = [
         answer: 'クリームを加えた後のスープは分離しやすいです。保存時はクリームを加える前の状態で冷蔵し食べる直前に加えて温めると分離しにくくなります。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ホタテ貝柱 冷凍（業務用）', amazonQuery: 'ホタテ 貝柱 冷凍 業務用 大粒', rakutenQuery: 'ホタテ 貝柱 冷凍 業務用' },
+      { name: 'タラ 白身魚 冷凍切り身', amazonQuery: 'タラ 白身魚 冷凍 切り身 業務用', rakutenQuery: 'タラ 白身魚 冷凍 業務用' },
+      { name: 'スープ鍋（厚底・業務用）', amazonQuery: 'スープ鍋 厚底 業務用 6L', rakutenQuery: 'スープ鍋 厚底 業務用' },
+    ],
   },
 
   {
@@ -4514,6 +4684,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: '196flavors',
     publishedAt: '2026-06-13',
     featured: false,
+    affiliateProducts: [
+      { name: 'ナンプラー（タイ産魚醤）', amazonQuery: 'ナンプラー タイ産 魚醤 輸入', rakutenQuery: 'ナンプラー タイ 輸入' },
+      { name: '乾燥唐辛子 タイ産（粗挽き）', amazonQuery: '唐辛子 乾燥 粗挽き タイ 輸入', rakutenQuery: '唐辛子 乾燥 粗挽き タイ産' },
+      { name: 'スティッキーライス蒸し器（竹製）', amazonQuery: 'もち米 蒸し器 竹製 タイ料理用', rakutenQuery: '蒸し器 竹製 もち米' },
+    ],
   },
 
   {
@@ -4603,6 +4778,11 @@ export const recipes: Recipe[] = [
         answer: 'ホースラディッシュソースとヨークシャープディングが伝統的な英国式の組み合わせです。グレービーソースも欠かせません。',
       },
     ],
+    affiliateProducts: [
+      { name: '牛サーロイン塊肉（ローストビーフ用）', amazonQuery: 'サーロイン 塊肉 ローストビーフ用 国産', rakutenQuery: '牛 サーロイン 塊 ローストビーフ' },
+      { name: 'ディジョンマスタード（輸入）', amazonQuery: 'ディジョン マスタード 輸入 フランス産', rakutenQuery: 'ディジョン マスタード 輸入' },
+      { name: '肉用温度計（デジタル）', amazonQuery: '肉用 温度計 デジタル 即読 プローブ', rakutenQuery: '肉用 温度計 デジタル' },
+    ],
   },
 
   {
@@ -4682,6 +4862,11 @@ export const recipes: Recipe[] = [
         question: 'バゲットが必須ですか？',
         answer: 'ガンバス・アル・アヒージョの醍醐味はにんにく風味のオリーブオイルをパンに浸して食べることです。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'スペイン産エクストラバージンオリーブオイル', amazonQuery: 'オリーブオイル スペイン産 エキストラバージン 輸入', rakutenQuery: 'オリーブオイル スペイン産 輸入' },
+      { name: '乾燥赤唐辛子 スペイン産', amazonQuery: '乾燥唐辛子 スペイン産 輸入 グラナダ', rakutenQuery: '乾燥唐辛子 スペイン産 輸入' },
+      { name: 'テラコッタ皿（アヒージョ用 耐熱）', amazonQuery: 'テラコッタ 皿 耐熱 アヒージョ用 スペイン風', rakutenQuery: 'テラコッタ 耐熱 皿 アヒージョ' },
     ],
   },
 
@@ -4774,6 +4959,11 @@ export const recipes: Recipe[] = [
         answer: 'スウェーデンのコーヒーブレイク文化です。カフェやオフィスでコーヒーとカネルブッレを楽しむ習慣です。',
       },
     ],
+    affiliateProducts: [
+      { name: 'カルダモン パウダー スパイス', amazonQuery: 'カルダモン パウダー スパイス 北欧', rakutenQuery: 'カルダモン パウダー スパイス 輸入' },
+      { name: 'パールシュガー（あられ糖・北欧風）', amazonQuery: 'パールシュガー あられ糖 スウェーデン 輸入', rakutenQuery: 'パールシュガー あられ糖 製菓用' },
+      { name: 'スタンドミキサー（パン生地こね用）', amazonQuery: 'スタンドミキサー パン生地 こね フック', rakutenQuery: 'スタンドミキサー パン 製菓用' },
+    ],
   },
 
   {
@@ -4853,6 +5043,11 @@ export const recipes: Recipe[] = [
         question: '冷たくして食べますか？温かくして食べますか？',
         answer: 'どちらでも美味しく食べられます。翌日冷蔵庫から出してから食べると味が馴染んでより美味しくなります。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'スペイン産エクストラバージンオリーブオイル（大容量）', amazonQuery: 'オリーブオイル エキストラバージン 大容量 輸入', rakutenQuery: 'オリーブオイル エキストラバージン 大容量' },
+      { name: 'トマト缶（ダイスカット 業務用）', amazonQuery: 'トマト缶 ダイスカット 業務用 輸入', rakutenQuery: 'トマト缶 ダイスカット 業務用' },
+      { name: '土鍋（テラコッタ・オーブン対応）', amazonQuery: 'テラコッタ 土鍋 オーブン対応 トルコ風', rakutenQuery: 'テラコッタ 土鍋 オーブン対応' },
     ],
   },
 
@@ -4939,6 +5134,11 @@ export const recipes: Recipe[] = [
         answer: 'トゥールダル（黄色いひよこ豆）が最も一般的です。',
       },
     ],
+    affiliateProducts: [
+      { name: '黄レンズ豆（チャナダール）インド産', amazonQuery: 'レンズ豆 黄 チャナダール インド産 輸入', rakutenQuery: 'レンズ豆 黄 インド産 輸入' },
+      { name: 'ギー（インド産澄ましバター）', amazonQuery: 'ギー インド産 バター 澄まし', rakutenQuery: 'ギー インド産 澄ましバター' },
+      { name: 'クミンシード コリアンダー スパイスセット', amazonQuery: 'クミンシード コリアンダー スパイス インド セット', rakutenQuery: 'クミン コリアンダー スパイス セット' },
+    ],
   },
 
   {
@@ -5023,6 +5223,11 @@ export const recipes: Recipe[] = [
         answer: 'フライドポテトとご飯を添えるのが伝統的スタイルです。炭水化物が多いですがこれがロモ・サルタードの醍醐味です。',
       },
     ],
+    affiliateProducts: [
+      { name: 'アヒ・アマリージョペースト（ペルー産）', amazonQuery: 'アヒアマリージョ ペースト 輸入 ペルー', rakutenQuery: 'アヒアマリージョ ペースト 輸入' },
+      { name: '赤ワインビネガー（輸入）', amazonQuery: '赤ワインビネガー 輸入 料理用', rakutenQuery: '赤ワインビネガー 輸入 酢' },
+      { name: '鉄製中華鍋（ウォック）', amazonQuery: '中華鍋 鉄製 ウォック 30cm', rakutenQuery: '中華鍋 鉄製 ウォック' },
+    ],
   },
   {
     id: '61',
@@ -5106,6 +5311,11 @@ export const recipes: Recipe[] = [
         answer: 'しめじ・エリンギ・しいたけが代用品として使えます。水分をよく飛ばしてからソースに加えると水っぽくなりません。',
       },
     ],
+    affiliateProducts: [
+      { name: 'エシャロット（フレンチシャロット）', amazonQuery: 'エシャロット フレンチ 輸入 フランス料理', rakutenQuery: 'エシャロット 輸入' },
+      { name: 'フランス産白ワイン（辛口）', amazonQuery: '白ワイン 辛口 フランス産 料理用', rakutenQuery: '白ワイン 辛口 フランス産' },
+      { name: 'ブレイジング鍋（深型フライパン・蓋付き）', amazonQuery: 'ブレイジングパン 深型 蓋付き オーブン対応', rakutenQuery: 'ブレイジング 深型 フライパン 蓋付き' },
+    ],
   },
   {
     id: '62',
@@ -5185,6 +5395,11 @@ export const recipes: Recipe[] = [
         question: 'どの部位の豚肉を使いますか？',
         answer: '豚バラ肉（腹側の皮付き）を広げて使うのが一般的です。皮付きのまま内側にハーブを塗って巻きタコ糸で縛って焼きます。',
       },
+    ],
+    affiliateProducts: [
+      { name: '豚バラ肉 皮付き 大判（輸入）', amazonQuery: '豚バラ 皮付き 大判 ロールポーク用', rakutenQuery: '豚バラ 皮付き 輸入' },
+      { name: 'フェンネルシード スパイス', amazonQuery: 'フェンネルシード スパイス イタリア料理', rakutenQuery: 'フェンネルシード スパイス 輸入' },
+      { name: '肉用温度計（デジタル即読）', amazonQuery: '肉用 温度計 デジタル 即読 ローストポーク', rakutenQuery: '肉用 温度計 デジタル' },
     ],
   },
   {
@@ -5363,6 +5578,11 @@ export const recipes: Recipe[] = [
         answer: 'ホーボーラッセン（ディルマスタードソース）が伝統的です。マスタード・砂糖・酢・ディルを混ぜてから油を少しずつ加えて乳化させます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'スモークサーモン用粗塩（大粒）', amazonQuery: '粗塩 大粒 マリネ 塩漬け フランス産', rakutenQuery: '粗塩 大粒 マリネ' },
+      { name: 'フレッシュディル ハーブ', amazonQuery: 'ディル ハーブ フレッシュ 生 北欧', rakutenQuery: 'ディル ハーブ フレッシュ' },
+      { name: 'サーモン柵（刺身・グラブラックス用）', amazonQuery: 'サーモン 柵 刺身用 業務用 チリ産', rakutenQuery: 'サーモン 柵 刺身用' },
+    ],
   },
   {
     id: '65',
@@ -5443,6 +5663,11 @@ export const recipes: Recipe[] = [
         question: 'ごま油を入れる理由は？',
         answer: 'ごま油はまぐろの旨みを引き立てアジア系の香りを加えます。ニッケイ料理では日本の食材とペルーの食材を組み合わせます。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'まぐろ刺身用柵（赤身・業務用）', amazonQuery: 'まぐろ 柵 刺身用 赤身 業務用', rakutenQuery: 'まぐろ 刺身 柵 業務用' },
+      { name: 'ライチ缶詰（輸入）', amazonQuery: 'ライチ 缶詰 輸入 シロップ漬け', rakutenQuery: 'ライチ 缶詰 輸入' },
+      { name: 'ゴマ油（純正 一番搾り）', amazonQuery: 'ごま油 純正 一番搾り 韓国産', rakutenQuery: 'ごま油 純正 一番搾り' },
     ],
   },
   {
@@ -5528,6 +5753,11 @@ export const recipes: Recipe[] = [
         answer: 'オーブン160℃で2.5〜3時間が目安です。骨から肉がするっと離れる状態が理想です。',
       },
     ],
+    affiliateProducts: [
+      { name: '骨付き牛ショートリブ（バックリブ）', amazonQuery: '牛 ショートリブ バックリブ 骨付き 輸入', rakutenQuery: '牛 ショートリブ 骨付き 輸入' },
+      { name: 'フルボディ赤ワイン 料理用（輸入）', amazonQuery: '赤ワイン フルボディ 料理用 輸入 大容量', rakutenQuery: '赤ワイン フルボディ 料理用' },
+      { name: '鋳鉄製ダッチオーブン（深型）', amazonQuery: 'ダッチオーブン 鋳鉄 深型 オーブン対応 蓋付き', rakutenQuery: 'ダッチオーブン 鋳鉄 深型' },
+    ],
   },
   {
     id: '67',
@@ -5609,6 +5839,11 @@ export const recipes: Recipe[] = [
         question: 'トフィーソースの作り方は？',
         answer: 'バター・ブラウンシュガー・生クリームを一緒に煮詰めて作ります。スポンジの上から惜しみなくかけて提供します。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'デーツ（ナツメヤシ・輸入）', amazonQuery: 'デーツ ナツメヤシ 輸入 乾燥 製菓用', rakutenQuery: 'デーツ ナツメヤシ 輸入 乾燥' },
+      { name: 'ブラウンシュガー（ダークブラウン）', amazonQuery: 'ブラウンシュガー ダーク 製菓用 輸入', rakutenQuery: 'ブラウンシュガー ダーク 製菓' },
+      { name: 'プディング型（イギリス式 陶器製）', amazonQuery: 'プディング型 イギリス 陶器 耐熱 蒸し', rakutenQuery: 'プディング型 陶器 耐熱' },
     ],
   },
   {
@@ -5694,6 +5929,11 @@ export const recipes: Recipe[] = [
         answer: 'ほうれん草は熱湯でさっと茹でたらすぐに氷水に取り出します（ブランチング）。この下処理が鮮やかな緑色を保ちます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'パニールチーズ（インド 輸入）', amazonQuery: 'パニール チーズ インド 輸入 業務用', rakutenQuery: 'パニール チーズ 輸入' },
+      { name: 'ギー（インド産澄ましバター）', amazonQuery: 'ギー インド産 バター 澄まし 料理用', rakutenQuery: 'ギー インド産 料理用' },
+      { name: 'ガラムマサラ スパイスミックス', amazonQuery: 'ガラムマサラ スパイス インド産 業務用', rakutenQuery: 'ガラムマサラ スパイス インド' },
+    ],
   },
   {
     id: '69',
@@ -5762,6 +6002,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: 'RecipeTin Eats',
     publishedAt: '2026-06-14',
     featured: false,
+    affiliateProducts: [
+      { name: 'マッサマンカレーペースト（タイ産）', amazonQuery: 'マッサマンカレーペースト タイ 輸入 本格', rakutenQuery: 'マッサマンカレーペースト タイ 輸入' },
+      { name: 'タマリンドペースト（輸入）', amazonQuery: 'タマリンドペースト 輸入 タイ 業務用', rakutenQuery: 'タマリンドペースト 輸入 タイ' },
+      { name: 'ヤシ砂糖（パームシュガー）', amazonQuery: 'ヤシ砂糖 パームシュガー タイ 輸入', rakutenQuery: 'ヤシ砂糖 パームシュガー 輸入' },
+    ],
   },
   {
     id: '70',
@@ -5906,6 +6151,11 @@ export const recipes: Recipe[] = [
         answer: 'くるみで代用可能です。カシューナッツやピスタチオも使えます。伝統的なレシピでは松の実を使いますが家庭ではお好みで代用できます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ジェノベーゼバジルペスト（輸入・イタリア産）', amazonQuery: 'ジェノベーゼ ペスト バジル 輸入 イタリア', rakutenQuery: 'ジェノベーゼ ペスト バジル 輸入' },
+      { name: '松の実（ピニョーリ・輸入）', amazonQuery: '松の実 ピニョーリ 輸入 イタリア', rakutenQuery: '松の実 輸入 製菓用' },
+      { name: 'パルミジャーノ・レッジャーノ チーズ塊', amazonQuery: 'パルミジャーノレッジャーノ チーズ 塊 輸入', rakutenQuery: 'パルミジャーノ チーズ 塊 輸入' },
+    ],
   },
   {
     id: '72',
@@ -5974,6 +6224,11 @@ export const recipes: Recipe[] = [
         question: '最後に加えるバターとパルミジャーノの役割は？',
         answer: '「マンテカトゥーラ」と呼ばれる工程です。火を止めてから冷たいバターを混ぜ込むことで乳化しなめらかになります。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'ドライポルチーニ（輸入 乾燥）', amazonQuery: 'ポルチーニ 乾燥 輸入 イタリア 業務用', rakutenQuery: 'ポルチーニ 乾燥 輸入' },
+      { name: 'アルボリオ米 リゾット用米（輸入）', amazonQuery: 'アルボリオ米 リゾット 輸入 イタリア', rakutenQuery: 'アルボリオ米 リゾット 輸入' },
+      { name: 'パルミジャーノ・レッジャーノ チーズ塊', amazonQuery: 'パルミジャーノレッジャーノ チーズ 塊 輸入', rakutenQuery: 'パルミジャーノ チーズ 塊 輸入' },
     ],
   },
   {
@@ -6105,6 +6360,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: 'RecipeTin Eats',
     publishedAt: '2026-06-15',
     featured: false,
+    affiliateProducts: [
+      { name: '青パパイヤ（グリーンパパイヤ）', amazonQuery: '青パパイヤ グリーンパパイヤ タイ料理', rakutenQuery: '青パパイヤ グリーンパパイヤ' },
+      { name: 'ナンプラー（タイ産魚醤）', amazonQuery: 'ナンプラー タイ産 魚醤 輸入', rakutenQuery: 'ナンプラー タイ 輸入' },
+      { name: 'ヤシ砂糖（パームシュガー）', amazonQuery: 'ヤシ砂糖 パームシュガー タイ 輸入', rakutenQuery: 'ヤシ砂糖 パームシュガー 輸入' },
+    ],
   },
   {
     id: '75',
@@ -6173,6 +6433,11 @@ export const recipes: Recipe[] = [
         answer: '冷凍ほたてでも使えますが冷蔵庫でゆっくり解凍して表面の水分をよく拭いてから使ってください。',
       },
     ],
+    affiliateProducts: [
+      { name: '大粒ホタテ貝柱 冷凍（業務用）', amazonQuery: 'ホタテ 貝柱 大粒 冷凍 業務用 生食用', rakutenQuery: 'ホタテ 貝柱 大粒 業務用' },
+      { name: 'バタースクワッシュ（バターナッツかぼちゃ）', amazonQuery: 'バターナッツ かぼちゃ 輸入 スクワッシュ', rakutenQuery: 'バターナッツかぼちゃ 輸入' },
+      { name: 'ステンレスフライパン（厚底・焦げ目用）', amazonQuery: 'フライパン ステンレス 厚底 焦げ目 28cm', rakutenQuery: 'フライパン ステンレス 厚底' },
+    ],
   },
   {
     id: '76',
@@ -6239,6 +6504,11 @@ export const recipes: Recipe[] = [
         answer: '日本の生ハム・ベーコン・加熱したハムを細かく切って代用できます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ハモン・セラーノ（スペイン産生ハム）', amazonQuery: 'ハモン セラーノ スペイン産 生ハム 輸入', rakutenQuery: 'ハモン セラーノ 輸入 スペイン' },
+      { name: 'グリュイエールチーズ（輸入）', amazonQuery: 'グリュイエール チーズ 輸入 スイス産', rakutenQuery: 'グリュイエール チーズ 輸入' },
+      { name: '天ぷら鍋（揚げ物用・温度計付き）', amazonQuery: '揚げ鍋 天ぷら 温度計付き 鉄製', rakutenQuery: '揚げ鍋 温度計付き 鉄製' },
+    ],
   },
   {
     id: '77',
@@ -6301,6 +6571,11 @@ export const recipes: Recipe[] = [
         question: 'フリカデラーに合う付け合わせは？',
         answer: 'じゃがいも・ブラウンソース・酢漬けキャベツ（ロードコール）が伝統的な組み合わせです。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'オールスパイス パウダー スパイス', amazonQuery: 'オールスパイス パウダー スパイス 北欧', rakutenQuery: 'オールスパイス スパイス' },
+      { name: '合挽き肉（豚・牛 業務用）', amazonQuery: '合挽き肉 豚牛 業務用 冷凍', rakutenQuery: '合挽き肉 業務用 冷凍' },
+      { name: '鉄製スキレット（北欧料理用）', amazonQuery: 'スキレット 鉄製 20cm オーブン対応', rakutenQuery: 'スキレット 鉄製 20cm' },
     ],
   },
   {
@@ -6370,6 +6645,11 @@ export const recipes: Recipe[] = [
         question: 'スープをなめらかにするコツは？',
         answer: 'ハンドブレンダーでしっかりかき混ぜます。裏ごしすると絹のような食感になります。',
       },
+    ],
+    affiliateProducts: [
+      { name: '赤レンズ豆（トルコ産 輸入）', amazonQuery: 'レンズ豆 赤 トルコ産 輸入 スープ用', rakutenQuery: 'レンズ豆 赤 輸入 スープ' },
+      { name: 'クミンパウダー スパイス', amazonQuery: 'クミン パウダー スパイス 業務用', rakutenQuery: 'クミン パウダー スパイス' },
+      { name: 'スープ用土鍋（チョルバ風）', amazonQuery: 'スープ鍋 土鍋 耐熱 スープ用', rakutenQuery: 'スープ鍋 土鍋 耐熱' },
     ],
   },
   {
@@ -6535,6 +6815,11 @@ export const recipes: Recipe[] = [
         answer: 'ペルーでは白ご飯にかけて食べるのが一般的です。ゆで卵・オリーブを添えるのが伝統的なプレゼンテーションです。',
       },
     ],
+    affiliateProducts: [
+      { name: 'アヒ・アマリージョペースト（ペルー産）', amazonQuery: 'アヒアマリージョ ペースト 輸入 ペルー', rakutenQuery: 'アヒアマリージョ ペースト 輸入' },
+      { name: 'クルミ（生 製菓・料理用）', amazonQuery: 'クルミ 生 製菓用 料理用 業務用', rakutenQuery: 'クルミ 生 業務用' },
+      { name: 'パルミジャーノ・レッジャーノ チーズ', amazonQuery: 'パルミジャーノレッジャーノ チーズ 輸入', rakutenQuery: 'パルミジャーノ チーズ 輸入' },
+    ],
   },
   {
     id: '81',
@@ -6629,6 +6914,11 @@ export const recipes: Recipe[] = [
         answer: 'サッサフラスの葉を乾燥させた粉でガンボにとろみと独特の風味を加えます。手に入らない場合はオクラのとろみで代用できます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'アンドゥイユソーセージ（輸入・スモーク）', amazonQuery: 'アンドゥイユ ソーセージ スモーク 輸入 ケイジャン', rakutenQuery: 'アンドゥイユ ソーセージ 輸入' },
+      { name: 'オクラ（冷凍 業務用）', amazonQuery: 'オクラ 冷凍 業務用 大容量', rakutenQuery: 'オクラ 冷凍 業務用' },
+      { name: '鋳鉄製ダッチオーブン（ガンボ鍋）', amazonQuery: 'ダッチオーブン 鋳鉄 深型 スープ 煮込み', rakutenQuery: 'ダッチオーブン 鋳鉄 煮込み' },
+    ],
   },
   {
     id: '82',
@@ -6696,6 +6986,11 @@ export const recipes: Recipe[] = [
         answer: '食べる直前にパスタを加えて一緒に煮ます。時間が経つとパスタが水分を吸って膨らむため食べる分だけ都度作ることをお勧めします。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ボルロッティ豆（缶詰 輸入）', amazonQuery: 'ボルロッティ豆 缶詰 輸入 イタリア', rakutenQuery: 'ボルロッティ豆 輸入 缶詰' },
+      { name: 'ディタリーニ パスタ（輸入）', amazonQuery: 'ディタリーニ パスタ 輸入 スープ用 イタリア', rakutenQuery: 'ディタリーニ パスタ 輸入' },
+      { name: 'パルミジャーノ・レッジャーノ チーズ塊', amazonQuery: 'パルミジャーノレッジャーノ チーズ 塊 輸入', rakutenQuery: 'パルミジャーノ チーズ 塊 輸入' },
+    ],
   },
   {
     id: '83',
@@ -6754,6 +7049,11 @@ export const recipes: Recipe[] = [
         answer: '砂糖をフライパンに入れ中火で加熱します。混ぜると結晶化するためフライパンを揺すりながら均一に加熱します。アンバー色になったらバターを加えます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'グラニースミス・紅玉りんご（タルトタタン用）', amazonQuery: 'りんご 紅玉 グラニースミス タルト用 輸入', rakutenQuery: 'りんご 紅玉 タルト用' },
+      { name: 'タルトタタン専用型（スキレット・鋳鉄製）', amazonQuery: 'スキレット 鋳鉄 20cm タルトタタン用 オーブン対応', rakutenQuery: 'スキレット 鋳鉄 タルトタタン' },
+      { name: '冷凍パイシート（バター使用）', amazonQuery: 'パイシート 冷凍 バター 輸入 製菓用', rakutenQuery: 'パイシート 冷凍 バター 製菓' },
+    ],
   },
   {
     id: '84',
@@ -6802,6 +7102,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: '196 Flavors',
     publishedAt: '2026-06-18',
     featured: false,
+    affiliateProducts: [
+      { name: '幅広ライスヌードル（センヤイ）乾燥', amazonQuery: '幅広ライスヌードル センヤイ タイ 乾燥', rakutenQuery: 'ライスヌードル 幅広 タイ 輸入' },
+      { name: '黒甘醤油 シーユーダム（タイ醤油）', amazonQuery: 'シーユーダム 黒醤油 タイ 輸入', rakutenQuery: 'タイ醤油 黒 シーユーダム 輸入' },
+      { name: 'カイラン（中国ブロッコリー）', amazonQuery: 'カイラン 中国ブロッコリー タイ野菜 輸入', rakutenQuery: 'カイラン 中国ブロッコリー' },
+    ],
   },
   {
     id: '85',
@@ -6866,6 +7171,11 @@ export const recipes: Recipe[] = [
         answer: '通常のパプリカパウダーで代用できますがスモーキーな風味は出ません。少量のチポトレを加えると近い風味になります。',
       },
     ],
+    affiliateProducts: [
+      { name: 'スモークパプリカ（ピメントン・スペイン産）', amazonQuery: 'スモークパプリカ ピメントン スペイン産 輸入', rakutenQuery: 'スモークパプリカ スペイン産 輸入' },
+      { name: 'スペイン産エクストラバージンオリーブオイル', amazonQuery: 'オリーブオイル スペイン産 エキストラバージン 輸入', rakutenQuery: 'オリーブオイル スペイン産 輸入' },
+      { name: 'フライヤー（家庭用揚げ物器）', amazonQuery: '家庭用 フライヤー 電気 揚げ物 1.5L', rakutenQuery: 'フライヤー 家庭用 電気 揚げ物' },
+    ],
   },
   {
     id: '86',
@@ -6927,6 +7237,11 @@ export const recipes: Recipe[] = [
         question: 'ディルが手に入らない場合は？',
         answer: '乾燥ディルで代用できます。生の1/3程度の量を使います。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'ノルウェー産サーモン切り身（業務用）', amazonQuery: 'サーモン 切り身 業務用 ノルウェー産 冷凍', rakutenQuery: 'サーモン 切り身 業務用 冷凍' },
+      { name: 'フレッシュディル ハーブ（北欧料理用）', amazonQuery: 'ディル ハーブ フレッシュ 北欧 食用', rakutenQuery: 'ディル ハーブ フレッシュ' },
+      { name: 'フィンランド産クリーム（生クリーム）', amazonQuery: '生クリーム 乳脂肪 38% 業務用 製菓', rakutenQuery: '生クリーム 高脂肪 業務用' },
     ],
   },
   {
@@ -6997,6 +7312,11 @@ export const recipes: Recipe[] = [
         answer: '全脂肪ヨーグルト・すりおろしにんにく・塩を混ぜるだけです。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ラム（羊）挽き肉（輸入）', amazonQuery: 'ラム 羊肉 挽き肉 冷凍 輸入', rakutenQuery: 'ラム 羊肉 挽き肉 輸入' },
+      { name: 'プレーンヨーグルト（高脂肪・水切り用）', amazonQuery: 'ヨーグルト 高脂肪 水切り トルコ風', rakutenQuery: 'ヨーグルト 無糖 高脂肪' },
+      { name: 'パプリカバター用スモークパプリカ', amazonQuery: 'スモークパプリカ パプリカ スパイス トルコ', rakutenQuery: 'スモークパプリカ スパイス 輸入' },
+    ],
   },
   {
     id: '88',
@@ -7065,6 +7385,11 @@ export const recipes: Recipe[] = [
         answer: 'レモン汁またはタマリンドペーストで代用できます。少量から加えて酸味を調整してください。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ひよこ豆 乾燥（業務用）', amazonQuery: 'ひよこ豆 乾燥 業務用 インド産', rakutenQuery: 'ひよこ豆 乾燥 業務用' },
+      { name: 'ガラムマサラ スパイスミックス インド', amazonQuery: 'ガラムマサラ スパイス インド 業務用', rakutenQuery: 'ガラムマサラ スパイス インド' },
+      { name: '圧力鍋（豆の下処理用）', amazonQuery: '圧力鍋 電気 家庭用 豆 煮込み', rakutenQuery: '圧力鍋 家庭用 豆 煮込み' },
+    ],
   },
   {
     id: '89',
@@ -7126,6 +7451,11 @@ export const recipes: Recipe[] = [
         question: 'クアルケソ（白チーズ）の代用品は？',
         answer: 'フェタチーズやカッテージチーズで代用できます。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'アヒ・アマリージョペースト（ペルー産）', amazonQuery: 'アヒアマリージョ ペースト 輸入 ペルー', rakutenQuery: 'アヒアマリージョ ペースト 輸入' },
+      { name: 'クリームチーズ（業務用・製菓用）', amazonQuery: 'クリームチーズ 業務用 フィラデルフィア 製菓', rakutenQuery: 'クリームチーズ 業務用' },
+      { name: 'ソルトクラッカー（輸入）', amazonQuery: 'ソルトクラッカー 輸入 塩クラッカー', rakutenQuery: 'ソルトクラッカー 輸入' },
     ],
   },
 
@@ -7204,6 +7534,11 @@ export const recipes: Recipe[] = [
         question: 'ハーブを加える理由は何ですか？',
         answer: 'バジル・ミント・タイムなどのハーブは桃の甘みと香りを引き立てます。意外な組み合わせでスムージーを詩的に仕上げます。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'アーモンドミルク（無糖・輸入）', amazonQuery: 'アーモンドミルク 無糖 輸入 業務用', rakutenQuery: 'アーモンドミルク 無糖 輸入' },
+      { name: 'アガベシロップ（ブルーアガベ）', amazonQuery: 'アガベシロップ ブルー 有機 輸入', rakutenQuery: 'アガベシロップ 有機 輸入' },
+      { name: 'レモンバーベナ（乾燥ハーブ）', amazonQuery: 'レモンバーベナ 乾燥 ハーブ ティー', rakutenQuery: 'レモンバーベナ 乾燥 ハーブ' },
     ],
   },
 
@@ -7287,6 +7622,11 @@ export const recipes: Recipe[] = [
         answer: '完熟でジューシーなトマトが最適です。旨みが強い夏のシーズンに作ると仕上がりが格段に変わります。',
       },
     ],
+    affiliateProducts: [
+      { name: 'サワードウブレッド（天然酵母パン）', amazonQuery: 'サワードウ 天然酵母 パン 輸入 冷凍', rakutenQuery: 'サワードウ 天然酵母 パン' },
+      { name: 'ドライトマト（オイル漬け 輸入）', amazonQuery: 'ドライトマト オイル漬け 輸入 イタリア', rakutenQuery: 'ドライトマト 輸入 オイル漬け' },
+      { name: 'ディジョンマスタード（輸入）', amazonQuery: 'ディジョン マスタード 輸入 フランス産', rakutenQuery: 'ディジョン マスタード 輸入' },
+    ],
   },
 
   // --- Grant Achatz ---
@@ -7365,6 +7705,11 @@ export const recipes: Recipe[] = [
         question: 'フルーツサラダに合う果物の組み合わせは？',
         answer: '梨・りんご・柿などの秋の果物がアンディーブの苦みと相性が良いです。クルミや松の実を加えると食感のアクセントになります。',
       },
+    ],
+    affiliateProducts: [
+      { name: '白味噌（西京味噌）', amazonQuery: '白味噌 西京 有機 ドレッシング用', rakutenQuery: '白味噌 西京 輸入' },
+      { name: 'エンダイブ（ベルギーチコリ）', amazonQuery: 'エンダイブ ベルギーチコリ 輸入 フランス野菜', rakutenQuery: 'エンダイブ チコリ 輸入' },
+      { name: 'ラディッキオ（イタリア紫チコリ）', amazonQuery: 'ラディッキオ 紫チコリ 輸入 イタリア', rakutenQuery: 'ラディッキオ チコリ 輸入' },
     ],
   },
 
@@ -7451,6 +7796,11 @@ export const recipes: Recipe[] = [
         answer: 'ラムラックはミディアムレア（内部温度57〜60℃）が最も美味しいとされています。肉用温度計で確認するのが確実です。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ラム 骨なしもも肉（輸入）', amazonQuery: 'ラム もも肉 骨なし 輸入 ニュージーランド産', rakutenQuery: 'ラム もも肉 輸入' },
+      { name: 'フレッシュタイム バジル ハーブ', amazonQuery: 'タイム バジル フレッシュ ハーブ セット', rakutenQuery: 'タイム バジル ハーブ フレッシュ' },
+      { name: '肉用温度計（デジタル即読）', amazonQuery: '肉用 温度計 デジタル 即読 ローストラム', rakutenQuery: '肉用 温度計 デジタル' },
+    ],
   },
 
   // --- Carlo Cracco ---
@@ -7536,6 +7886,11 @@ export const recipes: Recipe[] = [
         answer: 'パスタのゆで汁にはでんぷんが溶け込んでいます。このでんぷんがオイルと乳化しやすくしパスタにソースがしっかり絡まる効果があります。',
       },
     ],
+    affiliateProducts: [
+      { name: 'スモーク粗塩（スモークソルト）', amazonQuery: 'スモーク粗塩 スモークソルト 輸入 製菓', rakutenQuery: 'スモーク塩 粗塩 輸入' },
+      { name: 'スパゲッティ ブロンズダイス製（輸入）', amazonQuery: 'スパゲッティ ブロンズダイス 輸入 イタリア', rakutenQuery: 'スパゲッティ 輸入 イタリア' },
+      { name: 'エクストラバージンオリーブオイル（一番搾り）', amazonQuery: 'オリーブオイル エキストラバージン 一番搾り 輸入', rakutenQuery: 'オリーブオイル エキストラバージン 一番搾り' },
+    ],
   },
   {
     id: '96',
@@ -7608,6 +7963,11 @@ export const recipes: Recipe[] = [
         question: '仕上げにパセリを加えるのはなぜですか？',
         answer: 'イタリアンパセリの青みと香りが辛みと油のコクを和らげバランスをとります。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'スパゲッティ ブロンズダイス製（輸入）', amazonQuery: 'スパゲッティ ブロンズダイス 輸入 イタリア', rakutenQuery: 'スパゲッティ 輸入 イタリア' },
+      { name: 'エクストラバージンオリーブオイル（シチリア産）', amazonQuery: 'オリーブオイル エキストラバージン イタリア産 輸入', rakutenQuery: 'オリーブオイル エキストラバージン 輸入' },
+      { name: 'アンチョビフィレ 缶詰（輸入）', amazonQuery: 'アンチョビ フィレ 缶詰 輸入 イタリア', rakutenQuery: 'アンチョビ フィレ 輸入' },
     ],
   },
 
@@ -7692,6 +8052,11 @@ export const recipes: Recipe[] = [
         answer: '加熱しても殻が開かないあさりは死んでいる可能性があるため食べるのは避けてください。',
       },
     ],
+    affiliateProducts: [
+      { name: 'あさり（冷凍 業務用 砂抜き済み）', amazonQuery: 'あさり 冷凍 業務用 砂抜き済み', rakutenQuery: 'あさり 冷凍 業務用' },
+      { name: 'スパゲッティ ブロンズダイス製（輸入）', amazonQuery: 'スパゲッティ ブロンズダイス 輸入 イタリア', rakutenQuery: 'スパゲッティ 輸入 イタリア' },
+      { name: '白ワイン（辛口 料理用）', amazonQuery: '白ワイン 辛口 料理用 ボルドー 輸入', rakutenQuery: '白ワイン 辛口 料理用' },
+    ],
   },
 
   {
@@ -7768,6 +8133,11 @@ export const recipes: Recipe[] = [
         question: 'パルミジャーノの代わりに使えるチーズはありますか？',
         answer: 'グラナ・パダーノで代用できます。ペコリーノを少量混ぜると塩気と個性が加わります。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'アマルフィ産レモン（輸入・大粒）', amazonQuery: 'レモン 輸入 大粒 シチリア産 アマルフィ', rakutenQuery: 'レモン 輸入 シチリア産' },
+      { name: 'リングイネ パスタ（輸入）', amazonQuery: 'リングイネ パスタ 輸入 イタリア', rakutenQuery: 'リングイネ パスタ 輸入' },
+      { name: 'パルミジャーノ・レッジャーノ チーズ塊', amazonQuery: 'パルミジャーノレッジャーノ チーズ 塊 輸入', rakutenQuery: 'パルミジャーノ チーズ 塊 輸入' },
     ],
   },
 
@@ -8072,6 +8442,11 @@ export const recipes: Recipe[] = [
         answer: '鍋底から浮き上がってきたら茹で上がりのサインです。さらに30秒ほどで引き上げてソースに絡めてください。',
       },
     ],
+    affiliateProducts: [
+      { name: 'イタリア産ホールトマト缶（サンマルツァーノ）', amazonQuery: 'サンマルツァーノ トマト缶 ホール 輸入 イタリア', rakutenQuery: 'サンマルツァーノ トマト缶 輸入' },
+      { name: 'ニョッキ（輸入・既製品）', amazonQuery: 'ニョッキ 輸入 イタリア 冷凍', rakutenQuery: 'ニョッキ 輸入 イタリア' },
+      { name: 'チーズおろし金（グレーター）', amazonQuery: 'チーズグレーター おろし金 イタリア料理', rakutenQuery: 'チーズグレーター おろし金' },
+    ],
   },
 
   // --- パンナコッタ ---
@@ -8153,6 +8528,11 @@ export const recipes: Recipe[] = [
         question: '型から外しやすくするコツは？',
         answer: '型の内側を水で濡らしてから流し入れると外しやすくなります。外す際は熱湯に5秒つけてから逆さにすると綺麗に出ます。',
       },
+    ],
+    affiliateProducts: [
+      { name: '板ゼラチン（製菓用 輸入）', amazonQuery: '板ゼラチン 製菓用 輸入 業務用', rakutenQuery: '板ゼラチン 製菓用 業務用' },
+      { name: 'バニラビーンズ スティック（輸入）', amazonQuery: 'バニラビーンズ スティック 輸入 マダガスカル', rakutenQuery: 'バニラビーンズ スティック 輸入' },
+      { name: 'プリン型（プランティーヌ 耐熱）', amazonQuery: 'プリン型 耐熱 パンナコッタ用 ガラス', rakutenQuery: 'プリン型 ガラス 耐熱' },
     ],
   },
 
@@ -8238,6 +8618,11 @@ export const recipes: Recipe[] = [
         answer: '低温長時間発酵させることで旨みが増し気泡が細かく均一になります。前日に仕込んで冷蔵庫に入れておくのがプロの基本手順です。',
       },
     ],
+    affiliateProducts: [
+      { name: 'フルール・ド・セル（粗塩 フランス産）', amazonQuery: 'フルール ド セル 粗塩 フランス産 ゲランド', rakutenQuery: 'フルール ド セル 粗塩 輸入' },
+      { name: 'エクストラバージンオリーブオイル（リグーリア産）', amazonQuery: 'オリーブオイル エキストラバージン リグーリア イタリア輸入', rakutenQuery: 'オリーブオイル エキストラバージン 輸入' },
+      { name: 'フォカッチャ天板（アルミ・深型）', amazonQuery: '天板 アルミ 深型 フォカッチャ用 製菓', rakutenQuery: '天板 アルミ 深型 製菓用' },
+    ],
   },
 
   // --- ラディッキオのリゾット ---
@@ -8319,6 +8704,11 @@ export const recipes: Recipe[] = [
         answer: 'ヴェネト州産のアマローネやソアーヴェが伝統的なペアリングです。苦みのある料理には赤ワイン特にアマローネが相性抜群です。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ラディッキオ・ディ・トレヴィーゾ（輸入）', amazonQuery: 'ラディッキオ チコリ 輸入 イタリア野菜', rakutenQuery: 'ラディッキオ 輸入 イタリア' },
+      { name: 'カルナローリ米 リゾット用（輸入）', amazonQuery: 'カルナローリ米 リゾット 輸入 イタリア', rakutenQuery: 'カルナローリ米 リゾット 輸入' },
+      { name: 'フルボディ赤ワイン（輸入・料理用）', amazonQuery: '赤ワイン フルボディ 輸入 料理用 イタリア', rakutenQuery: '赤ワイン フルボディ 料理用' },
+    ],
   },
 
   // --- オレキエッテ・コン・チーマディラーパ ---
@@ -8392,6 +8782,11 @@ export const recipes: Recipe[] = [
         question: 'アンチョビを入れる理由は？',
         answer: 'チーメ・ディ・ラーパの苦みをアンチョビの旨みと塩気がまとめ上げます。にんにくと一緒に炒めるとアンチョビは溶けてソースの一部になります。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'オレキエッテ パスタ（輸入）', amazonQuery: 'オレキエッテ パスタ 輸入 プーリア イタリア', rakutenQuery: 'オレキエッテ パスタ 輸入' },
+      { name: 'チーマディラーパ（菜の花・イタリア野菜）', amazonQuery: 'チーマディラーパ 菜の花 イタリア野菜 輸入', rakutenQuery: '菜の花 チーマディラーパ' },
+      { name: 'アンチョビフィレ 缶詰（輸入）', amazonQuery: 'アンチョビ フィレ 缶詰 輸入 イタリア', rakutenQuery: 'アンチョビ フィレ 輸入' },
     ],
   },
 
@@ -8477,6 +8872,11 @@ export const recipes: Recipe[] = [
         answer: '和名は「ギアラ」といいます。焼肉屋さんや精肉店・業務用食材店で購入できることがあります。',
       },
     ],
+    affiliateProducts: [
+      { name: '牛ギアラ（第四胃 もつ）', amazonQuery: '牛 ギアラ もつ 国産 業務用', rakutenQuery: '牛 ギアラ もつ 業務用' },
+      { name: 'スロークッカー（低温調理器）', amazonQuery: 'スロークッカー 低温調理 煮込み 6L', rakutenQuery: 'スロークッカー 低温調理' },
+      { name: 'パン（フィレンツェ風パーニョ）', amazonQuery: 'ロールパン 食パン バゲット 業務用 冷凍', rakutenQuery: 'ロールパン 業務用 冷凍' },
+    ],
   },
 
   // --- ブカティーニ・アル・アマトリチャーナ ---
@@ -8557,6 +8957,11 @@ export const recipes: Recipe[] = [
         answer: '缶のホールトマトは手でつぶしてから加えます。サンマルツァーノ種のホールトマト缶は甘みと旨みが強くお勧めです。',
       },
     ],
+    affiliateProducts: [
+      { name: 'グアンチャーレ（豚頬肉塩漬け・輸入）', amazonQuery: 'グアンチャーレ 豚頬肉 塩漬け 輸入', rakutenQuery: 'グアンチャーレ 豚頬肉 輸入' },
+      { name: 'ペコリーノ・ロマーノ チーズ（輸入）', amazonQuery: 'ペコリーノロマーノ チーズ 輸入 イタリア', rakutenQuery: 'ペコリーノロマーノ チーズ 輸入' },
+      { name: 'ブカティーニ パスタ（輸入）', amazonQuery: 'ブカティーニ パスタ 輸入 イタリア', rakutenQuery: 'ブカティーニ パスタ 輸入' },
+    ],
   },
 
   // --- スパゲッティ・アッラ・プッタネスカ ---
@@ -8633,6 +9038,11 @@ export const recipes: Recipe[] = [
         question: 'プッタネスカはなぜこの名前がついたのですか？',
         answer: '食材を「ぱっと作れる」という意味でputtanescaと呼ぶ説が有力で冷蔵庫にある保存食材だけで手軽に作れる料理であることを示しています。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'ケッパー 塩漬け（輸入・イタリア産）', amazonQuery: 'ケッパー 塩漬け 輸入 イタリア 業務用', rakutenQuery: 'ケッパー 塩漬け 輸入' },
+      { name: 'ブラックオリーブ（種なし 輸入）', amazonQuery: 'ブラックオリーブ 種なし 缶詰 輸入', rakutenQuery: 'ブラックオリーブ 種なし 輸入' },
+      { name: 'アンチョビフィレ 缶詰（輸入）', amazonQuery: 'アンチョビ フィレ 缶詰 輸入', rakutenQuery: 'アンチョビ フィレ 輸入' },
     ],
   },
 
@@ -8711,6 +9121,11 @@ export const recipes: Recipe[] = [
         answer: '通常のラム肉でも作れますが臭みがやや強いためローズマリーとニンニクを増やして対応します。',
       },
     ],
+    affiliateProducts: [
+      { name: '仔羊（ラム）肩またはもも肉 冷凍', amazonQuery: 'ラム 肩肉 もも肉 冷凍 輸入', rakutenQuery: 'ラム 肩肉 輸入' },
+      { name: 'アンチョビフィレ 缶詰（輸入）', amazonQuery: 'アンチョビ フィレ 缶詰 輸入', rakutenQuery: 'アンチョビ フィレ 輸入' },
+      { name: '白ワインビネガー（輸入）', amazonQuery: '白ワインビネガー 輸入 イタリア 料理用', rakutenQuery: '白ワインビネガー 輸入 料理用' },
+    ],
   },
 
   // --- アクアパッツァ ---
@@ -8786,6 +9201,11 @@ export const recipes: Recipe[] = [
         question: '仕上げにどんな野菜を加えますか？',
         answer: 'ミニトマト・オリーブ・ケイパー・イタリアンパセリが定番です。パンを浸して食べると出汁が美味しくいただけます。',
       },
+    ],
+    affiliateProducts: [
+      { name: '鯛 一尾（丸ごと・アクアパッツァ用）', amazonQuery: '鯛 一尾 丸ごと 鮮魚 業務用', rakutenQuery: '鯛 一尾 業務用' },
+      { name: 'ミニトマト（フルーツトマト）', amazonQuery: 'ミニトマト フルーツトマト 業務用', rakutenQuery: 'ミニトマト 業務用 大容量' },
+      { name: '白ワイン（辛口 料理用）', amazonQuery: '白ワイン 辛口 料理用 イタリア', rakutenQuery: '白ワイン 辛口 料理用' },
     ],
   },
 
@@ -8869,6 +9289,11 @@ export const recipes: Recipe[] = [
         question: '薄力粉をあまり使わない理由は？',
         answer: '薄力粉の量を最小限にすることでチョコレートの風味を最大限に引き出します。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'クーベルチュールチョコレート（カカオ70%以上）', amazonQuery: 'クーベルチュール チョコレート カカオ70 製菓用', rakutenQuery: 'クーベルチュール チョコレート 製菓用' },
+      { name: '無塩バター（製菓用・高品質）', amazonQuery: '無塩バター 製菓用 エシレ カルピス 高品質', rakutenQuery: '無塩バター 製菓用 高品質' },
+      { name: 'ケーキ型（丸型 18cm 底取れ）', amazonQuery: 'ケーキ型 丸型 18cm 底取れ スプリングフォーム', rakutenQuery: 'ケーキ型 丸型 18cm' },
     ],
   },
 
@@ -9042,6 +9467,11 @@ export const recipes: Recipe[] = [
         question: 'クロック・マダムとの違いは？',
         answer: 'クロック・ムッシュに目玉焼きをのせたものが「クロック・マダム」です。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'グリュイエールチーズ（輸入・溶けやすい）', amazonQuery: 'グリュイエール チーズ 輸入 スイス産 溶けやすい', rakutenQuery: 'グリュイエール チーズ 輸入' },
+      { name: 'ロースハム（厚切り 業務用）', amazonQuery: 'ロースハム 厚切り 業務用 輸入', rakutenQuery: 'ロースハム 厚切り 業務用' },
+      { name: 'ディジョンマスタード（輸入）', amazonQuery: 'ディジョン マスタード 輸入 フランス産', rakutenQuery: 'ディジョン マスタード 輸入' },
     ],
   },
 
@@ -9233,6 +9663,11 @@ export const recipes: Recipe[] = [
         answer: 'オリーブオイル3：ワインビネガー1が基本比率です。マスタードを少量加えると乳化しやすく味に深みが出ます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ツナ缶 オイル漬け（輸入・高品質）', amazonQuery: 'ツナ缶 オイル漬け 輸入 高品質 スペイン産', rakutenQuery: 'ツナ缶 オイル漬け 輸入' },
+      { name: 'アンチョビフィレ 缶詰（輸入）', amazonQuery: 'アンチョビ フィレ 缶詰 輸入', rakutenQuery: 'アンチョビ フィレ 輸入' },
+      { name: 'ニソワーズオリーブ（ブラックオリーブ）', amazonQuery: 'ニソワーズ オリーブ ブラック 輸入 フランス', rakutenQuery: 'ニソワーズ オリーブ 輸入' },
+    ],
   },
 
   // --- グラタン・ドーフィノワ ---
@@ -9307,6 +9742,11 @@ export const recipes: Recipe[] = [
         question: 'グラタンの底が焦げる場合は？',
         answer: 'オーブンの温度を下げ（160〜170℃）加熱時間を延ばす方法が効果的です。途中でアルミホイルをかぶせると表面の焦げを防げます。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'グリュイエールチーズ（輸入）', amazonQuery: 'グリュイエール チーズ 輸入 スイス産', rakutenQuery: 'グリュイエール チーズ 輸入' },
+      { name: 'グラタン皿（耐熱 深型 フランス風）', amazonQuery: 'グラタン皿 耐熱 深型 オーブン対応 フランス風', rakutenQuery: 'グラタン皿 耐熱 深型' },
+      { name: '生クリーム（乳脂肪35%以上）', amazonQuery: '生クリーム 乳脂肪 35% 製菓 料理用', rakutenQuery: '生クリーム 高脂肪 製菓' },
     ],
   },
 
@@ -9388,6 +9828,11 @@ export const recipes: Recipe[] = [
         answer: 'できるだけ高温（250℃以上）で事前にしっかり予熱します。ピザ石やキャスト鉄のトレイを一緒に予熱すると底面がよりパリッと焼けます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'クレームフレッシュ（クリームフレッシュ・輸入）', amazonQuery: 'クレームフレッシュ 輸入 フランス産 業務用', rakutenQuery: 'クレームフレッシュ 輸入 フランス' },
+      { name: 'アルザス産ベーコン（ラルドン）', amazonQuery: 'ラルドン ベーコン 角切り 業務用 輸入', rakutenQuery: 'ラルドン ベーコン 角切り 輸入' },
+      { name: 'ピザストーン（薄生地焼き用）', amazonQuery: 'ピザストーン 薄生地 コルディエライト 耐熱', rakutenQuery: 'ピザストーン 薄生地 耐熱' },
+    ],
   },
   {
     id: '118',
@@ -9455,6 +9900,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: 'Eating Thai Food',
     publishedAt: '2026-06-21',
     featured: false,
+    affiliateProducts: [
+      { name: 'ジャスミンライス（タイ産長粒米）', amazonQuery: 'ジャスミンライス タイ産 長粒米 輸入', rakutenQuery: 'ジャスミンライス タイ産 輸入' },
+      { name: 'オイスターソース（タイ産）', amazonQuery: 'オイスターソース タイ産 輸入 業務用', rakutenQuery: 'オイスターソース タイ産 輸入' },
+      { name: '黒醤油 シーユーダム（タイ醤油）', amazonQuery: 'シーユーダム タイ醤油 黒醤油 輸入', rakutenQuery: 'タイ醤油 黒 輸入' },
+    ],
   },
   {
     id: '119',
@@ -9521,6 +9971,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: 'ImportFood',
     publishedAt: '2026-06-21',
     featured: false,
+    affiliateProducts: [
+      { name: 'タピオカ粉（製菓・料理用）', amazonQuery: 'タピオカ粉 製菓用 料理用 輸入', rakutenQuery: 'タピオカ粉 製菓 料理' },
+      { name: '牡蠣 冷凍 業務用（生食用）', amazonQuery: '牡蠣 冷凍 業務用 生食用 むき身', rakutenQuery: '牡蠣 冷凍 業務用' },
+      { name: '鉄製中華鍋 ウォック（28cm）', amazonQuery: '中華鍋 鉄製 ウォック 28cm タイ料理', rakutenQuery: '中華鍋 鉄製 ウォック' },
+    ],
   },
   {
     id: '120',
@@ -9588,6 +10043,11 @@ export const recipes: Recipe[] = [
     sourceSiteName: 'RecipeTin Eats',
     publishedAt: '2026-06-21',
     featured: false,
+    affiliateProducts: [
+      { name: 'レモングラス（フレッシュ・輸入）', amazonQuery: 'レモングラス フレッシュ 輸入 タイ産', rakutenQuery: 'レモングラス フレッシュ タイ' },
+      { name: 'ナンプラー（タイ産魚醤）', amazonQuery: 'ナンプラー タイ産 魚醤 輸入', rakutenQuery: 'ナンプラー タイ 輸入' },
+      { name: 'バーベキューグリル（炭火・家庭用）', amazonQuery: 'バーベキューグリル 炭火 家庭用 小型', rakutenQuery: 'バーベキュー グリル 家庭用' },
+    ],
   },
   {
     id: '121',
@@ -9651,6 +10111,11 @@ export const recipes: Recipe[] = [
         answer: '全ての具材を水から一緒に煮込むことで自然に出汁が取れます。最初のうちに浮いてくるあくを丁寧に取り除くと清澄なスープになります。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ひよこ豆 乾燥 スペイン産（大粒）', amazonQuery: 'ひよこ豆 乾燥 スペイン産 大粒 輸入', rakutenQuery: 'ひよこ豆 乾燥 輸入 スペイン' },
+      { name: 'チョリソ スペイン産（セミキュアード）', amazonQuery: 'チョリソ スペイン産 セミキュアード 輸入', rakutenQuery: 'チョリソ スペイン産 輸入' },
+      { name: 'モルシーリャ（スペイン産ブラッドソーセージ）', amazonQuery: 'モルシーリャ ブラッドソーセージ 輸入 スペイン', rakutenQuery: 'モルシーリャ ソーセージ 輸入' },
+    ],
   },
   {
     id: '122',
@@ -9709,6 +10174,11 @@ export const recipes: Recipe[] = [
         question: '仕上げのシナモンをかけるタイミングは？',
         answer: '器に盛り付けた後にシナモンパウダーを振りかけます。ブラウンシュガーをバーナーで焦がすクレームブリュレ風の仕上げもあります。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'スペイン産短粒米（ライスプディング用）', amazonQuery: '短粒米 スペイン産 輸入 リゾット ライスプディング', rakutenQuery: '短粒米 スペイン産 輸入' },
+      { name: 'シナモンスティック（セイロン産）', amazonQuery: 'シナモンスティック セイロン スパイス 輸入', rakutenQuery: 'シナモンスティック スパイス 輸入' },
+      { name: 'バニラビーンズ スティック（輸入）', amazonQuery: 'バニラビーンズ スティック 輸入 マダガスカル', rakutenQuery: 'バニラビーンズ スティック 輸入' },
     ],
   },
   {
@@ -9770,6 +10240,11 @@ export const recipes: Recipe[] = [
         answer: 'スープが温まって最後の仕上げに卵を割り入れ半熟状に仕上げます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'スモークパプリカパウダー（ピメントン・スペイン産）', amazonQuery: 'スモークパプリカ ピメントン スペイン産 輸入', rakutenQuery: 'スモークパプリカ スペイン産 輸入' },
+      { name: 'スペイン産エクストラバージンオリーブオイル', amazonQuery: 'オリーブオイル スペイン産 エキストラバージン 輸入', rakutenQuery: 'オリーブオイル スペイン産 輸入' },
+      { name: 'テラコッタスープ皿（耐熱）', amazonQuery: 'テラコッタ スープ皿 耐熱 スペイン風', rakutenQuery: 'テラコッタ スープ皿 耐熱' },
+    ],
   },
   {
     id: '124',
@@ -9829,6 +10304,11 @@ export const recipes: Recipe[] = [
         question: '煮込む際のワインはどれが適していますか？',
         answer: 'スペインの辛口白ワインが伝統的ですが、シェリー酒（フィノ）でも美味しく作れます。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'スモークパプリカパウダー（ピメントン）', amazonQuery: 'スモークパプリカ ピメントン スペイン産', rakutenQuery: 'スモークパプリカ スペイン産 輸入' },
+      { name: 'スペイン産白ワイン（辛口・料理用）', amazonQuery: '白ワイン スペイン産 辛口 料理用 輸入', rakutenQuery: '白ワイン スペイン産 輸入' },
+      { name: 'テラコッタ鍋（カスエラ・耐熱）', amazonQuery: 'テラコッタ 鍋 カスエラ 耐熱 スペイン風', rakutenQuery: 'テラコッタ 鍋 カスエラ 耐熱' },
     ],
   },
   {
@@ -9892,6 +10372,11 @@ export const recipes: Recipe[] = [
         answer: 'スペインの白ワインまたはシェリー酒（ドライシェリー）が伝統的です。',
       },
     ],
+    affiliateProducts: [
+      { name: 'スペイン産合挽き肉（豚・牛ミックス）', amazonQuery: '合挽き肉 豚牛 業務用 スペイン風', rakutenQuery: '合挽き肉 業務用 豚牛' },
+      { name: 'ホールトマト缶（サンマルツァーノ 輸入）', amazonQuery: 'サンマルツァーノ トマト缶 ホール 輸入', rakutenQuery: 'トマト缶 ホール 輸入' },
+      { name: 'スモークパプリカパウダー', amazonQuery: 'スモークパプリカ ピメントン スペイン産', rakutenQuery: 'スモークパプリカ スペイン産' },
+    ],
   },
   {
     id: '126',
@@ -9939,9 +10424,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-21',
     featured: false,
     affiliateProducts: [
-      { name: 'クレームブリュレ用バーナー', amazonQuery: 'クレームブリュレ バーナー キッチントーチ' },
-      { name: 'ラメキン（耐熱小鉢）', amazonQuery: 'ラメキン 耐熱 グラタン皿 小' },
-      { name: 'バニラビーンズ', amazonQuery: 'バニラビーンズ 本物 スパイス' },
+      { name: 'クレームブリュレ用バーナー', amazonQuery: 'クレームブリュレ バーナー キッチントーチ', rakutenQuery: 'クレームブリュレ バーナー キッチントーチ' },
+      { name: 'ラメキン（耐熱小鉢）', amazonQuery: 'ラメキン 耐熱 グラタン皿 小', rakutenQuery: 'ラメキン 耐熱 グラタン皿 小' },
+      { name: 'バニラビーンズ', amazonQuery: 'バニラビーンズ 本物 スパイス', rakutenQuery: 'バニラビーンズ 本物 スパイス' },
     ],
     faqs: [
       {
@@ -10020,6 +10505,11 @@ export const recipes: Recipe[] = [
         answer: 'ガリシアでは魚介（タコ・いわし・えび）・肉（鶏・豚）バージョンもあります。',
       },
     ],
+    affiliateProducts: [
+      { name: 'ツナ缶 オイル漬け（高品質・スペイン産）', amazonQuery: 'ツナ缶 オイル漬け スペイン産 輸入 高品質', rakutenQuery: 'ツナ缶 オイル漬け スペイン産 輸入' },
+      { name: 'スペイン産ピーマン（赤・緑）', amazonQuery: 'ピーマン 赤 パプリカ スペイン産 業務用', rakutenQuery: 'ピーマン 赤 パプリカ 業務用' },
+      { name: 'エンパナーダ型（パイ皿・丸型）', amazonQuery: 'パイ皿 丸型 耐熱 オーブン 28cm', rakutenQuery: 'パイ皿 丸型 耐熱 オーブン' },
+    ],
   },
   {
     id: '128',
@@ -10081,6 +10571,11 @@ export const recipes: Recipe[] = [
         answer: '豆が柔らかくなる最後の30分頃にサフランを温湯に溶かして加えます。早く入れすぎると香りが飛びます。',
       },
     ],
+    affiliateProducts: [
+      { name: 'スペイン産白インゲン豆（ファバ豆 乾燥）', amazonQuery: 'インゲン豆 白 乾燥 スペイン産 輸入', rakutenQuery: 'インゲン豆 白 乾燥 輸入' },
+      { name: 'チョリソ スペイン産（セミキュアード）', amazonQuery: 'チョリソ スペイン産 セミキュアード 輸入', rakutenQuery: 'チョリソ スペイン産 輸入' },
+      { name: 'モルシーリャ（スペイン産ブラッドソーセージ）', amazonQuery: 'モルシーリャ ブラッドソーセージ 輸入 スペイン', rakutenQuery: 'モルシーリャ ソーセージ 輸入' },
+    ],
   },
   {
     id: '129',
@@ -10134,6 +10629,11 @@ export const recipes: Recipe[] = [
         question: '焼き方のコツは？',
         answer: 'オリーブオイルを多めに熱したフライパンで強火で焼きます。表面に焦げ目と水ぶくれができたら完成です。塩は焼いた後に振ります。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'パドロンペッパー（青唐辛子・輸入）', amazonQuery: 'パドロンペッパー 青唐辛子 輸入 スペイン', rakutenQuery: 'パドロンペッパー 輸入 スペイン' },
+      { name: 'フルール・ド・セル（粗塩 スペイン産）', amazonQuery: 'フルール ド セル 粗塩 輸入', rakutenQuery: 'フルール ド セル 粗塩' },
+      { name: 'オリーブオイル エクストラバージン（スペイン産）', amazonQuery: 'オリーブオイル スペイン産 エキストラバージン', rakutenQuery: 'オリーブオイル スペイン産 輸入' },
     ],
   },
   {
@@ -10194,6 +10694,11 @@ export const recipes: Recipe[] = [
         question: 'とろみを出すコツは？',
         answer: '古いパン（固くなった白パン）をミキサーにかけることでとろみが出ます。',
       },
+    ],
+    affiliateProducts: [
+      { name: '完熟ホールトマト（コルドバ産・業務用）', amazonQuery: '完熟トマト 輸入 業務用 スペイン産', rakutenQuery: '完熟トマト 輸入 業務用' },
+      { name: 'シェリービネガー（ヘレスビネガー・輸入）', amazonQuery: 'シェリービネガー ヘレス 輸入 スペイン', rakutenQuery: 'シェリービネガー 輸入' },
+      { name: 'ハモン・セラーノ（スペイン産生ハム）', amazonQuery: 'ハモン セラーノ スペイン 輸入 生ハム', rakutenQuery: 'ハモン セラーノ 輸入' },
     ],
   },
   {
@@ -10277,6 +10782,11 @@ export const recipes: Recipe[] = [
         answer: 'アーモンドの花は食用です。食用花（エディブルフラワー）として販売されている場合があります。',
       },
     ],
+    affiliateProducts: [
+      { name: 'フレークアーモンド（製菓用）', amazonQuery: 'フレークアーモンド 製菓用 スライス 輸入', rakutenQuery: 'フレークアーモンド 製菓用' },
+      { name: 'ドライシェリー（フィノ・輸入）', amazonQuery: 'シェリー酒 フィノ 輸入 スペイン産 料理用', rakutenQuery: 'シェリー酒 フィノ 輸入' },
+      { name: 'シェリービネガー（輸入）', amazonQuery: 'シェリービネガー 輸入 スペイン 料理用', rakutenQuery: 'シェリービネガー 輸入' },
+    ],
   },
   {
     id: '132',
@@ -10357,6 +10867,11 @@ export const recipes: Recipe[] = [
         question: 'このような前衛的な料理は家庭で再現できますか？',
         answer: '完全な再現は困難ですが良質な食材を丁寧に盛り付けることで雰囲気は出せます。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'ライチピューレ（輸入・製菓用）', amazonQuery: 'ライチ ピューレ 輸入 製菓用 業務用', rakutenQuery: 'ライチ ピューレ 輸入 製菓' },
+      { name: 'ゼラチン 板（製菓用 輸入）', amazonQuery: '板ゼラチン 製菓用 輸入 業務用', rakutenQuery: '板ゼラチン 製菓用' },
+      { name: '柚子果汁（ゆず 搾り汁）', amazonQuery: '柚子 果汁 ゆず 搾り汁 業務用', rakutenQuery: '柚子 果汁 業務用' },
     ],
   },
   {
@@ -10440,6 +10955,11 @@ export const recipes: Recipe[] = [
         answer: '白ワインビネガー・水・砂糖・塩・香味野菜・粒こしょう・ローリエが基本です。',
       },
     ],
+    affiliateProducts: [
+      { name: '生牡蠣 殻付き（業務用）', amazonQuery: '牡蠣 殻付き 業務用 生食用 輸入', rakutenQuery: '牡蠣 殻付き 業務用 生食' },
+      { name: 'レシチン（大豆レシチン・乳化剤）', amazonQuery: '大豆レシチン 乳化剤 製菓用 料理用', rakutenQuery: '大豆レシチン 乳化剤 料理用' },
+      { name: '日本酒（料理用・本醸造）', amazonQuery: '日本酒 料理用 本醸造 業務用', rakutenQuery: '日本酒 料理用 業務用' },
+    ],
   },
   {
     id: '134',
@@ -10520,6 +11040,11 @@ export const recipes: Recipe[] = [
         question: 'バスク料理の特徴は何ですか？',
         answer: '新鮮な魚介・地元野菜・オリーブオイルを使ったシンプルで素材の風味を大切にした料理が特徴です。',
       },
+    ],
+    affiliateProducts: [
+      { name: 'ウサギ肉（冷凍 輸入）', amazonQuery: 'ウサギ 肉 冷凍 輸入 フランス産', rakutenQuery: 'ウサギ 肉 冷凍 輸入' },
+      { name: 'チョリセロピーマン（乾燥唐辛子 スペイン産）', amazonQuery: 'チョリセロ ピーマン 乾燥唐辛子 スペイン 輸入', rakutenQuery: 'チョリセロ 乾燥唐辛子 輸入' },
+      { name: 'サフラン スペイン産（ピカダ用）', amazonQuery: 'サフラン スペイン産 輸入 業務用', rakutenQuery: 'サフラン スペイン産 輸入' },
     ],
   },
   {
@@ -10603,6 +11128,11 @@ export const recipes: Recipe[] = [
         answer: 'にんにくのすりおろし・卵黄・オリーブオイル・レモン汁・塩を乳化させたにんにくマヨネーズです。アロス・ネグロには定番の付け合わせです。',
       },
     ],
+    affiliateProducts: [
+      { name: 'イカ墨 業務用（輸入）', amazonQuery: 'イカ墨 業務用 輸入 パスタ パエリア用', rakutenQuery: 'イカ墨 業務用 輸入' },
+      { name: 'ボンバ米（スペイン産パエリア米）', amazonQuery: 'ボンバ米 パエリア スペイン産 輸入', rakutenQuery: 'ボンバ米 パエリア 輸入' },
+      { name: 'パエリアパン（鉄製 32cm）', amazonQuery: 'パエリアパン 鉄製 32cm スペイン産', rakutenQuery: 'パエリアパン 鉄製 輸入' },
+    ],
   },
   {
     id: '137',
@@ -10674,9 +11204,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-21',
     featured: false,
     affiliateProducts: [
-      { name: 'パエリアパン（パエリア鍋）', amazonQuery: 'パエリアパン パエリア鍋 スペイン' },
-      { name: 'イカ墨ペースト', amazonQuery: 'イカ墨 ペースト スペイン料理' },
-      { name: 'スペイン産サフラン', amazonQuery: 'サフラン スペイン産 料理' },
+      { name: 'パエリアパン（パエリア鍋）', amazonQuery: 'パエリアパン パエリア鍋 スペイン', rakutenQuery: 'パエリアパン パエリア鍋 スペイン' },
+      { name: 'イカ墨ペースト', amazonQuery: 'イカ墨 ペースト スペイン料理', rakutenQuery: 'イカ墨 ペースト スペイン料理' },
+      { name: 'スペイン産サフラン', amazonQuery: 'サフラン スペイン産 料理', rakutenQuery: 'サフラン スペイン産 料理' },
     ],
     faqs: [
       {
@@ -10744,9 +11274,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-21',
     featured: false,
     affiliateProducts: [
-      { name: 'コーントルティーリャ（輸入）', amazonQuery: 'コーントルティーリャ メキシコ 輸入' },
-      { name: 'チリパウダー スパイスセット', amazonQuery: 'チリパウダー アンチョ グアヒーリョ 輸入' },
-      { name: 'クミンパウダー', amazonQuery: 'クミン パウダー スパイス' },
+      { name: 'コーントルティーリャ（輸入）', amazonQuery: 'コーントルティーリャ メキシコ 輸入', rakutenQuery: 'コーントルティーリャ メキシコ 輸入' },
+      { name: 'チリパウダー スパイスセット', amazonQuery: 'チリパウダー アンチョ グアヒーリョ 輸入', rakutenQuery: 'チリパウダー アンチョ グアヒーリョ 輸入' },
+      { name: 'クミンパウダー', amazonQuery: 'クミン パウダー スパイス', rakutenQuery: 'クミン パウダー スパイス' },
     ],
     faqs: [
       {
@@ -10808,9 +11338,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-21',
     featured: false,
     affiliateProducts: [
-      { name: 'アボカドカッター・スライサー', amazonQuery: 'アボカド カッター スライサー 道具' },
-      { name: 'ハラペーニョ（瓶詰め）', amazonQuery: 'ハラペーニョ 瓶詰め 輸入' },
-      { name: 'トルティーリャチップス', amazonQuery: 'トルティーリャチップス 輸入 メキシコ' },
+      { name: 'アボカドカッター・スライサー', amazonQuery: 'アボカド カッター スライサー 道具', rakutenQuery: 'アボカド カッター スライサー 道具' },
+      { name: 'ハラペーニョ（瓶詰め）', amazonQuery: 'ハラペーニョ 瓶詰め 輸入', rakutenQuery: 'ハラペーニョ 瓶詰め 輸入' },
+      { name: 'トルティーリャチップス', amazonQuery: 'トルティーリャチップス 輸入 メキシコ', rakutenQuery: 'トルティーリャチップス 輸入 メキシコ' },
     ],
     faqs: [
       {
@@ -10877,9 +11407,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-21',
     featured: false,
     affiliateProducts: [
-      { name: 'チリパウダー スパイスセット', amazonQuery: 'チリパウダー メキシコ スパイス 輸入' },
-      { name: 'オアハカチーズ（またはモッツァレラ）', amazonQuery: 'モッツァレラ チーズ 輸入' },
-      { name: '揚げ物用温度計', amazonQuery: '揚げ物 温度計 油温 デジタル' },
+      { name: 'チリパウダー スパイスセット', amazonQuery: 'チリパウダー メキシコ スパイス 輸入', rakutenQuery: 'チリパウダー メキシコ スパイス 輸入' },
+      { name: 'オアハカチーズ（またはモッツァレラ）', amazonQuery: 'モッツァレラ チーズ 輸入', rakutenQuery: 'モッツァレラ チーズ 輸入' },
+      { name: '揚げ物用温度計', amazonQuery: '揚げ物 温度計 油温 デジタル', rakutenQuery: '揚げ物 温度計 油温 デジタル' },
     ],
     faqs: [
       {
@@ -10944,9 +11474,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-21',
     featured: false,
     affiliateProducts: [
-      { name: 'ダッチオーブン 鋳鉄鍋', amazonQuery: 'ダッチオーブン 鋳鉄鍋 深型' },
-      { name: 'ラード（豚脂）', amazonQuery: 'ラード 豚脂 料理用' },
-      { name: 'クミンパウダー', amazonQuery: 'クミン パウダー スパイス' },
+      { name: 'ダッチオーブン 鋳鉄鍋', amazonQuery: 'ダッチオーブン 鋳鉄鍋 深型', rakutenQuery: 'ダッチオーブン 鋳鉄鍋 深型' },
+      { name: 'ラード（豚脂）', amazonQuery: 'ラード 豚脂 料理用', rakutenQuery: 'ラード 豚脂 料理用' },
+      { name: 'クミンパウダー', amazonQuery: 'クミン パウダー スパイス', rakutenQuery: 'クミン パウダー スパイス' },
     ],
     faqs: [
       {
@@ -11015,9 +11545,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-21',
     featured: false,
     affiliateProducts: [
-      { name: 'ホミニー缶（輸入）', amazonQuery: 'ホミニー 缶詰 輸入 メキシコ料理' },
-      { name: 'アンチョチリ（乾燥）', amazonQuery: 'アンチョ チリ 乾燥 輸入' },
-      { name: '大型寸胴鍋', amazonQuery: '寸胴鍋 大型 スープ 業務用' },
+      { name: 'ホミニー缶（輸入）', amazonQuery: 'ホミニー 缶詰 輸入 メキシコ料理', rakutenQuery: 'ホミニー 缶詰 輸入 メキシコ料理' },
+      { name: 'アンチョチリ（乾燥）', amazonQuery: 'アンチョ チリ 乾燥 輸入', rakutenQuery: 'アンチョ チリ 乾燥 輸入' },
+      { name: '大型寸胴鍋', amazonQuery: '寸胴鍋 大型 スープ 業務用', rakutenQuery: '寸胴鍋 大型 スープ 業務用' },
     ],
     faqs: [
       {
@@ -11084,9 +11614,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-21',
     featured: false,
     affiliateProducts: [
-      { name: 'コーントルティーリャ（輸入）', amazonQuery: 'コーントルティーリャ メキシコ 輸入' },
-      { name: 'サルサ・ベルデ（瓶詰め）', amazonQuery: 'サルサ ベルデ 瓶詰め 輸入' },
-      { name: 'グラタン皿（耐熱）', amazonQuery: 'グラタン皿 耐熱 オーブン対応' },
+      { name: 'コーントルティーリャ（輸入）', amazonQuery: 'コーントルティーリャ メキシコ 輸入', rakutenQuery: 'コーントルティーリャ メキシコ 輸入' },
+      { name: 'サルサ・ベルデ（瓶詰め）', amazonQuery: 'サルサ ベルデ 瓶詰め 輸入', rakutenQuery: 'サルサ ベルデ 瓶詰め 輸入' },
+      { name: 'グラタン皿（耐熱）', amazonQuery: 'グラタン皿 耐熱 オーブン対応', rakutenQuery: 'グラタン皿 耐熱 オーブン対応' },
     ],
     faqs: [
       {
@@ -11154,9 +11684,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-21',
     featured: false,
     affiliateProducts: [
-      { name: 'チキンブイヨン（顆粒）', amazonQuery: 'チキンブイヨン コンソメ 顆粒' },
-      { name: 'コーントルティーリャ（輸入）', amazonQuery: 'コーントルティーリャ メキシコ 輸入' },
-      { name: 'ライム果汁（業務用）', amazonQuery: 'ライム 果汁 100% 業務用' },
+      { name: 'チキンブイヨン（顆粒）', amazonQuery: 'チキンブイヨン コンソメ 顆粒', rakutenQuery: 'チキンブイヨン コンソメ 顆粒' },
+      { name: 'コーントルティーリャ（輸入）', amazonQuery: 'コーントルティーリャ メキシコ 輸入', rakutenQuery: 'コーントルティーリャ メキシコ 輸入' },
+      { name: 'ライム果汁（業務用）', amazonQuery: 'ライム 果汁 100% 業務用', rakutenQuery: 'ライム 果汁 100% 業務用' },
     ],
     faqs: [
       {
@@ -11234,9 +11764,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-21',
     featured: false,
     affiliateProducts: [
-      { name: 'ダークチョコレート（カカオ70%以上）', amazonQuery: 'ダークチョコレート カカオ70 料理用' },
-      { name: 'アンチョチリ（乾燥）', amazonQuery: 'アンチョ チリ 乾燥 輸入 メキシコ' },
-      { name: 'パワーブレンダー（ミキサー）', amazonQuery: 'ブレンダー ミキサー パワー 業務用' },
+      { name: 'ダークチョコレート（カカオ70%以上）', amazonQuery: 'ダークチョコレート カカオ70 料理用', rakutenQuery: 'ダークチョコレート カカオ70 料理用' },
+      { name: 'アンチョチリ（乾燥）', amazonQuery: 'アンチョ チリ 乾燥 輸入 メキシコ', rakutenQuery: 'アンチョ チリ 乾燥 輸入 メキシコ' },
+      { name: 'パワーブレンダー（ミキサー）', amazonQuery: 'ブレンダー ミキサー パワー 業務用', rakutenQuery: 'ブレンダー ミキサー パワー 業務用' },
     ],
     faqs: [
       {
@@ -11298,9 +11828,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-21',
     featured: false,
     affiliateProducts: [
-      { name: 'ライム果汁（100%）', amazonQuery: 'ライム 果汁 100% 輸入' },
-      { name: 'セラーノチリ（または青唐辛子）', amazonQuery: '青唐辛子 チリ スパイス' },
-      { name: 'トルティーリャチップス', amazonQuery: 'トルティーリャチップス 輸入 メキシコ' },
+      { name: 'ライム果汁（100%）', amazonQuery: 'ライム 果汁 100% 輸入', rakutenQuery: 'ライム 果汁 100% 輸入' },
+      { name: 'セラーノチリ（または青唐辛子）', amazonQuery: '青唐辛子 チリ スパイス', rakutenQuery: '青唐辛子 チリ スパイス' },
+      { name: 'トルティーリャチップス', amazonQuery: 'トルティーリャチップス 輸入 メキシコ', rakutenQuery: 'トルティーリャチップス 輸入 メキシコ' },
     ],
     faqs: [
       {
@@ -11412,9 +11942,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-22',
     featured: false,
     affiliateProducts: [
-      { name: 'グリーンオリーブ（種抜き・大粒）', amazonQuery: 'グリーンオリーブ 種抜き 大粒 イタリア' },
-      { name: 'パルミジャーノ・レッジャーノ', amazonQuery: 'パルミジャーノ レッジャーノ すりおろし' },
-      { name: 'エクストラバージンオリーブオイル', amazonQuery: 'エクストラバージン オリーブオイル イタリア' },
+      { name: 'グリーンオリーブ（種抜き・大粒）', amazonQuery: 'グリーンオリーブ 種抜き 大粒 イタリア', rakutenQuery: 'グリーンオリーブ 種抜き 大粒 イタリア' },
+      { name: 'パルミジャーノ・レッジャーノ', amazonQuery: 'パルミジャーノ レッジャーノ すりおろし', rakutenQuery: 'パルミジャーノ レッジャーノ すりおろし' },
+      { name: 'エクストラバージンオリーブオイル', amazonQuery: 'エクストラバージン オリーブオイル イタリア', rakutenQuery: 'エクストラバージン オリーブオイル イタリア' },
     ],
     faqs: [
       {
@@ -11497,9 +12027,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-23',
     featured: false,
     affiliateProducts: [
-      { name: 'パネーンカレーペースト', amazonQuery: 'パネーン カレーペースト タイ メープロイ' },
-      { name: 'ナンプラー（タイ魚醤）', amazonQuery: 'ナンプラー 魚醤 タイ料理' },
-      { name: 'カフィアライムリーフ（冷凍）', amazonQuery: 'コブミカン 葉 カフィアライム 冷凍' },
+      { name: 'パネーンカレーペースト', amazonQuery: 'パネーン カレーペースト タイ メープロイ', rakutenQuery: 'パネーン カレーペースト タイ メープロイ' },
+      { name: 'ナンプラー（タイ魚醤）', amazonQuery: 'ナンプラー 魚醤 タイ料理', rakutenQuery: 'ナンプラー 魚醤 タイ料理' },
+      { name: 'カフィアライムリーフ（冷凍）', amazonQuery: 'コブミカン 葉 カフィアライム 冷凍', rakutenQuery: 'コブミカン 葉 カフィアライム 冷凍' },
     ],
   },
   {
@@ -11572,9 +12102,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-23',
     featured: false,
     affiliateProducts: [
-      { name: 'ライスヌードル（米粉麺）', amazonQuery: 'ライスヌードル 米粉麺 タイ料理' },
-      { name: 'ナンプラー（タイ魚醤）', amazonQuery: 'ナンプラー 魚醤 タイ料理' },
-      { name: 'フライドガーリック', amazonQuery: 'フライドガーリック 揚げにんにく タイ料理' },
+      { name: 'ライスヌードル（米粉麺）', amazonQuery: 'ライスヌードル 米粉麺 タイ料理', rakutenQuery: 'ライスヌードル 米粉麺 タイ料理' },
+      { name: 'ナンプラー（タイ魚醤）', amazonQuery: 'ナンプラー 魚醤 タイ料理', rakutenQuery: 'ナンプラー 魚醤 タイ料理' },
+      { name: 'フライドガーリック', amazonQuery: 'フライドガーリック 揚げにんにく タイ料理', rakutenQuery: 'フライドガーリック 揚げにんにく タイ料理' },
     ],
   },
   {
@@ -11650,9 +12180,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-23',
     featured: false,
     affiliateProducts: [
-      { name: '春雨（緑豆春雨）', amazonQuery: '春雨 緑豆 タイ料理 ヤムウンセン' },
-      { name: 'ナンプラー（タイ魚醤）', amazonQuery: 'ナンプラー 魚醤 タイ料理' },
-      { name: 'パームシュガー', amazonQuery: 'パームシュガー ヤシ砂糖 タイ料理' },
+      { name: '春雨（緑豆春雨）', amazonQuery: '春雨 緑豆 タイ料理 ヤムウンセン', rakutenQuery: '春雨 緑豆 タイ料理 ヤムウンセン' },
+      { name: 'ナンプラー（タイ魚醤）', amazonQuery: 'ナンプラー 魚醤 タイ料理', rakutenQuery: 'ナンプラー 魚醤 タイ料理' },
+      { name: 'パームシュガー', amazonQuery: 'パームシュガー ヤシ砂糖 タイ料理', rakutenQuery: 'パームシュガー ヤシ砂糖 タイ料理' },
     ],
   },
   {
@@ -11725,9 +12255,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-23',
     featured: false,
     affiliateProducts: [
-      { name: 'グリュイエールチーズ', amazonQuery: 'グリュイエール チーズ フランス' },
-      { name: 'ビーフブロス（牛骨スープ）', amazonQuery: 'ビーフブロス 牛骨スープ コンソメ' },
-      { name: 'ローリエ（月桂樹の葉）', amazonQuery: 'ローリエ 月桂樹 乾燥ハーブ' },
+      { name: 'グリュイエールチーズ', amazonQuery: 'グリュイエール チーズ フランス', rakutenQuery: 'グリュイエール チーズ フランス' },
+      { name: 'ビーフブロス（牛骨スープ）', amazonQuery: 'ビーフブロス 牛骨スープ コンソメ', rakutenQuery: 'ビーフブロス 牛骨スープ コンソメ' },
+      { name: 'ローリエ（月桂樹の葉）', amazonQuery: 'ローリエ 月桂樹 乾燥ハーブ', rakutenQuery: 'ローリエ 月桂樹 乾燥ハーブ' },
     ],
     faqs: [
       {
@@ -11816,9 +12346,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-23',
     featured: false,
     affiliateProducts: [
-      { name: 'クリームチーズ（業務用）', amazonQuery: 'クリームチーズ フィラデルフィア ケーキ' },
-      { name: 'スプリングフォーム型（20cm）', amazonQuery: 'スプリングフォーム 底取れ ケーキ型 20cm' },
-      { name: 'グラハムクラッカー', amazonQuery: 'グラハムクラッカー チーズケーキ ベース' },
+      { name: 'クリームチーズ（業務用）', amazonQuery: 'クリームチーズ フィラデルフィア ケーキ', rakutenQuery: 'クリームチーズ フィラデルフィア ケーキ' },
+      { name: 'スプリングフォーム型（20cm）', amazonQuery: 'スプリングフォーム 底取れ ケーキ型 20cm', rakutenQuery: 'スプリングフォーム 底取れ ケーキ型 20cm' },
+      { name: 'グラハムクラッカー', amazonQuery: 'グラハムクラッカー チーズケーキ ベース', rakutenQuery: 'グラハムクラッカー チーズケーキ ベース' },
     ],
     faqs: [
       {
@@ -11911,9 +12441,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-23',
     featured: false,
     affiliateProducts: [
-      { name: 'ギー（インドバター）', amazonQuery: 'ギー インドバター グラスフェッド' },
-      { name: 'ニゲラシード（ブラッククミン）', amazonQuery: 'ニゲラシード ブラッククミン インド料理' },
-      { name: 'インスタントイースト', amazonQuery: 'インスタントイースト ドライイースト パン用' },
+      { name: 'ギー（インドバター）', amazonQuery: 'ギー インドバター グラスフェッド', rakutenQuery: 'ギー インドバター グラスフェッド' },
+      { name: 'ニゲラシード（ブラッククミン）', amazonQuery: 'ニゲラシード ブラッククミン インド料理', rakutenQuery: 'ニゲラシード ブラッククミン インド料理' },
+      { name: 'インスタントイースト', amazonQuery: 'インスタントイースト ドライイースト パン用', rakutenQuery: 'インスタントイースト ドライイースト パン用' },
     ],
     faqs: [
       {
@@ -12003,9 +12533,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-23',
     featured: false,
     affiliateProducts: [
-      { name: 'フィロ生地（冷凍）', amazonQuery: 'フィロ生地 パイシート 冷凍 中東' },
-      { name: 'ピスタチオ（ロースト）', amazonQuery: 'ピスタチオ ロースト 無塩 製菓用' },
-      { name: 'はちみつ（純粋）', amazonQuery: 'はちみつ 純粋 国産 非加熱' },
+      { name: 'フィロ生地（冷凍）', amazonQuery: 'フィロ生地 パイシート 冷凍 中東', rakutenQuery: 'フィロ生地 パイシート 冷凍 中東' },
+      { name: 'ピスタチオ（ロースト）', amazonQuery: 'ピスタチオ ロースト 無塩 製菓用', rakutenQuery: 'ピスタチオ ロースト 無塩 製菓用' },
+      { name: 'はちみつ（純粋）', amazonQuery: 'はちみつ 純粋 国産 非加熱', rakutenQuery: 'はちみつ 純粋 国産 非加熱' },
     ],
     faqs: [
       {
@@ -12092,9 +12622,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-06-23',
     featured: false,
     affiliateProducts: [
-      { name: 'ダークチョコレート（製菓用）', amazonQuery: 'ダークチョコレート 製菓用 カカオ70% クーベルチュール' },
-      { name: 'ブラウンシュガー（三温糖）', amazonQuery: '三温糖 ブラウンシュガー お菓子作り' },
-      { name: 'ピュアココアパウダー（無糖）', amazonQuery: 'ココアパウダー 無糖 製菓用 ピュアカカオ' },
+      { name: 'ダークチョコレート（製菓用）', amazonQuery: 'ダークチョコレート 製菓用 カカオ70% クーベルチュール', rakutenQuery: 'ダークチョコレート 製菓用 カカオ70% クーベルチュール' },
+      { name: 'ブラウンシュガー（三温糖）', amazonQuery: '三温糖 ブラウンシュガー お菓子作り', rakutenQuery: '三温糖 ブラウンシュガー お菓子作り' },
+      { name: 'ピュアココアパウダー（無糖）', amazonQuery: 'ココアパウダー 無糖 製菓用 ピュアカカオ', rakutenQuery: 'ココアパウダー 無糖 製菓用 ピュアカカオ' },
     ],
     faqs: [
       {
@@ -12188,9 +12718,9 @@ export const recipes: Recipe[] = [
       { question: 'マジパンが手に入らない場合の代替品はありますか？', answer: '市販のロールマジパン（製菓材料店や輸入食材店で入手可能）を使うのが最もおすすめです。アーモンドプードルと粉糖を1:1で混ぜ、水あめを加えて手作りすることもできます。' },
     ],
     affiliateProducts: [
-      { name: 'マジパン（アーモンドペースト）', amazonQuery: 'マジパン アーモンドペースト 製菓用 ローマジパン' },
-      { name: '食用色素（緑）', amazonQuery: '食用色素 緑 製菓用 天然色素' },
-      { name: '絞り袋・口金セット', amazonQuery: '絞り袋 口金 製菓 デコレーション セット' },
+      { name: 'マジパン（アーモンドペースト）', amazonQuery: 'マジパン アーモンドペースト 製菓用 ローマジパン', rakutenQuery: 'マジパン アーモンドペースト 製菓用 ローマジパン' },
+      { name: '食用色素（緑）', amazonQuery: '食用色素 緑 製菓用 天然色素', rakutenQuery: '食用色素 緑 製菓用 天然色素' },
+      { name: '絞り袋・口金セット', amazonQuery: '絞り袋 口金 製菓 デコレーション セット', rakutenQuery: '絞り袋 口金 製菓 デコレーション セット' },
     ],
   },
   {
@@ -12270,9 +12800,9 @@ export const recipes: Recipe[] = [
       { question: 'ダニッシュ生地の折り込みが上手くいかない場合のコツは？', answer: 'バターと生地を常に冷たく保つことが最重要です。各折り込みの後に必ず15〜30分冷蔵庫で休ませましょう。室温が高い夏は特に注意が必要です。バターが溶け始めたらすぐに冷蔵庫に戻してください。' },
     ],
     affiliateProducts: [
-      { name: 'フランス産無塩バター（製菓用）', amazonQuery: 'フランス産 無塩バター 製菓用 発酵バター' },
-      { name: 'インスタントドライイースト', amazonQuery: 'インスタントドライイースト サフ 製菓 パン作り' },
-      { name: 'パン生地用めん棒（大）', amazonQuery: 'めん棒 大 パン生地 製菓 木製' },
+      { name: 'フランス産無塩バター（製菓用）', amazonQuery: 'フランス産 無塩バター 製菓用 発酵バター', rakutenQuery: 'フランス産 無塩バター 製菓用 発酵バター' },
+      { name: 'インスタントドライイースト', amazonQuery: 'インスタントドライイースト サフ 製菓 パン作り', rakutenQuery: 'インスタントドライイースト サフ 製菓 パン作り' },
+      { name: 'パン生地用めん棒（大）', amazonQuery: 'めん棒 大 パン生地 製菓 木製', rakutenQuery: 'めん棒 大 パン生地 製菓 木製' },
     ],
   },
   {
@@ -12341,9 +12871,9 @@ export const recipes: Recipe[] = [
       { question: 'クネッケブロードはグルテンフリーにできますか？', answer: 'ライ麦粉にはグルテンが含まれているため完全なグルテンフリーは難しいですが、そば粉・米粉・オーツ粉（グルテンフリー認証品）を組み合わせることでグルテンフリー版を作れます。食感は少し変わりますが十分おいしく仕上がります。' },
     ],
     affiliateProducts: [
-      { name: 'ライ麦全粒粉', amazonQuery: 'ライ麦粉 全粒粉 製パン用 オーガニック' },
-      { name: 'キャラウェイシード', amazonQuery: 'キャラウェイシード スパイス 北欧 クミン' },
-      { name: 'スペルト小麦粉', amazonQuery: 'スペルト小麦粉 全粒 古代小麦 製パン' },
+      { name: 'ライ麦全粒粉', amazonQuery: 'ライ麦粉 全粒粉 製パン用 オーガニック', rakutenQuery: 'ライ麦粉 全粒粉 製パン用 オーガニック' },
+      { name: 'キャラウェイシード', amazonQuery: 'キャラウェイシード スパイス 北欧 クミン', rakutenQuery: 'キャラウェイシード スパイス 北欧 クミン' },
+      { name: 'スペルト小麦粉', amazonQuery: 'スペルト小麦粉 全粒 古代小麦 製パン', rakutenQuery: 'スペルト小麦粉 全粒 古代小麦 製パン' },
     ],
   },
   {
@@ -12414,9 +12944,9 @@ export const recipes: Recipe[] = [
       { question: 'スンドゥブチゲを辛くしたくない場合はどうすればいいですか？', answer: 'コチュガル（唐辛子フレーク）を減らすか省いて、代わりにパプリカパウダーで色をつけると辛くなりません。子ども向けには鶏ガラスープベースにするとやさしい味になります。' },
     ],
     affiliateProducts: [
-      { name: 'コチュガル（韓国粉唐辛子）', amazonQuery: 'コチュガル 韓国粉唐辛子 キムチ用' },
-      { name: 'スンドゥブ（絹ごし豆腐）', amazonQuery: '韓国 豆腐 スンドゥブ 絹ごし' },
-      { name: 'セウジョット（塩辛小エビ）', amazonQuery: 'セウジョット 塩辛小エビ 韓国食材' },
+      { name: 'コチュガル（韓国粉唐辛子）', amazonQuery: 'コチュガル 韓国粉唐辛子 キムチ用', rakutenQuery: 'コチュガル 韓国粉唐辛子 キムチ用' },
+      { name: 'スンドゥブ（絹ごし豆腐）', amazonQuery: '韓国 豆腐 スンドゥブ 絹ごし', rakutenQuery: '韓国 豆腐 スンドゥブ 絹ごし' },
+      { name: 'セウジョット（塩辛小エビ）', amazonQuery: 'セウジョット 塩辛小エビ 韓国食材', rakutenQuery: 'セウジョット 塩辛小エビ 韓国食材' },
     ],
   },
   {
@@ -12489,9 +13019,9 @@ export const recipes: Recipe[] = [
       { question: 'サムギョプサルに合うサムジャンの作り方は？', answer: 'テンジャン（韓国みそ）大さじ2・コチュジャン大さじ1・みじん切りにんにく小さじ1・ごま油小さじ2・ごま小さじ1を混ぜるだけです。市販のサムジャンでも美味しく食べられます。' },
     ],
     affiliateProducts: [
-      { name: 'テンジャン（韓国みそ）', amazonQuery: 'テンジャン 韓国みそ 味噌 韓国食材' },
-      { name: 'コチュジャン', amazonQuery: 'コチュジャン 韓国 唐辛子みそ 正規品' },
-      { name: 'エゴマの葉（冷凍）', amazonQuery: 'エゴマの葉 冷凍 韓国食材 ケンニプ' },
+      { name: 'テンジャン（韓国みそ）', amazonQuery: 'テンジャン 韓国みそ 味噌 韓国食材', rakutenQuery: 'テンジャン 韓国みそ 味噌 韓国食材' },
+      { name: 'コチュジャン', amazonQuery: 'コチュジャン 韓国 唐辛子みそ 正規品', rakutenQuery: 'コチュジャン 韓国 唐辛子みそ 正規品' },
+      { name: 'エゴマの葉（冷凍）', amazonQuery: 'エゴマの葉 冷凍 韓国食材 ケンニプ', rakutenQuery: 'エゴマの葉 冷凍 韓国食材 ケンニプ' },
     ],
   },
   {
@@ -12563,9 +13093,9 @@ export const recipes: Recipe[] = [
       { question: 'ポッサムに合うおすすめの副菜は何ですか？', answer: '大根のキムチ（カクテキ）、白菜キムチ、にらのキムチ（부추김치）が定番の組み合わせです。牡蠣の塩辛（어리굴젓）を添えるのも本場韓国の食べ方です。' },
     ],
     affiliateProducts: [
-      { name: 'テンジャン（韓国みそ）', amazonQuery: 'テンジャン 韓国みそ 韓国食材' },
-      { name: 'セウジョット（塩辛小エビ）', amazonQuery: 'セウジョット 塩辛小エビ 韓国食材' },
-      { name: '韓国産白菜キムチ', amazonQuery: '白菜キムチ 韓国産 本格 無添加' },
+      { name: 'テンジャン（韓国みそ）', amazonQuery: 'テンジャン 韓国みそ 韓国食材', rakutenQuery: 'テンジャン 韓国みそ 韓国食材' },
+      { name: 'セウジョット（塩辛小エビ）', amazonQuery: 'セウジョット 塩辛小エビ 韓国食材', rakutenQuery: 'セウジョット 塩辛小エビ 韓国食材' },
+      { name: '韓国産白菜キムチ', amazonQuery: '白菜キムチ 韓国産 本格 無添加', rakutenQuery: '白菜キムチ 韓国産 本格 無添加' },
     ],
   },
   {
@@ -12640,9 +13170,9 @@ export const recipes: Recipe[] = [
       { question: 'キンパは作り置きできますか？', answer: '当日中が最も美味しいです。保存する場合は切らずにラップで包み、冷蔵庫で数時間以内に食べてください。冷蔵庫に入れると海苔が硬くなり、ご飯も固くなります。翌日の場合は常温に戻してから食べましょう。' },
     ],
     affiliateProducts: [
-      { name: '韓国海苔（全形・巻き用）', amazonQuery: '韓国海苔 全形 巻き寿司用 のり巻き' },
-      { name: 'ごま油（韓国産）', amazonQuery: 'ごま油 韓国産 純正 製菓 料理用' },
-      { name: '巻き簾（まきす）', amazonQuery: '巻き簾 まきす 竹 のり巻き 寿司' },
+      { name: '韓国海苔（全形・巻き用）', amazonQuery: '韓国海苔 全形 巻き寿司用 のり巻き', rakutenQuery: '韓国海苔 全形 巻き寿司用 のり巻き' },
+      { name: 'ごま油（韓国産）', amazonQuery: 'ごま油 韓国産 純正 製菓 料理用', rakutenQuery: 'ごま油 韓国産 純正 製菓 料理用' },
+      { name: '巻き簾（まきす）', amazonQuery: '巻き簾 まきす 竹 のり巻き 寿司', rakutenQuery: '巻き簾 まきす 竹 のり巻き 寿司' },
     ],
   },
   {
@@ -12718,9 +13248,9 @@ export const recipes: Recipe[] = [
       { question: 'ビビンバのコチュジャンが辛すぎる場合の対処法は？', answer: 'コチュジャンにごま油・砂糖・はちみつを足して辛みをマイルドにできます。子ども向けにはコチュジャンの代わりに醤油とごま油だけのタレにするか、コチュジャンを少量のマヨネーズで和えると食べやすくなります。' },
     ],
     affiliateProducts: [
-      { name: 'コチュジャン', amazonQuery: 'コチュジャン 韓国 本格 唐辛子みそ' },
-      { name: '石鍋（ドルソット）', amazonQuery: 'ドルソット 石鍋 韓国料理 耐熱 ビビンバ' },
-      { name: '韓国ごま油', amazonQuery: 'ごま油 韓国産 純正 香り高い' },
+      { name: 'コチュジャン', amazonQuery: 'コチュジャン 韓国 本格 唐辛子みそ', rakutenQuery: 'コチュジャン 韓国 本格 唐辛子みそ' },
+      { name: '石鍋（ドルソット）', amazonQuery: 'ドルソット 石鍋 韓国料理 耐熱 ビビンバ', rakutenQuery: 'ドルソット 石鍋 韓国料理 耐熱 ビビンバ' },
+      { name: '韓国ごま油', amazonQuery: 'ごま油 韓国産 純正 香り高い', rakutenQuery: 'ごま油 韓国産 純正 香り高い' },
     ],
   },
   {
@@ -12795,9 +13325,9 @@ export const recipes: Recipe[] = [
       { question: 'ホットクの生地発酵の時間を短縮できますか？', answer: 'ドライイーストをインスタントドライイーストに変え、発酵温度を35〜40℃（オーブンの発酵機能が便利）にすると30〜40分に短縮できます。また前日に生地を作って冷蔵庫でゆっくり発酵させると（8〜12時間）当日すぐ焼けます。' },
     ],
     affiliateProducts: [
-      { name: '白玉粉（もち粉）', amazonQuery: '白玉粉 もち粉 製菓用 韓国 ホットク' },
-      { name: '黒糖（純粋）', amazonQuery: '黒糖 純粋 沖縄産 砂糖 無添加' },
-      { name: 'シナモンパウダー', amazonQuery: 'シナモンパウダー 純粋 スパイス セイロン' },
+      { name: '白玉粉（もち粉）', amazonQuery: '白玉粉 もち粉 製菓用 韓国 ホットク', rakutenQuery: '白玉粉 もち粉 製菓用 韓国 ホットク' },
+      { name: '黒糖（純粋）', amazonQuery: '黒糖 純粋 沖縄産 砂糖 無添加', rakutenQuery: '黒糖 純粋 沖縄産 砂糖 無添加' },
+      { name: 'シナモンパウダー', amazonQuery: 'シナモンパウダー 純粋 スパイス セイロン', rakutenQuery: 'シナモンパウダー 純粋 スパイス セイロン' },
     ],
   },
   {
@@ -12893,9 +13423,9 @@ export const recipes: Recipe[] = [
       },
     ],
     affiliateProducts: [
-      { name: 'さつまいも春雨（ダンミョン）', amazonQuery: 'さつまいも春雨 韓国 チャプチェ ダンミョン' },
-      { name: 'ごま油（韓国産）', amazonQuery: 'ごま油 韓国 純正 一番搾り' },
-      { name: '白いりごま', amazonQuery: '白いりごま 韓国 炒りごま 大容量' },
+      { name: 'さつまいも春雨（ダンミョン）', amazonQuery: 'さつまいも春雨 韓国 チャプチェ ダンミョン', rakutenQuery: 'さつまいも春雨 韓国 チャプチェ ダンミョン' },
+      { name: 'ごま油（韓国産）', amazonQuery: 'ごま油 韓国 純正 一番搾り', rakutenQuery: 'ごま油 韓国 純正 一番搾り' },
+      { name: '白いりごま', amazonQuery: '白いりごま 韓国 炒りごま 大容量', rakutenQuery: '白いりごま 韓国 炒りごま 大容量' },
     ],
   },
   {
@@ -12983,9 +13513,9 @@ export const recipes: Recipe[] = [
       },
     ],
     affiliateProducts: [
-      { name: 'コチュジャン（韓国唐辛子味噌）', amazonQuery: 'コチュジャン 韓国 唐辛子味噌 本格 業務用' },
-      { name: 'コチュカル（韓国唐辛子粉）', amazonQuery: 'コチュカル 韓国唐辛子粉 中挽き キムチ用' },
-      { name: 'トッポギ用もち', amazonQuery: 'トッポギ 餅 韓国 冷凍 棒餅' },
+      { name: 'コチュジャン（韓国唐辛子味噌）', amazonQuery: 'コチュジャン 韓国 唐辛子味噌 本格 業務用', rakutenQuery: 'コチュジャン 韓国 唐辛子味噌 本格 業務用' },
+      { name: 'コチュカル（韓国唐辛子粉）', amazonQuery: 'コチュカル 韓国唐辛子粉 中挽き キムチ用', rakutenQuery: 'コチュカル 韓国唐辛子粉 中挽き キムチ用' },
+      { name: 'トッポギ用もち', amazonQuery: 'トッポギ 餅 韓国 冷凍 棒餅', rakutenQuery: 'トッポギ 餅 韓国 冷凍 棒餅' },
     ],
   },
   {
@@ -13073,9 +13603,9 @@ export const recipes: Recipe[] = [
       },
     ],
     affiliateProducts: [
-      { name: '高麗人参（乾燥）', amazonQuery: '高麗人参 乾燥 韓国産 薬膳 スープ用' },
-      { name: 'なつめ（乾燥棗）', amazonQuery: 'なつめ 乾燥 棗 韓国 中華食材 薬膳' },
-      { name: 'もち米', amazonQuery: 'もち米 国産 1kg 白もち米' },
+      { name: '高麗人参（乾燥）', amazonQuery: '高麗人参 乾燥 韓国産 薬膳 スープ用', rakutenQuery: '高麗人参 乾燥 韓国産 薬膳 スープ用' },
+      { name: 'なつめ（乾燥棗）', amazonQuery: 'なつめ 乾燥 棗 韓国 中華食材 薬膳', rakutenQuery: 'なつめ 乾燥 棗 韓国 中華食材 薬膳' },
+      { name: 'もち米', amazonQuery: 'もち米 国産 1kg 白もち米', rakutenQuery: 'もち米 国産 1kg 白もち米' },
     ],
   },
   {
@@ -13163,9 +13693,9 @@ export const recipes: Recipe[] = [
       },
     ],
     affiliateProducts: [
-      { name: 'マスカルポーネチーズ', amazonQuery: 'マスカルポーネ チーズ イタリア産 製菓用' },
-      { name: 'クレープ用フライパン（20cm）', amazonQuery: 'クレープパン フライパン 20cm テフロン 薄焼き' },
-      { name: '粉糖（製菓用）', amazonQuery: '粉糖 製菓用 微粉糖 コーンスターチなし' },
+      { name: 'マスカルポーネチーズ', amazonQuery: 'マスカルポーネ チーズ イタリア産 製菓用', rakutenQuery: 'マスカルポーネ チーズ イタリア産 製菓用' },
+      { name: 'クレープ用フライパン（20cm）', amazonQuery: 'クレープパン フライパン 20cm テフロン 薄焼き', rakutenQuery: 'クレープパン フライパン 20cm テフロン 薄焼き' },
+      { name: '粉糖（製菓用）', amazonQuery: '粉糖 製菓用 微粉糖 コーンスターチなし', rakutenQuery: '粉糖 製菓用 微粉糖 コーンスターチなし' },
     ],
   },
   {
@@ -13253,9 +13783,9 @@ export const recipes: Recipe[] = [
       },
     ],
     affiliateProducts: [
-      { name: 'スプリングフォーム型（23cm）', amazonQuery: 'スプリングフォーム ケーキ型 23cm 底取れ' },
-      { name: 'クリームチーズ（業務用）', amazonQuery: 'クリームチーズ 業務用 フィラデルフィア 製菓用' },
-      { name: 'バニラエッセンス（純粋）', amazonQuery: 'バニラエッセンス 純粋 バニラビーンズ 製菓用' },
+      { name: 'スプリングフォーム型（23cm）', amazonQuery: 'スプリングフォーム ケーキ型 23cm 底取れ', rakutenQuery: 'スプリングフォーム ケーキ型 23cm 底取れ' },
+      { name: 'クリームチーズ（業務用）', amazonQuery: 'クリームチーズ 業務用 フィラデルフィア 製菓用', rakutenQuery: 'クリームチーズ 業務用 フィラデルフィア 製菓用' },
+      { name: 'バニラエッセンス（純粋）', amazonQuery: 'バニラエッセンス 純粋 バニラビーンズ 製菓用', rakutenQuery: 'バニラエッセンス 純粋 バニラビーンズ 製菓用' },
     ],
   },
   {
@@ -13339,9 +13869,9 @@ export const recipes: Recipe[] = [
       },
     ],
     affiliateProducts: [
-      { name: 'フランス産有塩バター（エシレ・ゲランド）', amazonQuery: 'エシレ ゲランド 有塩バター フランス産 製菓用' },
-      { name: 'クッキー抜き型セット（丸型）', amazonQuery: 'クッキー型 丸型 セット ステンレス 製菓用' },
-      { name: 'シリコンマット（オーブン用）', amazonQuery: 'シリコンマット オーブン 製菓用 耐熱 ベーキング' },
+      { name: 'フランス産有塩バター（エシレ・ゲランド）', amazonQuery: 'エシレ ゲランド 有塩バター フランス産 製菓用', rakutenQuery: 'エシレ ゲランド 有塩バター フランス産 製菓用' },
+      { name: 'クッキー抜き型セット（丸型）', amazonQuery: 'クッキー型 丸型 セット ステンレス 製菓用', rakutenQuery: 'クッキー型 丸型 セット ステンレス 製菓用' },
+      { name: 'シリコンマット（オーブン用）', amazonQuery: 'シリコンマット オーブン 製菓用 耐熱 ベーキング', rakutenQuery: 'シリコンマット オーブン 製菓用 耐熱 ベーキング' },
     ],
   },
   {
@@ -13432,9 +13962,9 @@ export const recipes: Recipe[] = [
       },
     ],
     affiliateProducts: [
-      { name: 'ヘーゼルナッツプラリネペースト', amazonQuery: 'プラリネペースト ヘーゼルナッツ 製菓用 業務用' },
-      { name: '強力粉（シュー生地用）', amazonQuery: '強力粉 タイプ65 フランスパン用 春よ恋 製菓' },
-      { name: '絞り袋・口金セット', amazonQuery: '絞り袋 口金 セット 製菓用 使い捨て フランス星口金' },
+      { name: 'ヘーゼルナッツプラリネペースト', amazonQuery: 'プラリネペースト ヘーゼルナッツ 製菓用 業務用', rakutenQuery: 'プラリネペースト ヘーゼルナッツ 製菓用 業務用' },
+      { name: '強力粉（シュー生地用）', amazonQuery: '強力粉 タイプ65 フランスパン用 春よ恋 製菓', rakutenQuery: '強力粉 タイプ65 フランスパン用 春よ恋 製菓' },
+      { name: '絞り袋・口金セット', amazonQuery: '絞り袋 口金 セット 製菓用 使い捨て フランス星口金', rakutenQuery: '絞り袋 口金 セット 製菓用 使い捨て フランス星口金' },
     ],
   },
   {
@@ -13523,9 +14053,9 @@ export const recipes: Recipe[] = [
       },
     ],
     affiliateProducts: [
-      { name: '無糖マロンペースト（サバトン）', amazonQuery: 'マロンペースト 無糖 サバトン Sabaton 製菓用' },
-      { name: 'モンブラン用絞り口金', amazonQuery: 'モンブラン口金 絞り袋 セット 製菓用 細口' },
-      { name: 'ラム酒（製菓用）', amazonQuery: 'ラム酒 製菓用 マイヤーズ ネグリタ バカルディ 菓子用' },
+      { name: '無糖マロンペースト（サバトン）', amazonQuery: 'マロンペースト 無糖 サバトン Sabaton 製菓用', rakutenQuery: 'マロンペースト 無糖 サバトン Sabaton 製菓用' },
+      { name: 'モンブラン用絞り口金', amazonQuery: 'モンブラン口金 絞り袋 セット 製菓用 細口', rakutenQuery: 'モンブラン口金 絞り袋 セット 製菓用 細口' },
+      { name: 'ラム酒（製菓用）', amazonQuery: 'ラム酒 製菓用 マイヤーズ ネグリタ バカルディ 菓子用', rakutenQuery: 'ラム酒 製菓用 マイヤーズ ネグリタ バカルディ 菓子用' },
     ],
   },
 ];
