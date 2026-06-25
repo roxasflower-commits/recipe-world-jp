@@ -32,7 +32,7 @@ export default function RecipeSchema({ recipe }: { recipe: Recipe }) {
     totalTime: toISO8601Duration(recipe.prepTime + recipe.cookTime),
     recipeYield: `${recipe.servings}人前`,
     recipeCategory: recipe.categoryLabel,
-    recipeCuisine: recipe.cuisineEn,
+    recipeCuisine: [recipe.cuisine, recipe.cuisineEn],
     keywords: recipe.tags.join(', '),
     recipeIngredient: recipe.ingredients.map((ing) => {
       const parts = [ing.amount, ing.unit, ing.name, ing.note].filter(Boolean);

@@ -1,6 +1,33 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { recipes, getFeaturedRecipes, getRecipeBySlug, cuisines, getRecipesByChef } from '@/data/recipes';
+
+const BASE_URL = 'https://recipe-world-jp.vercel.app';
+
+function WebSiteSchema() {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'MONDE RECIPE',
+    url: BASE_URL,
+    description: '世界の本格レシピを日本語で。フランス・イタリア・スペイン・韓国など170品以上のレシピを掲載。',
+    inLanguage: 'ja',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${BASE_URL}/recipes?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
 import RecipeCard from '@/components/RecipeCard';
 import AdBanner from '@/components/AdBanner';
 import { chefs } from '@/data/chefs';
@@ -65,6 +92,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen">
+      <WebSiteSchema />
       {/* Editorial homepage hero — full viewport with site name overlay */}
       <section className="relative h-screen flex items-end overflow-hidden">
         <Image
