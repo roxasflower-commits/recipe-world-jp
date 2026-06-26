@@ -18,8 +18,12 @@ const cuisineDetails: Record<string, { emoji: string; description: string }> = {
   turkish:  { emoji: '🇹🇷', description: 'シシケバブ、ドルマ' },
   indian:   { emoji: '🇮🇳', description: 'バターチキン、ビリヤニ' },
   peruvian: { emoji: '🇵🇪', description: 'セビーチェ、ロモサルタード' },
-  mexican:  { emoji: '🇲🇽', description: 'タコス、モレ、グアカモーレ' },
-  korean:   { emoji: '🇰🇷', description: 'ビビンバ、サムギョプサル' },
+  mexican:          { emoji: '🇲🇽', description: 'タコス、モレ、グアカモーレ' },
+  korean:           { emoji: '🇰🇷', description: 'ビビンバ、サムギョプサル' },
+  vietnamese:       { emoji: '🇻🇳', description: 'フォー、バインミー' },
+  moroccan:         { emoji: '🇲🇦', description: 'タジン、クスクス' },
+  taiwanese:        { emoji: '🇹🇼', description: '台湾カステラ、ルーロー飯' },
+  'middle-eastern': { emoji: '🫙', description: 'シュクシュカ、フムス' },
 };
 
 export default function Header() {

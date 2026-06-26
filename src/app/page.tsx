@@ -45,8 +45,12 @@ const cuisineDetails: Record<string, { emoji: string; description: string }> = {
   turkish:  { emoji: '🇹🇷', description: 'シシケバブ、ドルマ' },
   indian:   { emoji: '🇮🇳', description: 'バターチキン、ビリヤニ' },
   peruvian: { emoji: '🇵🇪', description: 'セビーチェ、ロモサルタード' },
-  mexican:  { emoji: '🇲🇽', description: 'タコス、モレ、グアカモーレ' },
-  korean:   { emoji: '🇰🇷', description: 'ビビンバ、サムギョプサル' },
+  mexican:      { emoji: '🇲🇽', description: 'タコス、モレ、グアカモーレ' },
+  korean:       { emoji: '🇰🇷', description: 'ビビンバ、サムギョプサル' },
+  vietnamese:   { emoji: '🇻🇳', description: 'フォー、バインミー' },
+  moroccan:     { emoji: '🇲🇦', description: 'タジン、クスクス' },
+  taiwanese:    { emoji: '🇹🇼', description: '台湾カステラ、ルーロー飯' },
+  'middle-eastern': { emoji: '🫙', description: 'シュクシュカ、フムス' },
 };
 
 export default function HomePage() {
@@ -69,7 +73,11 @@ export default function HomePage() {
     turkish:  'sis-kebabi',
     indian:   'butter-chicken',
     peruvian: 'nikkei-tuna-tartare',
-    mexican:  'tacos-al-pastor',
+    mexican:        'tacos-al-pastor',
+    vietnamese:     'pho-bo',
+    moroccan:       'moroccan-chicken-tagine',
+    taiwanese:      'taiwanese-castella-cake',
+    'middle-eastern': 'shakshuka',
   };
   const cuisineImages = Object.fromEntries(
     cuisines.map((c) => {
