@@ -98,6 +98,30 @@
   </url>
   <url>
     <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/korean</loc>
+  </url>
+  <url>
+    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/vietnamese</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/moroccan</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/taiwanese</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/middle-eastern</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1130,6 +1154,48 @@
   </url>
   <url>
     <loc>https://recipe-world-jp.vercel.app/recipes/lobster-ravioli</loc>
+  </url>
+  <url>
+    <loc>https://recipe-world-jp.vercel.app/recipes/banh-mi</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://recipe-world-jp.vercel.app/recipes/moroccan-chicken-tagine</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://recipe-world-jp.vercel.app/recipes/taiwanese-castella-cake</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://recipe-world-jp.vercel.app/recipes/maritozzi</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://recipe-world-jp.vercel.app/recipes/cochinita-pibil</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://recipe-world-jp.vercel.app/recipes/shakshuka</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://recipe-world-jp.vercel.app/recipes/pho-bo</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
     <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
