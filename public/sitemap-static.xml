@@ -25,104 +25,104 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/french</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/french</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/italian</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/italian</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/spanish</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/spanish</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/greek</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/greek</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/turkish</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/turkish</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/indian</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/indian</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/thai</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/thai</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/nordic</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/nordic</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/peruvian</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/peruvian</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/american</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/american</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/louisiana</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/louisiana</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/mexican</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/mexican</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/korean</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/korean</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/vietnamese</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/vietnamese</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/moroccan</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/moroccan</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/taiwanese</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/taiwanese</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cuisine/middle-eastern</loc>
+    <loc>https://recipe-world-jp.vercel.app/category/middle-eastern</loc>
     <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
