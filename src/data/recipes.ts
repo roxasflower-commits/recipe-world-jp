@@ -14894,7 +14894,7 @@ export const recipes: Recipe[] = [
       '本場イギリスではHPソースかトマトケチャップを添えるのが定番です。',
       'ブラックプディングは豚の血を使った黒いソーセージ。苦手な方は省いてOKです。',
     ],
-    image: 'https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=1200&q=80',
+    image: '/images/full-english-breakfast.jpg',
     source: 'Culinary Gingerの伝統的なフル・イングリッシュブレックファストのレシピを参考に日本語化',
     sourceUrl: 'https://culinaryginger.com/full-english-breakfast/',
     sourceSiteName: 'Culinary Ginger',
