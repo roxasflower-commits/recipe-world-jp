@@ -106,6 +106,7 @@ export default function HomePage() {
     description: cuisineDetails[c.slug]?.description ?? '',
     emoji: cuisineDetails[c.slug]?.emoji ?? '',
     image: cuisineImages[c.slug],
+    region: (c as { slug: string; region?: string }).region ?? '',
   }));
 
   return (
