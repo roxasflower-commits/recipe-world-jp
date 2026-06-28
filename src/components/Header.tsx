@@ -127,11 +127,11 @@ export default function Header() {
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={{ opacity: 0, y: -6, scale: 0.97 }}
                     transition={{ duration: 0.18, ease: 'easeOut' }}
-                    className={`absolute top-full right-0 mt-2 border rounded-2xl shadow-lg z-50 flex ${dropdownBg}`}
-                    style={{ minWidth: '200px' }}
+                    className={`absolute top-full right-0 mt-2 border rounded-2xl shadow-lg z-50 ${dropdownBg}`}
+                    style={{ width: '176px' }}
                   >
                     {/* Region list */}
-                    <div className="p-3 w-44">
+                    <div className="p-3 relative">
                       <p className={`text-[10px] tracking-widest uppercase mb-2 pb-2 border-b ${dropdownTitle}`}>
                         地域で探す
                       </p>
@@ -150,16 +150,16 @@ export default function Header() {
                       ))}
                     </div>
 
-                    {/* Cuisine list for active region */}
+                    {/* Cuisine list — absolutely positioned to the left so container width never changes */}
                     <AnimatePresence>
                       {activeRegion && (
                         <motion.div
                           key={activeRegion}
-                          initial={{ opacity: 0, x: -6 }}
+                          initial={{ opacity: 0, x: 6 }}
                           animate={{ opacity: 1, x: 0 }}
-                          exit={{ opacity: 0, x: -4 }}
+                          exit={{ opacity: 0 }}
                           transition={{ duration: 0.15 }}
-                          className={`p-3 w-52 border-l ${divider}`}
+                          className={`absolute top-0 right-full mr-2 p-3 w-52 border rounded-2xl shadow-lg ${dropdownBg}`}
                         >
                           <p className={`text-[10px] tracking-widest uppercase mb-2 pb-2 border-b ${dropdownTitle}`}>
                             {regions.find((r) => r.key === activeRegion)?.label}
