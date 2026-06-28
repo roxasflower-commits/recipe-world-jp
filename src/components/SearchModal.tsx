@@ -59,17 +59,17 @@ export default function SearchModal({ open, onClose }: SearchModalProps) {
             onClick={onClose}
           />
 
-          {/* Modal */}
+          {/* Modal — top寄せ固定でキーボード表示時も画面内に収まる */}
           <motion.div
             initial={{ opacity: 0, y: -20, scale: 0.97 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -16, scale: 0.97 }}
             transition={{ duration: 0.2, ease: "easeOut" }}
-            className="fixed top-[10vh] left-1/2 -translate-x-1/2 w-full max-w-lg z-[101] px-4"
+            className="fixed top-4 left-4 right-4 sm:top-[10vh] sm:left-1/2 sm:-translate-x-1/2 sm:w-full sm:max-w-lg z-[101]"
           >
-            <div className="bg-white rounded-2xl shadow-2xl overflow-hidden border border-warm-border">
+            <div className="bg-white rounded-2xl shadow-2xl overflow-hidden border border-warm-border flex flex-col" style={{ maxHeight: 'calc(100dvh - 2rem)' }}>
               {/* Input */}
-              <div className="flex items-center gap-3 px-4 py-3 border-b border-warm-border">
+              <div className="flex items-center gap-3 px-4 py-3 border-b border-warm-border flex-shrink-0">
                 <Search className="w-4 h-4 text-muted flex-shrink-0" />
                 <input
                   ref={inputRef}
@@ -86,7 +86,7 @@ export default function SearchModal({ open, onClose }: SearchModalProps) {
 
               {/* Results */}
               {results.length > 0 && (
-                <ul className="max-h-80 overflow-y-auto divide-y divide-warm-border">
+                <ul className="overflow-y-auto divide-y divide-warm-border">
                   {results.map((r) => (
                     <li key={r.id}>
                       <button
