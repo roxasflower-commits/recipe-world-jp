@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { cuisines } from '@/data/recipes';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronDown, ChevronRight } from 'lucide-react';
+import { ChevronDown, ChevronRight, Search, Heart } from 'lucide-react';
 
 const cuisineDetails: Record<string, { emoji: string; description: string }> = {
   french:           { emoji: '🇫🇷', description: 'ブフブルギニョン、ブイヤベース' },
@@ -40,7 +40,7 @@ const regions = [
   { key: 'middle-east-africa', label: '中東・アフリカ', emoji: '🌍' },
 ];
 
-export default function Header() {
+export default function Header({ onSearchOpen }: { onSearchOpen?: () => void }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [catOpen, setCatOpen] = useState(false);
   const [activeRegion, setActiveRegion] = useState<string | null>(null);
@@ -195,6 +195,24 @@ export default function Header() {
                   </motion.div>
                 )}
               </AnimatePresence>
+            </div>
+
+            {/* Desktop: search + favorites icons */}
+            <div className="hidden md:flex items-center gap-1 ml-2">
+              <button
+                onClick={onSearchOpen}
+                aria-label="検索"
+                className={`p-2 rounded-full transition-colors ${navItem}`}
+              >
+                <Search className="w-4 h-4" />
+              </button>
+              <Link
+                href="/favorites"
+                aria-label="お気に入り"
+                className={`p-2 rounded-full transition-colors ${navItem}`}
+              >
+                <Heart className="w-4 h-4" />
+              </Link>
             </div>
           </nav>
 

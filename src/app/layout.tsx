@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Playfair_Display, Noto_Serif_JP, Noto_Sans_JP } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
-import Header from '@/components/Header';
+import AppShell from '@/components/AppShell';
 import Footer from '@/components/Footer';
 
 const playfair = Playfair_Display({
@@ -114,8 +114,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
-        <Header />
-        <main>{children}</main>
+        <AppShell>{children}</AppShell>
         <Footer />
       </body>
     </html>
