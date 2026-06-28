@@ -423,9 +423,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2024-02-20',
     featured: true,
     affiliateProducts: [
-      { name: 'ビーフウェリントン用 肉用温度計', amazonQuery: '肉用温度計 デジタル 料理', rakutenQuery: '肉用温度計 デジタル 料理' },
-      { name: 'パテ・ド・カンパーニュ', amazonQuery: 'パテ ド カンパーニュ フォアグラ', rakutenQuery: 'パテ ド カンパーニュ フォアグラ' },
-      { name: 'パイ生地（冷凍パイシート）', amazonQuery: '冷凍パイシート 業務用', rakutenQuery: '冷凍パイシート 業務用' },
+      { name: '鴨の脂（コンフィ用・輸入）', amazonQuery: '鴨の脂 コンフィ 輸入 フランス産', rakutenQuery: '鴨の脂 コンフィ 輸入 フランス産' },
+      { name: '鋳鉄製キャセロール鍋（深型・オーブン対応）', amazonQuery: '鋳鉄 キャセロール鍋 深型 オーブン対応 IH', rakutenQuery: '鋳鉄 キャセロール鍋 深型 オーブン対応 IH' },
+      { name: '肉用温度計（デジタル・即時測定）', amazonQuery: '肉用温度計 デジタル 料理用 即時測定', rakutenQuery: '肉用温度計 デジタル 料理用 即時測定' },
     ],
     faqs: [
       {
@@ -513,9 +513,9 @@ export const recipes: Recipe[] = [
     publishedAt: '2024-03-01',
     featured: true,
     affiliateProducts: [
-      { name: 'パエリアパン（パエリア鍋）', amazonQuery: 'パエリアパン パエリア鍋 スペイン', rakutenQuery: 'パエリアパン パエリア鍋 スペイン' },
-      { name: 'スペイン産サフラン', amazonQuery: 'サフラン スペイン産 料理', rakutenQuery: 'サフラン スペイン産 料理' },
-      { name: 'ボンバ米（スペイン産パエリア米）', amazonQuery: 'ボンバ米 スペイン米 パエリア', rakutenQuery: 'ボンバ米 スペイン米 パエリア' },
+      { name: '牛フィレ肉（ローストビーフ・ウェリントン用）', amazonQuery: '牛フィレ肉 塊 ウェリントン用 輸入 業務用', rakutenQuery: '牛フィレ肉 塊 ウェリントン用 輸入 業務用' },
+      { name: '冷凍パイシート（業務用・バター使用）', amazonQuery: '冷凍パイシート 業務用 バター使用 輸入', rakutenQuery: '冷凍パイシート 業務用 バター使用 輸入' },
+      { name: '肉用温度計（デジタル・ミディアムレア確認用）', amazonQuery: '肉用温度計 デジタル 即時測定 ローストビーフ', rakutenQuery: '肉用温度計 デジタル 即時測定 ローストビーフ' },
     ],
     faqs: [
       {
