@@ -32,6 +32,7 @@ import RecipeCard from '@/components/RecipeCard';
 import AdBanner from '@/components/AdBanner';
 import { chefs } from '@/data/chefs';
 import { CardStack } from '@/components/ui/card-stack';
+import MobileCarousel from '@/components/ui/mobile-carousel';
 import CuisineSelector from '@/components/ui/cuisine-selector';
 
 const cuisineDetails: Record<string, { emoji: string; description: string }> = {
@@ -155,24 +156,43 @@ export default function HomePage() {
           <h2 className="font-serif text-xl font-bold tracking-tight">今週のピックアップ</h2>
         </div>
         <p className="text-xs text-muted tracking-wide mb-8 ml-5">スワイプまたはクリックで切り替え</p>
-        <CardStack
-          items={[...recipes].reverse().slice(0, 6).map((r) => ({
-            id: r.id,
-            title: r.title,
-            description: r.description,
-            imageSrc: r.image,
-            href: `/recipes/${r.slug}`,
-            tag: r.cuisine,
-          }))}
-          cardWidth={440}
-          cardHeight={300}
-          autoAdvance
-          intervalMs={3200}
-          pauseOnHover
-          showDots
-          overlap={0.52}
-          spreadDeg={44}
-        />
+
+        {/* Desktop: fan card stack */}
+        <div className="hidden md:block">
+          <CardStack
+            items={[...recipes].reverse().slice(0, 6).map((r) => ({
+              id: r.id,
+              title: r.title,
+              description: r.description,
+              imageSrc: r.image,
+              href: `/recipes/${r.slug}`,
+              tag: r.cuisine,
+            }))}
+            cardWidth={440}
+            cardHeight={300}
+            autoAdvance
+            intervalMs={3200}
+            pauseOnHover
+            showDots
+            overlap={0.52}
+            spreadDeg={44}
+          />
+        </div>
+
+        {/* Mobile: snap carousel */}
+        <div className="md:hidden">
+          <MobileCarousel
+            items={[...recipes].reverse().slice(0, 6).map((r) => ({
+              id: r.id,
+              title: r.title,
+              imageSrc: r.image,
+              href: `/recipes/${r.slug}`,
+              tag: r.cuisine,
+              meta: `${r.prepTime + r.cookTime}分 · ${r.difficultyLabel}`,
+            }))}
+            autoAdvanceMs={3200}
+          />
+        </div>
       </section>
 
       {/* Featured recipes */}
