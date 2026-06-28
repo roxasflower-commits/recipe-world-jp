@@ -169,7 +169,7 @@ export default function Header({ onSearchOpen }: { onSearchOpen?: () => void }) 
                           exit={{ opacity: 0 }}
                           transition={{ duration: 0.15 }}
                           onMouseEnter={() => { if (closeTimer.current) clearTimeout(closeTimer.current); }}
-                          className={`absolute top-0 right-full mr-2 p-3 w-52 border rounded-2xl shadow-lg ${dropdownBg}`}
+                          className={`absolute top-0 left-full ml-2 p-3 w-52 border rounded-2xl shadow-lg ${dropdownBg}`}
                         >
                           <p className={`text-[10px] tracking-widest uppercase mb-2 pb-2 border-b ${dropdownTitle}`}>
                             {regions.find((r) => r.key === activeRegion)?.label}
