@@ -51,6 +51,11 @@ const cuisineDetails: Record<string, { emoji: string; description: string }> = {
   moroccan:     { emoji: '🇲🇦', description: 'タジン、クスクス' },
   taiwanese:    { emoji: '🇹🇼', description: '台湾カステラ、ルーロー飯' },
   'middle-eastern': { emoji: '🫙', description: 'シュクシュカ、フムス' },
+  chinese:    { emoji: '🇨🇳', description: '小籠包、麻婆豆腐' },
+  greek:      { emoji: '🇬🇷', description: 'ムサカ、スパナコピタ' },
+  georgian:   { emoji: '🇬🇪', description: 'ハチャプリ、ヒンカリ' },
+  portuguese: { emoji: '🇵🇹', description: 'パステル・デ・ナタ、バカリャウ' },
+  hawaiian:   { emoji: '🌺', description: 'ポケボウル、ハウピア' },
 };
 
 export default function HomePage() {
@@ -78,6 +83,11 @@ export default function HomePage() {
     moroccan:       'moroccan-chicken-tagine',
     taiwanese:      'taiwanese-castella-cake',
     'middle-eastern': 'shakshuka',
+    chinese:    '',
+    greek:      '',
+    georgian:   '',
+    portuguese: '',
+    hawaiian:   '',
   };
   const cuisineImages = Object.fromEntries(
     cuisines.map((c) => {
