@@ -83,11 +83,11 @@ export default function HomePage() {
     moroccan:       'moroccan-chicken-tagine',
     taiwanese:      'taiwanese-castella-cake',
     'middle-eastern': 'shakshuka',
-    chinese:    '',
-    greek:      '',
-    georgian:   '',
-    portuguese: '',
-    hawaiian:   '',
+    chinese:    'xiaolongbao',
+    greek:      'moussaka',
+    georgian:   'khachapuri',
+    portuguese: 'pastel-de-nata',
+    hawaiian:   'poke-bowl',
   };
   const cuisineImages = Object.fromEntries(
     cuisines.map((c) => {
