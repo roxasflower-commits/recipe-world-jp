@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { usePathname } from 'next/navigation';
 import { cuisines } from '@/data/recipes';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -44,6 +44,7 @@ export default function Header({ onSearchOpen }: { onSearchOpen?: () => void }) 
   const [menuOpen, setMenuOpen] = useState(false);
   const [catOpen, setCatOpen] = useState(false);
   const [activeRegion, setActiveRegion] = useState<string | null>(null);
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pathname = usePathname();
   const isHome = pathname === '/';
 
@@ -112,8 +113,16 @@ export default function Header({ onSearchOpen }: { onSearchOpen?: () => void }) 
             {/* 2-level category dropdown */}
             <div
               className="relative"
-              onMouseEnter={() => setCatOpen(true)}
-              onMouseLeave={() => { setCatOpen(false); setActiveRegion(null); }}
+              onMouseEnter={() => {
+                if (closeTimer.current) clearTimeout(closeTimer.current);
+                setCatOpen(true);
+              }}
+              onMouseLeave={() => {
+                closeTimer.current = setTimeout(() => {
+                  setCatOpen(false);
+                  setActiveRegion(null);
+                }, 120);
+              }}
             >
               <button className={`text-xs tracking-widest uppercase transition-colors flex items-center gap-1 px-4 py-2 rounded-full ${catBtnColor} ${catOpen ? (isHome ? 'bg-white/10' : 'bg-primary/8') : ''}`}>
                 カテゴリー
@@ -159,6 +168,7 @@ export default function Header({ onSearchOpen }: { onSearchOpen?: () => void }) 
                           animate={{ opacity: 1, x: 0 }}
                           exit={{ opacity: 0 }}
                           transition={{ duration: 0.15 }}
+                          onMouseEnter={() => { if (closeTimer.current) clearTimeout(closeTimer.current); }}
                           className={`absolute top-0 right-full mr-2 p-3 w-52 border rounded-2xl shadow-lg ${dropdownBg}`}
                         >
                           <p className={`text-[10px] tracking-widest uppercase mb-2 pb-2 border-b ${dropdownTitle}`}>
