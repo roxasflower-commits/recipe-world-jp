@@ -140,68 +140,69 @@ export default function Header({ onSearchOpen }: { onSearchOpen?: () => void }) 
                     style={{ width: '176px' }}
                   >
                     {/* Region list */}
-                    <div className="p-3 relative">
+                    <div className="p-3">
                       <p className={`text-[10px] tracking-widest uppercase mb-2 pb-2 border-b ${dropdownTitle}`}>
                         地域で探す
                       </p>
                       {regions.map((r) => (
-                        <button
-                          key={r.key}
-                          onMouseEnter={() => setActiveRegion(r.key)}
-                          className={`w-full flex items-center justify-between gap-2 px-3 py-2 rounded-xl transition-colors text-left ${activeRegion === r.key ? regionActive : regionHover}`}
-                        >
-                          <div className="flex items-center gap-2">
-                            <span className="text-sm">{r.emoji}</span>
-                            <span className="text-xs font-medium">{r.label}</span>
-                          </div>
-                          <ChevronRight className="w-3 h-3 opacity-50" />
-                        </button>
+                        <div key={r.key} className="relative">
+                          <button
+                            onMouseEnter={() => setActiveRegion(r.key)}
+                            className={`w-full flex items-center justify-between gap-2 px-3 py-2 rounded-xl transition-colors text-left ${activeRegion === r.key ? regionActive : regionHover}`}
+                          >
+                            <div className="flex items-center gap-2">
+                              <span className="text-sm">{r.emoji}</span>
+                              <span className="text-xs font-medium">{r.label}</span>
+                            </div>
+                            <ChevronRight className="w-3 h-3 opacity-50" />
+                          </button>
+
+                          {/* Cuisine panel — appears to the right of this row */}
+                          <AnimatePresence>
+                            {activeRegion === r.key && (
+                              <motion.div
+                                key={r.key}
+                                initial={{ opacity: 0, x: 4 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                exit={{ opacity: 0 }}
+                                transition={{ duration: 0.15 }}
+                                onMouseEnter={() => { if (closeTimer.current) clearTimeout(closeTimer.current); }}
+                                className={`absolute top-0 left-full ml-2 p-3 w-52 border rounded-2xl shadow-lg z-50 ${dropdownBg}`}
+                              >
+                                <p className={`text-[10px] tracking-widest uppercase mb-2 pb-2 border-b ${dropdownTitle}`}>
+                                  {r.label}
+                                </p>
+                                <div className="flex flex-col gap-0.5">
+                                  {cuisinesByRegion(r.key).map((c) => {
+                                    const detail = cuisineDetails[c.slug];
+                                    return (
+                                      <Link
+                                        key={c.slug}
+                                        href={`/category/${c.slug}`}
+                                        onClick={() => { setCatOpen(false); setActiveRegion(null); }}
+                                        className={`flex items-center gap-2.5 px-2 py-2 rounded-xl transition-colors ${itemHover}`}
+                                      >
+                                        <div className={`w-7 h-7 rounded-lg border flex items-center justify-center text-sm flex-shrink-0 ${iconBorder}`}>
+                                          {detail?.emoji}
+                                        </div>
+                                        <div className="min-w-0">
+                                          <div className={`text-xs font-medium leading-tight ${itemLabel}`}>
+                                            {c.label.replace('料理', '')}
+                                          </div>
+                                          <div className={`text-[10px] leading-tight mt-0.5 truncate ${itemDesc}`}>
+                                            {detail?.description}
+                                          </div>
+                                        </div>
+                                      </Link>
+                                    );
+                                  })}
+                                </div>
+                              </motion.div>
+                            )}
+                          </AnimatePresence>
+                        </div>
                       ))}
                     </div>
-
-                    {/* Cuisine list — absolutely positioned to the left so container width never changes */}
-                    <AnimatePresence>
-                      {activeRegion && (
-                        <motion.div
-                          key={activeRegion}
-                          initial={{ opacity: 0, x: 6 }}
-                          animate={{ opacity: 1, x: 0 }}
-                          exit={{ opacity: 0 }}
-                          transition={{ duration: 0.15 }}
-                          onMouseEnter={() => { if (closeTimer.current) clearTimeout(closeTimer.current); }}
-                          className={`absolute top-0 left-full ml-2 p-3 w-52 border rounded-2xl shadow-lg ${dropdownBg}`}
-                        >
-                          <p className={`text-[10px] tracking-widest uppercase mb-2 pb-2 border-b ${dropdownTitle}`}>
-                            {regions.find((r) => r.key === activeRegion)?.label}
-                          </p>
-                          <div className="flex flex-col gap-0.5">
-                            {cuisinesByRegion(activeRegion).map((c) => {
-                              const detail = cuisineDetails[c.slug];
-                              return (
-                                <Link
-                                  key={c.slug}
-                                  href={`/category/${c.slug}`}
-                                  onClick={() => { setCatOpen(false); setActiveRegion(null); }}
-                                  className={`flex items-center gap-2.5 px-2 py-2 rounded-xl transition-colors ${itemHover}`}
-                                >
-                                  <div className={`w-7 h-7 rounded-lg border flex items-center justify-center text-sm flex-shrink-0 ${iconBorder}`}>
-                                    {detail?.emoji}
-                                  </div>
-                                  <div className="min-w-0">
-                                    <div className={`text-xs font-medium leading-tight ${itemLabel}`}>
-                                      {c.label.replace('料理', '')}
-                                    </div>
-                                    <div className={`text-[10px] leading-tight mt-0.5 truncate ${itemDesc}`}>
-                                      {detail?.description}
-                                    </div>
-                                  </div>
-                                </Link>
-                              );
-                            })}
-                          </div>
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
                   </motion.div>
                 )}
               </AnimatePresence>
