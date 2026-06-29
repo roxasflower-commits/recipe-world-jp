@@ -21740,7 +21740,7 @@ export const recipes: Recipe[] = [
       'ピスタチオバターは市販品でOK。フードプロセッサーで素焼きピスタチオを撹拌して自家製することもできます。',
       '冷蔵庫で7日間、冷凍庫では3ヶ月保存できます。バレンタインや手土産に最適。',
     ],
-    image: 'https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=800&q=80',
+    image: '/images/dubai-chocolate-bar.jpg',
     source: 'Feel Good FoodieのDubai Chocolate Barのレシピを参考に日本語化',
     sourceUrl: 'https://feelgoodfoodie.net/recipe/dubai-chocolate-bar/',
     sourceSiteName: 'Feel Good Foodie',
