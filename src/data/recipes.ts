@@ -21407,7 +21407,7 @@ export const recipes: Recipe[] = [
     ],
     image: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&q=80',
     source: 'The Woks of LifeのClassic Pork Fried Riceのレシピを参考に日本語化',
-    sourceUrl: 'https://thewoksoflife.com/fried-rice/',
+    sourceUrl: 'https://thewoksoflife.com/classic-pork-fried-rice/',
     sourceSiteName: 'The Woks of Life',
     publishedAt: '2026-06-29',
     featured: false,
