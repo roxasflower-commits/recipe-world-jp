@@ -21791,7 +21791,7 @@ export const recipes: Recipe[] = [
       '生地はステップ3まで作って冷蔵庫で2日間保存できます。焼く前に室温に戻してから焼いてください。',
       'ラメキンがない場合はマフィン型でも代用可能（8〜10分焼く）。',
     ],
-    image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80',
+    image: '/images/chocolate-lava-cake.jpg',
     source: 'Sally\'s Baking AddictionのChocolate Lava Cakesのレシピを参考に日本語化',
     sourceUrl: 'https://sallysbakingaddiction.com/chocolate-lava-cakes/',
     sourceSiteName: 'Sally\'s Baking Addiction',
