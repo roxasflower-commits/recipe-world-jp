@@ -21845,7 +21845,7 @@ export const recipes: Recipe[] = [
       'チーズは必ず塊から削りたてを使うと、なめらかに溶けてダマになりません。',
       '茹で汁のでんぷん質がソースの乳化を助けるので、必ず取り分けておきましょう。',
     ],
-    image: 'https://images.unsplash.com/photo-1645112411341-6c4fd023714a',
+    image: '/images/fettuccine-alfredo.jpg',
     source: 'RecipeTin EatsのFettuccine Alfredoのレシピを参考に日本語化',
     sourceUrl: 'https://www.recipetineats.com/fettuccine-alfredo/',
     sourceSiteName: 'RecipeTin Eats',
