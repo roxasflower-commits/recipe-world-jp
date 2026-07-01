@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { recipes, getFeaturedRecipes, getRecipeBySlug, cuisines, getRecipesByChef } from '@/data/recipes';
 
-const BASE_URL = 'https://recipe-world-jp.vercel.app';
+const BASE_URL = 'https://monde-recipe.com';
 
 function WebSiteSchema() {
   const schema = {

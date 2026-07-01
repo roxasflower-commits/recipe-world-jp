@@ -20,7 +20,7 @@ import {
 } from '@/components/ui/accordion';
 import Link from 'next/link';
 
-const BASE_URL = 'https://recipe-world-jp.vercel.app';
+const BASE_URL = 'https://monde-recipe.com';
 
 interface Props {
   params: { slug: string };

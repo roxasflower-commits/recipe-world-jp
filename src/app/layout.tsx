@@ -26,7 +26,7 @@ const notoSans = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://recipe-world-jp.vercel.app'),
+  metadataBase: new URL('https://monde-recipe.com'),
   title: {
     template: '%s | MONDE RECIPE',
     default: 'MONDE RECIPE — 世界の名料理を、あなたの台所へ',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
   },
   alternates: {
-    canonical: 'https://recipe-world-jp.vercel.app',
+    canonical: 'https://monde-recipe.com',
   },
   verification: {
     google: 'e_Sxs6ej-k2RQZZ_UtY1QzuHMTsMeLARCKuF5Xnahm8',
@@ -57,12 +57,12 @@ const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'MONDE RECIPE',
-  url: 'https://recipe-world-jp.vercel.app',
+  url: 'https://monde-recipe.com',
   potentialAction: {
     '@type': 'SearchAction',
     target: {
       '@type': 'EntryPoint',
-      urlTemplate: 'https://recipe-world-jp.vercel.app/recipes?q={search_term_string}',
+      urlTemplate: 'https://monde-recipe.com/recipes?q={search_term_string}',
     },
     'query-input': 'required name=search_term_string',
   },
@@ -72,8 +72,8 @@ const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'MONDE RECIPE',
-  url: 'https://recipe-world-jp.vercel.app',
-  logo: 'https://recipe-world-jp.vercel.app/logo.png',
+  url: 'https://monde-recipe.com',
+  logo: 'https://monde-recipe.com/logo.png',
   description: '海外の名料理レシピを日本語で丁寧に解説。世界各国の本格レシピを家庭で楽しめるよう紹介するメディアです。',
   sameAs: [
     'https://www.pinterest.jp/moderecipe',
