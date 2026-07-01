@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'ミシュラン星付きシェフが公開した本物のレシピを日本語で。レネ・レゼピ、マッシモ・ボットゥラ、アラン・パッサールのシグネチャー料理を家庭で再現。',
   keywords: ['トップシェフ', 'ミシュランシェフ', 'レネ・レゼピ', 'マッシモ・ボットゥラ', 'アラン・パッサール', '本格レシピ', 'シェフレシピ'],
   alternates: {
-    canonical: 'https://recipe-world-jp.vercel.app/chefs',
+    canonical: 'https://monde-recipe.com/chefs',
   },
 };
 

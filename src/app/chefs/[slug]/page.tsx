@@ -38,7 +38,7 @@ export default function ChefPage({ params }: Props) {
 
   const recipes = getRecipesByChef(chef.slug);
 
-  const BASE_URL = 'https://recipe-world-jp.vercel.app';
+  const BASE_URL = 'https://monde-recipe.com';
   const personSchema = {
     '@context': 'https://schema.org',
     '@type': 'Person',

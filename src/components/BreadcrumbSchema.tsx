@@ -1,4 +1,4 @@
-const BASE_URL = 'https://recipe-world-jp.vercel.app';
+const BASE_URL = 'https://monde-recipe.com';
 
 interface BreadcrumbItem {
   name: string;

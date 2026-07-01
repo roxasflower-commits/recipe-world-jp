@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: '世界の名料理レシピを日本語で詳しく解説。フランス料理、イタリア料理、スペイン料理、インド料理など各国の作り方・レシピ集。家庭料理からプロ仕様まで。',
   keywords: ['レシピ一覧', '世界料理', '海外レシピ', '作り方', 'フランス料理 レシピ', 'イタリア料理 レシピ', 'スペイン料理 レシピ', '韓国料理 レシピ', 'タイ料理 レシピ', '北欧料理 レシピ', 'インド料理 レシピ', 'トルコ料理 レシピ', 'メキシコ料理 レシピ', '本格レシピ'],
   alternates: {
-    canonical: 'https://recipe-world-jp.vercel.app/recipes',
+    canonical: 'https://monde-recipe.com/recipes',
   },
 };
 

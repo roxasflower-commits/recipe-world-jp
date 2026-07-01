@@ -1,2071 +1,2071 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://recipe-world-jp.vercel.app</loc>
+    <loc>https://monde-recipe.com</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes</loc>
+    <loc>https://monde-recipe.com/recipes</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs</loc>
+    <loc>https://monde-recipe.com/chefs</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/about</loc>
+    <loc>https://monde-recipe.com/about</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/french</loc>
+    <loc>https://monde-recipe.com/category/french</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/italian</loc>
+    <loc>https://monde-recipe.com/category/italian</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/american</loc>
+    <loc>https://monde-recipe.com/category/american</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/thai</loc>
+    <loc>https://monde-recipe.com/category/thai</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/british</loc>
+    <loc>https://monde-recipe.com/category/british</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/spanish</loc>
+    <loc>https://monde-recipe.com/category/spanish</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/nordic</loc>
+    <loc>https://monde-recipe.com/category/nordic</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/turkish</loc>
+    <loc>https://monde-recipe.com/category/turkish</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/indian</loc>
+    <loc>https://monde-recipe.com/category/indian</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/mexican</loc>
+    <loc>https://monde-recipe.com/category/mexican</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/peruvian</loc>
+    <loc>https://monde-recipe.com/category/peruvian</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/korean</loc>
+    <loc>https://monde-recipe.com/category/korean</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/vietnamese</loc>
+    <loc>https://monde-recipe.com/category/vietnamese</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/moroccan</loc>
+    <loc>https://monde-recipe.com/category/moroccan</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/taiwanese</loc>
+    <loc>https://monde-recipe.com/category/taiwanese</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/middle-eastern</loc>
+    <loc>https://monde-recipe.com/category/middle-eastern</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/chinese</loc>
+    <loc>https://monde-recipe.com/category/chinese</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/greek</loc>
+    <loc>https://monde-recipe.com/category/greek</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/georgian</loc>
+    <loc>https://monde-recipe.com/category/georgian</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/portuguese</loc>
+    <loc>https://monde-recipe.com/category/portuguese</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/category/hawaiian</loc>
+    <loc>https://monde-recipe.com/category/hawaiian</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs/rene-redzepi</loc>
+    <loc>https://monde-recipe.com/chefs/rene-redzepi</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs/massimo-bottura</loc>
+    <loc>https://monde-recipe.com/chefs/massimo-bottura</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs/alain-passard</loc>
+    <loc>https://monde-recipe.com/chefs/alain-passard</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs/dominique-crenn</loc>
+    <loc>https://monde-recipe.com/chefs/dominique-crenn</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs/grant-achatz</loc>
+    <loc>https://monde-recipe.com/chefs/grant-achatz</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs/virgilio-martinez</loc>
+    <loc>https://monde-recipe.com/chefs/virgilio-martinez</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs/carlo-cracco</loc>
+    <loc>https://monde-recipe.com/chefs/carlo-cracco</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs/quique-dacosta</loc>
+    <loc>https://monde-recipe.com/chefs/quique-dacosta</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs/alain-ducasse</loc>
+    <loc>https://monde-recipe.com/chefs/alain-ducasse</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs/anne-sophie-pic</loc>
+    <loc>https://monde-recipe.com/chefs/anne-sophie-pic</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs/pierre-gagnaire</loc>
+    <loc>https://monde-recipe.com/chefs/pierre-gagnaire</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs/enrique-olvera</loc>
+    <loc>https://monde-recipe.com/chefs/enrique-olvera</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs/martin-berasategui</loc>
+    <loc>https://monde-recipe.com/chefs/martin-berasategui</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs/thomas-keller</loc>
+    <loc>https://monde-recipe.com/chefs/thomas-keller</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs/eric-ripert</loc>
+    <loc>https://monde-recipe.com/chefs/eric-ripert</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/chefs/daniel-boulud</loc>
+    <loc>https://monde-recipe.com/chefs/daniel-boulud</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/boeuf-bourguignon</loc>
+    <loc>https://monde-recipe.com/recipes/boeuf-bourguignon</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/roman-carbonara</loc>
+    <loc>https://monde-recipe.com/recipes/roman-carbonara</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/smash-burger</loc>
+    <loc>https://monde-recipe.com/recipes/smash-burger</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pad-thai</loc>
+    <loc>https://monde-recipe.com/recipes/pad-thai</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/duck-confit</loc>
+    <loc>https://monde-recipe.com/recipes/duck-confit</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/beef-wellington</loc>
+    <loc>https://monde-recipe.com/recipes/beef-wellington</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/tortilla-espanola</loc>
+    <loc>https://monde-recipe.com/recipes/tortilla-espanola</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/janssons-frestelse</loc>
+    <loc>https://monde-recipe.com/recipes/janssons-frestelse</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/turkish-moussaka</loc>
+    <loc>https://monde-recipe.com/recipes/turkish-moussaka</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/tandoori-chicken</loc>
+    <loc>https://monde-recipe.com/recipes/tandoori-chicken</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/vichyssoise</loc>
+    <loc>https://monde-recipe.com/recipes/vichyssoise</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/osso-buco</loc>
+    <loc>https://monde-recipe.com/recipes/osso-buco</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/maryland-crab-cakes</loc>
+    <loc>https://monde-recipe.com/recipes/maryland-crab-cakes</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/gapao-rice</loc>
+    <loc>https://monde-recipe.com/recipes/gapao-rice</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/shepherds-pie</loc>
+    <loc>https://monde-recipe.com/recipes/shepherds-pie</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/gazpacho</loc>
+    <loc>https://monde-recipe.com/recipes/gazpacho</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/swedish-meatballs</loc>
+    <loc>https://monde-recipe.com/recipes/swedish-meatballs</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/menemen</loc>
+    <loc>https://monde-recipe.com/recipes/menemen</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/dum-biryani</loc>
+    <loc>https://monde-recipe.com/recipes/dum-biryani</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/coq-au-vin</loc>
+    <loc>https://monde-recipe.com/recipes/coq-au-vin</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/amatriciana</loc>
+    <loc>https://monde-recipe.com/recipes/amatriciana</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/mac-and-cheese</loc>
+    <loc>https://monde-recipe.com/recipes/mac-and-cheese</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/tom-yum-goong</loc>
+    <loc>https://monde-recipe.com/recipes/tom-yum-goong</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/fish-and-chips</loc>
+    <loc>https://monde-recipe.com/recipes/fish-and-chips</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/paella-valenciana</loc>
+    <loc>https://monde-recipe.com/recipes/paella-valenciana</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pickled-herring</loc>
+    <loc>https://monde-recipe.com/recipes/pickled-herring</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/dolma</loc>
+    <loc>https://monde-recipe.com/recipes/dolma</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/butter-chicken</loc>
+    <loc>https://monde-recipe.com/recipes/butter-chicken</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/bouillabaisse</loc>
+    <loc>https://monde-recipe.com/recipes/bouillabaisse</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cacio-e-pepe</loc>
+    <loc>https://monde-recipe.com/recipes/cacio-e-pepe</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/buffalo-wings</loc>
+    <loc>https://monde-recipe.com/recipes/buffalo-wings</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/khao-soi</loc>
+    <loc>https://monde-recipe.com/recipes/khao-soi</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/scones</loc>
+    <loc>https://monde-recipe.com/recipes/scones</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/ajo-blanco</loc>
+    <loc>https://monde-recipe.com/recipes/ajo-blanco</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/smorrebrod</loc>
+    <loc>https://monde-recipe.com/recipes/smorrebrod</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/lamb-chops</loc>
+    <loc>https://monde-recipe.com/recipes/lamb-chops</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/samosa</loc>
+    <loc>https://monde-recipe.com/recipes/samosa</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/tagliatelle-ragu-bolognese</loc>
+    <loc>https://monde-recipe.com/recipes/tagliatelle-ragu-bolognese</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pasta-pescatora</loc>
+    <loc>https://monde-recipe.com/recipes/pasta-pescatora</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/chicken-marsala</loc>
+    <loc>https://monde-recipe.com/recipes/chicken-marsala</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/green-curry-gaeng-keow-wan</loc>
+    <loc>https://monde-recipe.com/recipes/green-curry-gaeng-keow-wan</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/creme-brulee</loc>
+    <loc>https://monde-recipe.com/recipes/creme-brulee</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/sis-kebabi</loc>
+    <loc>https://monde-recipe.com/recipes/sis-kebabi</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/redzepi-potato-crisps-chocolate</loc>
+    <loc>https://monde-recipe.com/recipes/redzepi-potato-crisps-chocolate</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/redzepi-lamb-shank-beetroot-elderflower</loc>
+    <loc>https://monde-recipe.com/recipes/redzepi-lamb-shank-beetroot-elderflower</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/bottura-five-ages-parmigiano</loc>
+    <loc>https://monde-recipe.com/recipes/bottura-five-ages-parmigiano</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/passard-sage-butter-potatoes</loc>
+    <loc>https://monde-recipe.com/recipes/passard-sage-butter-potatoes</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/passard-peas-strawberry-herbs</loc>
+    <loc>https://monde-recipe.com/recipes/passard-peas-strawberry-herbs</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/virgilio-sea-bass-ceviche-leche-de-tigre</loc>
+    <loc>https://monde-recipe.com/recipes/virgilio-sea-bass-ceviche-leche-de-tigre</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/virgilio-causa-lima</loc>
+    <loc>https://monde-recipe.com/recipes/virgilio-causa-lima</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/quiche-lorraine</loc>
+    <loc>https://monde-recipe.com/recipes/quiche-lorraine</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pasta-alla-norma</loc>
+    <loc>https://monde-recipe.com/recipes/pasta-alla-norma</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/seafood-chowder</loc>
+    <loc>https://monde-recipe.com/recipes/seafood-chowder</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/larb</loc>
+    <loc>https://monde-recipe.com/recipes/larb</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/gordon-ramsay-roast-beef</loc>
+    <loc>https://monde-recipe.com/recipes/gordon-ramsay-roast-beef</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/gambas-al-ajillo</loc>
+    <loc>https://monde-recipe.com/recipes/gambas-al-ajillo</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/kanelbullar</loc>
+    <loc>https://monde-recipe.com/recipes/kanelbullar</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/imam-bayildi</loc>
+    <loc>https://monde-recipe.com/recipes/imam-bayildi</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/dal-tadka</loc>
+    <loc>https://monde-recipe.com/recipes/dal-tadka</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/lomo-saltado</loc>
+    <loc>https://monde-recipe.com/recipes/lomo-saltado</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/chicken-fricassee</loc>
+    <loc>https://monde-recipe.com/recipes/chicken-fricassee</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/porchetta</loc>
+    <loc>https://monde-recipe.com/recipes/porchetta</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/churros</loc>
+    <loc>https://monde-recipe.com/recipes/churros</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/gravlax</loc>
+    <loc>https://monde-recipe.com/recipes/gravlax</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/nikkei-tuna-tartare</loc>
+    <loc>https://monde-recipe.com/recipes/nikkei-tuna-tartare</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/braised-beef-short-ribs</loc>
+    <loc>https://monde-recipe.com/recipes/braised-beef-short-ribs</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/sticky-toffee-pudding</loc>
+    <loc>https://monde-recipe.com/recipes/sticky-toffee-pudding</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/palak-paneer</loc>
+    <loc>https://monde-recipe.com/recipes/palak-paneer</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/massaman-curry</loc>
+    <loc>https://monde-recipe.com/recipes/massaman-curry</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/ratatouille</loc>
+    <loc>https://monde-recipe.com/recipes/ratatouille</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pesto-pasta</loc>
+    <loc>https://monde-recipe.com/recipes/pesto-pasta</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/mushroom-risotto</loc>
+    <loc>https://monde-recipe.com/recipes/mushroom-risotto</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/eggs-benedict</loc>
+    <loc>https://monde-recipe.com/recipes/eggs-benedict</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/som-tam</loc>
+    <loc>https://monde-recipe.com/recipes/som-tam</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/gordon-ramsay-scallops</loc>
+    <loc>https://monde-recipe.com/recipes/gordon-ramsay-scallops</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/croquetas-de-jamon</loc>
+    <loc>https://monde-recipe.com/recipes/croquetas-de-jamon</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/frikadeller</loc>
+    <loc>https://monde-recipe.com/recipes/frikadeller</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/mercimek-corbasi</loc>
+    <loc>https://monde-recipe.com/recipes/mercimek-corbasi</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/chicken-tikka-masala</loc>
+    <loc>https://monde-recipe.com/recipes/chicken-tikka-masala</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/aji-de-gallina</loc>
+    <loc>https://monde-recipe.com/recipes/aji-de-gallina</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/gumbo</loc>
+    <loc>https://monde-recipe.com/recipes/gumbo</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pasta-e-fagioli</loc>
+    <loc>https://monde-recipe.com/recipes/pasta-e-fagioli</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/tarte-tatin</loc>
+    <loc>https://monde-recipe.com/recipes/tarte-tatin</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pad-see-ew</loc>
+    <loc>https://monde-recipe.com/recipes/pad-see-ew</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/patatas-bravas</loc>
+    <loc>https://monde-recipe.com/recipes/patatas-bravas</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/lohikeitto-finnish-salmon-soup</loc>
+    <loc>https://monde-recipe.com/recipes/lohikeitto-finnish-salmon-soup</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/manti-turkish-dumplings</loc>
+    <loc>https://monde-recipe.com/recipes/manti-turkish-dumplings</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/chana-masala</loc>
+    <loc>https://monde-recipe.com/recipes/chana-masala</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/papa-a-la-huancaina</loc>
+    <loc>https://monde-recipe.com/recipes/papa-a-la-huancaina</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/crenn-frozen-peach-smoothie</loc>
+    <loc>https://monde-recipe.com/recipes/crenn-frozen-peach-smoothie</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/crenn-old-bread-tomato-millefeuille</loc>
+    <loc>https://monde-recipe.com/recipes/crenn-old-bread-tomato-millefeuille</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/achatz-orchard-fruit-endive-salad-miso</loc>
+    <loc>https://monde-recipe.com/recipes/achatz-orchard-fruit-endive-salad-miso</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/achatz-lamb-herbed-breadcrumb-crust</loc>
+    <loc>https://monde-recipe.com/recipes/achatz-lamb-herbed-breadcrumb-crust</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cracco-spaghetti-aglio-olio-peperoncino</loc>
+    <loc>https://monde-recipe.com/recipes/cracco-spaghetti-aglio-olio-peperoncino</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/spaghetti-aglio-olio-peperoncino</loc>
+    <loc>https://monde-recipe.com/recipes/spaghetti-aglio-olio-peperoncino</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/spaghetti-alle-vongole</loc>
+    <loc>https://monde-recipe.com/recipes/spaghetti-alle-vongole</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pasta-al-limone</loc>
+    <loc>https://monde-recipe.com/recipes/pasta-al-limone</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/tiramisu</loc>
+    <loc>https://monde-recipe.com/recipes/tiramisu</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/lasagna-bolognese</loc>
+    <loc>https://monde-recipe.com/recipes/lasagna-bolognese</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/gnocchi-al-pomodoro</loc>
+    <loc>https://monde-recipe.com/recipes/gnocchi-al-pomodoro</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/panna-cotta</loc>
+    <loc>https://monde-recipe.com/recipes/panna-cotta</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/focaccia-genovese</loc>
+    <loc>https://monde-recipe.com/recipes/focaccia-genovese</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/risotto-al-radicchio</loc>
+    <loc>https://monde-recipe.com/recipes/risotto-al-radicchio</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/orecchiette-con-cime-di-rapa</loc>
+    <loc>https://monde-recipe.com/recipes/orecchiette-con-cime-di-rapa</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/lampredotto</loc>
+    <loc>https://monde-recipe.com/recipes/lampredotto</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/bucatini-all-amatriciana</loc>
+    <loc>https://monde-recipe.com/recipes/bucatini-all-amatriciana</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/spaghetti-alla-puttanesca</loc>
+    <loc>https://monde-recipe.com/recipes/spaghetti-alla-puttanesca</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/abbacchio-alla-romana</loc>
+    <loc>https://monde-recipe.com/recipes/abbacchio-alla-romana</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/acqua-pazza</loc>
+    <loc>https://monde-recipe.com/recipes/acqua-pazza</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/gateau-au-chocolat</loc>
+    <loc>https://monde-recipe.com/recipes/gateau-au-chocolat</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/crepes</loc>
+    <loc>https://monde-recipe.com/recipes/crepes</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/croque-monsieur</loc>
+    <loc>https://monde-recipe.com/recipes/croque-monsieur</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/macarons</loc>
+    <loc>https://monde-recipe.com/recipes/macarons</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/salade-nicoise</loc>
+    <loc>https://monde-recipe.com/recipes/salade-nicoise</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/gratin-dauphinois</loc>
+    <loc>https://monde-recipe.com/recipes/gratin-dauphinois</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/tarte-flambee</loc>
+    <loc>https://monde-recipe.com/recipes/tarte-flambee</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/khao-man-gai</loc>
+    <loc>https://monde-recipe.com/recipes/khao-man-gai</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/hoi-tod</loc>
+    <loc>https://monde-recipe.com/recipes/hoi-tod</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/gai-yang</loc>
+    <loc>https://monde-recipe.com/recipes/gai-yang</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cocido-madrileno</loc>
+    <loc>https://monde-recipe.com/recipes/cocido-madrileno</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/arroz-con-leche</loc>
+    <loc>https://monde-recipe.com/recipes/arroz-con-leche</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/sopa-de-ajo</loc>
+    <loc>https://monde-recipe.com/recipes/sopa-de-ajo</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pollo-al-ajillo</loc>
+    <loc>https://monde-recipe.com/recipes/pollo-al-ajillo</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/albondigas</loc>
+    <loc>https://monde-recipe.com/recipes/albondigas</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/crema-catalana</loc>
+    <loc>https://monde-recipe.com/recipes/crema-catalana</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/empanada-gallega</loc>
+    <loc>https://monde-recipe.com/recipes/empanada-gallega</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/fabada-asturiana</loc>
+    <loc>https://monde-recipe.com/recipes/fabada-asturiana</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pimientos-de-padron</loc>
+    <loc>https://monde-recipe.com/recipes/pimientos-de-padron</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/salmorejo</loc>
+    <loc>https://monde-recipe.com/recipes/salmorejo</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/almond-blossom-dacosta</loc>
+    <loc>https://monde-recipe.com/recipes/almond-blossom-dacosta</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pilukas-box-dacosta</loc>
+    <loc>https://monde-recipe.com/recipes/pilukas-box-dacosta</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/warm-pickled-oyster-berasategui</loc>
+    <loc>https://monde-recipe.com/recipes/warm-pickled-oyster-berasategui</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/rabbit-stew-berasategui</loc>
+    <loc>https://monde-recipe.com/recipes/rabbit-stew-berasategui</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/arroz-negro</loc>
+    <loc>https://monde-recipe.com/recipes/arroz-negro</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/paella-mariscos</loc>
+    <loc>https://monde-recipe.com/recipes/paella-mariscos</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/tacos-al-pastor</loc>
+    <loc>https://monde-recipe.com/recipes/tacos-al-pastor</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/guacamole</loc>
+    <loc>https://monde-recipe.com/recipes/guacamole</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/chiles-rellenos</loc>
+    <loc>https://monde-recipe.com/recipes/chiles-rellenos</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/carnitas</loc>
+    <loc>https://monde-recipe.com/recipes/carnitas</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pozole-rojo</loc>
+    <loc>https://monde-recipe.com/recipes/pozole-rojo</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/enchiladas-verdes</loc>
+    <loc>https://monde-recipe.com/recipes/enchiladas-verdes</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/sopa-de-lima</loc>
+    <loc>https://monde-recipe.com/recipes/sopa-de-lima</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/mole-poblano</loc>
+    <loc>https://monde-recipe.com/recipes/mole-poblano</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/aguachile</loc>
+    <loc>https://monde-recipe.com/recipes/aguachile</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/olive-allascolana</loc>
+    <loc>https://monde-recipe.com/recipes/olive-allascolana</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/panang-curry</loc>
+    <loc>https://monde-recipe.com/recipes/panang-curry</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/kuai-tiao-ruea</loc>
+    <loc>https://monde-recipe.com/recipes/kuai-tiao-ruea</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/yam-woon-sen</loc>
+    <loc>https://monde-recipe.com/recipes/yam-woon-sen</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/french-onion-soup</loc>
+    <loc>https://monde-recipe.com/recipes/french-onion-soup</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/new-york-cheesecake</loc>
+    <loc>https://monde-recipe.com/recipes/new-york-cheesecake</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/naan</loc>
+    <loc>https://monde-recipe.com/recipes/naan</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/baklava</loc>
+    <loc>https://monde-recipe.com/recipes/baklava</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/chocolate-brownie</loc>
+    <loc>https://monde-recipe.com/recipes/chocolate-brownie</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/prinsesstarta</loc>
+    <loc>https://monde-recipe.com/recipes/prinsesstarta</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/danish-pastry</loc>
+    <loc>https://monde-recipe.com/recipes/danish-pastry</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/knackebrod</loc>
+    <loc>https://monde-recipe.com/recipes/knackebrod</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/sundubu-jjigae</loc>
+    <loc>https://monde-recipe.com/recipes/sundubu-jjigae</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/samgyeopsal</loc>
+    <loc>https://monde-recipe.com/recipes/samgyeopsal</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/bossam</loc>
+    <loc>https://monde-recipe.com/recipes/bossam</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/kimbap</loc>
+    <loc>https://monde-recipe.com/recipes/kimbap</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/bibimbap</loc>
+    <loc>https://monde-recipe.com/recipes/bibimbap</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/hotteok</loc>
+    <loc>https://monde-recipe.com/recipes/hotteok</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/japchae</loc>
+    <loc>https://monde-recipe.com/recipes/japchae</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/tteokbokki</loc>
+    <loc>https://monde-recipe.com/recipes/tteokbokki</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/samgyetang</loc>
+    <loc>https://monde-recipe.com/recipes/samgyetang</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/mille-crepe-cake</loc>
+    <loc>https://monde-recipe.com/recipes/mille-crepe-cake</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/basque-cheesecake</loc>
+    <loc>https://monde-recipe.com/recipes/basque-cheesecake</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/galette-bretonne</loc>
+    <loc>https://monde-recipe.com/recipes/galette-bretonne</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/paris-brest</loc>
+    <loc>https://monde-recipe.com/recipes/paris-brest</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/mont-blanc</loc>
+    <loc>https://monde-recipe.com/recipes/mont-blanc</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/spinach-ricotta-ravioli</loc>
+    <loc>https://monde-recipe.com/recipes/spinach-ricotta-ravioli</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/meat-ravioli-in-broth</loc>
+    <loc>https://monde-recipe.com/recipes/meat-ravioli-in-broth</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/lobster-ravioli</loc>
+    <loc>https://monde-recipe.com/recipes/lobster-ravioli</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/banh-mi</loc>
+    <loc>https://monde-recipe.com/recipes/banh-mi</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/moroccan-chicken-tagine</loc>
+    <loc>https://monde-recipe.com/recipes/moroccan-chicken-tagine</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/taiwanese-castella-cake</loc>
+    <loc>https://monde-recipe.com/recipes/taiwanese-castella-cake</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/maritozzo</loc>
+    <loc>https://monde-recipe.com/recipes/maritozzo</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cochinita-pibil</loc>
+    <loc>https://monde-recipe.com/recipes/cochinita-pibil</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/shakshuka</loc>
+    <loc>https://monde-recipe.com/recipes/shakshuka</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pho-bo</loc>
+    <loc>https://monde-recipe.com/recipes/pho-bo</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/full-english-breakfast</loc>
+    <loc>https://monde-recipe.com/recipes/full-english-breakfast</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pappardelle-al-cinghiale</loc>
+    <loc>https://monde-recipe.com/recipes/pappardelle-al-cinghiale</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/spaghetti-al-nero-di-seppia</loc>
+    <loc>https://monde-recipe.com/recipes/spaghetti-al-nero-di-seppia</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/trofie-al-pesto-genovese</loc>
+    <loc>https://monde-recipe.com/recipes/trofie-al-pesto-genovese</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/rigatoni-alla-vodka</loc>
+    <loc>https://monde-recipe.com/recipes/rigatoni-alla-vodka</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/farfalle-al-limone-crema</loc>
+    <loc>https://monde-recipe.com/recipes/farfalle-al-limone-crema</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pasta-al-tonno</loc>
+    <loc>https://monde-recipe.com/recipes/pasta-al-tonno</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/spaghetti-con-pomodoro-crudo</loc>
+    <loc>https://monde-recipe.com/recipes/spaghetti-con-pomodoro-crudo</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/fregola-e-salsiccia</loc>
+    <loc>https://monde-recipe.com/recipes/fregola-e-salsiccia</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/bun-bo-hue</loc>
+    <loc>https://monde-recipe.com/recipes/bun-bo-hue</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/goi-cuon</loc>
+    <loc>https://monde-recipe.com/recipes/goi-cuon</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/bo-la-lot</loc>
+    <loc>https://monde-recipe.com/recipes/bo-la-lot</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/com-ga-hai-nam</loc>
+    <loc>https://monde-recipe.com/recipes/com-ga-hai-nam</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/bun-cha</loc>
+    <loc>https://monde-recipe.com/recipes/bun-cha</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/banh-xeo</loc>
+    <loc>https://monde-recipe.com/recipes/banh-xeo</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/banh-flan</loc>
+    <loc>https://monde-recipe.com/recipes/banh-flan</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/char-siu</loc>
+    <loc>https://monde-recipe.com/recipes/char-siu</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/kung-pao-chicken</loc>
+    <loc>https://monde-recipe.com/recipes/kung-pao-chicken</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/dan-dan-noodles</loc>
+    <loc>https://monde-recipe.com/recipes/dan-dan-noodles</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/mapo-tofu</loc>
+    <loc>https://monde-recipe.com/recipes/mapo-tofu</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/xiaolongbao</loc>
+    <loc>https://monde-recipe.com/recipes/xiaolongbao</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/galaktoboureko</loc>
+    <loc>https://monde-recipe.com/recipes/galaktoboureko</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/tzatziki</loc>
+    <loc>https://monde-recipe.com/recipes/tzatziki</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/greek-salad</loc>
+    <loc>https://monde-recipe.com/recipes/greek-salad</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/souvlaki</loc>
+    <loc>https://monde-recipe.com/recipes/souvlaki</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/spanakopita</loc>
+    <loc>https://monde-recipe.com/recipes/spanakopita</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/moussaka</loc>
+    <loc>https://monde-recipe.com/recipes/moussaka</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/bazhe</loc>
+    <loc>https://monde-recipe.com/recipes/bazhe</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/lobiani</loc>
+    <loc>https://monde-recipe.com/recipes/lobiani</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/chakhokhbili</loc>
+    <loc>https://monde-recipe.com/recipes/chakhokhbili</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/shkmeruli</loc>
+    <loc>https://monde-recipe.com/recipes/shkmeruli</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/khinkali</loc>
+    <loc>https://monde-recipe.com/recipes/khinkali</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/khachapuri</loc>
+    <loc>https://monde-recipe.com/recipes/khachapuri</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/kalua-pork</loc>
+    <loc>https://monde-recipe.com/recipes/kalua-pork</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/spam-musubi</loc>
+    <loc>https://monde-recipe.com/recipes/spam-musubi</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/haupia</loc>
+    <loc>https://monde-recipe.com/recipes/haupia</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/malasada</loc>
+    <loc>https://monde-recipe.com/recipes/malasada</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/loco-moco</loc>
+    <loc>https://monde-recipe.com/recipes/loco-moco</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/poke-bowl</loc>
+    <loc>https://monde-recipe.com/recipes/poke-bowl</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/bolo-de-bolacha</loc>
+    <loc>https://monde-recipe.com/recipes/bolo-de-bolacha</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/arroz-de-pato</loc>
+    <loc>https://monde-recipe.com/recipes/arroz-de-pato</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/francesinha</loc>
+    <loc>https://monde-recipe.com/recipes/francesinha</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/caldo-verde</loc>
+    <loc>https://monde-recipe.com/recipes/caldo-verde</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/bacalhau-a-bras</loc>
+    <loc>https://monde-recipe.com/recipes/bacalhau-a-bras</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pastel-de-nata</loc>
+    <loc>https://monde-recipe.com/recipes/pastel-de-nata</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/caviar-daubergine</loc>
+    <loc>https://monde-recipe.com/recipes/caviar-daubergine</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/aubergine-farcie</loc>
+    <loc>https://monde-recipe.com/recipes/aubergine-farcie</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/knafeh</loc>
+    <loc>https://monde-recipe.com/recipes/knafeh</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/mansaf</loc>
+    <loc>https://monde-recipe.com/recipes/mansaf</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/egyptian-moussaka</loc>
+    <loc>https://monde-recipe.com/recipes/egyptian-moussaka</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/falafel</loc>
+    <loc>https://monde-recipe.com/recipes/falafel</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/maqluba</loc>
+    <loc>https://monde-recipe.com/recipes/maqluba</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/hummus</loc>
+    <loc>https://monde-recipe.com/recipes/hummus</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/malai-kofta</loc>
+    <loc>https://monde-recipe.com/recipes/malai-kofta</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/mango-lassi</loc>
+    <loc>https://monde-recipe.com/recipes/mango-lassi</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/gulab-jamun</loc>
+    <loc>https://monde-recipe.com/recipes/gulab-jamun</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/lu-rou-fan</loc>
+    <loc>https://monde-recipe.com/recipes/lu-rou-fan</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/taiwanese-beef-noodle-soup</loc>
+    <loc>https://monde-recipe.com/recipes/taiwanese-beef-noodle-soup</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/xian-dou-jiang</loc>
+    <loc>https://monde-recipe.com/recipes/xian-dou-jiang</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/taiwanese-pineapple-cake</loc>
+    <loc>https://monde-recipe.com/recipes/taiwanese-pineapple-cake</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/lo-bak-go</loc>
+    <loc>https://monde-recipe.com/recipes/lo-bak-go</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/taro-sago-dessert</loc>
+    <loc>https://monde-recipe.com/recipes/taro-sago-dessert</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/san-bei-ji</loc>
+    <loc>https://monde-recipe.com/recipes/san-bei-ji</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/taiwanese-fried-chicken</loc>
+    <loc>https://monde-recipe.com/recipes/taiwanese-fried-chicken</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/alain-ducasse-rum-baba</loc>
+    <loc>https://monde-recipe.com/recipes/alain-ducasse-rum-baba</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/alain-ducasse-ratatouille</loc>
+    <loc>https://monde-recipe.com/recipes/alain-ducasse-ratatouille</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/anne-sophie-pic-white-millefeuille</loc>
+    <loc>https://monde-recipe.com/recipes/anne-sophie-pic-white-millefeuille</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pierre-gagnaire-chicken-cream</loc>
+    <loc>https://monde-recipe.com/recipes/pierre-gagnaire-chicken-cream</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pierre-gagnaire-vanilla-millefeuille</loc>
+    <loc>https://monde-recipe.com/recipes/pierre-gagnaire-vanilla-millefeuille</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/arctic-char-tostada</loc>
+    <loc>https://monde-recipe.com/recipes/arctic-char-tostada</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/quinoa-salad-olvera</loc>
+    <loc>https://monde-recipe.com/recipes/quinoa-salad-olvera</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/moroccan-couscous-royal</loc>
+    <loc>https://monde-recipe.com/recipes/moroccan-couscous-royal</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/bastilla</loc>
+    <loc>https://monde-recipe.com/recipes/bastilla</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/harira</loc>
+    <loc>https://monde-recipe.com/recipes/harira</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/zaalouk</loc>
+    <loc>https://monde-recipe.com/recipes/zaalouk</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/chebakia</loc>
+    <loc>https://monde-recipe.com/recipes/chebakia</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/sfenj</loc>
+    <loc>https://monde-recipe.com/recipes/sfenj</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/chilaquiles-verdes</loc>
+    <loc>https://monde-recipe.com/recipes/chilaquiles-verdes</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/chicken-tamales</loc>
+    <loc>https://monde-recipe.com/recipes/chicken-tamales</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/sopa-de-fideo</loc>
+    <loc>https://monde-recipe.com/recipes/sopa-de-fideo</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/rajas-con-queso</loc>
+    <loc>https://monde-recipe.com/recipes/rajas-con-queso</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/sopes-con-pollo</loc>
+    <loc>https://monde-recipe.com/recipes/sopes-con-pollo</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/anticuchos</loc>
+    <loc>https://monde-recipe.com/recipes/anticuchos</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/arroz-con-leche-peruano</loc>
+    <loc>https://monde-recipe.com/recipes/arroz-con-leche-peruano</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/picarones</loc>
+    <loc>https://monde-recipe.com/recipes/picarones</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/arroz-con-pollo-peruano</loc>
+    <loc>https://monde-recipe.com/recipes/arroz-con-pollo-peruano</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/sopa-a-la-minuta</loc>
+    <loc>https://monde-recipe.com/recipes/sopa-a-la-minuta</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/chupe-de-camarones</loc>
+    <loc>https://monde-recipe.com/recipes/chupe-de-camarones</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cannoli-siciliani</loc>
+    <loc>https://monde-recipe.com/recipes/cannoli-siciliani</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/zuccotto</loc>
+    <loc>https://monde-recipe.com/recipes/zuccotto</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/zuppa-inglese</loc>
+    <loc>https://monde-recipe.com/recipes/zuppa-inglese</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/croissants</loc>
+    <loc>https://monde-recipe.com/recipes/croissants</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/chocolate-eclairs</loc>
+    <loc>https://monde-recipe.com/recipes/chocolate-eclairs</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/madeleines</loc>
+    <loc>https://monde-recipe.com/recipes/madeleines</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/financiers</loc>
+    <loc>https://monde-recipe.com/recipes/financiers</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/new-york-style-pizza</loc>
+    <loc>https://monde-recipe.com/recipes/new-york-style-pizza</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/apple-crisp</loc>
+    <loc>https://monde-recipe.com/recipes/apple-crisp</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cobb-salad</loc>
+    <loc>https://monde-recipe.com/recipes/cobb-salad</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/dak-galbi</loc>
+    <loc>https://monde-recipe.com/recipes/dak-galbi</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/yukgaejang</loc>
+    <loc>https://monde-recipe.com/recipes/yukgaejang</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/doenjang-jjigae</loc>
+    <loc>https://monde-recipe.com/recipes/doenjang-jjigae</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/kimchi-jjigae</loc>
+    <loc>https://monde-recipe.com/recipes/kimchi-jjigae</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/penne-arrabbiata</loc>
+    <loc>https://monde-recipe.com/recipes/penne-arrabbiata</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pasta-alla-gricia</loc>
+    <loc>https://monde-recipe.com/recipes/pasta-alla-gricia</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/ragu-bianco</loc>
+    <loc>https://monde-recipe.com/recipes/ragu-bianco</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/saltimbocca-alla-romana</loc>
+    <loc>https://monde-recipe.com/recipes/saltimbocca-alla-romana</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cioccolato-salami</loc>
+    <loc>https://monde-recipe.com/recipes/cioccolato-salami</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/semifreddo-al-cioccolato</loc>
+    <loc>https://monde-recipe.com/recipes/semifreddo-al-cioccolato</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/budino-di-pane</loc>
+    <loc>https://monde-recipe.com/recipes/budino-di-pane</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/pollo-alla-cacciatora</loc>
+    <loc>https://monde-recipe.com/recipes/pollo-alla-cacciatora</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/peking-duck</loc>
+    <loc>https://monde-recipe.com/recipes/peking-duck</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/hui-guo-rou</loc>
+    <loc>https://monde-recipe.com/recipes/hui-guo-rou</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/chinese-fried-rice</loc>
+    <loc>https://monde-recipe.com/recipes/chinese-fried-rice</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/potstickers</loc>
+    <loc>https://monde-recipe.com/recipes/potstickers</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/cheung-fun</loc>
+    <loc>https://monde-recipe.com/recipes/cheung-fun</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/egg-drop-soup</loc>
+    <loc>https://monde-recipe.com/recipes/egg-drop-soup</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/hot-and-sour-soup</loc>
+    <loc>https://monde-recipe.com/recipes/hot-and-sour-soup</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/hong-shao-rou</loc>
+    <loc>https://monde-recipe.com/recipes/hong-shao-rou</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/dubai-chocolate-bar</loc>
+    <loc>https://monde-recipe.com/recipes/dubai-chocolate-bar</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/chocolate-lava-cake</loc>
+    <loc>https://monde-recipe.com/recipes/chocolate-lava-cake</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/fettuccine-alfredo</loc>
+    <loc>https://monde-recipe.com/recipes/fettuccine-alfredo</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/thomas-keller-roast-chicken</loc>
+    <loc>https://monde-recipe.com/recipes/thomas-keller-roast-chicken</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/le-bernardin-salmon-rillettes</loc>
+    <loc>https://monde-recipe.com/recipes/le-bernardin-salmon-rillettes</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://recipe-world-jp.vercel.app/recipes/daniel-boulud-loup-de-mer</loc>
+    <loc>https://monde-recipe.com/recipes/daniel-boulud-loup-de-mer</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

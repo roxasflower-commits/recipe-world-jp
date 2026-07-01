@@ -8,7 +8,7 @@ function toISO8601Duration(minutes: number): string {
   return `PT${m}M`;
 }
 
-const BASE_URL = 'https://recipe-world-jp.vercel.app';
+const BASE_URL = 'https://monde-recipe.com';
 
 function toAbsoluteUrl(url: string): string {
   return url.startsWith('http') ? url : `${BASE_URL}${url}`;
