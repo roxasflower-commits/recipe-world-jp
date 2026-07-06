@@ -101,6 +101,7 @@ export default function Header({ onSearchOpen }: { onSearchOpen?: () => void }) 
               { href: '/chefs', label: 'シェフ' },
               { href: '/techniques', label: '料理のコツ' },
               { href: '/guides', label: 'カルチャーガイド' },
+              { href: '/ingredients', label: '食材辞典' },
               { href: '/about', label: 'About' },
             ].map((item) => (
               <Link
@@ -255,6 +256,7 @@ export default function Header({ onSearchOpen }: { onSearchOpen?: () => void }) 
             <Link href="/chefs" className="text-sm tracking-widest uppercase text-muted hover:text-primary transition-colors" onClick={() => setMenuOpen(false)}>シェフ</Link>
             <Link href="/techniques" className="text-sm tracking-widest uppercase text-muted hover:text-primary transition-colors" onClick={() => setMenuOpen(false)}>料理のコツ</Link>
             <Link href="/guides" className="text-sm tracking-widest uppercase text-muted hover:text-primary transition-colors" onClick={() => setMenuOpen(false)}>カルチャーガイド</Link>
+            <Link href="/ingredients" className="text-sm tracking-widest uppercase text-muted hover:text-primary transition-colors" onClick={() => setMenuOpen(false)}>食材辞典</Link>
             <Link href="/about" className="text-sm tracking-widest uppercase text-muted hover:text-primary transition-colors" onClick={() => setMenuOpen(false)}>About</Link>
             <div className="border-t border-warm-border pt-4">
               <p className="text-xs tracking-widest uppercase text-muted mb-3">カテゴリー</p>
