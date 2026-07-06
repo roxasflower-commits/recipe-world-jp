@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import type { Metadata } from 'next';
-import { ingredients } from '@/data/ingredients';
+import { ingredients, ingredientCategories } from '@/data/ingredients';
+import type { Ingredient } from '@/types/ingredient';
 
 export const metadata: Metadata = {
   title: '食材辞典',
@@ -11,6 +12,53 @@ export const metadata: Metadata = {
     canonical: 'https://monde-recipe.com/ingredients',
   },
 };
+
+function IngredientCard({ ing }: { ing: Ingredient }) {
+  return (
+    <Link
+      href={`/ingredients/${ing.slug}`}
+      className="group block bg-white border border-warm-border hover:border-primary transition-colors overflow-hidden"
+    >
+      <div className="flex flex-col sm:flex-row">
+        <div className="relative sm:w-64 h-48 sm:h-auto flex-shrink-0 overflow-hidden">
+          <Image
+            src={ing.image}
+            alt={ing.name}
+            fill
+            className="object-cover group-hover:scale-105 transition-transform duration-500"
+          />
+        </div>
+
+        <div className="p-6 sm:p-8 flex flex-col justify-between flex-1">
+          <div>
+            <span className="text-xs tracking-widest uppercase text-accent">{ing.categoryLabel}</span>
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold mt-1 group-hover:text-accent transition-colors">
+              {ing.name}
+            </h2>
+            {ing.originalName && (
+              <p className="text-sm text-muted italic mt-1">{ing.originalName}</p>
+            )}
+            <p className="text-sm text-gray-600 leading-relaxed line-clamp-2 mt-3">
+              {ing.description}
+            </p>
+          </div>
+
+          <div className="flex items-center justify-between mt-6 pt-4 border-t border-warm-border">
+            <span className="text-xs text-gray-400">
+              使用レシピ {ing.relatedRecipeSlugs.length}品
+            </span>
+            <span className="text-xs tracking-widest uppercase text-accent flex items-center gap-1 group-hover:gap-2 transition-all">
+              詳しく見る
+              <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </Link>
+  );
+}
 
 export default function IngredientsPage() {
   return (
@@ -29,53 +77,26 @@ export default function IngredientsPage() {
         </div>
       </section>
 
-      {/* Ingredients */}
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-6">
-        {ingredients.map((ing) => (
-          <Link
-            key={ing.slug}
-            href={`/ingredients/${ing.slug}`}
-            className="group block bg-white border border-warm-border hover:border-primary transition-colors overflow-hidden"
-          >
-            <div className="flex flex-col sm:flex-row">
-              <div className="relative sm:w-64 h-48 sm:h-auto flex-shrink-0 overflow-hidden">
-                <Image
-                  src={ing.image}
-                  alt={ing.name}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                />
+      {/* Ingredients grouped by category */}
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-16">
+        {ingredientCategories.map(({ key, label }) => {
+          const items = ingredients.filter((ing) => ing.category === key);
+          if (items.length === 0) return null;
+          return (
+            <section key={key}>
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-1 h-6 bg-accent flex-shrink-0" />
+                <h2 className="font-serif text-2xl font-bold">{label}</h2>
+                <span className="text-xs text-gray-400">{items.length}品</span>
               </div>
-
-              <div className="p-6 sm:p-8 flex flex-col justify-between flex-1">
-                <div>
-                  <span className="text-xs tracking-widest uppercase text-accent">{ing.categoryLabel}</span>
-                  <h2 className="font-serif text-2xl sm:text-3xl font-bold mt-1 group-hover:text-accent transition-colors">
-                    {ing.name}
-                  </h2>
-                  {ing.originalName && (
-                    <p className="text-sm text-muted italic mt-1">{ing.originalName}</p>
-                  )}
-                  <p className="text-sm text-gray-600 leading-relaxed line-clamp-2 mt-3">
-                    {ing.description}
-                  </p>
-                </div>
-
-                <div className="flex items-center justify-between mt-6 pt-4 border-t border-warm-border">
-                  <span className="text-xs text-gray-400">
-                    使用レシピ {ing.relatedRecipeSlugs.length}品
-                  </span>
-                  <span className="text-xs tracking-widest uppercase text-accent flex items-center gap-1 group-hover:gap-2 transition-all">
-                    詳しく見る
-                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </span>
-                </div>
+              <div className="space-y-6">
+                {items.map((ing) => (
+                  <IngredientCard key={ing.slug} ing={ing} />
+                ))}
               </div>
-            </div>
-          </Link>
-        ))}
+            </section>
+          );
+        })}
       </div>
     </div>
   );

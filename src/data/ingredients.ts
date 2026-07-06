@@ -2,6 +2,7 @@ import { Ingredient } from '@/types/ingredient';
 
 export const ingredients: Ingredient[] = [
   {
+    category: 'oil-wine',
     slug: 'extra-virgin-olive-oil',
     name: 'エクストラバージンオリーブオイル',
     originalName: 'Extra Virgin Olive Oil',
@@ -40,6 +41,7 @@ export const ingredients: Ingredient[] = [
     ],
   },
   {
+    category: 'oil-wine',
     slug: 'dry-white-wine-for-cooking',
     name: '白ワイン（料理用）',
     originalName: 'Dry White Wine',
@@ -77,6 +79,7 @@ export const ingredients: Ingredient[] = [
     ],
   },
   {
+    category: 'cheese-dairy',
     slug: 'parmigiano-reggiano',
     name: 'パルミジャーノ・レッジャーノ',
     originalName: 'Parmigiano Reggiano',
@@ -114,6 +117,7 @@ export const ingredients: Ingredient[] = [
     ],
   },
   {
+    category: 'cheese-dairy',
     slug: 'pecorino-romano',
     name: 'ペコリーノ・ロマーノ',
     originalName: 'Pecorino Romano',
@@ -151,6 +155,7 @@ export const ingredients: Ingredient[] = [
     ],
   },
   {
+    category: 'vegetable-fruit',
     slug: 'garlic',
     name: 'にんにく',
     originalName: 'Garlic / Ail',
@@ -188,6 +193,7 @@ export const ingredients: Ingredient[] = [
     ],
   },
   {
+    category: 'cured-meat',
     slug: 'guanciale',
     name: 'グアンチャーレ',
     originalName: 'Guanciale',
@@ -225,6 +231,7 @@ export const ingredients: Ingredient[] = [
     ],
   },
   {
+    category: 'vegetable-fruit',
     slug: 'tomatoes',
     name: 'トマト',
     originalName: 'Tomato / Tomate',
@@ -262,6 +269,7 @@ export const ingredients: Ingredient[] = [
     ],
   },
   {
+    category: 'vegetable-fruit',
     slug: 'lemons',
     name: 'レモン',
     originalName: 'Lemon / Citron',
@@ -299,6 +307,7 @@ export const ingredients: Ingredient[] = [
     ],
   },
   {
+    category: 'vegetable-fruit',
     slug: 'radicchio',
     name: 'ラディッキオ',
     originalName: 'Radicchio',
@@ -336,6 +345,7 @@ export const ingredients: Ingredient[] = [
     ],
   },
   {
+    category: 'vegetable-fruit',
     slug: 'leeks',
     name: 'リーク（西洋ねぎ）',
     originalName: 'Leek / Poireau',
@@ -373,6 +383,7 @@ export const ingredients: Ingredient[] = [
     ],
   },
   {
+    category: 'vegetable-fruit',
     slug: 'shallots',
     name: 'エシャロット',
     originalName: 'Shallot / Échalote',
@@ -409,8 +420,207 @@ export const ingredients: Ingredient[] = [
       { question: '生で食べても大丈夫ですか？', answer: 'はい、生でも食べられます。ドレッシングやソースの香りづけに生のみじん切りを使うレシピも多くあります。ただし辛味が強いため使用量には注意してください。' },
     ],
   },
+  {
+    category: 'spice-herb',
+    slug: 'cinnamon',
+    name: 'シナモンスティック',
+    originalName: 'Cinnamon',
+    shortTitle: 'シナモンスティック',
+    description:
+      'モロッコのタジンからトルコのミートソース、北欧の焼き菓子まで、世界中の料理とお菓子に登場する万能スパイス。スティック（ホール）とパウダーでは用途が異なり、選び方ひとつで香りの立ち方が変わります。',
+    categoryLabel: '世界の料理・製菓の基本スパイス',
+    image: 'https://images.unsplash.com/photo-1622798337764-259682f03741?w=1200&q=80',
+    whatIsIt: [
+      'シナモンはクスノキ科の樹皮を乾燥させたスパイスで、大きく分けて「セイロンシナモン（本シナモン）」と「カシア（中国肉桂）」の2系統があります。市場に出回るシナモンの多くはカシア種で、香りが強く価格も手頃です。',
+      '煮込み料理やスパイスミックス（ガラムマサラ、ラス・エル・ハヌートなど）にはスティック（ホール）を、焼き菓子やドリンクにはパウダーを使うのが一般的な使い分けです。',
+      '甘い菓子だけでなく、モロッコのタジンやトルコのキョフテなど、肉料理の下味にも欠かせない香辛料です。',
+    ],
+    howToChoose: [
+      'スティックは色が均一で折れていないもの、香りを嗅いで甘く温かみのある香りが強いものを選ぶ。',
+      'セイロンシナモンは薄い層が重なった巻物のような見た目、カシアは分厚く硬いスティック状という違いで見分けられる。',
+      'パウダーは開封後に香りが飛びやすいため、少量パックをこまめに使い切るのがおすすめ。',
+    ],
+    substitutes: [
+      'スティックがない場合はパウダー小さじ1/2程度で代用可能（風味の広がり方は変わる）。',
+      'カシアとセイロンシナモンは風味が異なるが、家庭料理であれば相互に代用しても問題ない。',
+    ],
+    relatedRecipeSlugs: [
+      'turkish-moussaka', 'dum-biryani', 'dolma', 'butter-chicken', 'sis-kebabi', 'kanelbullar', 'churros', 'massaman-curry', 'chicken-tikka-masala', 'crema-catalana', 'mole-poblano', 'baklava', 'danish-pastry', 'hotteok', 'mont-blanc', 'moroccan-chicken-tagine', 'pho-bo', 'galaktoboureko', 'moussaka', 'pastel-de-nata', 'mansaf', 'maqluba', 'lu-rou-fan', 'moroccan-couscous-royal', 'bastilla', 'harira', 'picarones', 'cannoli-siciliani', 'budino-di-pane', 'birria-tacos',
+    ],
+    affiliateProducts: [
+      { name: 'シナモンスティック（セイロン産・輸入）', amazonQuery: 'シナモンスティック セイロン 輸入', rakutenQuery: 'シナモンスティック セイロン 輸入' },
+      { name: 'シナモンパウダー', amazonQuery: 'シナモンパウダー 製菓用', rakutenQuery: 'シナモンパウダー 製菓用' },
+    ],
+    publishedAt: '2026-07-06',
+    faqs: [
+      { question: 'セイロンシナモンとカシアの違いは何ですか？', answer: 'セイロンシナモンは香りが繊細で甘く、薄い樹皮が幾重にも巻かれています。カシアは香りが強く価格が安価で、厚く硬いスティック状です。市販のシナモンの多くはカシア種です。' },
+      { question: 'スティックとパウダー、どちらを使えばいいですか？', answer: '長時間煮込む料理はスティックを入れて後で取り出すのが定番です。焼き菓子やすぐに全体に香りをなじませたい料理にはパウダーが向いています。' },
+      { question: '保存方法のコツはありますか？', answer: '直射日光と湿気を避け、密閉容器に入れて保存してください。スティックの方がパウダーより香りが長持ちします。' },
+    ],
+  },
+  {
+    category: 'spice-herb',
+    slug: 'cumin',
+    name: 'クミン',
+    originalName: 'Cumin',
+    shortTitle: 'クミン',
+    description:
+      'インドカレーの香りの核であり、メキシコのタコスやモロッコのタジンにも欠かせないスパイス。シードとパウダーがあり、油で加熱すると香りが一気に開花するのが特徴です。',
+    categoryLabel: '世界の料理の基本スパイス',
+    image: 'https://images.unsplash.com/photo-1611255947564-e12567683244?w=1200&q=80',
+    whatIsIt: [
+      'クミンはセリ科の植物の種子を乾燥させたスパイスで、温かみのある土っぽい香りと、ほのかな苦味が特徴です。インド料理では「ジーラ」と呼ばれ、カレーやダールの香りの土台になります。',
+      'メキシコ料理ではタコスやチリコンカンの定番スパイスとして、中東・北アフリカ料理ではクスクスやタジンの香りづけとして使われるなど、世界中の料理に登場する国境を越えたスパイスです。',
+      'シード（ホール）は油でテンパリング（加熱）することで香りが引き立ち、パウダーは手軽に全体に風味をなじませるのに向いています。',
+    ],
+    howToChoose: [
+      '色が濃い茶褐色で、粒がふっくらと均一なものを選ぶ。',
+      'シードは自分で乾煎りしてから挽くと、香りが格段に良くなる。',
+      'パウダーは開封後の劣化が早いため、小容量のものをこまめに使い切るのがおすすめ。',
+    ],
+    substitutes: [
+      'クミンシードがない場合はパウダーで代用可能（テンパリングの工程は再現できない）。',
+      '風味は変わるが、キャラウェイシードで代用されることもある。',
+    ],
+    relatedRecipeSlugs: [
+      'turkish-moussaka', 'tandoori-chicken', 'dum-biryani', 'dolma', 'butter-chicken', 'lamb-chops', 'samosa', 'green-curry-gaeng-keow-wan', 'sis-kebabi', 'dal-tadka', 'lomo-saltado', 'palak-paneer', 'chicken-tikka-masala', 'aji-de-gallina', 'gumbo', 'chana-masala', 'tacos-al-pastor', 'carnitas', 'naan', 'moroccan-chicken-tagine', 'cochinita-pibil', 'shakshuka', 'falafel', 'maqluba', 'malai-kofta', 'harira', 'zaalouk', 'anticuchos', 'birria-tacos',
+    ],
+    affiliateProducts: [
+      { name: 'クミンシード（ホール・輸入）', amazonQuery: 'クミンシード ホール 輸入', rakutenQuery: 'クミンシード ホール 輸入' },
+      { name: 'クミンパウダー', amazonQuery: 'クミンパウダー 業務用', rakutenQuery: 'クミンパウダー 業務用' },
+    ],
+    publishedAt: '2026-07-06',
+    faqs: [
+      { question: 'クミンシードとクミンパウダーはどちらを買うべきですか？', answer: 'テンパリング（油での加熱）をするインド料理などにはシードが必須です。手軽に使いたい場合はパウダーが便利ですが、香りの強さはシードを自分で挽いたものに軍配が上がります。' },
+      { question: 'なぜカレーに欠かせないのですか？', answer: 'クミンの土っぽく温かみのある香りが、カレーの「らしさ」を作る土台になっているためです。ターメリックやコリアンダーと合わせて使われることが多いスパイスです。' },
+      { question: '使いすぎると苦くなりますか？', answer: 'はい、クミンは加熱しすぎたり大量に使ったりすると苦味が強く出ます。レシピの分量を目安に、味を見ながら調整してください。' },
+    ],
+  },
+  {
+    category: 'condiment-sauce',
+    slug: 'fish-sauce',
+    name: 'ナンプラー（魚醤）',
+    originalName: 'Fish Sauce / Nam Pla',
+    shortTitle: 'ナンプラー（魚醤）',
+    description:
+      '魚を塩漬けにして発酵させて作る液体調味料。タイ・ベトナム料理の旨味の土台を支える存在で、「アジアの醤油」とも呼ばれますが、独特の発酵香が日本人には最初戸惑いやすい食材でもあります。',
+    categoryLabel: '東南アジア料理の基本調味料',
+    image: 'https://images.unsplash.com/photo-1709293290785-78004c7536ee?w=1200&q=80',
+    whatIsIt: [
+      'ナンプラーはタイ語で「ナム（液体）」「プラー（魚）」を意味する、魚を塩漬けにして長期間発酵させて作る調味料です。ベトナムでは「ヌクマム」と呼ばれ、同様の製法で作られます。',
+      '生の状態では独特の強い香りがありますが、加熱調理すると角が取れ、深い旨味とコクだけが料理に残ります。パッタイ、トムヤムクン、生春巻きのタレなど、タイ・ベトナム料理に幅広く使われます。',
+      '塩の代わりに使うことで、単なる塩気だけでなくアミノ酸由来の旨味を加えられるのが最大の特徴です。',
+    ],
+    howToChoose: [
+      '色が濃い琥珀色〜茶色で、瓶を振ったときに濁りが少ないものが良品とされる。',
+      'タイ産の「squid印」やベトナム産の「Three Crabs」など、老舗ブランドのものを選ぶと失敗が少ない。',
+      '塩分濃度が商品によって異なるため、初めて使うレシピでは味見をしながら少しずつ加える。',
+    ],
+    substitutes: [
+      '醤油と少量の塩を合わせたものである程度代用できるが、独特の旨味は再現しきれない。',
+      'ベトナム料理のヌクマムで代用可能（風味の系統が近い）。',
+    ],
+    relatedRecipeSlugs: [
+      'pad-thai', 'gapao-rice', 'tom-yum-goong', 'khao-soi', 'green-curry-gaeng-keow-wan', 'larb', 'massaman-curry', 'som-tam', 'hoi-tod', 'gai-yang', 'panang-curry', 'kuai-tiao-ruea', 'yam-woon-sen', 'pho-bo', 'bun-bo-hue', 'bo-la-lot', 'bun-cha',
+    ],
+    affiliateProducts: [
+      { name: 'ナンプラー（タイ産・輸入）', amazonQuery: 'ナンプラー タイ産 輸入 魚醤', rakutenQuery: 'ナンプラー タイ産 輸入' },
+      { name: 'ヌクマム（ベトナム産・輸入）', amazonQuery: 'ヌクマム ベトナム産 輸入 魚醤', rakutenQuery: 'ヌクマム ベトナム産 輸入' },
+    ],
+    publishedAt: '2026-07-06',
+    faqs: [
+      { question: 'ナンプラーとヌクマムは同じものですか？', answer: '製法はほぼ同じで、どちらも魚を発酵させて作る魚醤です。ナンプラーはタイ産、ヌクマムはベトナム産を指し、原料の魚や熟成期間によって風味に違いがあります。' },
+      { question: 'においが気になるのですが、大丈夫ですか？', answer: '生のままだと独特の発酵香がありますが、加熱調理をすると香りが和らぎ、旨味とコクだけが残ります。少量から試して量を調整するのがおすすめです。' },
+      { question: '醤油で完全に代用できますか？', answer: '塩気は再現できますが、魚醤特有の発酵由来の旨味は醤油にはないため、風味は変わります。可能であれば少量でもナンプラーを使うことをおすすめします。' },
+    ],
+  },
+  {
+    category: 'oil-wine',
+    slug: 'shaoxing-wine',
+    name: '紹興酒',
+    originalName: 'Shaoxing Wine',
+    shortTitle: '紹興酒',
+    description:
+      '中国・紹興地方原産の醸造酒で、中華料理の炒め物・煮込み・マリネに欠かせない調味料酒。日本ではまだ「どこで買えばいいか分からない」という声が多い、代表的な輸入食材のひとつです。',
+    categoryLabel: '中国料理の基本調味料酒',
+    image: 'https://images.unsplash.com/photo-1593375547863-757ab44a2407?w=1200&q=80',
+    whatIsIt: [
+      '紹興酒はもち米を原料とする中国の醸造酒で、長期熟成させたものは「老酒（ラオチュウ）」とも呼ばれます。飲用としてだけでなく、中華料理の調理酒として日常的に使われています。',
+      '肉や魚の下味に使うと臭みを消して旨味を引き出し、炒め物では鍋肌に加えて香ばしい香りを立たせる「烹（ポン）」という技法にも使われます。',
+      '日本酒とは異なる独特のコクと香ばしさがあり、これが中華料理特有の奥深い風味を生み出しています。',
+    ],
+    howToChoose: [
+      '熟成年数の表記があるものは、年数が長いほど香りが深くコクがある。',
+      '調理用と飲用で分かれて販売されていることが多いが、料理用には「調理用清酒」や「加飯酒」の表記があるものでも代用できる。',
+      '中華食材店や輸入食品店、オンラインショップで比較的入手しやすい。',
+    ],
+    substitutes: [
+      '日本酒とみりんを2:1程度で混ぜたもので代用可能（風味は異なるがコクは近づけられる）。',
+      'アルコールを避けたい場合は、料理用の中華だしで代用し、風味付けは他の調味料で補う方法もある。',
+    ],
+    relatedRecipeSlugs: [
+      'char-siu', 'kung-pao-chicken', 'dan-dan-noodles', 'xiaolongbao', 'lu-rou-fan', 'taiwanese-beef-noodle-soup', 'san-bei-ji', 'taiwanese-fried-chicken', 'hui-guo-rou', 'chinese-fried-rice', 'potstickers', 'hong-shao-rou', 'pepper-steak-qingjiao-rousi', 'wonton-soup', 'general-tsos-chicken', 'beef-and-broccoli', 'mongolian-beef', 'wonton-noodle-soup',
+    ],
+    affiliateProducts: [
+      { name: '紹興酒（中華食材・輸入）', amazonQuery: '紹興酒 中華食材 輸入', rakutenQuery: '紹興酒 料理用 輸入' },
+      { name: '中華調理酒セット', amazonQuery: '中華調味料 セット 紹興酒 オイスターソース', rakutenQuery: '中華調味料 セット' },
+    ],
+    publishedAt: '2026-07-06',
+    faqs: [
+      { question: '紹興酒はどこで買えますか？', answer: '中華食材専門店、輸入食品を扱うスーパー、オンラインショップで購入できます。近年は一般的なスーパーの中華食材コーナーに置かれていることも増えています。' },
+      { question: '日本酒で完全に代用できますか？', answer: '代用は可能ですが、紹興酒特有のコクと香ばしさは再現しきれません。日本酒とみりんを合わせると、風味が近づきやすくなります。' },
+      { question: '子ども向けの料理にも使えますか？', answer: '加熱調理をすればアルコール分の大部分は飛びますが、気になる場合は使用量を減らすか、料理酒不使用のレシピを選ぶことをおすすめします。' },
+    ],
+  },
+  {
+    category: 'spice-herb',
+    slug: 'saffron',
+    name: 'サフラン',
+    originalName: 'Saffron',
+    shortTitle: 'サフラン',
+    description:
+      '世界一高価と言われるスパイス。クロッカスの花の雌しべを手摘みして作られ、パエリアやブイヤベースに鮮やかな黄金色と独特の芳香を与えます。少量でも十分な効果を発揮する、使い方に迷いやすい食材です。',
+    categoryLabel: 'フランス・スペイン料理の高級スパイス',
+    image: 'https://images.unsplash.com/photo-1656568866961-03e9dcc0fbc6?w=1200&q=80',
+    whatIsIt: [
+      'サフランはクロッカスの一種の花から、雌しべの赤い部分だけを手摘みして乾燥させたスパイスです。1輪の花からごく少量しか採れないため、世界で最も高価なスパイスとされています。',
+      'スペインのパエリア、フランスのブイヤベース、インドのビリヤニなど、料理に鮮やかな黄金色と独特の芳香を与える役割を担います。',
+      '香りは強いため、レシピで指定された量（多くはひとつまみ程度）を守ることが大切です。',
+    ],
+    howToChoose: [
+      '糸状（スレッド）のものは、色が濃い赤色で均一なものを選ぶ。粉末は混ぜ物のリスクがあるため、糸状のものの方が品質を確認しやすい。',
+      '原産国の表記（イランやスペイン産など）があるものを選ぶと安心。',
+      '少量パッケージで十分なため、使い切れる量を購入するのがコストパフォーマンスの面でもおすすめ。',
+    ],
+    substitutes: [
+      '色合いだけならターメリックで代用できるが、サフラン特有の芳香は再現できない。',
+      '専用の「サフランライス用シーズニング」で代用される場合もあるが、風味は大きく異なる。',
+    ],
+    relatedRecipeSlugs: [
+      'osso-buco', 'dum-biryani', 'paella-valenciana', 'bouillabaisse', 'fabada-asturiana', 'rabbit-stew-berasategui', 'paella-mariscos', 'bastilla',
+    ],
+    affiliateProducts: [
+      { name: 'サフラン（イラン産・輸入）', amazonQuery: 'サフラン イラン産 輸入 スレッド', rakutenQuery: 'サフラン イラン産 輸入' },
+      { name: 'サフラン（スペイン産・輸入）', amazonQuery: 'サフラン スペイン産 輸入', rakutenQuery: 'サフラン スペイン産 輸入' },
+    ],
+    publishedAt: '2026-07-06',
+    faqs: [
+      { question: 'なぜサフランはこんなに高価なのですか？', answer: 'クロッカスの花1輪から採れる雌しべはごくわずかで、すべて手摘みで収穫されるためです。1gのサフランを作るのに150輪以上の花が必要とされています。' },
+      { question: '使う前に下ごしらえは必要ですか？', answer: 'ぬるま湯や温めた出汁に数分浸してから使うと、色と香りが均一に引き出されます。乾燥したまま直接加えるより効果的です。' },
+      { question: '使いすぎるとどうなりますか？', answer: '薬品的な苦味や不快な香りが出てしまいます。レシピに指定された少量（ひとつまみ程度）を守ることが美味しく仕上げるコツです。' },
+    ],
+  },
 ];
 
 export function getIngredientBySlug(slug: string): Ingredient | undefined {
   return ingredients.find((i) => i.slug === slug);
 }
+
+export const ingredientCategories: { key: Ingredient['category']; label: string }[] = [
+  { key: 'oil-wine', label: '油脂・酒' },
+  { key: 'cheese-dairy', label: 'チーズ・乳製品' },
+  { key: 'cured-meat', label: '肉加工品' },
+  { key: 'vegetable-fruit', label: '野菜・果物' },
+  { key: 'spice-herb', label: 'スパイス・ハーブ' },
+  { key: 'condiment-sauce', label: '調味料・ソース' },
+];
