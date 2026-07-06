@@ -779,6 +779,76 @@ export const techniques: Technique[] = [
       },
     ],
   },
+  {
+    slug: 'soffritto-mirepoix',
+    title: 'ソフリット・ミルポワとは？煮込み料理の土台を作る黄金比',
+    shortTitle: 'ソフリット・ミルポワ（香味野菜の黄金比）',
+    description:
+      'ボブルギニョンにもボロネーゼにも共通して登場する、玉ねぎ・にんじん・セロリのみじん切り。イタリアでは「ソフリット」、フランスでは「ミルポワ」と呼ばれるこの黄金比が、煮込み料理の味の土台を決めています。',
+    categoryLabel: '煮込み料理の基本技術',
+    image: 'https://images.unsplash.com/photo-1562753504-7f98abff6c5a?w=1200&q=80',
+    steps: [
+      {
+        step: 1,
+        text: '玉ねぎ・にんじん・セロリを、それぞれ同じくらいの大きさにみじん切りにする。',
+        tip: 'フランスの伝統的なミルポワの比率は玉ねぎ2：にんじん1：セロリ1。イタリアのソフリットも近い比率が一般的です。',
+      },
+      {
+        step: 2,
+        text: '鍋にオリーブオイルまたはバターを熱し、弱火〜中火で3種の野菜を炒める。',
+      },
+      {
+        step: 3,
+        text: '焦がさないよう時々混ぜながら、野菜がしんなりして甘い香りが立つまでじっくり炒める（10〜15分程度）。',
+        tip: '強火で急いで炒めると焦げて苦味が出るだけでなく、野菜の甘みが十分に引き出せません。焦らずゆっくりが鉄則です。',
+      },
+      {
+        step: 4,
+        text: '野菜が透き通り、全体がしんなりしたら土台が完成。ここに肉やトマト、ワインなどを加えて煮込みを続ける。',
+      },
+    ],
+    commonMistakes: [
+      '野菜の大きさが不揃いで、火の通りにムラができる',
+      '強火で炒めて焦がしてしまい、苦味が出る',
+      '炒める時間が短すぎて、野菜の甘みが引き出せないまま次の工程に進んでしまう',
+      'セロリを省略してしまう（風味の要のひとつなので、なるべく省略しないのがおすすめ）',
+    ],
+    relatedRecipeSlugs: [
+      'boeuf-bourguignon',
+      'osso-buco',
+      'bouillabaisse',
+      'tagliatelle-ragu-bolognese',
+      'braised-beef-short-ribs',
+      'pasta-e-fagioli',
+      'lasagna-bolognese',
+      'lampredotto',
+      'olive-allascolana',
+      'meat-ravioli-in-broth',
+      'pappardelle-al-cinghiale',
+      'ragu-bianco',
+      'pollo-alla-cacciatora',
+      'trippa-alla-fiorentina',
+      'pasta-alla-genovese',
+    ],
+    publishedAt: '2026-07-06',
+    faqs: [
+      {
+        question: 'ソフリットとミルポワは同じものですか？',
+        answer:
+          '基本の材料（玉ねぎ・にんじん・セロリ）は共通していますが、ミルポワ（フランス）は炒めずにゆっくり「汗をかかせる」ように火を通すのに対し、ソフリット（イタリア）はしっかり炒めて香ばしさを出す傾向があります。国や料理によって仕上がりの色や香りに違いが出ます。',
+      },
+      {
+        question: 'セロリが苦手な場合は省略できますか？',
+        answer:
+          '省略しても料理は成立しますが、独特の爽やかな香りが失われます。苦手な場合は量を控えめにする、または細かく刻んで存在感を減らす方法がおすすめです。',
+      },
+      {
+        question: '大量に作って冷凍保存できますか？',
+        answer:
+          'はい、炒めたソフリット・ミルポワは冷凍保存が可能です。まとめて作って小分け冷凍しておくと、平日の煮込み料理の時短に役立ちます。',
+      },
+    ],
+  },
 ];
 
 export function getTechniqueBySlug(slug: string): Technique | undefined {
