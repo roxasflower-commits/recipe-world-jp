@@ -450,6 +450,335 @@ export const techniques: Technique[] = [
       },
     ],
   },
+  {
+    slug: 'deep-frying-oil-temperature',
+    title: '揚げ油の温度管理（べちゃっとしない・油っぽくならないコツ）',
+    shortTitle: '揚げ油の温度管理',
+    description:
+      'フィッシュ・アンド・チップスから北京ダック、チュロスまで、世界中の揚げ物料理に共通するのが「油の温度管理」です。温度が低すぎると衣に油を吸ってべちゃっとし、高すぎると中が生焼けのまま表面だけ焦げてしまいます。温度計に頼らなくても判断できるコツも紹介します。',
+    categoryLabel: '揚げ物の基本技術',
+    image: 'https://images.unsplash.com/photo-1518207429941-5b17e09f4d86?w=1200&q=80',
+    steps: [
+      {
+        step: 1,
+        text: '揚げ油をレシピが指定する温度（多くは160〜180℃）まで、油温計を使ってしっかり温める。',
+        tip: '温度計がない場合は、菜箸を油に入れて細かい泡が全体から勢いよく出るかどうかで目安を判断できます。',
+      },
+      {
+        step: 2,
+        text: '食材は油の量に対して詰め込みすぎず、数回に分けて揚げる。',
+        tip: '一度に大量の食材を入れると油の温度が急激に下がり、衣に油を吸い込んでべちゃっとした仕上がりになります。',
+      },
+      {
+        step: 3,
+        text: '二度揚げが指定されているレシピでは、1回目は低めの温度でじっくり中まで火を通し、2回目は高温で表面だけを短時間でカリッと仕上げる。',
+      },
+      {
+        step: 4,
+        text: '揚げている間は油の温度をこまめに確認し、下がってきたら火力を上げて調整する。',
+      },
+      {
+        step: 5,
+        text: '揚げ上がったら油をよく切り、網やキッチンペーパーの上で余分な油を落とす。',
+        tip: '揚げたてをそのまま重ねて置くと、蒸気がこもって衣がしんなりしてしまいます。網の上に並べて蒸気を逃がしましょう。',
+      },
+    ],
+    commonMistakes: [
+      '油の温度が十分に上がる前に食材を入れてしまう',
+      '一度にたくさんの食材を入れて温度が急降下する',
+      '揚げ上がった食材をキッチンペーパーで包んでしまい、蒸気で衣がしんなりする',
+      '温度計がないからと勘だけで判断し、中が生焼けのまま仕上げてしまう',
+    ],
+    relatedRecipeSlugs: [
+      'tortilla-espanola',
+      'turkish-moussaka',
+      'fish-and-chips',
+      'buffalo-wings',
+      'khao-soi',
+      'samosa',
+      'redzepi-potato-crisps-chocolate',
+      'bottura-five-ages-parmigiano',
+      'virgilio-sea-bass-ceviche-leche-de-tigre',
+      'quiche-lorraine',
+      'gordon-ramsay-roast-beef',
+      'gambas-al-ajillo',
+      'churros',
+      'sticky-toffee-pudding',
+      'croquetas-de-jamon',
+      'patatas-bravas',
+      'achatz-lamb-herbed-breadcrumb-crust',
+      'gateau-au-chocolat',
+      'gratin-dauphinois',
+      'olive-allascolana',
+      'chocolate-brownie',
+      'prinsesstarta',
+      'knackebrod',
+      'galette-bretonne',
+      'paris-brest',
+      'taiwanese-castella-cake',
+      'shakshuka',
+      'bun-cha',
+      'dan-dan-noodles',
+      'moussaka',
+      'arroz-de-pato',
+      'knafeh',
+      'egyptian-moussaka',
+      'malai-kofta',
+      'taiwanese-fried-chicken',
+      'alain-ducasse-rum-baba',
+      'anne-sophie-pic-white-millefeuille',
+      'pierre-gagnaire-vanilla-millefeuille',
+      'bastilla',
+      'sfenj',
+      'picarones',
+      'cannoli-siciliani',
+      'zuccotto',
+      'apple-crisp',
+      'peking-duck',
+      'sweet-and-sour-pork',
+      'tartiflette',
+      'thomas-keller-buttermilk-fried-chicken',
+      'souffle-au-chocolat',
+      'general-tsos-chicken',
+    ],
+    publishedAt: '2026-07-05',
+    faqs: [
+      {
+        question: '温度計がない場合、油の温度はどう判断すればいいですか？',
+        answer:
+          '乾いた菜箸や木べらの先を油に入れ、細かい泡が勢いよく全体から出れば170℃前後の目安になります。衣を少量落として、すぐに浮き上がってくれば適温です。',
+      },
+      {
+        question: '二度揚げはなぜ必要なのですか？',
+        answer:
+          '1回目の低めの温度で中までじっくり火を通し、2回目の高温で表面の水分を飛ばしてカリッとさせるためです。冷めても衣がベタつきにくくなる効果もあります。',
+      },
+      {
+        question: '揚げ油は何回まで使い回せますか？',
+        answer:
+          '揚げる食材や油の状態にもよりますが、色が濃くなったり煙が出やすくなったりしたら交換の目安です。使用後はしっかり濾して保存してください。',
+      },
+    ],
+  },
+  {
+    slug: 'resting-meat-after-cooking',
+    title: '肉を切る前に休ませる理由（肉汁を逃さないコツ）',
+    shortTitle: '肉を切る前に休ませる（レスティング）',
+    description:
+      '焼き上がった肉をすぐに切ると、断面から肉汁が一気に流れ出てパサついた仕上がりになってしまいます。数分間休ませることで肉汁が全体に落ち着き、ジューシーな状態を保てます。ローストビーフからステーキまで、切る直前のひと手間が仕上がりを左右します。',
+    categoryLabel: '肉料理の基本技術',
+    image: 'https://images.unsplash.com/photo-1529694157872-4e0c0f3b238b?w=1200&q=80',
+    steps: [
+      {
+        step: 1,
+        text: '肉を焼き上げたら、まな板やバットの上に取り出す。',
+      },
+      {
+        step: 2,
+        text: 'アルミホイルを軽くかぶせ、密閉しすぎないようふんわりと覆う。',
+        tip: 'ぴったり密閉すると蒸気がこもり、せっかくの焼き上げた表面がしんなりしてしまいます。',
+      },
+      {
+        step: 3,
+        text: '肉の大きさに応じて5〜20分程度休ませる。塊肉ほど長めに休ませる。',
+      },
+      {
+        step: 4,
+        text: '休ませている間に肉の内部温度が均一になり、加熱で外側に押し出された肉汁が全体に再び行き渡る。',
+      },
+      {
+        step: 5,
+        text: '休ませ終えたら、繊維を断ち切る方向に包丁を入れて切り分ける。',
+        tip: '肉の繊維に沿って切ると硬く感じやすいので、繊維を断ち切るように切ると柔らかく感じられます。',
+      },
+    ],
+    commonMistakes: [
+      '焼き上がってすぐに切ってしまい、肉汁がまな板に流れ出てパサつく',
+      'アルミホイルで密閉しすぎて、カリッと焼いた表面がふやける',
+      '塊肉を薄切り肉と同じ短い時間しか休ませない',
+      '休ませすぎて肉が冷めきってしまう',
+    ],
+    relatedRecipeSlugs: [
+      'beef-wellington',
+      'sis-kebabi',
+      'gordon-ramsay-roast-beef',
+      'porchetta',
+      'braised-beef-short-ribs',
+      'achatz-lamb-herbed-breadcrumb-crust',
+      'lasagna-bolognese',
+      'gratin-dauphinois',
+      'chiles-rellenos',
+      'naan',
+      'char-siu',
+      'souvlaki',
+      'taiwanese-pineapple-cake',
+      'cioccolato-salami',
+      'peking-duck',
+      'daniel-boulud-loup-de-mer',
+      'steak-au-poivre',
+    ],
+    publishedAt: '2026-07-05',
+    faqs: [
+      {
+        question: 'なぜ休ませると肉汁が逃げにくくなるのですか？',
+        answer:
+          '加熱直後は肉の内部の水分（肉汁）が中心に向かって圧縮された状態です。休ませることでこの圧力が均一に分散し、切ったときに流れ出る肉汁の量が減ります。',
+      },
+      {
+        question: '休ませる時間はどのくらいが目安ですか？',
+        answer:
+          '薄いステーキなら5分程度、ローストビーフのような塊肉なら15〜20分が目安です。肉の厚みに比例して長めに休ませてください。',
+      },
+      {
+        question: '休ませている間に肉が冷めてしまいませんか？',
+        answer:
+          'ふんわりとアルミホイルをかぶせることである程度保温できます。多少温度は下がりますが、切ったときのジューシーさを優先する価値は十分にあります。',
+      },
+    ],
+  },
+  {
+    slug: 'marinating-meat-and-fish',
+    title: 'マリネ・漬け込みで下味をつける方法（味を染み込ませるコツ）',
+    shortTitle: 'マリネ・漬け込みで下味をつける',
+    description:
+      '肉や魚を漬け込み液に浸すことで、味を染み込ませるだけでなく、酸や酵素の力で身を柔らかくする効果もあります。タンドリーチキンのヨーグルトマリネからセビーチェの「酸で火を通す」調理法まで、漬け込みの原理と時間の目安を解説します。',
+    categoryLabel: '下ごしらえの基本技術',
+    image: 'https://images.unsplash.com/photo-1565134367533-60a8ee591cbd?w=1200&q=80',
+    steps: [
+      {
+        step: 1,
+        text: '漬け込み液（酸・油・塩・香辛料など）を、材料や料理に合わせて用意する。',
+      },
+      {
+        step: 2,
+        text: '肉や魚の表面の水分を軽く拭き取ってから、漬け込み液に浸す。',
+        tip: '水分が残ったままだと漬け込み液が薄まり、味が入りにくくなります。',
+      },
+      {
+        step: 3,
+        text: '食材の厚みや種類に応じて漬け込み時間を調整する。魚介は短時間（数分〜30分程度）、肉の塊は長時間（数時間〜一晩）が目安。',
+      },
+      {
+        step: 4,
+        text: '冷蔵庫で漬け込み、時々上下を返して全体に均一に浸るようにする。',
+        tip: '常温で漬け込むと食中毒のリスクが高まるため、必ず冷蔵庫で行ってください。',
+      },
+      {
+        step: 5,
+        text: '漬け込みすぎに注意し、指定の時間が来たら取り出して調理に移る。',
+      },
+    ],
+    commonMistakes: [
+      '酸が強い漬け込み液（柑橘・酢など）に長時間浸しすぎて、身がパサパサ・スカスカになる',
+      '常温で漬け込んでしまい、食中毒のリスクが高まる',
+      '漬け込み液の塩分・酸味の効かせ具合を確認せず、味が入りすぎる、または入らない',
+      '漬け込み液を再利用して生食用のソースにしてしまう（加熱が必要）',
+    ],
+    relatedRecipeSlugs: [
+      'duck-confit',
+      'tandoori-chicken',
+      'coq-au-vin',
+      'pickled-herring',
+      'lamb-chops',
+      'sis-kebabi',
+      'virgilio-sea-bass-ceviche-leche-de-tigre',
+      'gai-yang',
+      'tacos-al-pastor',
+      'aguachile',
+      'cochinita-pibil',
+      'souvlaki',
+      'taiwanese-fried-chicken',
+      'anticuchos',
+      'thomas-keller-buttermilk-fried-chicken',
+    ],
+    publishedAt: '2026-07-05',
+    faqs: [
+      {
+        question: '漬け込み時間はどのくらいが目安ですか？',
+        answer:
+          '魚介など身が薄いものは数分〜30分程度、鶏肉は数時間、塊肉は一晩が目安です。酸が強い漬け込み液は長時間浸すと身が締まりすぎるので注意してください。',
+      },
+      {
+        question: 'ヨーグルトで漬け込むメリットは何ですか？',
+        answer:
+          'ヨーグルトの乳酸と酵素が肉のたんぱく質をやさしく分解し、しっとり柔らかく仕上げてくれます。タンドリーチキンなどインド料理でよく使われる手法です。',
+      },
+      {
+        question: '漬け込み液は使い回せますか？',
+        answer:
+          '生の肉や魚に使った漬け込み液は雑菌が繁殖している可能性があるため、そのままソースとして使うのは避け、必ず加熱してから使用してください。',
+      },
+    ],
+  },
+  {
+    slug: 'tempering-spices',
+    title: 'スパイスをテンパリングする方法（油で香りを引き出すコツ）',
+    shortTitle: 'スパイスをテンパリング',
+    description:
+      'ホールスパイスを油で加熱すると、水に溶けにくい香り成分が油に溶け出し、料理全体に香りが行き渡ります。インド料理の「タルカ」をはじめ、香辛料を使う料理で香りを最大限に引き出すための基本テクニックです。',
+    categoryLabel: 'スパイス使いの基本技術',
+    image: 'https://images.unsplash.com/photo-1598259065881-8a65b97d50fb?w=1200&q=80',
+    steps: [
+      {
+        step: 1,
+        text: '使うホールスパイス（クミンシード、マスタードシード、カルダモンなど）を計量しておく。',
+      },
+      {
+        step: 2,
+        text: '鍋やフライパンに油（またはギー）を入れ、中火で熱する。',
+      },
+      {
+        step: 3,
+        text: '油が十分に温まったらホールスパイスを加え、香りが立つまで数十秒炒める。',
+        tip: 'スパイスは焦げやすいので、目を離さずこまめに鍋を揺すりながら加熱してください。',
+      },
+      {
+        step: 4,
+        text: 'パチパチとはじける音がしてスパイスの色が変わり始めたら、香りが十分に出たサイン。',
+      },
+      {
+        step: 5,
+        text: 'すぐに他の材料（玉ねぎやスパイスパウダー、煮込み料理など）を加えて、続けて調理する。',
+        tip: '香りが立った状態で放置すると焦げて苦味が出るので、テンパリングが終わったらすぐ次の工程に移りましょう。',
+      },
+    ],
+    commonMistakes: [
+      '油が十分に温まる前にスパイスを入れてしまい、香りが十分に引き出せない',
+      '強火のまま目を離してスパイスを焦がしてしまう',
+      'テンパリング後にそのまま放置し、苦味が出てしまう',
+      'パウダースパイスとホールスパイスを同じタイミングで加えてしまい、パウダーだけ焦げる',
+    ],
+    relatedRecipeSlugs: [
+      'swedish-meatballs',
+      'dum-biryani',
+      'samosa',
+      'redzepi-potato-crisps-chocolate',
+      'dal-tadka',
+      'palak-paneer',
+      'massaman-curry',
+      'paris-brest',
+      'zuppa-inglese',
+      'dubai-chocolate-bar',
+    ],
+    publishedAt: '2026-07-05',
+    faqs: [
+      {
+        question: 'テンパリングとは何ですか？',
+        answer:
+          'ホールスパイスを油で加熱し、水に溶けにくい香り成分を油に移して料理全体に香りを行き渡らせる調理技術です。インド料理では「タルカ」または「チョーンク」と呼ばれます。',
+      },
+      {
+        question: 'ホールスパイスがない場合はパウダースパイスで代用できますか？',
+        answer:
+          '代用は可能ですが、パウダースパイスは焦げやすいため、油の温度を少し低めにして手早く炒めるようにしてください。ホールスパイスに比べて香りの立ち方は穏やかになります。',
+      },
+      {
+        question: 'テンパリングはどのタイミングで行うのが良いですか？',
+        answer:
+          '料理の最初（玉ねぎなどを炒める前）に行う方法と、仕上げに別鍋で作ったテンパリングオイルを最後にかける方法があります。レシピの指定に従ってください。',
+      },
+    ],
+  },
 ];
 
 export function getTechniqueBySlug(slug: string): Technique | undefined {
