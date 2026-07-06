@@ -55,6 +55,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://monde-recipe.com/guides/italian-classic-desserts</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://monde-recipe.com/guides/tuscany-cuisine-guide</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://monde-recipe.com/guides/liguria-genoa-cuisine</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://monde-recipe.com/guides/sicilian-cuisine-guide</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://monde-recipe.com/techniques</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>weekly</changefreq>
