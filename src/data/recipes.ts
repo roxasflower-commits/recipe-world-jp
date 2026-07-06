@@ -24225,7 +24225,7 @@ export const recipes: Recipe[] = [
       'ライスにシナモンスティックとカルダモンを丸ごと入れることで、上品な香りが立ちます。盛り付け時に取り除いてください。',
       'ホワイトソースは作り置きしておくと、他の料理にも活用できる万能ソースです。',
     ],
-    image: 'https://images.unsplash.com/photo-1757715377796-2a368ec7499e?w=1200&q=80',
+    image: '/images/chicken-over-rice.jpg',
     source: 'Hungry Paprikasの「Homemade Halal Cart Chicken & Rice」を日本語化',
     sourceUrl: 'https://www.hungrypaprikas.com/halal-cart-chicken/',
     sourceSiteName: 'Hungry Paprikas',
