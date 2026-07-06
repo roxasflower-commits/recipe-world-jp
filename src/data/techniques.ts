@@ -643,7 +643,7 @@ export const techniques: Technique[] = [
     description:
       '肉や魚を漬け込み液に浸すことで、味を染み込ませるだけでなく、酸や酵素の力で身を柔らかくする効果もあります。タンドリーチキンのヨーグルトマリネからセビーチェの「酸で火を通す」調理法まで、漬け込みの原理と時間の目安を解説します。',
     categoryLabel: '下ごしらえの基本技術',
-    image: 'https://images.unsplash.com/photo-1565134367533-60a8ee591cbd?w=1200&q=80',
+    image: '/images/marinating-meat-and-fish.jpg',
     steps: [
       {
         step: 1,
