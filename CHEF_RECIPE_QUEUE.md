@@ -23,11 +23,11 @@
 ## キュー
 
 ### René Redzepi（レネ・レゼピ）— chefSlug: `rene-redzepi`
-- [ ] Pork Skin Sandwich（豚皮のサンドイッチ） — https://git.macropus.org/bbc-food/www.bbc.co.uk/food/recipes/pork_skin_sandwich_20650.html
-- [ ] Bone Marrow Fudge（骨髄のファッジ） — https://dujour.com/life/rene-redzeppi-noma-cookbook-work-in-progress/
+- [x] Pork Skin Sandwich（豚皮のサンドイッチ） — https://git.macropus.org/bbc-food/www.bbc.co.uk/food/recipes/pork_skin_sandwich_20650.html (added as slug: redzepi-pork-skin-sandwich)
+- [x] Bone Marrow Fudge（骨髄のファッジ） — https://dujour.com/life/rene-redzeppi-noma-cookbook-work-in-progress/ (added as slug: redzepi-bone-marrow-fudge)
 
 ### Massimo Bottura（マッシモ・ボットゥーラ）— chefSlug: `massimo-bottura`
-- [ ] Camouflage（カモフラージュ） — https://reportergourmet.com/en/recipes/180-camouflage-massimo-bottura
+- [x] Camouflage（カモフラージュ） — https://reportergourmet.com/en/recipes/180-camouflage-massimo-bottura (added as slug: bottura-camouflage)
 - [ ] Modenese Tortellini in Brodo — https://mastermindparis.com/features/massimo-botturas-recipe-for-modenese-tortellini/
 - [ ] Paciugo（マスカルポーネとアマレッティの冷菓） — https://www.lacucinaitaliana.com/trends/restaurants-and-chefs/chef-massimo-bottura-kitchen-quarantine-dessert-recipes
 
