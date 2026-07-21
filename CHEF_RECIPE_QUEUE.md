@@ -23,7 +23,6 @@
 ## キュー
 
 ### René Redzepi（レネ・レゼピ）— chefSlug: `rene-redzepi`
-- [x] Pork Skin Sandwich（豚皮のサンドイッチ） — https://git.macropus.org/bbc-food/www.bbc.co.uk/food/recipes/pork_skin_sandwich_20650.html （2026-07-20: 一度追加したが、完成写真の代替がどれも構造的に不正確だったため削除。再挑戦時は要写真再検討） (added as slug: redzepi-pork-skin-sandwich)
 - [x] Bone Marrow Fudge（骨髄のファッジ） — https://dujour.com/life/rene-redzeppi-noma-cookbook-work-in-progress/ (added as slug: redzepi-bone-marrow-fudge)
 
 ### Massimo Bottura（マッシモ・ボットゥーラ）— chefSlug: `massimo-bottura`
