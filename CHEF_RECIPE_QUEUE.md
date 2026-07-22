@@ -31,11 +31,11 @@
 - [x] Paciugo（マスカルポーネとアマレッティの冷菓） — https://www.lacucinaitaliana.com/trends/restaurants-and-chefs/chef-massimo-bottura-kitchen-quarantine-dessert-recipes (added as slug: bottura-paciugo)
 
 ### Alain Passard（アラン・パッサール）— chefSlug: `alain-passard`
-- [ ] Vinaigrette Aigre-Douce（甘酸っぱいヴィネグレット） — https://lefooding.com/recettes/toquera-035-vinaigrette-aigre-douce-par-alain-passard-l-arpege-paris
+- [x] Vinaigrette Aigre-Douce（甘酸っぱいヴィネグレット） — https://lefooding.com/recettes/toquera-035-vinaigrette-aigre-douce-par-alain-passard-l-arpege-paris (added as slug: passard-vinaigrette-aigre-douce)
 
 ### Dominique Crenn（ドミニク・クレン）— chefSlug: `dominique-crenn`
-- [ ] Tomato & Basil 3.0 — https://www.cbsnews.com/news/recipe-dominique-crenns-tomato-basil-3-0/
-- [ ] Vegan Parmentier of Vegetables — https://womenoftoday.com/dominique-parmentier/
+- [x] Tomato & Basil 3.0 — https://www.cbsnews.com/news/recipe-dominique-crenns-tomato-basil-3-0/ (added as slug: crenn-tomato-basil-3-0)
+- [x] Vegan Parmentier of Vegetables — https://womenoftoday.com/dominique-parmentier/ (added as slug: crenn-vegan-parmentier)
 - [ ] Tomato Salad with Crème Fraîche（要URL再確認・403歴あり） — https://guide.michelin.com/en/article/dining-in/sustainable-gastronomy-day-recipe-dominique-crenn
 
 ### Grant Achatz（グラント・アカッツ）— chefSlug: `grant-achatz`
