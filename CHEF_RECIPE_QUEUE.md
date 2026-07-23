@@ -36,15 +36,13 @@
 ### Dominique Crenn（ドミニク・クレン）— chefSlug: `dominique-crenn`
 - [x] Tomato & Basil 3.0 — https://www.cbsnews.com/news/recipe-dominique-crenns-tomato-basil-3-0/ (added as slug: crenn-tomato-basil-3-0)
 - [x] Vegan Parmentier of Vegetables — https://womenoftoday.com/dominique-parmentier/ (added as slug: crenn-vegan-parmentier)
-- [ ] Tomato Salad with Crème Fraîche（要URL再確認・403歴あり） — https://guide.michelin.com/en/article/dining-in/sustainable-gastronomy-day-recipe-dominique-crenn
 
 ### Grant Achatz（グラント・アカッツ）— chefSlug: `grant-achatz`
-- [ ] Roast Mushrooms with Caramelised Fennel, Onions, Eggs and Dates — https://www.gourmettraveller.com.au/recipe/chefs-recipes/grant-achatzs-roast-mushrooms-with-caramelised-fennel-onions-eggs-and-dates-8594/
-- [ ] Fennel with Orzo and Olives（要URL再確認） — https://www.chicagomag.com/dining-drinking/september-2017/grant-achatz-dinner-party-recipes/
+- [x] Roast Mushrooms with Caramelised Fennel, Onions, Eggs and Dates — https://www.gourmettraveller.com.au/recipe/chefs-recipes/grant-achatzs-roast-mushrooms-with-caramelised-fennel-onions-eggs-and-dates-8594/ (added as slug: achatz-roast-mushrooms-caramelised-fennel)
 
 ### Virgilio Martínez（ヴィルヒリオ・マルティネス）— chefSlug: `virgilio-martinez`
-- [ ] Baked Empanadas（サルテーニャ） — https://reportergourmet.com/en/news/4491-the-world-s-best-baked-empanadas-virgilio-martinez-s-recipe
-- [ ] Pachamanca Broth with Tubers in Huatia — https://www.theworlds50best.com/stories/News/cook-virgilio-martinez-and-pia-leon-dishes-from-central.html
+- [x] Baked Empanadas（サルテーニャ） — https://reportergourmet.com/en/news/4491-the-world-s-best-baked-empanadas-virgilio-martinez-s-recipe (added as slug: martinez-baked-empanadas-saltenas)
+- [x] Pachamanca Broth with Tubers in Huatia — https://www.theworlds50best.com/stories/News/cook-virgilio-martinez-and-pia-leon-dishes-from-central.html (added as slug: martinez-pachamanca-broth-tubers)
 
 ### Carlo Cracco（カルロ・クラッコ）— chefSlug: `carlo-cracco`
 - [ ] Orange-Scented Spaghetti with Tomato and Marjoram — https://www.lacucinaitaliana.com/trends/restaurants-and-chefs/chef-carlo-cracco-spaghetti-tomato-sauce
