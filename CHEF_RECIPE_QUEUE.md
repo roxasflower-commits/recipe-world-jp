@@ -45,9 +45,9 @@
 - [x] Pachamanca Broth with Tubers in Huatia — https://www.theworlds50best.com/stories/News/cook-virgilio-martinez-and-pia-leon-dishes-from-central.html (added as slug: martinez-pachamanca-broth-tubers)
 
 ### Carlo Cracco（カルロ・クラッコ）— chefSlug: `carlo-cracco`
-- [ ] Orange-Scented Spaghetti with Tomato and Marjoram — https://www.lacucinaitaliana.com/trends/restaurants-and-chefs/chef-carlo-cracco-spaghetti-tomato-sauce
-- [ ] Marinated Egg Yolk Tagliolini with White Truffle — https://www.finedininglovers.com/explore/recipes/marinated-egg-yolk-tagliolini-white-truffle-carlo-cracco
-- [ ] Ossobuco alla Milanese — https://www.italymagazine.com/featured-story/ossobuco-alla-milanese-chef-cracco
+- [x] Orange-Scented Spaghetti with Tomato and Marjoram — https://www.lacucinaitaliana.com/trends/restaurants-and-chefs/chef-carlo-cracco-spaghetti-tomato-sauce (added as slug: cracco-orange-spaghetti-tomato-marjoram)
+- [x] Marinated Egg Yolk Tagliolini with White Truffle — https://www.finedininglovers.com/explore/recipes/marinated-egg-yolk-tagliolini-white-truffle-carlo-cracco (added as slug: cracco-egg-yolk-tagliolini-truffle)
+- [x] Ossobuco alla Milanese — https://www.italymagazine.com/featured-story/ossobuco-alla-milanese-chef-cracco (added as slug: cracco-ossobuco-alla-milanese)
 
 ### Quique Dacosta（キケ・ダコスタ）— chefSlug: `quique-dacosta`
 - [ ] Arroz con Pimientos（Pebreres Farcides） — https://www.hola.com/cocina/recetas/20220623212416/arroz-con-pimientos-pebreres-farcides-quique-dacosta/
