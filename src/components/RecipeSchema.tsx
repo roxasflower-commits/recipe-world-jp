@@ -14,7 +14,12 @@ function toAbsoluteUrl(url: string): string {
   return url.startsWith('http') ? url : `${BASE_URL}${url}`;
 }
 
-export default function RecipeSchema({ recipe }: { recipe: Recipe }) {
+interface Props {
+  recipe: Recipe;
+  aggregateRating?: { average: number; count: number };
+}
+
+export default function RecipeSchema({ recipe, aggregateRating }: Props) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Recipe',
@@ -56,6 +61,19 @@ export default function RecipeSchema({ recipe }: { recipe: Recipe }) {
       name: 'MONDE RECIPE',
       url: BASE_URL,
     },
+    // 実際に投稿されたレビューが1件も無いうちはaggregateRatingを付与しない
+    // （Googleのガイドラインで自作自演的な評価の付与は非推奨のため）
+    ...(aggregateRating && aggregateRating.count > 0
+      ? {
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: aggregateRating.average,
+            reviewCount: aggregateRating.count,
+            bestRating: 5,
+            worstRating: 1,
+          },
+        }
+      : {}),
   };
 
   return (

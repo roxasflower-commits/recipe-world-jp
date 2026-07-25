@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { recipes, getRecipeBySlug } from '@/data/recipes';
 import RecipeCard from '@/components/RecipeCard';
+import IngredientsPanel from '@/components/IngredientsPanel';
 import { MultiplexAd } from '@/components/AdSense';
 import RecipeSchema from '@/components/RecipeSchema';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
@@ -12,6 +13,9 @@ import RakutenTools from '@/components/RakutenTools';
 import ShareButtons from '@/components/ShareButtons';
 import RecipeActions from '@/components/RecipeActions';
 import FaqSchema, { buildFaqs } from '@/components/FaqSchema';
+import ViewTracker from '@/components/ViewTracker';
+import RatingWidget from '@/components/RatingWidget';
+import { getRatingAggregate } from '@/lib/ratings';
 import {
   Accordion,
   AccordionContent,
@@ -21,6 +25,9 @@ import {
 import Link from 'next/link';
 
 const BASE_URL = 'https://monde-recipe.com';
+
+// 星評価の集計値をSEO用の構造化データに反映するため、1時間おきに再生成する(ISR)
+export const revalidate = 3600;
 
 interface Props {
   params: { slug: string };
@@ -80,9 +87,11 @@ const difficultyColor: Record<string, string> = {
   professional: 'bg-red-100 text-red-800',
 };
 
-export default function RecipePage({ params }: Props) {
+export default async function RecipePage({ params }: Props) {
   const recipe = getRecipeBySlug(params.slug);
   if (!recipe) notFound();
+
+  const ratingAggregate = await getRatingAggregate(recipe.slug);
 
   const tagSet = new Set(recipe.tags);
 
@@ -111,7 +120,8 @@ export default function RecipePage({ params }: Props) {
 
   return (
     <>
-      <RecipeSchema recipe={recipe} />
+      <ViewTracker slug={recipe.slug} />
+      <RecipeSchema recipe={recipe} aggregateRating={ratingAggregate} />
       <FaqSchema recipe={recipe} />
       <BreadcrumbSchema items={[
         { name: 'レシピ一覧', path: '/recipes' },
@@ -149,7 +159,7 @@ export default function RecipePage({ params }: Props) {
                 href={pinterestUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="absolute top-3 right-3 flex items-center gap-1.5 px-3 py-1.5 bg-[#E60023] text-white text-xs opacity-0 group-hover:opacity-100 transition-opacity shadow-md"
+                className="no-print absolute top-3 right-3 flex items-center gap-1.5 px-3 py-1.5 bg-[#E60023] text-white text-xs opacity-0 group-hover:opacity-100 transition-opacity shadow-md"
                 aria-label="Pinterestに保存"
               >
                 <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
@@ -181,6 +191,15 @@ export default function RecipePage({ params }: Props) {
 
               <p className="text-base text-muted mt-4 leading-relaxed">{recipe.description}</p>
 
+              {/* Rating */}
+              <div className="mt-4">
+                <RatingWidget
+                  slug={recipe.slug}
+                  initialAverage={ratingAggregate.average}
+                  initialCount={ratingAggregate.count}
+                />
+              </div>
+
               {/* Quick stats */}
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6 p-5 bg-white border border-warm-border">
                 {[
@@ -197,7 +216,7 @@ export default function RecipePage({ params }: Props) {
               </div>
 
               {/* Share buttons */}
-              <div className="mt-5 pt-5 border-t border-warm-border">
+              <div className="mt-5 pt-5 border-t border-warm-border no-print">
                 <ShareButtons
                   pageUrl={pageUrl}
                   imageUrl={recipe.image}
@@ -215,7 +234,7 @@ export default function RecipePage({ params }: Props) {
               </div>
 
               {/* Tags */}
-              <div className="flex flex-wrap gap-2 mt-4">
+              <div className="flex flex-wrap gap-2 mt-4 no-print">
                 {recipe.tags.map((tag) => (
                   <Link
                     key={tag}
@@ -229,35 +248,12 @@ export default function RecipePage({ params }: Props) {
             </div>
 
             {/* Ingredients */}
-            <section className="mb-8">
-              <div className="flex items-center gap-3 mb-5">
-                <div className="w-1 h-6 bg-accent flex-shrink-0" />
-                <h2 className="font-serif text-2xl font-bold">材料</h2>
-                <span className="text-sm text-muted">（{recipe.servings}人前）</span>
-              </div>
-              <div className="bg-white border border-warm-border">
-                {recipe.ingredients.map((ing, i) => (
-                  <div
-                    key={i}
-                    className="flex items-start gap-3 px-5 py-3 border-b border-warm-border last:border-0"
-                  >
-                    <span className="font-semibold text-sm min-w-[56px] sm:min-w-[80px] text-right text-primary">
-                      {ing.amount}
-                      {ing.unit}
-                    </span>
-                    <span className="text-sm flex-1">
-                      {ing.name}
-                      {ing.note && (
-                        <span className="text-muted text-xs ml-2">（{ing.note}）</span>
-                      )}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </section>
+            <IngredientsPanel ingredients={recipe.ingredients} baseServings={recipe.servings} />
 
             {/* Affiliate products */}
-            <AffiliateProducts products={recipe.affiliateProducts} cuisineSlug={recipe.cuisineSlug} />
+            <div className="no-print">
+              <AffiliateProducts products={recipe.affiliateProducts} cuisineSlug={recipe.cuisineSlug} />
+            </div>
 
 
             {/* Instructions */}
@@ -307,7 +303,7 @@ export default function RecipePage({ params }: Props) {
             )}
 
             {/* FAQ */}
-            <section className="mb-8">
+            <section className="mb-8 no-print">
               <div className="flex items-center gap-3 mb-5">
                 <div className="w-1 h-6 bg-accent flex-shrink-0" />
                 <h2 className="font-serif text-2xl font-bold">よくある質問</h2>
@@ -342,7 +338,7 @@ export default function RecipePage({ params }: Props) {
                   href={recipe.sourceUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 border border-warm-border hover:border-accent hover:text-accent transition-colors text-sm group"
+                  className="no-print inline-flex items-center gap-2 px-4 py-2 border border-warm-border hover:border-accent hover:text-accent transition-colors text-sm group"
                 >
                   <span className="text-xs tracking-wide">原文レシピを見る</span>
                   <span className="font-semibold text-xs">— {recipe.sourceSiteName}</span>
@@ -355,7 +351,7 @@ export default function RecipePage({ params }: Props) {
           </div>
 
           {/* Sidebar */}
-          <aside className="space-y-8">
+          <aside className="space-y-8 no-print">
             {/* Sidebar ad removed — using Auto Ads */}
 
             {/* Amazon affiliate tools */}
@@ -397,7 +393,7 @@ export default function RecipePage({ params }: Props) {
         </div>
 
         {/* Bottom related recipes */}
-        <section className="mt-16 pt-10 border-t border-warm-border">
+        <section className="mt-16 pt-10 border-t border-warm-border no-print">
           <div className="flex items-center justify-between mb-8">
             <div className="flex items-center gap-4">
               <div className="w-1 h-6 bg-accent" />

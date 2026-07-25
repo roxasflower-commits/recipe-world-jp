@@ -34,6 +34,7 @@ import { chefs } from '@/data/chefs';
 import { CardStack } from '@/components/ui/card-stack';
 import MobileCarousel from '@/components/ui/mobile-carousel';
 import CuisineSelector from '@/components/ui/cuisine-selector';
+import PopularRanking from '@/components/PopularRanking';
 
 const cuisineDetails: Record<string, { emoji: string; description: string }> = {
   french:   { emoji: '🇫🇷', description: 'ブフブルギニョン、ブイヤベース' },
@@ -306,6 +307,9 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      {/* Popular ranking (based on real view counts, hidden until data accumulates) */}
+      <PopularRanking limit={6} />
 
       {/* Top Chef section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
