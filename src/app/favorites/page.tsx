@@ -3,26 +3,44 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import { Heart } from "lucide-react"
-import { recipes } from "@/data/recipes"
 import RecipeCard from "@/components/RecipeCard"
 
 const STORAGE_KEY = "monde-favorites"
 
+interface FavoriteRecipe {
+  id: string
+  slug: string
+  title: string
+  image: string
+  cuisine: string
+  categoryLabel: string
+  difficultyLabel: string
+  prepTime: number
+  cookTime: number
+  description: string
+}
+
 export default function FavoritesPage() {
-  const [favoriteIds, setFavoriteIds] = useState<string[]>([])
+  const [favoriteRecipes, setFavoriteRecipes] = useState<FavoriteRecipe[]>([])
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
     setMounted(true)
+    let ids: string[] = []
     try {
       const stored = localStorage.getItem(STORAGE_KEY)
-      setFavoriteIds(stored ? JSON.parse(stored) : [])
+      ids = stored ? JSON.parse(stored) : []
     } catch {
-      setFavoriteIds([])
+      ids = []
     }
-  }, [])
 
-  const favoriteRecipes = recipes.filter((r) => favoriteIds.includes(r.id))
+    if (ids.length === 0) return
+
+    fetch(`/api/favorites?ids=${encodeURIComponent(ids.join(","))}`)
+      .then((res) => res.json())
+      .then((data) => setFavoriteRecipes(data.results ?? []))
+      .catch(() => setFavoriteRecipes([]))
+  }, [])
 
   if (!mounted) return null
 

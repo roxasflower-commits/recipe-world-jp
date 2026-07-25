@@ -2,8 +2,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Recipe } from '@/types/recipe';
 
+type RecipeCardData = Pick<
+  Recipe,
+  'slug' | 'title' | 'image' | 'cuisine' | 'categoryLabel' | 'difficultyLabel' | 'prepTime' | 'cookTime' | 'description'
+>;
+
 interface RecipeCardProps {
-  recipe: Recipe;
+  recipe: RecipeCardData;
   variant?: 'default' | 'large' | 'horizontal';
 }
 

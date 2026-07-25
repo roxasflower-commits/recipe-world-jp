@@ -14,8 +14,20 @@ import {
   Users,
   LayoutGrid,
 } from 'lucide-react';
-import { chefs } from '@/data/chefs';
-import { recipes, cuisines } from '@/data/recipes';
+
+interface AboutChef {
+  slug: string;
+  nameJa: string;
+  restaurant: string;
+  michelinStars: number;
+  image: string;
+}
+
+interface AboutContentProps {
+  recipeCount: number;
+  cuisineCount: number;
+  chefs: AboutChef[];
+}
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -88,14 +100,14 @@ const features = [
   },
 ];
 
-export default function AboutContent() {
+export default function AboutContent({ recipeCount, cuisineCount, chefs }: AboutContentProps) {
   const sectionRef = useRef(null);
   const { scrollYProgress } = useScroll({ target: sectionRef, offset: ['start end', 'end start'] });
   const parallaxY = useTransform(scrollYProgress, [0, 1], [0, -30]);
 
   const statsData = [
-    { value: recipes.length, suffix: '+', label: '掲載レシピ数', icon: <BookOpen className="w-5 h-5" /> },
-    { value: cuisines.length, suffix: '', label: '料理ジャンル', icon: <Globe className="w-5 h-5" /> },
+    { value: recipeCount, suffix: '+', label: '掲載レシピ数', icon: <BookOpen className="w-5 h-5" /> },
+    { value: cuisineCount, suffix: '', label: '料理ジャンル', icon: <Globe className="w-5 h-5" /> },
     { value: chefs.length, suffix: '', label: '掲載シェフ', icon: <Users className="w-5 h-5" /> },
     { value: 3, suffix: '', label: '難易度区分', icon: <LayoutGrid className="w-5 h-5" /> },
   ];
