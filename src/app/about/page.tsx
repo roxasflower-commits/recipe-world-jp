@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import AboutContent from './about-content';
+import { chefs } from '@/data/chefs';
+import { recipes, cuisines } from '@/data/recipes';
 
 export const metadata: Metadata = {
   title: 'このサイトについて | MONDE RECIPE',
@@ -10,5 +12,17 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
-  return <AboutContent />;
+  return (
+    <AboutContent
+      recipeCount={recipes.length}
+      cuisineCount={cuisines.length}
+      chefs={chefs.map((c) => ({
+        slug: c.slug,
+        nameJa: c.nameJa,
+        restaurant: c.restaurant,
+        michelinStars: c.michelinStars,
+        image: c.image,
+      }))}
+    />
+  );
 }

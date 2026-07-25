@@ -4,15 +4,23 @@ import { useState, useEffect, useRef } from "react"
 import { useRouter } from "next/navigation"
 import { Search, X } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
-import { recipes } from "@/data/recipes"
 
 interface SearchModalProps {
   open: boolean
   onClose: () => void
 }
 
+interface SearchResult {
+  id: string
+  slug: string
+  title: string
+  originalTitle: string
+  image: string
+}
+
 export default function SearchModal({ open, onClose }: SearchModalProps) {
   const [query, setQuery] = useState("")
+  const [results, setResults] = useState<SearchResult[]>([])
   const inputRef = useRef<HTMLInputElement>(null)
   const router = useRouter()
 
@@ -20,6 +28,7 @@ export default function SearchModal({ open, onClose }: SearchModalProps) {
     if (open) {
       setTimeout(() => inputRef.current?.focus(), 100)
       setQuery("")
+      setResults([])
     }
   }, [open])
 
@@ -31,19 +40,26 @@ export default function SearchModal({ open, onClose }: SearchModalProps) {
     return () => window.removeEventListener("keydown", handler)
   }, [onClose])
 
-  const results = query.trim().length < 1
-    ? []
-    : recipes
-        .filter((r) => {
-          const q = query.toLowerCase()
-          return (
-            r.title.toLowerCase().includes(q) ||
-            r.originalTitle?.toLowerCase().includes(q) ||
-            r.cuisineSlug?.toLowerCase().includes(q) ||
-            r.description?.toLowerCase().includes(q)
-          )
+  useEffect(() => {
+    const q = query.trim()
+    if (q.length < 1) {
+      setResults([])
+      return
+    }
+    const controller = new AbortController()
+    const timer = setTimeout(() => {
+      fetch(`/api/search?q=${encodeURIComponent(q)}`, { signal: controller.signal })
+        .then((res) => res.json())
+        .then((data) => setResults(data.results ?? []))
+        .catch((err) => {
+          if (err.name !== "AbortError") setResults([])
         })
-        .slice(0, 8)
+    }, 200)
+    return () => {
+      clearTimeout(timer)
+      controller.abort()
+    }
+  }, [query])
 
   return (
     <AnimatePresence>
