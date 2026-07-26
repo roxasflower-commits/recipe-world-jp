@@ -13,6 +13,8 @@ import RakutenTools from '@/components/RakutenTools';
 import ShareButtons from '@/components/ShareButtons';
 import RecipeActions from '@/components/RecipeActions';
 import FaqSchema, { buildFaqs } from '@/components/FaqSchema';
+import RecipeReviews, { Stars } from '@/components/RecipeReviews';
+import { getReviewsForRecipe, computeAggregate } from '@/lib/reviews';
 import {
   Accordion,
   AccordionContent,
@@ -22,6 +24,8 @@ import {
 import Link from 'next/link';
 
 const BASE_URL = 'https://monde-recipe.com';
+
+export const revalidate = 3600;
 
 interface Props {
   params: { slug: string };
@@ -81,9 +85,12 @@ const difficultyColor: Record<string, string> = {
   professional: 'bg-red-100 text-red-800',
 };
 
-export default function RecipePage({ params }: Props) {
+export default async function RecipePage({ params }: Props) {
   const recipe = getRecipeBySlug(params.slug);
   if (!recipe) notFound();
+
+  const reviews = await getReviewsForRecipe(recipe.slug);
+  const aggregateRating = computeAggregate(reviews);
 
   const tagSet = new Set(recipe.tags);
 
@@ -112,7 +119,7 @@ export default function RecipePage({ params }: Props) {
 
   return (
     <>
-      <RecipeSchema recipe={recipe} />
+      <RecipeSchema recipe={recipe} aggregateRating={aggregateRating} />
       <FaqSchema recipe={recipe} />
       <BreadcrumbSchema items={[
         { name: 'レシピ一覧', path: '/recipes' },
@@ -179,6 +186,15 @@ export default function RecipePage({ params }: Props) {
                 {recipe.title}
               </h1>
               <p className="text-sm text-muted italic mt-1">{recipe.originalTitle}</p>
+
+              {aggregateRating && (
+                <a href="#reviews" className="inline-flex items-center gap-2 mt-3 hover:opacity-80 transition-opacity">
+                  <Stars value={aggregateRating.average} size="sm" />
+                  <span className="text-xs text-muted">
+                    {aggregateRating.average.toFixed(1)}（{aggregateRating.count}件のレビュー）
+                  </span>
+                </a>
+              )}
 
               <p className="text-base text-muted mt-4 leading-relaxed">{recipe.description}</p>
 
@@ -307,6 +323,19 @@ export default function RecipePage({ params }: Props) {
                 ))}
               </Accordion>
             </section>
+
+            {/* Reviews */}
+            <RecipeReviews
+              recipeSlug={recipe.slug}
+              initialReviews={reviews.map((r) => ({
+                id: r.id,
+                rating: r.rating,
+                authorName: r.authorName,
+                comment: r.comment,
+                createdAt: r.createdAt,
+              }))}
+              initialAggregate={aggregateRating}
+            />
 
             {/* Source */}
             <div className="border-t border-warm-border pt-6 mt-8">

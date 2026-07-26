@@ -14,8 +14,13 @@ function toAbsoluteUrl(url: string): string {
   return url.startsWith('http') ? url : `${BASE_URL}${url}`;
 }
 
-export default function RecipeSchema({ recipe }: { recipe: Recipe }) {
-  const schema = {
+interface Props {
+  recipe: Recipe;
+  aggregateRating?: { average: number; count: number } | null;
+}
+
+export default function RecipeSchema({ recipe, aggregateRating }: Props) {
+  const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'Recipe',
     name: recipe.title,
@@ -57,6 +62,16 @@ export default function RecipeSchema({ recipe }: { recipe: Recipe }) {
       url: BASE_URL,
     },
   };
+
+  if (aggregateRating && aggregateRating.count > 0) {
+    schema.aggregateRating = {
+      '@type': 'AggregateRating',
+      ratingValue: aggregateRating.average,
+      reviewCount: aggregateRating.count,
+      bestRating: 5,
+      worstRating: 1,
+    };
+  }
 
   return (
     <script
