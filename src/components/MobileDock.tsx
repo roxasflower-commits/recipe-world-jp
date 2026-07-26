@@ -30,7 +30,7 @@ export default function MobileDock({ onSearchOpen }: MobileDockProps) {
   ]
 
   return (
-    <div className="fixed bottom-5 left-1/2 -translate-x-1/2 z-50 md:hidden">
+    <div className="no-print fixed bottom-5 left-1/2 -translate-x-1/2 z-50 md:hidden">
       <TooltipProvider delayDuration={100}>
         <div className="relative flex items-center gap-5 px-6 py-3 rounded-3xl bg-white/70 backdrop-blur-xl shadow-lg border border-black/10">
           {items.map((item, i) => {
