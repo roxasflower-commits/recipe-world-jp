@@ -10,7 +10,8 @@ export type IngredientCategory =
   | 'cured-meat'
   | 'vegetable-fruit'
   | 'spice-herb'
-  | 'condiment-sauce';
+  | 'condiment-sauce'
+  | 'grain-starch';
 
 export interface Ingredient {
   slug: string;

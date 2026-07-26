@@ -132,7 +132,7 @@ export default function GuidePage({ params }: Props) {
           <section className="mb-10">
             <div className="flex items-center gap-3 mb-5">
               <div className="w-1 h-6 bg-accent flex-shrink-0" />
-              <h2 className="font-serif text-2xl font-bold">4つのパスタ</h2>
+              <h2 className="font-serif text-2xl font-bold">{guide.dishes.length}つの料理</h2>
             </div>
             <div className="space-y-5">
               {dishRecipes.map(({ dish, recipe }, i) => (
