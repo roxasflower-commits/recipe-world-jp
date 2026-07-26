@@ -50,11 +50,11 @@
 - [x] Ossobuco alla Milanese — https://www.italymagazine.com/featured-story/ossobuco-alla-milanese-chef-cracco (added as slug: cracco-ossobuco-alla-milanese)
 
 ### Quique Dacosta（キケ・ダコスタ）— chefSlug: `quique-dacosta`
-- [ ] Arroz con Pimientos（Pebreres Farcides） — https://www.hola.com/cocina/recetas/20220623212416/arroz-con-pimientos-pebreres-farcides-quique-dacosta/
-- [ ] Arroz a Banda Socarrat（参考レベル・TV出演デモ） — https://blog.daviddejorge.com/2011/08/29/robinfood-arroz-a-banda-socarrat/
+- [x] Arroz con Pimientos（Pebreres Farcides） — https://www.hola.com/cocina/recetas/20220623212416/arroz-con-pimientos-pebreres-farcides-quique-dacosta/ (added as slug: dacosta-arroz-pimientos-pebreres-farcides)
+- [x] Arroz a Banda Socarrat（参考レベル・TV出演デモ） — https://blog.daviddejorge.com/2011/08/29/robinfood-arroz-a-banda-socarrat/ (added as slug: dacosta-arroz-a-banda-socarrat)
 
 ### Alain Ducasse（アラン・デュカス）— chefSlug: `alain-ducasse`
-- [ ] Gratinéed French Onion Soup — https://lucylean.com/ducasses-french-onion-soup-recipe/
+- [x] Gratinéed French Onion Soup — https://lucylean.com/ducasses-french-onion-soup-recipe/ (added as slug: ducasse-french-onion-soup-gratinee)
 - [ ] Chocolate Crêpes — https://reportergourmet.com/en/news/7236-the-world-s-most-michelin-starred-chocolate-crepes-alain-ducasse-s-recipe
 - [ ] Grenoble-Style Roasted Scallops in Their Shell — https://reportergourmet.com/en/news/6304-how-alain-ducasse-transformed-scallops-into-a-masterpiece-the-original-recipe
 
