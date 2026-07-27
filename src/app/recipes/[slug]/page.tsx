@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { recipes, getRecipeBySlug } from '@/data/recipes';
+import { getChefBySlug } from '@/data/chefs';
 import RecipeCard from '@/components/RecipeCard';
 import IngredientsPanel from '@/components/IngredientsPanel';
 import { MultiplexAd } from '@/components/AdSense';
@@ -91,6 +92,7 @@ export default async function RecipePage({ params }: Props) {
 
   const reviews = await getReviewsForRecipe(recipe.slug);
   const aggregateRating = computeAggregate(reviews);
+  const chef = recipe.chefSlug ? getChefBySlug(recipe.chefSlug) : undefined;
 
   const tagSet = new Set(recipe.tags);
 
@@ -119,7 +121,7 @@ export default async function RecipePage({ params }: Props) {
 
   return (
     <>
-      <RecipeSchema recipe={recipe} aggregateRating={aggregateRating} />
+      <RecipeSchema recipe={recipe} aggregateRating={aggregateRating} chef={chef} />
       <FaqSchema recipe={recipe} />
       <BreadcrumbSchema items={[
         { name: 'レシピ一覧', path: '/recipes' },
@@ -186,6 +188,15 @@ export default async function RecipePage({ params }: Props) {
                 {recipe.title}
               </h1>
               <p className="text-sm text-muted italic mt-1">{recipe.originalTitle}</p>
+
+              {chef && (
+                <Link
+                  href={`/chefs/${chef.slug}`}
+                  className="inline-flex items-center gap-1.5 mt-2 text-xs text-muted hover:text-accent transition-colors"
+                >
+                  監修：{chef.name}（{chef.restaurant}）
+                </Link>
+              )}
 
               {aggregateRating && (
                 <a href="#reviews" className="inline-flex items-center gap-2 mt-3 hover:opacity-80 transition-opacity">

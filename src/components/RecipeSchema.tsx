@@ -1,4 +1,5 @@
 import { Recipe } from '@/types/recipe';
+import { Chef } from '@/data/chefs';
 
 function toISO8601Duration(minutes: number): string {
   const h = Math.floor(minutes / 60);
@@ -17,9 +18,27 @@ function toAbsoluteUrl(url: string): string {
 interface Props {
   recipe: Recipe;
   aggregateRating?: { average: number; count: number } | null;
+  chef?: Chef | null;
 }
 
-export default function RecipeSchema({ recipe, aggregateRating }: Props) {
+export default function RecipeSchema({ recipe, aggregateRating, chef }: Props) {
+  const author = chef
+    ? {
+        '@type': 'Person',
+        name: chef.name,
+        url: `${BASE_URL}/chefs/${chef.slug}`,
+        image: toAbsoluteUrl(chef.image),
+        jobTitle: 'シェフ',
+        worksFor: {
+          '@type': 'Restaurant',
+          name: chef.restaurant,
+        },
+      }
+    : {
+        '@type': 'Organization',
+        name: 'MONDE RECIPE',
+      };
+
   const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'Recipe',
@@ -27,10 +46,7 @@ export default function RecipeSchema({ recipe, aggregateRating }: Props) {
     alternateName: recipe.originalTitle,
     description: recipe.description,
     image: [toAbsoluteUrl(recipe.image)],
-    author: {
-      '@type': 'Organization',
-      name: 'MONDE RECIPE',
-    },
+    author,
     datePublished: recipe.publishedAt,
     prepTime: toISO8601Duration(recipe.prepTime),
     cookTime: toISO8601Duration(recipe.cookTime),
