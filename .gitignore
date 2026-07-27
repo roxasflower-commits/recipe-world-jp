@@ -27,3 +27,4 @@ next-env.d.ts
 # Pinterest scripts (sensitive tokens and progress)
 scripts/pinterest-token.json
 scripts/pinterest-progress.json
+.env*
