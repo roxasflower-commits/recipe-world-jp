@@ -55,7 +55,6 @@
 
 ### Alain Ducasse（アラン・デュカス）— chefSlug: `alain-ducasse`
 - [x] Gratinéed French Onion Soup — https://lucylean.com/ducasses-french-onion-soup-recipe/ (added as slug: ducasse-french-onion-soup-gratinee)
-- [x] Chocolate Crêpes — https://reportergourmet.com/en/news/7236-the-world-s-most-michelin-starred-chocolate-crepes-alain-ducasse-s-recipe (added as slug: ducasse-chocolate-crepes)
 - [x] Grenoble-Style Roasted Scallops in Their Shell — https://reportergourmet.com/en/news/6304-how-alain-ducasse-transformed-scallops-into-a-masterpiece-the-original-recipe (added as slug: ducasse-grenoble-scallops)
 
 ### Anne-Sophie Pic（アンヌ＝ソフィー・ピック）— chefSlug: `anne-sophie-pic`
