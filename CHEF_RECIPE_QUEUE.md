@@ -55,11 +55,11 @@
 
 ### Alain Ducasse（アラン・デュカス）— chefSlug: `alain-ducasse`
 - [x] Gratinéed French Onion Soup — https://lucylean.com/ducasses-french-onion-soup-recipe/ (added as slug: ducasse-french-onion-soup-gratinee)
-- [ ] Chocolate Crêpes — https://reportergourmet.com/en/news/7236-the-world-s-most-michelin-starred-chocolate-crepes-alain-ducasse-s-recipe
-- [ ] Grenoble-Style Roasted Scallops in Their Shell — https://reportergourmet.com/en/news/6304-how-alain-ducasse-transformed-scallops-into-a-masterpiece-the-original-recipe
+- [x] Chocolate Crêpes — https://reportergourmet.com/en/news/7236-the-world-s-most-michelin-starred-chocolate-crepes-alain-ducasse-s-recipe (added as slug: ducasse-chocolate-crepes)
+- [x] Grenoble-Style Roasted Scallops in Their Shell — https://reportergourmet.com/en/news/6304-how-alain-ducasse-transformed-scallops-into-a-masterpiece-the-original-recipe (added as slug: ducasse-grenoble-scallops)
 
 ### Anne-Sophie Pic（アンヌ＝ソフィー・ピック）— chefSlug: `anne-sophie-pic`
-- [ ] Melting Berlingot with Goat Cheese and Spring Watercress — https://reportergourmet.com/en/news/6867-anne-sophie-pic-s-iconic-berlingots-how-to-make-the-worlds-most-starred-chef-s-ravioli
+- [x] Melting Berlingot with Goat Cheese and Spring Watercress — https://reportergourmet.com/en/news/6867-anne-sophie-pic-s-iconic-berlingots-how-to-make-the-worlds-most-starred-chef-s-ravioli (added as slug: pic-melting-berlingot)
 
 ### Pierre Gagnaire（ピエール・ガニェール）— chefSlug: `pierre-gagnaire`
 - [ ] Puffed Bread with Mascarpone, Baby Leeks, Spinach Fondue and Truffle Salad — https://www.four-magazine.com/recipes/recipe-by-pierre-gagnaire/
