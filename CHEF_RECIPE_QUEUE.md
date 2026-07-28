@@ -65,11 +65,11 @@
 
 ### Enrique Olvera（エンリケ・オルベラ）— chefSlug: `enrique-olvera`
 - [x] Banana-Leaf Fish（Empapelado de Pescado） — https://cookswithoutborders.com/banana-leaf-fish (added as slug: olvera-banana-leaf-fish-empapelado)
-- [ ] Mole Madre / Mole Nuevo — https://www.newworlder.com/mole-madre/
+- [x] Mole Madre / Mole Nuevo — https://www.newworlder.com/mole-madre/ (added as slug: olvera-mole-madre-mole-nuevo)
 
 ### Martín Berasategui（マルティン・ベラサテギ）— chefSlug: `martin-berasategui`
-- [ ] フォアグラのミルフィーユ 燻製うなぎ・アスパラガス・りんご添え — https://www.hogarmania.com/cocina/recetas/aperitivos/milhojas-caramelizado-foie-gras-anguila-41649.html
-- [ ] メルルーサとココチャスのタコス ピルピルソース — https://www.hogarmania.com/cocina/recetas/pescados-mariscos/tacos-merluza-kokotxas-37910.html
+- [x] フォアグラのミルフィーユ 燻製うなぎ・アスパラガス・りんご添え — https://www.hogarmania.com/cocina/recetas/aperitivos/milhojas-caramelizado-foie-gras-anguila-41649.html (added as slug: berasategui-foie-gras-millefeuille-eel-apple)
+- [x] メルルーサとココチャスのタコス ピルピルソース — https://www.hogarmania.com/cocina/recetas/pescados-mariscos/tacos-merluza-kokotxas-37910.html (added as slug: berasategui-merluza-kokotxas-pil-pil-tacos)
 
 ### Thomas Keller（トーマス・ケラー）— chefSlug: `thomas-keller`
 - [ ] Leeks Vinaigrette, Pain de Campagne and Black Winter Truffle Ravigote — https://www.thecaterer.com/products/recipes/recipe-thomas-keller-leeks-vinaigrette
