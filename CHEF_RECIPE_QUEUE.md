@@ -61,7 +61,6 @@
 - [x] Melting Berlingot with Goat Cheese and Spring Watercress — https://reportergourmet.com/en/news/6867-anne-sophie-pic-s-iconic-berlingots-how-to-make-the-worlds-most-starred-chef-s-ravioli (added as slug: pic-melting-berlingot)
 
 ### Pierre Gagnaire（ピエール・ガニェール）— chefSlug: `pierre-gagnaire`
-- [x] Puffed Bread with Mascarpone, Baby Leeks, Spinach Fondue and Truffle Salad — https://www.four-magazine.com/recipes/recipe-by-pierre-gagnaire/ (added as slug: gagnaire-puffed-bread-mascarpone-truffle)
 - [x] Chocolate Soufflé Biscuit — https://www.groupeseb.com/en/news/pierre-gagnaire-offers (added as slug: gagnaire-chocolate-souffle-biscuit)
 
 ### Enrique Olvera（エンリケ・オルベラ）— chefSlug: `enrique-olvera`
