@@ -72,11 +72,11 @@
 - [x] メルルーサとココチャスのタコス ピルピルソース — https://www.hogarmania.com/cocina/recetas/pescados-mariscos/tacos-merluza-kokotxas-37910.html (added as slug: berasategui-merluza-kokotxas-pil-pil-tacos)
 
 ### Thomas Keller（トーマス・ケラー）— chefSlug: `thomas-keller`
-- [ ] Leeks Vinaigrette, Pain de Campagne and Black Winter Truffle Ravigote — https://www.thecaterer.com/products/recipes/recipe-thomas-keller-leeks-vinaigrette
+- [x] Leeks Vinaigrette, Pain de Campagne and Black Winter Truffle Ravigote — https://www.thecaterer.com/products/recipes/recipe-thomas-keller-leeks-vinaigrette (added as slug: thomas-keller-leeks-vinaigrette-truffle-ravigote)
 
 ### Eric Ripert（エリック・リペール）— chefSlug: `eric-ripert`
-- [ ] Tuna Carpaccio（叩きマグロ） — https://www.ericripert.com/news/blog-post-title-two-e34mr
-- [ ] Smoked Salmon Croque Monsieur with Caviar — https://www.cbsnews.com/news/recipe-smoked-salmon-croque-monsieur-with-caviar-le-bernardin/
+- [x] Tuna Carpaccio（叩きマグロ） — https://www.ericripert.com/news/blog-post-title-two-e34mr (added as slug: ripert-tuna-carpaccio)
+- [x] Smoked Salmon Croque Monsieur with Caviar — https://www.cbsnews.com/news/recipe-smoked-salmon-croque-monsieur-with-caviar-le-bernardin/ (added as slug: ripert-smoked-salmon-croque-monsieur-caviar)
 
 ### Daniel Boulud（ダニエル・ブールー）— chefSlug: `daniel-boulud`
 - [ ] Bouillabaisse with Garlic Rouille — https://hauteliving.com/2018/10/chef-daniel-boulud-shares-signature-bouillabaisse-recipe/661327/
