@@ -79,9 +79,9 @@
 - [x] Smoked Salmon Croque Monsieur with Caviar — https://www.cbsnews.com/news/recipe-smoked-salmon-croque-monsieur-with-caviar-le-bernardin/ (added as slug: ripert-smoked-salmon-croque-monsieur-caviar)
 
 ### Daniel Boulud（ダニエル・ブールー）— chefSlug: `daniel-boulud`
-- [ ] Bouillabaisse with Garlic Rouille — https://hauteliving.com/2018/10/chef-daniel-boulud-shares-signature-bouillabaisse-recipe/661327/
-- [ ] Gratin Dauphinois — https://tamronhallshow.com/blog/chef-daniel-bouluds-gratin-dauphinois/
-- [ ] Madeleines（要URL再確認） — https://www.bonappetit.com/recipe/daniel-bouluds-madeleines
+- [x] Bouillabaisse with Garlic Rouille — https://hauteliving.com/2018/10/chef-daniel-boulud-shares-signature-bouillabaisse-recipe/661327/ (added as slug: boulud-bouillabaisse-rouille)
+- [x] Gratin Dauphinois — https://tamronhallshow.com/blog/chef-daniel-bouluds-gratin-dauphinois/ (added as slug: boulud-gratin-dauphinois)
+- [x] Madeleines（要URL再確認） — https://www.bonappetit.com/recipe/daniel-bouluds-madeleines (added as slug: boulud-madeleines)
 
 ### Atul Kochhar（アトゥル・コチャール）— chefSlug: `atul-kochhar`
 - [ ] Tandoori Grilled Lamb Chops with Pomegranate Molasses — https://atulkochhar.com/tandoori-grilled-lamb-chops-recipe/
