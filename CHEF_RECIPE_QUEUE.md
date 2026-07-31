@@ -84,9 +84,9 @@
 - [x] Madeleines（要URL再確認） — https://www.bonappetit.com/recipe/daniel-bouluds-madeleines (added as slug: boulud-madeleines)
 
 ### Atul Kochhar（アトゥル・コチャール）— chefSlug: `atul-kochhar`
-- [ ] Tandoori Grilled Lamb Chops with Pomegranate Molasses — https://atulkochhar.com/tandoori-grilled-lamb-chops-recipe/
-- [ ] Stargazy Prawn Biryani — https://atulkochhar.com/stargazy-prawn-biryani-indian-recipe-atul-kochhar/
-- [ ] Benares Mixed Seafood（Samundari Khazana） — https://www.greatbritishchefs.com/recipes/benares-mixed-seafood-recipe
+- [x] Tandoori Grilled Lamb Chops with Pomegranate Molasses — https://atulkochhar.com/tandoori-grilled-lamb-chops-recipe/ (added as slug: kochhar-tandoori-lamb-chops-pomegranate-molasses)
+- [x] Stargazy Prawn Biryani — https://atulkochhar.com/stargazy-prawn-biryani-indian-recipe-atul-kochhar/ (added as slug: kochhar-stargazy-prawn-biryani)
+- [x] Benares Mixed Seafood（Samundari Khazana） — https://www.greatbritishchefs.com/recipes/benares-mixed-seafood-recipe (added as slug: kochhar-benares-mixed-seafood-samundari-khazana)
 
 ### David Shim（デイヴィッド・シム）— chefSlug: `david-shim`
 - [ ] Galbi（韓国式カルビのマリネ） — https://www.starchefs.com/recipes/galbi
