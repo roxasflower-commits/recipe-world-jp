@@ -1,11 +1,41 @@
-<svg width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Virgilio Martínez">
+<svg width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="virgilio-martinez">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#4A4E69"/>
-      <stop offset="100%" stop-color="#0D0D0D" stop-opacity="0.35"/>
-    </linearGradient>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#4A4E69" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#4A4E69"/>
+      <stop offset="100%" stop-color="#0D0D0D" stop-opacity="0.55"/>
+    </radialGradient>
   </defs>
-  <rect width="480" height="480" fill="url(#g)"/>
-  <circle cx="240" cy="240" r="150" fill="none" stroke="#FAF8F4" stroke-opacity="0.18" stroke-width="1.5"/>
-  <text x="240" y="268" font-family="Georgia, 'Playfair Display', 'Noto Serif JP', serif" font-size="140" font-weight="700" fill="#FAF8F4" text-anchor="middle">VM</text>
+  <rect width="480" height="480" fill="url(#bg)"/>
+
+  <!-- medallion rings -->
+  <circle cx="240" cy="240" r="206" fill="none" stroke="#FAF8F4" stroke-opacity="0.35" stroke-width="1"/>
+  <circle cx="240" cy="240" r="196" fill="none" stroke="#FAF8F4" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- chef hat: lucide-react's ChefHat icon (ISC license) -->
+  <g transform="translate(168,9) scale(6)" fill="#FAF8F4" fill-opacity="0.9" stroke="none">
+    <path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"/><path d="M6 17h12"/>
+  </g>
+
+  <!-- generic chef bust, fine line-art (not derived from any real photo) -->
+  <g fill="none" stroke="#FAF8F4" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <!-- head -->
+    <ellipse cx="240" cy="196" rx="52" ry="58" fill="#FAF8F4" fill-opacity="0.05"/>
+
+    <!-- neck -->
+    <path d="M 222 244 L 220 268 M 258 244 L 260 268"/>
+
+    <!-- chef jacket bust, double-breasted collar -->
+    <path d="M 240 256
+             C 180 256 130 336 120 470
+             L 360 470
+             C 350 336 300 256 240 256 Z"
+          fill="#FAF8F4" fill-opacity="0.05"/>
+    <path d="M 240 256 L 206 300 L 240 330 L 274 300 Z" stroke-opacity="0.8"/>
+    <circle cx="240" cy="352" r="3.5" fill="#FAF8F4" stroke="none"/>
+    <circle cx="240" cy="384" r="3.5" fill="#FAF8F4" stroke="none"/>
+    <circle cx="240" cy="416" r="3.5" fill="#FAF8F4" stroke="none"/>
+  </g>
+
+  <path d="M 210 440 L 270 440" stroke="#FAF8F4" stroke-opacity="0.3" stroke-width="1"/>
 </svg>
