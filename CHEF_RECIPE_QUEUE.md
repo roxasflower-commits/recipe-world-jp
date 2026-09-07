@@ -89,11 +89,11 @@
 - [x] Benares Mixed Seafood（Samundari Khazana） — https://www.greatbritishchefs.com/recipes/benares-mixed-seafood-recipe (added as slug: kochhar-benares-mixed-seafood-samundari-khazana)
 
 ### David Shim（デイヴィッド・シム）— chefSlug: `david-shim`
-- [ ] Galbi（韓国式カルビのマリネ） — https://www.starchefs.com/recipes/galbi
-- [ ] Korean Short Rib Skewers（要URL再確認） — https://www.today.com/recipes/korean-short-rib-galbi-skewers-recipe-t286798
+- [x] Galbi（韓国式カルビのマリネ） — https://www.starchefs.com/recipes/galbi (added as slug: shim-galbi)
+- [x] Korean Short Rib Skewers（要URL再確認） — https://www.today.com/recipes/korean-short-rib-galbi-skewers-recipe-t286798 (added as slug: shim-galbi-tteokbokki-skewers)
 
 ### Clare Smyth（クレア・スミス）— chefSlug: `clare-smyth`
-- [ ] Pasta "Miller" Style — https://www.jamesmartinchef.co.uk/recipes/clare-smyths-pasta-miller-style/
+- [x] Pasta "Miller" Style — https://www.jamesmartinchef.co.uk/recipes/clare-smyths-pasta-miller-style/ (added as slug: smyth-pasta-miller-style)
 - [ ] Brill Baked in Seaweed with Clams, Fennel and Coco Beans — https://git.macropus.org/bbc-food/www.bbc.co.uk/food/recipes/brill_baked_in_seaweed_42689.html
 - [ ] Artichokes à la Barigoule — https://git.macropus.org/bbc-food/www.bbc.co.uk/food/recipes/artichokesalabarigou_93572.html
 
