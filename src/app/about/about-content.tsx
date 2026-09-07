@@ -41,10 +41,8 @@ const fadeUp = {
 function StatCounter({ value, suffix, label, icon }: { value: number; suffix: string; label: string; icon: React.ReactNode }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.5 });
-  const spring = useSpring(0, { stiffness: 60, damping: 15 });
+  const spring = useSpring(value, { stiffness: 60, damping: 15 });
   const display = useTransform(spring, (v) => Math.floor(v));
-
-  if (isInView) spring.set(value);
 
   return (
     <motion.div
@@ -278,7 +276,7 @@ export default function AboutContent({ recipeCount, cuisineCount, chefs }: About
         >
           <div>
             <h3 className="font-serif text-xl font-bold mb-1">まずはレシピを探してみる</h3>
-            <p className="text-white/55 text-sm">80以上のレシピから、今夜の一皿を見つけてください。</p>
+            <p className="text-white/55 text-sm">{recipeCount}以上のレシピから、今夜の一皿を見つけてください。</p>
           </div>
           <Link
             href="/recipes"
