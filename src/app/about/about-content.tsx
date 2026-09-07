@@ -236,7 +236,7 @@ export default function AboutContent({ recipeCount, cuisineCount, chefs }: About
               >
                 <Link href={`/chefs/${chef.slug}`} className="group block text-center">
                   <div className="relative w-20 h-20 mx-auto mb-3 overflow-hidden rounded-full border-2 border-warm-border group-hover:border-accent transition-colors duration-300">
-                    <Image src={chef.image} alt={chef.nameJa} fill className="object-cover" />
+                    <img src={chef.image} alt={chef.nameJa} className="absolute inset-0 w-full h-full object-cover" />
                   </div>
                   <p className="font-serif text-sm font-bold leading-snug group-hover:text-accent transition-colors duration-300">
                     {chef.nameJa}

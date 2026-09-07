@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import type { Metadata } from 'next';
 import { chefs } from '@/data/chefs';
 import { getRecipesByChef } from '@/data/recipes';
@@ -43,11 +42,10 @@ export default function ChefsPage() {
               <div className="flex flex-col sm:flex-row">
                 {/* Image */}
                 <div className="relative sm:w-64 h-48 sm:h-auto flex-shrink-0 overflow-hidden">
-                  <Image
+                  <img
                     src={chef.image}
                     alt={chef.nameJa}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-primary/20" />
                   <div className="absolute bottom-3 left-3 flex gap-1">

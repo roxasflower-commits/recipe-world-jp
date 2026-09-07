@@ -78,11 +78,10 @@ export default function ChefPage({ params }: Props) {
           <div className="flex flex-col sm:flex-row gap-8 items-start">
             {/* Photo */}
             <div className="relative w-40 h-40 sm:w-48 sm:h-48 flex-shrink-0 overflow-hidden">
-              <Image
+              <img
                 src={chef.image}
                 alt={chef.nameJa}
-                fill
-                className="object-cover"
+                className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
 

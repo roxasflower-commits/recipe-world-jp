@@ -30,7 +30,7 @@ export const chefs: Chef[] = [
       'ミシュラン2つ星',
       'ジェームス・ビアード財団 最優秀国際シェフ賞',
     ],
-    image: '/images/chefs/chef-rene-redzepi.jpg',
+    image: '/images/chefs/chef-rene-redzepi.svg',
   },
   {
     slug: 'massimo-bottura',
@@ -48,7 +48,7 @@ export const chefs: Chef[] = [
       'ミシュラン3つ星',
       'ジェームス・ビアード財団 特別功労賞',
     ],
-    image: '/images/chefs/chef-massimo-bottura.jpg',
+    image: '/images/chefs/chef-massimo-bottura.svg',
   },
   {
     slug: 'alain-passard',
@@ -66,7 +66,7 @@ export const chefs: Chef[] = [
       'ゴー・ミヨ 最優秀シェフ賞',
       '野菜料理の革命的先駆者として料理界に多大な影響',
     ],
-    image: '/images/chefs/chef-alain-passard.jpg',
+    image: '/images/chefs/chef-alain-passard.svg',
   },
   {
     slug: 'dominique-crenn',
@@ -84,7 +84,7 @@ export const chefs: Chef[] = [
       'アメリカ初の女性ミシュラン3つ星シェフ（2018年）',
       'ジェームス・ビアード財団 最優秀女性シェフ賞（2018年）',
     ],
-    image: '/images/chefs/chef-dominique-crenn.jpg',
+    image: '/images/chefs/chef-dominique-crenn.svg',
   },
   {
     slug: 'grant-achatz',
@@ -102,7 +102,7 @@ export const chefs: Chef[] = [
       'ジェームス・ビアード財団 最優秀シェフ賞（2008年）',
       'タイム誌「世界で最も影響力のある100人」選出',
     ],
-    image: '/images/chefs/chef-grant-achatz.jpg',
+    image: '/images/chefs/chef-grant-achatz.svg',
   },
   {
     slug: 'virgilio-martinez',
@@ -120,7 +120,7 @@ export const chefs: Chef[] = [
       'ラテンアメリカのベストレストラン50 第1位（複数回）',
       '世界のベストレストラン50 トップ5常連',
     ],
-    image: '/images/chefs/chef-virgilio-martinez.jpg',
+    image: '/images/chefs/chef-virgilio-martinez.svg',
   },
   {
     slug: 'carlo-cracco',
@@ -138,7 +138,7 @@ export const chefs: Chef[] = [
       'ガンベロ・ロッソ 3フォーク',
       'イタリア・USA財団 アメリカ賞（2019年）',
     ],
-    image: '/images/chefs/chef-carlo-cracco.jpg',
+    image: '/images/chefs/chef-carlo-cracco.svg',
   },
   {
     slug: 'quique-dacosta',
@@ -157,7 +157,7 @@ export const chefs: Chef[] = [
       'スペイン国家美食賞',
       'レ・グラン・タブル・デュ・モンド会員',
     ],
-    image: '/images/chefs/chef-quique-dacosta.jpg',
+    image: '/images/chefs/chef-quique-dacosta.svg',
   },
   {
     slug: 'alain-ducasse',
@@ -176,7 +176,7 @@ export const chefs: Chef[] = [
       'フランス共和国レジオン・ドヌール勲章',
       '世界のベストレストラン50 複数回ランクイン',
     ],
-    image: '/images/chefs/chef-alain-ducasse.jpg',
+    image: '/images/chefs/chef-alain-ducasse.svg',
   },
   {
     slug: 'anne-sophie-pic',
@@ -195,7 +195,7 @@ export const chefs: Chef[] = [
       'ヴェルメイユ・メダル（フランス農業功績賞）',
       'ゴー・ミヨ 最優秀女性シェフ賞',
     ],
-    image: '/images/chefs/chef-anne-sophie-pic.jpg',
+    image: '/images/chefs/chef-anne-sophie-pic.svg',
   },
   {
     slug: 'pierre-gagnaire',
@@ -214,7 +214,7 @@ export const chefs: Chef[] = [
       'ゴー・ミヨ 今世紀のシェフ賞',
       'フランス共和国レジオン・ドヌール勲章',
     ],
-    image: '/images/chefs/chef-pierre-gagnaire.jpg',
+    image: '/images/chefs/chef-pierre-gagnaire.svg',
   },
   {
     slug: 'enrique-olvera',
@@ -233,7 +233,7 @@ export const chefs: Chef[] = [
       'ラテンアメリカのベストレストラン50 第1位（複数回）',
       'ジェームス・ビアード財団 最優秀国際シェフ賞ノミネート',
     ],
-    image: '/images/chefs/chef-enrique-olvera.jpg',
+    image: '/images/chefs/chef-enrique-olvera.svg',
   },
   {
     slug: 'martin-berasategui',
@@ -252,7 +252,7 @@ export const chefs: Chef[] = [
       'スペイン国家美食賞（複数回）',
       '世界のベストレストラン50 トップ10（2003年）',
     ],
-    image: '/images/chefs/chef-martin-berasategui.jpg',
+    image: '/images/chefs/chef-martin-berasategui.svg',
   },
   {
     slug: 'thomas-keller',
@@ -270,7 +270,7 @@ export const chefs: Chef[] = [
       'ジェームス・ビアード財団 今世紀の最優秀シェフ賞',
       '世界のベストレストラン50 殿堂入り',
     ],
-    image: '/images/chefs/chef-thomas-keller.jpg',
+    image: '/images/chefs/chef-thomas-keller.svg',
   },
   {
     slug: 'eric-ripert',
@@ -288,7 +288,7 @@ export const chefs: Chef[] = [
       'ニューヨーク・タイムズ 4つ星（30年近く継続）',
       'ジェームス・ビアード財団 殿堂入り',
     ],
-    image: '/images/chefs/chef-eric-ripert.jpg',
+    image: '/images/chefs/chef-eric-ripert.svg',
   },
   {
     slug: 'daniel-boulud',
@@ -306,7 +306,7 @@ export const chefs: Chef[] = [
       'ジェームス・ビアード財団 最優秀シェフ賞・殿堂入り',
       'フランス共和国レジオン・ドヌール勲章',
     ],
-    image: '/images/chefs/chef-daniel-boulud.jpg',
+    image: '/images/chefs/chef-daniel-boulud.svg',
   },
   {
     slug: 'atul-kochhar',
@@ -324,7 +324,7 @@ export const chefs: Chef[] = [
       'ミシュラン2つ星（Benares・2007年〜）',
       '大英帝国勲章（OBE）',
     ],
-    image: '/images/chefs/chef-atul-kochhar.jpg',
+    image: '/images/chefs/chef-atul-kochhar.svg',
   },
   {
     slug: 'jose-avillez',
@@ -342,7 +342,7 @@ export const chefs: Chef[] = [
       '世界のベストレストラン50 ランクイン',
       'ポルトガル現代料理界の第一人者としてWINE誌「今年のシェフ」受賞',
     ],
-    image: '/images/chefs/chef-jose-avillez.jpg',
+    image: '/images/chefs/chef-jose-avillez.svg',
   },
   {
     slug: 'david-shim',
@@ -360,7 +360,7 @@ export const chefs: Chef[] = [
       '全米初のミシュラン星付き韓国式ステーキハウス',
       'Zagat「注目の新鋭シェフ」選出',
     ],
-    image: '/images/chefs/chef-david-shim.jpg',
+    image: '/images/chefs/chef-david-shim.svg',
   },
   {
     slug: 'chen-yong-hua',
@@ -377,7 +377,7 @@ export const chefs: Chef[] = [
       'MICHELIN Guide Taiwan 掲載店 Mipon シェフ（3年連続選出）',
       '台湾家庭料理の伝承者として航空会社とのコラボレーションも多数',
     ],
-    image: '/images/chefs/chef-chen-yong-hua.jpg',
+    image: '/images/chefs/chef-chen-yong-hua.svg',
   },
   {
     slug: 'clare-smyth',
@@ -395,7 +395,7 @@ export const chefs: Chef[] = [
       '英国史上初の女性3つ星シェフ（Restaurant Gordon Ramsay）',
       '世界のベストレストラン50 ベスト女性シェフ賞',
     ],
-    image: '/images/chefs/chef-clare-smyth.jpg',
+    image: '/images/chefs/chef-clare-smyth.svg',
   },
   {
     slug: 'heston-blumenthal',
@@ -413,7 +413,7 @@ export const chefs: Chef[] = [
       '大英帝国勲章（OBE）',
       '世界のベストレストラン50 1位（2005年）',
     ],
-    image: '/images/chefs/chef-heston-blumenthal.jpg',
+    image: '/images/chefs/chef-heston-blumenthal.svg',
   },
   {
     slug: 'emma-bengtsson',
@@ -431,7 +431,7 @@ export const chefs: Chef[] = [
       'スウェーデン人女性シェフ史上初の2つ星獲得',
       'MICHELIN Guide New York メンターシェフ賞（2023年）',
     ],
-    image: '/images/chefs/chef-emma-bengtsson.jpg',
+    image: '/images/chefs/chef-emma-bengtsson.svg',
   },
   {
     slug: 'marcus-wareing',
@@ -449,7 +449,7 @@ export const chefs: Chef[] = [
       '大英帝国勲章（MBE、2026年）',
       'グレート・ブリティッシュ・メニュー優勝（2006年）',
     ],
-    image: '/images/chefs/chef-marcus-wareing.jpg',
+    image: '/images/chefs/chef-marcus-wareing.svg',
   },
   {
     slug: 'nathan-outlaw',
@@ -467,7 +467,7 @@ export const chefs: Chef[] = [
       '大英帝国勲章（MBE）',
       'グレート・ブリティッシュ・メニュー 優勝歴あり',
     ],
-    image: '/images/chefs/chef-nathan-outlaw.jpg',
+    image: '/images/chefs/chef-nathan-outlaw.svg',
   },
 ];
 

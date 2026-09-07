@@ -1,0 +1,11 @@
+<svg width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Atul Kochhar">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D5A3D"/>
+      <stop offset="100%" stop-color="#0D0D0D" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="480" fill="url(#g)"/>
+  <circle cx="240" cy="240" r="150" fill="none" stroke="#FAF8F4" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="240" y="268" font-family="Georgia, 'Playfair Display', 'Noto Serif JP', serif" font-size="140" font-weight="700" fill="#FAF8F4" text-anchor="middle">AK</text>
+</svg>
