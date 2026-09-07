@@ -9,9 +9,9 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ results: [] });
   }
 
-  const idSet = new Set(ids);
+  const slugSet = new Set(ids);
   const results = recipes
-    .filter((r) => idSet.has(r.id))
+    .filter((r) => slugSet.has(r.slug))
     .map((r) => ({
       id: r.id,
       slug: r.slug,
