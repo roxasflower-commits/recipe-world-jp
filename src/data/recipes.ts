@@ -4158,7 +4158,7 @@ export const recipes: Recipe[] = [
       },
     ],
     affiliateProducts: [
-      { name: '食用花 エディブルフラワー', amazonQuery: 'エディブルフラワー 食用花 サラダ', rakutenQuery: '食用花 エディブルフラワー 輸入' },
+      { name: 'いちご（生食用）', amazonQuery: 'いちご 生食用 国産', rakutenQuery: 'いちご 生食用 国産' },
       { name: 'チャービル フレッシュハーブ', amazonQuery: 'チャービル ハーブ フレッシュ 食用', rakutenQuery: 'チャービル ハーブ 食用' },
       { name: 'フレンチ産 有塩発酵バター', amazonQuery: '発酵バター 有塩 フランス産 輸入', rakutenQuery: '発酵バター 有塩 フランス' },
     ],
@@ -7538,7 +7538,7 @@ export const recipes: Recipe[] = [
     affiliateProducts: [
       { name: 'アーモンドミルク（無糖・輸入）', amazonQuery: 'アーモンドミルク 無糖 輸入 業務用', rakutenQuery: 'アーモンドミルク 無糖 輸入' },
       { name: 'アガベシロップ（ブルーアガベ）', amazonQuery: 'アガベシロップ ブルー 有機 輸入', rakutenQuery: 'アガベシロップ 有機 輸入' },
-      { name: 'レモンバーベナ（乾燥ハーブ）', amazonQuery: 'レモンバーベナ 乾燥 ハーブ ティー', rakutenQuery: 'レモンバーベナ 乾燥 ハーブ' },
+      { name: '冷凍ピーチ（熟れた桃）', amazonQuery: '冷凍 ピーチ 桃 業務用', rakutenQuery: '冷凍 ピーチ 桃 業務用' },
     ],
   },
 
@@ -7709,7 +7709,7 @@ export const recipes: Recipe[] = [
     affiliateProducts: [
       { name: '白味噌（西京味噌）', amazonQuery: '白味噌 西京 有機 ドレッシング用', rakutenQuery: '白味噌 西京 輸入' },
       { name: 'エンダイブ（ベルギーチコリ）', amazonQuery: 'エンダイブ ベルギーチコリ 輸入 フランス野菜', rakutenQuery: 'エンダイブ チコリ 輸入' },
-      { name: 'ラディッキオ（イタリア紫チコリ）', amazonQuery: 'ラディッキオ 紫チコリ 輸入 イタリア', rakutenQuery: 'ラディッキオ チコリ 輸入' },
+      { name: 'グラニースミスアップル（青りんご）', amazonQuery: 'グラニースミス 青りんご 輸入', rakutenQuery: 'グラニースミス 青りんご 輸入' },
     ],
   },
 
@@ -10785,7 +10785,7 @@ export const recipes: Recipe[] = [
     affiliateProducts: [
       { name: 'フレークアーモンド（製菓用）', amazonQuery: 'フレークアーモンド 製菓用 スライス 輸入', rakutenQuery: 'フレークアーモンド 製菓用' },
       { name: 'ドライシェリー（フィノ・輸入）', amazonQuery: 'シェリー酒 フィノ 輸入 スペイン産 料理用', rakutenQuery: 'シェリー酒 フィノ 輸入' },
-      { name: 'シェリービネガー（輸入）', amazonQuery: 'シェリービネガー 輸入 スペイン 料理用', rakutenQuery: 'シェリービネガー 輸入' },
+      { name: '新鮮なエビ（刺身用・冷凍）', amazonQuery: 'エビ 刺身用 冷凍 業務用', rakutenQuery: 'エビ 刺身用 冷凍' },
     ],
   },
   {
@@ -25172,7 +25172,7 @@ export const recipes: Recipe[] = [
     affiliateProducts: [
       { name: 'カレーリーフ（冷凍・輸入）', amazonQuery: 'カレーリーフ 冷凍 輸入', rakutenQuery: 'カレーリーフ 冷凍 輸入' },
       { name: 'ガラムマサラ', amazonQuery: 'ガラムマサラ 本格 スパイス', rakutenQuery: 'ガラムマサラ 本格 スパイス' },
-      { name: 'バスマティライス', amazonQuery: 'バスマティライス インド米', rakutenQuery: 'バスマティライス インド米' },
+      { name: '青マンゴー（グリーンマンゴー）', amazonQuery: '青マンゴー グリーンマンゴー 輸入', rakutenQuery: '青マンゴー グリーンマンゴー 輸入' },
     ],
     faqs: [
       { question: 'アトゥル・コチャールとはどんなシェフですか？', answer: '2001年、インド人シェフとして史上初めてミシュランの星を獲得した人物で、ロンドンの「Benares」で2つ星を保持しています。伝統的なインド料理を洗練させたスタイルで知られています。' },
@@ -25931,9 +25931,9 @@ export const recipes: Recipe[] = [
     sourceUrl: 'https://www.theworlds50best.com/stories/News/clare-smyth-recipe-lamb-carrot-core.html',
     sourceSiteName: "The World's 50 Best Restaurants",
     affiliateProducts: [
+      { name: '子羊の首肉（ラムネック）', amazonQuery: 'ラムネック 子羊 首肉 輸入', rakutenQuery: 'ラムネック 子羊 首肉 輸入' },
+      { name: '葉付き人参（バンチキャロット）', amazonQuery: '葉付き人参 バンチキャロット', rakutenQuery: '葉付き人参 バンチキャロット' },
       { name: '家庭用圧力鍋', amazonQuery: '圧力鍋 家庭用 大容量', rakutenQuery: '圧力鍋 家庭用' },
-      { name: '真空パック器（フードシーラー）', amazonQuery: '真空パック器 フードシーラー 家庭用', rakutenQuery: '真空パック器 家庭用' },
-      { name: 'すり鉢・すりこ木セット', amazonQuery: 'すり鉢 すりこ木 セット', rakutenQuery: 'すり鉢 セット' },
     ],
     publishedAt: '2026-07-19',
     featured: false,
@@ -27612,7 +27612,7 @@ export const recipes: Recipe[] = [
       },
     ],
     affiliateProducts: [
-      { name: 'ドライマジョラム（香辛料）', amazonQuery: 'マジョラム 乾燥 ハーブ 輸入', rakutenQuery: 'マジョラム ハーブ 輸入' },
+      { name: '有機オレンジ（ゼスト用）', amazonQuery: '有機オレンジ ゼスト用 輸入', rakutenQuery: '有機オレンジ ゼスト用 輸入' },
       { name: 'トマトピューレ（輸入・瓶詰）', amazonQuery: 'トマトピューレ 瓶詰め イタリア産 パッサータ', rakutenQuery: 'トマトピューレ イタリア産' },
       { name: 'スパゲッティ ブロンズダイス製（輸入）', amazonQuery: 'スパゲッティ ブロンズダイス 輸入 イタリア', rakutenQuery: 'スパゲッティ 輸入 イタリア' },
     ],
@@ -28430,7 +28430,7 @@ export const recipes: Recipe[] = [
     ],
     affiliateProducts: [
       { name: '冷凍バナナの葉（料理用）', amazonQuery: 'バナナの葉 冷凍 料理用 タイ産', rakutenQuery: 'バナナの葉 冷凍 料理用' },
-      { name: 'コーントルティーヤ（メキシコ料理用）', amazonQuery: 'コーントルティーヤ メキシコ料理 輸入', rakutenQuery: 'コーントルティーヤ メキシコ料理' },
+      { name: 'シーバス切り身（またはストライプトバス・冷凍）', amazonQuery: 'シーバス 切り身 冷凍 白身魚', rakutenQuery: 'シーバス 切り身 冷凍 白身魚' },
       { name: 'エキストラバージンオリーブオイル', amazonQuery: 'エキストラバージンオリーブオイル 高級 輸入', rakutenQuery: 'エキストラバージンオリーブオイル 高級' },
     ],
   },
@@ -28623,7 +28623,7 @@ export const recipes: Recipe[] = [
     affiliateProducts: [
       { name: 'フォアグラ（生・鴨・輸入）', amazonQuery: 'フォアグラ 生 鴨 輸入 フランス産', rakutenQuery: 'フォアグラ 生 鴨 輸入' },
       { name: '燻製うなぎ（輸入・国産）', amazonQuery: '燻製うなぎ スモークイール 輸入', rakutenQuery: '燻製うなぎ スモークイール' },
-      { name: 'キッチンバーナー（キャラメリゼ用）', amazonQuery: 'キッチンバーナー キャラメリゼ 調理用', rakutenQuery: 'キッチンバーナー キャラメリゼ' },
+      { name: 'グラニースミスアップル（青りんご）', amazonQuery: 'グラニースミス 青りんご 輸入', rakutenQuery: 'グラニースミス 青りんご 輸入' },
     ],
   },
   {
@@ -28779,7 +28779,7 @@ export const recipes: Recipe[] = [
     affiliateProducts: [
       { name: '黒トリュフ（冷凍・スライス）', amazonQuery: '黒トリュフ 冷凍 スライス 高級食材', rakutenQuery: '黒トリュフ スライス 高級' },
       { name: 'キサンタンガム（製菓・製パン用）', amazonQuery: 'キサンタンガム 増粘剤 製菓用', rakutenQuery: 'キサンタンガム 増粘剤' },
-      { name: '真空パック用保存袋（家庭用）', amazonQuery: '真空パック 保存袋 家庭用 低温調理', rakutenQuery: '真空パック 保存袋 低温調理' },
+      { name: 'リーキ（西洋ねぎ・輸入）', amazonQuery: 'リーキ 西洋ねぎ 輸入', rakutenQuery: 'リーキ 西洋ねぎ 輸入' },
     ],
   },
   {
@@ -29349,7 +29349,7 @@ export const recipes: Recipe[] = [
     affiliateProducts: [
       { name: 'ザクロ蜜（ポメグラネートモラセス）', amazonQuery: 'ザクロ蜜 ポメグラネートモラセス 輸入', rakutenQuery: 'ザクロ蜜 モラセス' },
       { name: 'カシミールチリパウダー', amazonQuery: 'カシミールチリパウダー インド スパイス', rakutenQuery: 'カシミールチリパウダー' },
-      { name: 'チャートマサラ', amazonQuery: 'チャートマサラ インドスパイス', rakutenQuery: 'チャートマサラ' },
+      { name: 'ラムチョップ（フレンチトリム・輸入）', amazonQuery: 'ラムチョップ フレンチトリム 輸入 骨付き', rakutenQuery: 'ラムチョップ フレンチトリム 輸入' },
     ],
     faqs: [
       { question: 'ザクロ蜜とはどんな調味料ですか？', answer: '中東料理でよく使われる、ザクロの果汁を煮詰めて濃縮したシロップ状の調味料です。甘酸っぱい風味が特徴で、肉料理のマリネやドレッシングに使われます。' },
@@ -29452,7 +29452,7 @@ export const recipes: Recipe[] = [
     affiliateProducts: [
       { name: 'バスマティライス', amazonQuery: 'バスマティライス インド米', rakutenQuery: 'バスマティライス インド米' },
       { name: 'ビリヤニマサラ', amazonQuery: 'ビリヤニマサラ スパイス', rakutenQuery: 'ビリヤニマサラ' },
-      { name: '冷凍パイシート', amazonQuery: '冷凍パイシート 製菓用', rakutenQuery: '冷凍パイシート' },
+      { name: '頭付き大エビ（冷凍・殻付き）', amazonQuery: '頭付きエビ 冷凍 殻付き 大型', rakutenQuery: '頭付きエビ 冷凍 殻付き' },
     ],
     faqs: [
       { question: '「スターゲイジー」とはどういう意味ですか？', answer: 'コーンウォール地方の伝統料理「スターゲイジー・パイ」に由来し、パイ生地から魚の頭が星を見上げるように飛び出す独特の見た目を指します。この演出をエビのビリヤニに応用したのがこのレシピです。' },
@@ -29536,7 +29536,7 @@ export const recipes: Recipe[] = [
     publishedAt: '2026-07-31',
     featured: false,
     affiliateProducts: [
-      { name: 'フェヌグリークリーフ（乾燥）', amazonQuery: 'フェヌグリークリーフ 乾燥 カスリメティ', rakutenQuery: 'カスリメティ フェヌグリーク' },
+      { name: '冷凍ミックスシーフード（エビ・ホタテ・イカ）', amazonQuery: '冷凍 ミックスシーフード エビ ホタテ イカ', rakutenQuery: '冷凍 ミックスシーフード 魚介' },
       { name: 'カダイパン（インド式ウォック）', amazonQuery: 'カダイパン インド調理器具', rakutenQuery: 'カダイパン' },
       { name: 'ガラムマサラ', amazonQuery: 'ガラムマサラ 本格 スパイス', rakutenQuery: 'ガラムマサラ 本格 スパイス' },
     ],
@@ -29740,7 +29740,7 @@ export const recipes: Recipe[] = [
     affiliateProducts: [
       { name: '乾燥ダルス・食用海藻セット', amazonQuery: '乾燥ダルス 食用海藻', rakutenQuery: '食用海藻 ダルス' },
       { name: 'あさり（殻付き・冷凍）', amazonQuery: 'あさり 殻付き 冷凍', rakutenQuery: 'あさり 殻付き' },
-      { name: '両手鍋・キャセロール（蒸し焼き用）', amazonQuery: 'キャセロール 両手鍋 蒸し焼き', rakutenQuery: 'キャセロール鍋' },
+      { name: 'ココ・ド・パンポル（フランス産白いんげん豆）', amazonQuery: 'ココドパンポル 白いんげん豆 フランス産', rakutenQuery: 'ココドパンポル 白いんげん豆 輸入' },
     ],
     faqs: [
       { question: 'ブリルとはどんな魚ですか？', answer: 'ヨーロッパの海域でとれるヒラメの仲間で、上品な白身が特徴です。日本では入手しにくいため、ヒラメや舌平目で代用可能です。' },
