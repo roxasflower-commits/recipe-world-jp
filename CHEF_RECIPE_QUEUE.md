@@ -94,11 +94,11 @@
 
 ### Clare Smyth（クレア・スミス）— chefSlug: `clare-smyth`
 - [x] Pasta "Miller" Style — https://www.jamesmartinchef.co.uk/recipes/clare-smyths-pasta-miller-style/ (added as slug: smyth-pasta-miller-style)
-- [ ] Brill Baked in Seaweed with Clams, Fennel and Coco Beans — https://git.macropus.org/bbc-food/www.bbc.co.uk/food/recipes/brill_baked_in_seaweed_42689.html
-- [ ] Artichokes à la Barigoule — https://git.macropus.org/bbc-food/www.bbc.co.uk/food/recipes/artichokesalabarigou_93572.html
+- [x] Brill Baked in Seaweed with Clams, Fennel and Coco Beans — https://git.macropus.org/bbc-food/www.bbc.co.uk/food/recipes/brill_baked_in_seaweed_42689.html (added as slug: smyth-brill-baked-seaweed-clams)
+- [x] Artichokes à la Barigoule — https://git.macropus.org/bbc-food/www.bbc.co.uk/food/recipes/artichokesalabarigou_93572.html (added as slug: smyth-artichokes-a-la-barigoule)
 
 ### Heston Blumenthal（ヘストン・ブルメンタール）— chefSlug: `heston-blumenthal`
-- [ ] Egg Sandwich — https://www.waitrose.com/ecom/recipe/egg-sandwich
+- [x] Egg Sandwich — https://www.waitrose.com/ecom/recipe/egg-sandwich (added as slug: heston-blumenthal-egg-sandwich)
 - [ ] Rich Chilli Con Carne with Spiced Butter — https://www.lovefood.com/recipes/59512/heston-blumenthals-rich-chilli-con-carne-with-spiced-butter-recipe
 
 ### Emma Bengtsson（エマ・ベングトソン）— chefSlug: `emma-bengtsson`
