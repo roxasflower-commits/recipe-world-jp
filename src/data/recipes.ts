@@ -2869,7 +2869,7 @@ export const recipes: Recipe[] = [
     affiliateProducts: [
       { name: 'クロテッドクリーム（輸入）', amazonQuery: 'クロテッドクリーム 輸入 イギリス', rakutenQuery: 'クロテッドクリーム 輸入' },
       { name: 'スコーン型（ラウンドカッター）', amazonQuery: 'スコーン型 ラウンドカッター 製菓用', rakutenQuery: 'スコーン型 丸型 製菓' },
-      { name: 'イギリス産クランペット焼き用グリドル', amazonQuery: 'グリドル 鉄板 焼き菓子 電気', rakutenQuery: 'グリドル 鉄板 製菓用' },
+      { name: 'ストロベリージャム（プレザーブタイプ・輸入）', amazonQuery: 'ストロベリージャム プレザーブ 輸入', rakutenQuery: 'ストロベリージャム プレザーブ 輸入' },
     ],
   },
   {
