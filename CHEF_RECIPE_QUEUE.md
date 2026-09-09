@@ -90,7 +90,7 @@
 
 ### David Shim（デイヴィッド・シム）— chefSlug: `david-shim`
 - [x] Galbi（韓国式カルビのマリネ） — https://www.starchefs.com/recipes/galbi (added as slug: shim-galbi)
-- [ ] Korean Short Rib Skewers（要URL再確認） — https://www.today.com/recipes/korean-short-rib-galbi-skewers-recipe-t286798
+- [x] Korean Short Rib Skewers（要URL再確認） — https://www.today.com/recipes/korean-short-rib-galbi-skewers-recipe-t286798 (added as slug: shim-galbi-tteokbokki-skewers)
 
 ### Clare Smyth（クレア・スミス）— chefSlug: `clare-smyth`
 - [x] Pasta "Miller" Style — https://www.jamesmartinchef.co.uk/recipes/clare-smyths-pasta-miller-style/ (added as slug: smyth-pasta-miller-style)
@@ -99,10 +99,10 @@
 
 ### Heston Blumenthal（ヘストン・ブルメンタール）— chefSlug: `heston-blumenthal`
 - [x] Egg Sandwich — https://www.waitrose.com/ecom/recipe/egg-sandwich (added as slug: heston-blumenthal-egg-sandwich)
-- [ ] Rich Chilli Con Carne with Spiced Butter — https://www.lovefood.com/recipes/59512/heston-blumenthals-rich-chilli-con-carne-with-spiced-butter-recipe
+- [x] Rich Chilli Con Carne with Spiced Butter — https://www.lovefood.com/recipes/59512/heston-blumenthals-rich-chilli-con-carne-with-spiced-butter-recipe (added as slug: blumenthal-rich-chilli-con-carne)
 
 ### Emma Bengtsson（エマ・ベングトソン）— chefSlug: `emma-bengtsson`
-- [ ] Swedish Meatballs — https://www.foodnetwork.com/fnk/recipes/swedish-meatballs-7151608
+- [x] Swedish Meatballs — https://www.foodnetwork.com/fnk/recipes/swedish-meatballs-7151608 (added as slug: bengtsson-swedish-meatballs)
 - [ ] Gravlax-Potato Gratin（Laxpudding） — https://www.foodnetwork.com/fnk/recipes/gravlax-potato-gratin-laxpudding-7151589
 - [ ] Gravlax Toast — https://guide.michelin.com/us/en/article/dining-in/chef-emma-bengtsson-gravlax-toast-recipe
 
