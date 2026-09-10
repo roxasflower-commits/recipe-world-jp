@@ -102,11 +102,11 @@
 
 ### Emma Bengtsson（エマ・ベングトソン）— chefSlug: `emma-bengtsson`
 - [x] Swedish Meatballs — https://www.foodnetwork.com/fnk/recipes/swedish-meatballs-7151608 (added as slug: bengtsson-swedish-meatballs)
-- [ ] Gravlax-Potato Gratin（Laxpudding） — https://www.foodnetwork.com/fnk/recipes/gravlax-potato-gratin-laxpudding-7151589
-- [ ] Gravlax Toast — https://guide.michelin.com/us/en/article/dining-in/chef-emma-bengtsson-gravlax-toast-recipe
+- [x] Gravlax-Potato Gratin（Laxpudding） — https://www.foodnetwork.com/fnk/recipes/gravlax-potato-gratin-laxpudding-7151589 (added as slug: bengtsson-gravlax-potato-gratin-laxpudding)
+- [x] Gravlax Toast — https://guide.michelin.com/us/en/article/dining-in/chef-emma-bengtsson-gravlax-toast-recipe (added as slug: bengtsson-gravlax-toast)
 
 ### Marcus Wareing（マーカス・ウェアリング）— chefSlug: `marcus-wareing`
-- [ ] Barbecue Sauce — https://www.greatbritishchefs.com/recipes/barbecue-sauce-recipe-marcus-wareing
+- [x] Barbecue Sauce — https://www.greatbritishchefs.com/recipes/barbecue-sauce-recipe-marcus-wareing (added as slug: wareing-barbecue-sauce)
 - [ ] White Chocolate and Raspberry Coconut Ice — https://www.greatbritishchefs.com/recipes/coconut-ice-recipe
 - [ ] Manchester Tart — https://www.greatbritishchefs.com/recipes/manchester-tart-recipe
 
