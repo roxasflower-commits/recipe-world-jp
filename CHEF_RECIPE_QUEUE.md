@@ -107,11 +107,11 @@
 
 ### Marcus Wareing（マーカス・ウェアリング）— chefSlug: `marcus-wareing`
 - [x] Barbecue Sauce — https://www.greatbritishchefs.com/recipes/barbecue-sauce-recipe-marcus-wareing (added as slug: wareing-barbecue-sauce)
-- [ ] White Chocolate and Raspberry Coconut Ice — https://www.greatbritishchefs.com/recipes/coconut-ice-recipe
-- [ ] Manchester Tart — https://www.greatbritishchefs.com/recipes/manchester-tart-recipe
+- [x] White Chocolate and Raspberry Coconut Ice — https://www.greatbritishchefs.com/recipes/coconut-ice-recipe (added as slug: wareing-coconut-ice)
+- [x] Manchester Tart — https://www.greatbritishchefs.com/recipes/manchester-tart-recipe (added as slug: wareing-manchester-tart)
 
 ### Nathan Outlaw（ネイサン・アウトロウ）— chefSlug: `nathan-outlaw`
-- [ ] Grilled Bream with Mustard and Tarragon Sauce — https://www.greatbritishchefs.com/recipes/grilled-bream-mustard-tarragon-sauce
+- [x] Grilled Bream with Mustard and Tarragon Sauce — https://www.greatbritishchefs.com/recipes/grilled-bream-mustard-tarragon-sauce (added as slug: outlaw-grilled-bream-mustard-tarragon)
 - [ ] Fish and Chips with Tartare Sauce — https://www.greatbritishchefs.com/recipes/fish-and-chips-recipe-tartare-sauce
 - [ ] Pear Tart and Earl Grey Tea Ice Cream（参考レベル） — https://www.greatbritishchefs.com/recipes/pear-tart-recipe
 
