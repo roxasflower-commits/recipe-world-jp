@@ -112,8 +112,8 @@
 
 ### Nathan Outlaw（ネイサン・アウトロウ）— chefSlug: `nathan-outlaw`
 - [x] Grilled Bream with Mustard and Tarragon Sauce — https://www.greatbritishchefs.com/recipes/grilled-bream-mustard-tarragon-sauce (added as slug: outlaw-grilled-bream-mustard-tarragon)
-- [ ] Fish and Chips with Tartare Sauce — https://www.greatbritishchefs.com/recipes/fish-and-chips-recipe-tartare-sauce
-- [ ] Pear Tart and Earl Grey Tea Ice Cream（参考レベル） — https://www.greatbritishchefs.com/recipes/pear-tart-recipe
+- [x] Fish and Chips with Tartare Sauce — https://www.greatbritishchefs.com/recipes/fish-and-chips-recipe-tartare-sauce (added as slug: outlaw-fish-and-chips-tartare-sauce)
+- [x] Pear Tart and Earl Grey Tea Ice Cream（参考レベル） — https://www.greatbritishchefs.com/recipes/pear-tart-recipe (added as slug: outlaw-pear-tart-earl-grey-ice-cream)
 
 ---
 
