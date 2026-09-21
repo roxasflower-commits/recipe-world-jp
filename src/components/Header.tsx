@@ -29,6 +29,7 @@ const cuisineDetails: Record<string, { emoji: string; description: string }> = {
   georgian:         { emoji: '🇬🇪', description: 'ハチャプリ、ヒンカリ' },
   portuguese:       { emoji: '🇵🇹', description: 'パステル・デ・ナタ、バカリャウ' },
   hawaiian:         { emoji: '🌺', description: 'ポケボウル、ハウピア' },
+  japanese:         { emoji: '🇯🇵', description: '西京焼き、刺身' },
 };
 
 const regions = [
